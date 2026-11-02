@@ -1,11 +1,39 @@
-# Kontrybucje v0.1
+# Jak pomóc w projekcie
 
-Najpierw zgłoś pytanie w Issue. Analizę dostarcz przez PR: Markdown, źródła z lokalizatorami oraz metadane według szablonu. Nie dołączaj skryptów wykonywalnych ani sekretów.
+Możesz użyć swojego modelu AI, żeby sprawdzić nasze ustalenia albo znaleźć pominięte argumenty i dokumenty. Nie musisz zgadzać się z dotychczasowym wynikiem.
 
-Wymagane: identyfikator pytania, hash pakietu wejściowego, pełny prompt, model i konfiguracja, narzędzia, data, wynik, dowody za i przeciw, ograniczenia, wszystkie próby i powody ponowień. Brakujące dane oznacz jawnie. Udostępniaj uzasadnienie, nie prywatny tok rozumowania modelu.
+## Co trzeba zrobić
 
-Ścieżki: replikacja tego samego pakietu albo kontranaliza szukająca pominięć. Poziomy pochodzenia: deklarowane, z zapisem wykonania, odtworzone przez projekt. Walidator nie uwierzytelnia dostawcy modelu.
+1. Wybierz pytanie z zakładki **Issues** na GitHubie. Jeśli chcesz zbadać coś nowego, dodaj tam zgłoszenie z krótkim opisem pytania.
+2. Przekaż modelowi pytanie i wskazane dokumenty. Możesz też szukać dodatkowych źródeł. Zaznacz, które materiały dodałeś.
+3. Zapisz odpowiedź i informacje wymienione poniżej w [szablonie analizy](szablony/analiza.md).
+4. Prześlij pliki jako **Pull Request (PR)**, czyli propozycję dodania ich do repozytorium. Opiekun projektu sprawdzi je przed przyjęciem.
 
-Raportujemy liczbę przebiegów, rodzin modeli, deklarowanych autorów, odtworzeń i odrzuceń. 100 zgodnych wyników nie oznacza 100 niezależnych dowodów. Każde odrzucenie wymaga przyczyny; rozbieżny wniosek nie jest powodem odrzucenia.
+Docelowo przygotujemy gotową instrukcję dla AI, która pomoże zebrać materiały i przygotować pliki do wysłania. Jeszcze jej nie ma; najpierw sprawdzamy proces na pierwszym badaniu.
 
-Wkład zewnętrzny przechodzi ręczną recenzję przed uruchomieniem workflow. Nigdy nie uruchamiamy kodu z PR z tokenem zapisu ani sekretami. Zmiany narzędzi i analiz są rozpatrywane osobno. Gotowy skill będzie opracowany po pilotażu.
+## Co dołączyć do analizy
+
+- Link do badanego pytania w Issues.
+- Nazwę modelu, datę analizy i ustawienia, które znasz.
+- Dokładną treść polecenia przekazanego AI oraz listę użytych dokumentów i narzędzi.
+- Odpowiedź z uzasadnieniem: co ją potwierdza, co jej przeczy i czego nie udało się ustalić.
+- Linki do źródeł ze wskazaniem konkretnego miejsca, np. artykułu ustawy, strony wyroku lub minuty nagrania.
+- Informację, ile razy uruchamiałeś analizę. Jeśli ją powtarzałeś, zachowaj wcześniejsze odpowiedzi i wyjaśnij dlaczego. Nie wybieraj tylko wyniku, który Ci odpowiada.
+
+Jeśli czegoś nie znasz, napisz „nie wiem”. Nie wymyślaj brakujących danych. Potrzebujemy uzasadnienia odpowiedzi, nie ukrytego toku rozumowania modelu.
+
+W szablonie jest też pole **SHA-256**. To techniczny identyfikator pozwalający sprawdzić, czy porównywane analizy dostały dokładnie te same materiały. Dla zestawu dostarczonego przez projekt przepisz podany identyfikator. Jeśli go nie ma, zaznacz brak; sposób jego wyliczania dopracujemy w pilotażu.
+
+## Jak sprawdzamy zgłoszenie
+
+Sprawdzamy, czy dokumenty rzeczywiście wspierają odpowiedź, czy uwzględniono argumenty przeciwne i czy opisano sposób wykonania analizy. Program dodatkowo sprawdza m.in. odnośniki i niezmienność zapisanych źródeł. Nie potrafi jednak dowieść, że użyto deklarowanego modelu ani że ujawniono wszystkie próby.
+
+Dlatego przy wyniku zaznaczamy, czy mamy tylko opis autora, również zapis wykonania analizy, czy sami powtórzyliśmy badanie. Jeśli odrzucimy zgłoszenie, podamy powód. Odmienny wniosek sam w sobie nie jest powodem odrzucenia.
+
+W podsumowaniach podajemy, ile analiz wykonano, jakich modeli użyto i ile wyników sami sprawdziliśmy przez powtórzenie. Sto zgodnych odpowiedzi może powielać ten sam błąd, więc sama liczba nie rozstrzyga sprawy.
+
+## Czego nie wysyłać
+
+Nie dołączaj haseł, kluczy API, danych prywatnych ani programów do uruchomienia. Przesyłasz dokumenty do oceny. Propozycje zmian w narzędziach projektu zgłaszaj osobno.
+
+Dla opiekunów: przed uruchomieniem automatycznych kontroli zewnętrznego zgłoszenia sprawdźcie jego zawartość. Kod z takiego zgłoszenia nie może otrzymać sekretów ani uprawnień do zapisu w repozytorium.
