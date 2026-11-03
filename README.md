@@ -23,6 +23,7 @@ To początek projektu. Mamy zasady pracy, [tekst Konstytucji](zrodla/konstytucja
 - [Lata 2016-2019](badania/okres-2016-2019.md)
 - [Lata 2020-2023](badania/okres-2020-2023.md)
 - [Od 2024 do dziś](badania/okres-2024-2026.md)
+- [Czy Zgromadzenie Ogólne TK z 2026.11.03 było ważne](badania/zgromadzenie-2026-11-03.md)
 - [Jak możesz pomóc](wspolpraca.md)
 
 Projekt prowadzi **Gęba w Kubeł (GWK)** z pomocą AI. Zgodność odpowiedzi wielu modeli nie jest dowodem prawdziwości. Dokumenty można czytać tutaj lub otworzyć folder projektu w Obsidianie, programie do połączonych ze sobą notatek.
