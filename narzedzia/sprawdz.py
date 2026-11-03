@@ -29,10 +29,17 @@ for p in r.rglob('*'):
    headings=re.findall(r'^#+ (.+)$',q.read_text(),re.M)
    slugs=[re.sub(r'[^\w\- ]','',x.lower()).replace(' ','-') for x in headings]
    if anchor not in slugs: errors.append('Brak kotwicy: '+link)
-identity='Gęba w Kubeł <351696654+gebawkubel@users.noreply.github.com>'
-result=subprocess.run(['git','log','--all','--format=%an <%ae>|%cn <%ce>'],cwd=r,capture_output=True,text=True)
-if result.returncode==0:
+# Sprawdzamy historię aktualnej wersji, bez obcych lokalnych gałęzi.
+email='351696654+gebawkubel@users.noreply.github.com'
+authors={f'Gęba w Kubeł <{email}>', f'gebawkubel <{email}>'}
+committers=authors | {'GitHub <noreply@github.com>'}
+result=subprocess.run(['git','log','HEAD','--format=%an <%ae>|%cn <%ce>'],cwd=r,capture_output=True,text=True)
+if result.returncode!=0:
+ errors.append('Nie można sprawdzić historii Git')
+else:
  for line in result.stdout.splitlines():
-  if line!=identity+'|'+identity: errors.append('Niedozwolona tożsamość w historii')
-print('\n'.join(errors) if errors else 'OK: hashe, linki, ID, typografia, podstawowy skan prywatności i autorstwo.')
+  author,committer=line.split('|',1)
+  if author not in authors or committer not in committers:
+   errors.append('Niedozwolona tożsamość w historii')
+print('\n'.join(errors) if errors else 'OK: źródła, linki i autorstwo.')
 raise SystemExit(bool(errors))
