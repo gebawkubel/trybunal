@@ -18,7 +18,7 @@
 - Par. 40: chodzi o ponad 100 wyroków; unieważnienie mogłoby przywrócić uchylone przepisy, także naruszające prawa ludzi.
 - Par. 41, oryginał: "the ECtHR does not require more than annullability of decisions" (ETPC nie wymaga więcej niż możliwości uchylenia orzeczeń). Komisja zaleca ponowne rozważenie art. 10 ustawy wprowadzającej.
 - Par. 42: zamiast nieważności z mocy ustawy Komisja proponuje wznowienie postępowań na wniosek, np. w 3 miesiące od publikacji listy wyroków z udziałem nieprawidłowo powołanych sędziów.
-- Par. 58: przyjęcie ślubowania przez Prezydenta jest ważne, ale oryginał: "it has a primarily ceremonial function" (pełni przede wszystkim funkcję ceremonialną). Komisja przyjęła z zadowoleniem, że ustawa czyni przyjęcie ślubowania obowiązkowym i dopuszcza ślubowanie pisemne.
+- Par. 58: przyjęcie ślubowania przez Prezydenta jest ważne, ale oryginał: "it has a primarily ceremonial function" (pełni przede wszystkim funkcję ceremonialną). Komisja przypomina tu swoje wcześniejsze stanowisko (przypis 78). Komisja przyjęła z zadowoleniem, że ustawa czyni przyjęcie ślubowania obowiązkowym i dopuszcza ślubowanie pisemne.
 - Par. 70: trzech nieprawidłowo powołanych sędziów powinno z mocy ustawy wyłączyć się ze spraw.
 - Par. 71, oryginał: całkowite odnowienie składu to rozwiązanie, "something that the Venice Commission cannot support" (którego Komisja Wenecka nie może poprzeć).
 
