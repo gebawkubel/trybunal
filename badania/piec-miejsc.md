@@ -47,7 +47,7 @@ Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób. Tylko dwi
 
 Samo odczytanie wyroków nie kończy badania. Osobno sprawdzimy skutki dla konkretnych aktów wyboru, argumenty kwestionujące stanowisko TK i odpowiedzialność uczestników sporu. Nie zastępujemy tego hasłem „wszyscy zostali wybrani prawidłowo” albo „wszyscy zostali wybrani nieprawidłowo”.
 
-Zebraliśmy [ustawę z 2015.06.25](../zrodla/ustawa-tk-2015.md), [zmianę z 2015.11.19](../zrodla/zmiana-ustawy-tk-2015.md), uchwały, [głosowania](../zrodla/glosowania-2015.md) i [zapis komisji, na której powstał art. 137](skad-art-137.md). Kopie wyroków pobrane z serwera Senatu nie zawierają zdań odrębnych. Do zbadania pozostają: kiedy i czy poszczególne osoby dopuszczono do orzekania oraz pełne teksty komunikatów TK i Prezydenta.
+Zebraliśmy [ustawę z 2015.06.25](../zrodla/ustawa-tk-2015.md), [zmianę z 2015.11.19](../zrodla/zmiana-ustawy-tk-2015.md), uchwały, [głosowania](../zrodla/glosowania-2015.md) i [zapis komisji, na której powstał art. 137](skad-art-137.md). Kopie wyroków pobrane z serwera Senatu nie zawierają zdań odrębnych. Nie znaleźliśmy dokumentów pierwotnych z datami dopuszczenia poszczególnych sędziów wybranych w grudniu do orzekania. Opisy w mediach i encyklopediach nie wystarczą; to otwarte zadanie.
 
 ## Jak przygotowano tę notatkę
 
