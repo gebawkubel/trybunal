@@ -5,6 +5,7 @@
 Wyciąg opisowy po polsku, nie pełny tekst, nie cytat i nie tłumaczenie urzędowe. Pominięto pozostałą część wyroku. Daty i interpunkcję ujednolicono.
 
 - § 42: dopuszczenie Pszczółkowskiego i Przyłębskiej do orzekania 2016.01.12.
+- § 58: koniec kadencji prezesa Rzeplińskiego 2016.12.19.
 - §§ 59-60: dopuszczenie Ciocha, Morawskiego i Muszyńskiego 2016.12.20; powołanie Muszyńskiego na wiceprezesa 2017.07.05.
 - §§ 222-223: argumentacja Rządu dotycząca znaczenia wcześniejszych wyroków TK dla oceny wyboru Muszyńskiego.
 - §§ 271-273 i 290: odrzucenie tej argumentacji i ustalenie naruszenia prawa skarżącej spółki do sądu ustanowionego ustawą z powodu udziału Muszyńskiego.
