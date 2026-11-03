@@ -38,6 +38,9 @@ Stan na 2026.11.03. Mamy dokumenty i przeglądy wszystkich okresów sporu oraz p
 
 **Ocena**
 - [Kto odpowiada za kryzys TK i które rozwiązania są lepsze](badania/odpowiedzialnosc-i-rozwiazania.md): kluczowe decyzje, co orzekły o nich sądy, i porównanie rozwiązań według jawnych kryteriów.
+- [Postępowania wobec osób](badania/postepowania-wobec-osob.md): Trybunał Stanu, śledztwa, immunitety i sprawy dyscyplinarne od 2015 roku.
+- [Skutki dla obywateli](badania/skutki-dla-obywateli.md): jak sądy traktują wyroki TK, liczby spraw, zadośćuczynienia z ETPC i konkretne przypadki.
+- [Warunki rozwiązań](badania/warunki-rozwiazan.md): większość w Senacie, rola Prezydenta przy zmianie Konstytucji, uzasadnienia kluczowych wyroków, projekty resetu i opinia Komisji Weneckiej.
 
 **Jak pracujemy**
 - [Jak sprawdzamy informacje](metodologia.md)

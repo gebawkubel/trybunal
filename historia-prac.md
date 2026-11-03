@@ -42,6 +42,11 @@ Każda zmiana w repozytorium przechodzi przez PR (propozycję zmiany na GitHubie
 | [#30](https://github.com/gebawkubel/trybunal/pull/30) | 2026.11.03 | Porządek po badaniach #24-#29 | PASS |
 | [#31](https://github.com/gebawkubel/trybunal/pull/31) | 2026.11.03 | [Kto odpowiada za kryzys i które rozwiązania są lepsze](badania/odpowiedzialnosc-i-rozwiazania.md) | 3 rundy blokerów, potem PASS |
 | [#32](https://github.com/gebawkubel/trybunal/pull/32) | 2026.11.03 | [Konfederacja po posiedzeniu RBN](zrodla/okres-2024-2026/konfederacja-po-rbn-2026-11-03.md), [Zandberg po spotkaniu u Prezydenta](zrodla/okres-2024-2026/zandberg-po-spotkaniu-2026-10-31.md) i [Zandberg po RBN](zrodla/okres-2024-2026/zandberg-po-rbn-2026-11-03.md): napisy nagrań WP od użytkownika i transkrypcja maszynowa nagrania Razem | PASS, poprawki po uwagach |
+| [#33](https://github.com/gebawkubel/trybunal/pull/33) | 2026.11.03 | Walidator pomija katalogi robocze agentów (.claude) | PASS |
+| [#34](https://github.com/gebawkubel/trybunal/pull/34) | 2026.11.03 | [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, art. 235, wyroki, projekty, Komisja Wenecka | 1 bloker, potem PASS |
+| [#35](https://github.com/gebawkubel/trybunal/pull/35) | 2026.11.03 | [Skutki dla obywateli](badania/skutki-dla-obywateli.md) | 2 blokery, potem PASS |
+| [#36](https://github.com/gebawkubel/trybunal/pull/36) | 2026.11.03 | [Postępowania wobec osób](badania/postepowania-wobec-osob.md) | PASS, poprawki po uwagach |
+| [#37](https://github.com/gebawkubel/trybunal/pull/37) | 2026.11.03 | Porządek po badaniach #34-#36: korekta oceny, README, plan | w toku |
 
 Numery #1 i #12 to zgłoszenia zadań, a PR #2 i #3 z 2026.11.02 zamknięto bez scalenia. Pierwszą wersję organizacyjną przygotowano z pomocą Codex. PR #13-#16 i #18 powstały równolegle do pozostałych prac. Model podano w commitach.
 
@@ -169,3 +174,16 @@ Recenzje odwołują się do plików w katalogu roboczym `ocena/`. W repozytorium
 d2d83f539630cb25b7d7c4668919ff5bfdef7c4fae49ddcfbdcddc0639f36b39  recenzja-analizy-a.md
 f6842c46b86e87494bf4d55be1875e740ac25851a84df21f2e711e9e4cfc5929  recenzja-analizy-b.md
 ```
+
+## Badania luk z oceny (PR #32-#36)
+
+**Wypowiedzi polityków (PR #32).** Użytkownik przekazał napisy do dwóch nagrań Wirtualnej Polski (Bosak i Płaczek po RBN, Zandberg po spotkaniu u Prezydenta) i wskazał nagranie Razem bez napisów. To ostatnie przepisaliśmy automatycznie lokalnym modelem whisper-large-v3-turbo; nikt nie przesłuchał dźwięku. Recenzent porównał każdy cytat z napisami i transkrypcją. W drugiej rundzie zatrzymał jeden cytat, który nie był dosłowny ("mniej poważnych" zamiast "mniej poważne"); zastąpiliśmy go parafrazą.
+
+**Trzy badania (PR #34-#36).** Luki z sekcji "Czego nie wiemy" w ocenie odpowiedzialności zbadały trzy osobne agenty z modelem Opus, każdy w osobnej kopii repo. Każde badanie recenzował inny agent z modelem Opus, sprawdzając źródła pierwotne. Recenzenci znaleźli:
+- w warunkach rozwiązań cytat sklejony z dwóch druków (544 i 254) oraz zaniżony stan wiedzy o opinii Komisji Weneckiej z 2026 roku, którą wcześniej odczytano przez kopię w archiwum;
+- w skutkach dla obywateli zły numer strony raportu HFPC (s. 12 zamiast s. 22) i fakt o skarżącej M.L. bez lokalizatora;
+- w postępowaniach wobec osób tylko nieścisłości (daty przeszukania, dwie wersje liczby wniosków w jednej relacji medialnej, określenie postępowania wobec trojga sędziów).
+
+Wszystko poprawiliśmy przed scaleniem. Po badaniach skorygowaliśmy ocenę odpowiedzialności; korekty są wymienione w jej sekcji "Korekty".
+
+**Walidator (PR #33).** Katalogi robocze agentów w głównym katalogu dawały fałszywy błąd "Powtórzone ID". Walidator pomija teraz katalog .claude, który nie ma plików śledzonych. Zmianę recenzowano osobno.
