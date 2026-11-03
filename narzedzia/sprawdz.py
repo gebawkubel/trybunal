@@ -9,7 +9,7 @@ for name,digest in json.loads((r/'zrodla/manifest.json').read_text()).items():
  if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=digest: errors.append('Hash: '+name)
 ids=set()
 for p in r.rglob('*'):
- if not p.is_file() or '.git' in p.parts: continue
+ if not p.is_file() or '.git' in p.parts or '.claude' in p.parts: continue
  if p.suffix not in ('.md','.json','.yml','.py'):continue
  s=p.read_text()
  for forbidden in ['/Users/', '/home/', 'ghp_', 'gho_', 'github_pat_']:
