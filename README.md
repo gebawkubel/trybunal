@@ -16,7 +16,7 @@ Zaczynamy od sporu o wybór pięciu sędziów w 2015 roku. Docelowo chcemy też 
 
 ## Co jest gotowe
 
-To początek projektu. Mamy zasady pracy, [tekst Konstytucji](zrodla/konstytucja.md) i [pierwszą notatkę o pięciu miejscach w TK](badania/piec-miejsc.md), z pełnymi tekstami dwóch wyroków. Nie opublikowaliśmy jeszcze ocen odpowiedzialności ani propozycji naprawy.
+To początek projektu. Mamy zasady pracy, [tekst Konstytucji](zrodla/konstytucja.md) i [pierwszą notatkę o pięciu miejscach w TK](badania/piec-miejsc.md), z pełnymi tekstami dwóch wyroków. Mamy też [listę scenariuszy naprawy TK obecnych w debacie](badania/scenariusze-naprawy.md), z informacją, kto je popiera i kto odrzuca. Nie opublikowaliśmy jeszcze ocen odpowiedzialności ani własnej rekomendacji.
 
 - [Jak sprawdzamy informacje](metodologia.md)
 - [Co badamy najpierw](plan.md)
