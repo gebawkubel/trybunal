@@ -158,4 +158,11 @@ W poleceniu przed publikacją zamieniliśmy lokalną ścieżkę repozytorium na 
   - wnioski części 1 bez orzeczeń TK niekorzystnych dla obecnej większości (U 5/24, K 3/26),
   - nieuzasadnione dominacje dwóch wariantów.
 
-Notatka przyjmuje tylko dominacje wskazane przez obie analizy i niezakwestionowane w recenzjach.
+Notatka przyjmuje tylko dominacje wskazane przez obie analizy, a zastrzeżenia recenzentów do nich podaje wprost. Recenzent notatki (PR #31) wskazał dodatkowo nierówną ocenę wykonalności wariantów 1 i 2, pominięcie wyroków K 34/15 i K 35/15 we wnioskach, brak dwóch scenariuszy i kilka nieścisłości. Wszystko poprawiliśmy przed scaleniem.
+
+Recenzje odwołują się do plików w katalogu roboczym `ocena/`. W repozytorium leżały w `badania/ocena-przebieg/`. Sumy opublikowanych recenzji, już po zamianie ścieżek (sum sprzed zamiany nie zapisaliśmy):
+
+```
+d2d83f539630cb25b7d7c4668919ff5bfdef7c4fae49ddcfbdcddc0639f36b39  recenzja-analizy-a.md
+f6842c46b86e87494bf4d55be1875e740ac25851a84df21f2e711e9e4cfc5929  recenzja-analizy-b.md
+```
