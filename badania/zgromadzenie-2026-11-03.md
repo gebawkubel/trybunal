@@ -27,13 +27,14 @@ Regulamin TK ([M.P. 2017 poz. 767](https://api.sejm.gov.pl/eli/acts/MP/2017/767/
 
 Wszystkie powyższe brzmienia odczytaliśmy w ELI 2026.11.03.
 
-## Spór w czterech punktach
+## Spór w pięciu punktach
 
 ### 1. Kto mógł zwołać Zgromadzenie
 
 - **Stanowisko zwołującej:** Prezes nie może działać, więc zastępuje go sędzia o najdłuższym stażu (art. 12 ust. 4). Według recenzji analizy A przepis da się czytać na korzyść zwołującej: "niemożność" upoważnienia może być obiektywna, gdy Prezes sam jest odsunięty, a słowa "niektórych kompetencji" opisują to, czego nie da się powierzyć upoważnieniem, a nie granicę zastępstwa. Według Prawo.pl zarządzenie z 2026.10.30 powołuje się na art. 130 § 1 Prawa o ustroju sądów powszechnych w związku z art. 10 § 1 ustawy o SN i art. 19 ustawy o statusie sędziów TK ([Prawo.pl](https://www.prawo.pl/prawnicy-sady/spor-o-trybunal-konstytucyjny-anna-korwin-piotrowska-zawiesza-w-czynnosciach-swieczkowskiego,1556200.html)) [media x1]. Mocniejszy argument wskazała recenzja analizy A. Uchwała Sejmu z 2026.03.13 stwierdza, że powołanie Prezesa Święczkowskiego jest wadliwe i "Trybunałem Konstytucyjnym kieruje faktycznie osoba nieuprawniona" ([M.P. 2026 poz. 299](https://api.sejm.gov.pl/eli/acts/MP/2026/299/text.pdf), pkt 3). Kto przyjmuje to stanowisko, może twierdzić, że stanowisko Prezesa w praktyce jest nieobsadzone (art. 11 ust. 2), niezależnie od przerwy.
 - **Stanowisko bojkotujących:** zwołuje Prezes (art. 7 ust. 2), a kadencja Prezesa nie wygasła. Uchwała Sejmu nie jest wyrokiem, a TK w wyroku U 5/24 uznał uchwałę Sejmu z 2024 roku za niekonstytucyjną ([sentencja U 5/24](https://trybunal.gov.pl/postepowanie-i-orzeczenia/wyroki/art/12771-uchwala-sejmu-rp-w-sprawie-usuniecia-skutkow-kryzysu-konstytucyjnego)). Jedyny wyjątek od wymogu obecności Prezesa (art. 8 ust. 2) dotyczy wyboru kandydatów na Prezesa, czyli sytuacji wakatu. Wspiera ich Kolegium SN, które uznało, że uprawnienie sędziego o najdłuższym stażu dotyczy tylko wakatu na stanowisku Prezesa, a przerwa go nie tworzy ([uchwała Kolegium SN](../zrodla/okres-2024-2026/uchwala-kolegium-sn.md)) [dok].
 - **Termin zawiadomienia:** zarządzenia o zwołaniu wydano 2026.10.30 i 2026.11.02 ([karta zarządzenia nr 2/2026](../zrodla/okres-2024-2026/zarzadzenie-2-2026.md)), więc termin 7 dni z art. 7 ust. 3 nie był zachowany, chyba że zastosować wyjątek z art. 7 ust. 4. Ten argument wskazała recenzja analizy B. Nie wiemy, czy podnosiła go któraś ze stron.
+- **Zwołanie przez sędziego o najdłuższym stażu w ustawie:** art. 11 ust. 3 pozwala temu sędziemu zwołać Zgromadzenie tylko "w sprawie przedstawienia kandydatów na stanowisko Prezesa Trybunału". W takim posiedzeniu "uczestniczą sędziowie Trybunału, którzy do dnia posiedzenia złożyli ślubowanie wobec Prezydenta Rzeczypospolitej Polskiej" (art. 11 ust. 5). Zgromadzenie z 2026.11.03 nie wybierało kandydatów, więc nawet przy wakacie ten przepis go nie obejmuje. Strona zwołującej powołuje się zamiast tego na zastępstwo z art. 12 ust. 4, które obejmuje kompetencje Prezesa.
 - **Ocena obu analiz:** przerwa w czynnościach Prezesa ma słabą podstawę, bo art. 130 § 2 oddaje przerwę wobec prezesa Ministrowi Sprawiedliwości, który wobec TK nie ma kompetencji. Analiza A nazwała to rozumowaniem kołowym: umocowanie wynika z przerwy, którą zarządziła ta sama osoba. Argument z uchwały Sejmu omija ten zarzut, ale sam zależy od uznania uchwały za wiążącą.
 
 ### 2. Jak liczyć kworum
@@ -53,25 +54,38 @@ Kworum wychodzi tylko przy liczeniu od dwunastu. Wymaga to dwóch założeń nar
 
 Losowanie należy do Prezesa TK (art. 25 ust. 2 ustawy o statusie), a nie do Zgromadzenia. W wariancie najkorzystniejszym dla zwołującej to czynność zastępczyni Prezesa, a nie uchwała Zgromadzenia. Recenzent analizy B wskazał też, że sąd dyscyplinarny trzeba zawiadomić o przerwie w ciągu trzech dni (art. 130 § 3), czyli do 2026.11.02, a składy wylosowano 2026.11.03. Nie wiemy, czy sąd zawiadomiono wcześniej. Z relacji nie wynika też, czy losowanie było uchwałą Zgromadzenia, czy czynnością zastępczyni. Według recenzenta analizy A składy losuje się do konkretnej sprawy, więc losowanie przed wnioskiem rzecznika dyscyplinarnego jest przedwczesne niezależnie od tego, kto losuje.
 
-### 4. Co z budżetem TK
+### 4. Czy zwołująca ma najdłuższy staż
 
-Projekt wydatków TK włącza do projektu budżetu minister finansów (art. 14 ust. 1). Recenzja analizy B ustaliła, że rządowy projekt budżetu na 2027 rok nie ma części dla TK, bo wcześniej Zgromadzenie zwoływane przez Prezesa Święczkowskiego też nie uchwaliło projektu. Prezes wysłał wtedy własny projekt Marszałkowi Sejmu. Tego nie sprawdziliśmy w dokumentach. Jeśli to prawda, obie strony mają ten sam problem z kworum, a o budżecie TK i tak zdecyduje Sejm.
+Zastępstwo z art. 12 ust. 4 przysługuje sędziemu "posiadającemu najdłuższy, liczony łącznie, staż pracy": w TK, jako aplikant, asesor lub sędzia w sądzie powszechnym, oraz w administracji państwowej szczebla centralnego (art. 11 ust. 2). Prokuratura i Sąd Najwyższy nie są tu wymienione. Policzyliśmy staż wszystkich piętnaściorga sędziów według życiorysów z druków sejmowych i biogramów TK. Realnie liczą się dwie osoby:
+
+| Sędzia | Staż do 2026.11.03 | Źródło |
+|---|---|---|
+| Anna Korwin-Piotrowska | aplikacja sędziowska "w latach 1995-1997", asesor od października 1997, sędzia od 1999.02.26: około 30,8-31,8 roku z aplikacją, około 29,1 bez niej | [druk Sejmu 2333](https://api.sejm.gov.pl/sejm/term10/prints/2333/2333.pdf), s. 3 |
+| Wojciech Sych | sędzia sądu powszechnego od 1995.08.03 do października 2018 (około 23,2 roku) i sędzia TK od 2019 (około 7,5 roku): około 30,7 roku | [biogram TK](https://trybunal.gov.pl/o-trybunale/sedziowie-trybunalu/art/10586-wojciech-sych) |
+
+Jeśli liczyć aplikację, najdłuższy staż ma Korwin-Piotrowska, ale przewaga wynosi od około 2 do 14 miesięcy, zależnie od nieznanego dnia rozpoczęcia aplikacji. Bez aplikacji albo przy doliczeniu Sychowi lat w Sądzie Najwyższym pierwszeństwo może mieć Sych. Dla bojkotujących pytanie jest bez znaczenia, bo ich zdaniem Korwin-Piotrowska nie objęła urzędu, a art. 11 ust. 2 działa tylko przy wakacie. Staż pozostałych sędziów jest wyraźnie krótszy, najwyżej około 24 lat. Wyliczenia są przybliżone.
+
+### 5. Co z budżetem TK
+
+Projekt wydatków TK włącza do projektu budżetu minister finansów, ale tylko projekt uchwalony przez Zgromadzenie (art. 14 ust. 1 w związku z art. 6 ust. 2 pkt 9). Rządowy projekt budżetu na 2027 rok nie ma części dla TK. W uzasadnieniu rząd napisał: "Minister Finansów nie otrzymał skutecznie aktu planistycznego podlegającego włączeniu do projektu ustawy budżetowej" ([druk Sejmu 3150, uzasadnienie](https://api.sejm.gov.pl/sejm/term10/prints/3150/3150-uzasadnienie.pdf), s. 118) [dok]. Według mediów Zgromadzenia zwoływane wcześniej przez Prezesa Święczkowskiego nie miały kworum, a Prezes 2026.09.30 wysłał własny projekt Marszałkowi Sejmu. Marszałek odpowiedział, że nie nada mu biegu, bo projekt nie został uchwalony przez Zgromadzenie ([Interia](https://wydarzenia.interia.pl/kraj/news-czarzasty-odpowiedzial-na-pismo-prezesa-tk-wylaczna-inicjaty,nId,23552265), [Do Rzeczy](https://dorzeczy.pl/kraj/951325/nie-nadam-biegu-sprawie-czarzasty-odpowiada-swieczkowskiemu.html)) [media x2]. Zgromadzenie z 2026.11.03 przyjęło plan na 2027 rok. Nie wiemy, czy trafił on już do ministra finansów. Obie strony mają więc ten sam problem z kworum, a o budżecie TK zdecyduje Sejm.
 
 ## Wnioski
 
 1. **Niezależnie od sporu o status sędziów wybranych w 2026 roku** zwołanie zgromadzenia przez zastępczynię Prezesa i przerwa w czynnościach Prezesa nie mają jasnej podstawy w tekście ustawy. Najmocniejszy argument zwołującej to uchwała Sejmu z 2026 roku o wadliwym powołaniu Prezesa, ale jej moc prawna jest sporna.
 2. **Kworum** jest spełnione tylko przy liczeniu od dwunastu osób, co wymaga dwóch spornych założeń jednocześnie.
 3. **Losowanie składów dyscyplinarnych** nie należy do Zgromadzenia, tylko do Prezesa.
-4. **Spór naprawdę otwarty:** czy ślubowanie poza Prezydentem daje miejsce w Zgromadzeniu. Odpowiedź przeczącą wspierają wyroki TK [K 1/17](../zrodla/okres-2016-2019/k-1-17.md) (przepisy z 2016 roku zgodne z Konstytucją w zakresie sędziów zaprzysiężonych przed Prezydentem) i [K 3/26](../zrodla/okres-2024-2026/k-3-26.md) (Prezydent nie ma obowiązku odebrania ślubowania), ale żaden z nich nie rozstrzyga wprost o członkostwie w Zgromadzeniu. Nowych sędziów wspierają: wyrok [K 34/15](../zrodla/k-34-15.md#strona-2) (obowiązek Prezydenta niezwłocznego odebrania ślubowania, pkt 5 sentencji), [środek tymczasowy ETPC](../zrodla/okres-2024-2026/etpc-17392-26.md), który dotyczy czworga skarżących, oraz opinia Komisji Weneckiej, znana nam z relacji mediów. Żaden z tych dokumentów nie dotyczy kworum ani przerwy w czynnościach.
-5. **Nie ma organu,** którego rozstrzygnięcie obie strony uznają. Spór kompetencyjny [Kpt 1/26](../zrodla/okres-2024-2026/kpt-1-26.md) jest w toku przed TK, którego skład sam jest sporny.
+4. **Staż:** jeśli liczyć aplikację sędziowską, najdłuższy staż ma Korwin-Piotrowska, ale z niewielką przewagą nad Wojciechem Sychem. Ten warunek zastępstwa jest więc prawdopodobnie spełniony, choć wynik zależy od sposobu liczenia.
+5. **Spór naprawdę otwarty:** czy ślubowanie poza Prezydentem daje miejsce w Zgromadzeniu. Odpowiedź przeczącą wspierają wyroki TK [K 1/17](../zrodla/okres-2016-2019/k-1-17.md) (przepisy z 2016 roku zgodne z Konstytucją w zakresie sędziów zaprzysiężonych przed Prezydentem) i [K 3/26](../zrodla/okres-2024-2026/k-3-26.md) (Prezydent nie ma obowiązku odebrania ślubowania), ale żaden z nich nie rozstrzyga wprost o członkostwie w Zgromadzeniu. Nowych sędziów wspierają: wyrok [K 34/15](../zrodla/k-34-15.md#strona-2) (obowiązek Prezydenta niezwłocznego odebrania ślubowania, pkt 5 sentencji), [środek tymczasowy ETPC](../zrodla/okres-2024-2026/etpc-17392-26.md), który dotyczy czworga skarżących, oraz opinia Komisji Weneckiej, znana nam z relacji mediów. Żaden z tych dokumentów nie dotyczy kworum ani przerwy w czynnościach.
+6. **Nie ma organu,** którego rozstrzygnięcie obie strony uznają. Spór kompetencyjny [Kpt 1/26](../zrodla/okres-2024-2026/kpt-1-26.md) jest w toku przed TK, którego skład sam jest sporny.
 
 ## Jak powstała ta notatka
 
-Dwa modele, Claude Fable 5.1 i Claude Opus 5.5, przygotowały osobne analizy według [jednego polecenia](zgromadzenie-przebieg/polecenie.md), bez wglądu w wyniki drugiego. Każdą analizę zrecenzował drugi model. Notatkę napisał prowadzący (Claude Opus 5.5), a kluczowe przepisy sprawdził osobno w ELI. Pliki i sumy kontrolne są w [zapisie przebiegu](zgromadzenie-przebieg/przebieg.md).
+Dwa modele, Claude Fable 5.1 i Claude Opus 5.5, przygotowały osobne analizy według [jednego polecenia](zgromadzenie-przebieg/polecenie.md), bez wglądu w wyniki drugiego. Każdą analizę zrecenzował drugi model. Notatkę napisał prowadzący (Claude Opus 5.5), a kluczowe przepisy sprawdził osobno w ELI. Staż sędziów wyliczył osobny agent (Claude Opus 5.5), a stan budżetu ustalił agent z modelem Sonnet. Prowadzący sprawdził życiorys z druku 2333, biogram Sycha i uzasadnienie druku 3150. Pliki i sumy kontrolne są w [zapisie przebiegu](zgromadzenie-przebieg/przebieg.md).
 
 ## Ograniczenia
 
 - To nie jest opinia prawna. Analizy modeli nie zastępują ekspertyzy, a zgodność dwóch modeli nie dowodzi trafności.
 - Przebieg zgromadzenia znamy z mediów, a uchwał ani protokołu nie opublikowano.
-- Pełnej opinii Komisji Weneckiej z 2026 roku nie odczytaliśmy.
-- Nie sprawdziliśmy, kto z sędziów ma najdłuższy łączny staż w rozumieniu art. 11 ust. 2.
+- Pełnej opinii Komisji Weneckiej z 2026 roku nie odczytaliśmy. Serwer Komisji 2026.11.03 zwracał błąd.
+- Staż liczyliśmy z życiorysów, w latach i miesiącach, bez akt osobowych. Nie znamy dnia rozpoczęcia aplikacji Korwin-Piotrowskiej.
+- Reakcji premiera po posiedzeniu RBN nie znaleźliśmy.

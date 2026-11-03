@@ -9,6 +9,7 @@ Data: 2026.11.03. Wynik: [notatka](../zgromadzenie-2026-11-03.md).
 | Analiza B | [analiza-b.md](analiza-b.md) | agent, model Claude Opus 5.5 | polecenie, przepisy, repo, strony WWW i relacje mediów |
 | Recenzja A | [recenzja-analizy-a.md](recenzja-analizy-a.md) | agent, model Claude Opus 5.5 | analiza A, przepisy |
 | Recenzja B | [recenzja-analizy-b.md](recenzja-analizy-b.md) | agent, model Claude Fable 5.1 | analiza B, przepisy |
+| Staż sędziów | [staz-sedziow.md](staz-sedziow.md) | agent, model Claude Opus 5.5 | art. 11 ust. 2, druki Sejmu, biogramy TK |
 | Notatka | [zgromadzenie-2026-11-03.md](../zgromadzenie-2026-11-03.md) | prowadzący, Claude Opus 5.5 | analizy, recenzje, ELI |
 
 Analizy powstały osobno, bez wglądu w drugą. Każdy etap wykonano raz. Analizy są pierwszymi wersjami, bez poprawek, więc zawierają błędy wskazane w recenzjach. W notatce korzystaliśmy z ustaleń po recenzji. Brzmienie przepisów cytowanych w notatce prowadzący sprawdził osobno w ELI.
@@ -28,3 +29,5 @@ Jedyna zmiana po zapisaniu sum: w analizie A i recenzji analizy A usunęliśmy l
 ```
 fa41ecf722700749d412f372b188d81c1d6a99b98cb612d9547246661d53ebdf  analiza-a.md
 ```
+
+Uzupełnienie z późnego wieczora 2026.11.03: staż sędziów wyliczył osobny agent. W pliku zamieniliśmy tylko lokalną ścieżkę do pobranych plików na słowa "katalog roboczy agenta". Suma pliku przed tą zmianą: 34b1e784f12eeed3c9b1668d148fa4f84b4887061e9e0442e7e7d2275a256e34. Stan budżetu TK ustalił agent z modelem Sonnet (wersja niepotwierdzona); jego wyniki weszły do notatki tylko wraz ze źródłami.
