@@ -43,7 +43,7 @@ Ustawa nie mówi, czym jest "ogólna liczba sędziów". Możliwe odczytania:
 | Od jakiej liczby | 2/3 to | Czy ośmioro wystarcza |
 |---|---|---|
 | 15 miejsc w TK | 10 | nie |
-| 14 osób: bez Jarosława Wyrembaka, którego Sejm w uchwale z 2026.03.13 (pkt 1) uznał za wybranego na miejsce zajęte | 10 | nie |
+| 14 osób: bez Jarosława Wyrembaka, wybranego na miejsce, które według uchwały Sejmu z 2026.03.13 (pkt 1) obsadzono wcześniej wadliwie | 10 | nie |
 | 12 osób: także bez Prezesa i Wiceprezesa, którym zarządzono przerwę | 8 | tak |
 | 10 sędziów, którzy ślubowali przed Prezydentem (art. 6 ust. 1) | 7 | nie, bo z tej grupy obecnych było troje |
 
