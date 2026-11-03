@@ -9,11 +9,11 @@ Dane z oficjalnego API Sejmu. Dostęp: 2026.11.03. „Za, przeciw, wstrz.” to 
 | 2015.10.08 19:04 | głosowanie nad wyborem pana Andrzeja Jakubeckiego na stanowisko sędziego Trybunału Konstytucyjnego | 272 | 146 | 1 | 210 | [Sejm 7. kad., pos. 102, nr 5](https://api.sejm.gov.pl/sejm/term7/votings/102/5) |
 | 2015.10.08 19:05 | głosowanie nad wyborem pana Bronisława Sitka na stanowisko sędziego Trybunału Konstytucyjnego | 244 | 167 | 7 | 210 | [Sejm 7. kad., pos. 102, nr 6](https://api.sejm.gov.pl/sejm/term7/votings/102/6) |
 | 2015.10.08 19:05 | głosowanie nad wyborem pana Andrzeja Jana Sokali na stanowisko sędziego Trybunału Konstytucyjnego | 264 | 151 | 3 | 210 | [Sejm 7. kad., pos. 102, nr 7](https://api.sejm.gov.pl/sejm/term7/votings/102/7) |
-| 2015.11.25 23:46 | głosowanie nad przyjęciem w całości projektu uchwały w brzmieniu z druku nr 42 | 270 | 40 | 1 | 41 | [Sejm 8. kad., pos. 2, nr 23](https://api.sejm.gov.pl/sejm/term8/votings/2/23) |
-| 2015.11.25 23:47 | głosowanie nad przyjęciem w całości projektu uchwały w brzmieniu z druku nr 43 | 273 | 43 | 1 | 44 | [Sejm 8. kad., pos. 2, nr 24](https://api.sejm.gov.pl/sejm/term8/votings/2/24) |
-| 2015.11.25 23:48 | głosowanie nad przyjęciem w całości projektu uchwały w brzmieniu z druku nr 44 | 273 | 42 | 1 | 43 | [Sejm 8. kad., pos. 2, nr 25](https://api.sejm.gov.pl/sejm/term8/votings/2/25) |
-| 2015.11.25 23:49 | głosowanie nad przyjęciem w całości projektu uchwały w brzmieniu z druku nr 45 | 272 | 42 | 1 | 43 | [Sejm 8. kad., pos. 2, nr 26](https://api.sejm.gov.pl/sejm/term8/votings/2/26) |
-| 2015.11.25 23:50 | głosowanie nad przyjęciem w całości projektu uchwały w brzmieniu z druku nr 46 | 273 | 42 | 1 | 43 | [Sejm 8. kad., pos. 2, nr 27](https://api.sejm.gov.pl/sejm/term8/votings/2/27) |
+| 2015.11.25 23:46 | przyjęcie uchwały z druku nr 42 o braku mocy prawnej wyboru z M.P. 2015 poz. 1038 (Roman Hauser) | 270 | 40 | 1 | 41 | [Sejm 8. kad., pos. 2, nr 23](https://api.sejm.gov.pl/sejm/term8/votings/2/23) |
+| 2015.11.25 23:47 | przyjęcie uchwały z druku nr 43 o braku mocy prawnej wyboru z M.P. 2015 poz. 1039 (Andrzej Jakubecki) | 273 | 43 | 1 | 44 | [Sejm 8. kad., pos. 2, nr 24](https://api.sejm.gov.pl/sejm/term8/votings/2/24) |
+| 2015.11.25 23:48 | przyjęcie uchwały z druku nr 44 o braku mocy prawnej wyboru z M.P. 2015 poz. 1041 (Bronisław Sitek) | 273 | 42 | 1 | 43 | [Sejm 8. kad., pos. 2, nr 25](https://api.sejm.gov.pl/sejm/term8/votings/2/25) |
+| 2015.11.25 23:49 | przyjęcie uchwały z druku nr 45 o braku mocy prawnej wyboru z M.P. 2015 poz. 1042 (Andrzej Jan Sokala) | 272 | 42 | 1 | 43 | [Sejm 8. kad., pos. 2, nr 26](https://api.sejm.gov.pl/sejm/term8/votings/2/26) |
+| 2015.11.25 23:50 | przyjęcie uchwały z druku nr 46 o braku mocy prawnej wyboru z M.P. 2015 poz. 1040 (Krzysztof Ślebzak) | 273 | 42 | 1 | 43 | [Sejm 8. kad., pos. 2, nr 27](https://api.sejm.gov.pl/sejm/term8/votings/2/27) |
 | 2015.12.02 18:05 | głosowanie nad wyborem pana Henryka Ciocha na stanowisko sędziego Trybunału Konstytucyjnego | 236 | 167 | 6 | 205 | [Sejm 8. kad., pos. 3, nr 6](https://api.sejm.gov.pl/sejm/term8/votings/3/6) |
 | 2015.12.02 18:44 | głosowanie nad wyborem pana Lecha Morawskiego na stanowisko sędziego Trybunału Konstytucyjnego | 232 | 156 | 4 | 197 | [Sejm 8. kad., pos. 3, nr 8](https://api.sejm.gov.pl/sejm/term8/votings/3/8) |
 | 2015.12.02 19:03 | głosowanie nad wyborem pana Mariusza Romana Muszyńskiego na stanowisko sędziego Trybunału Konstytucyjnego | 236 | 170 | 4 | 206 | [Sejm 8. kad., pos. 3, nr 10](https://api.sejm.gov.pl/sejm/term8/votings/3/10) |
@@ -39,3 +39,18 @@ Dane z oficjalnego API Sejmu. Dostęp: 2026.11.03. „Za, przeciw, wstrz.” to 
 - 2015.12.02, nr 13: PiS: wstrz. 1, przeciw 1, za 230; PO: nieob. 13, przeciw 124; Kukiz15: nieob. 33, wstrz. 7, za 1; N: nieob. 3, przeciw 25; PSL: nieob. 1, przeciw 15; niez.: przeciw 1, za 2
 
 Kluby: PiS - Prawo i Sprawiedliwość, PO - Platforma Obywatelska, PSL - Polskie Stronnictwo Ludowe, N - Nowoczesna, SLD - Sojusz Lewicy Demokratycznej, Kukiz15 - Kukiz'15. Skróty innych klubów jak w API Sejmu.
+
+## Ustawa o TK z 2015 roku
+
+Sejm VII kadencji, 93. posiedzenie, trzecie czytanie prezydenckiego projektu ustawy o TK (druk 3397).
+
+| Data i godzina | Czego dotyczyło | Za | Przeciw | Wstrz. | Próg | Źródło |
+|---|---|---|---|---|---|---|
+| 2015.05.27 15:40 | poprawka nr 52 klubu PiS: skreślenie art. 136, czyli przepisu o terminie dla kadencji kończących się w 2015 roku | 145 | 272 | 1 | 273 | [Sejm 7. kad., pos. 93, nr 38](https://api.sejm.gov.pl/sejm/term7/votings/93/38) |
+| 2015.05.27 15:42 | przyjęcie całej ustawy z przyjętymi poprawkami | 261 | 144 | 11 | 145 | [Sejm 7. kad., pos. 93, nr 39](https://api.sejm.gov.pl/sejm/term7/votings/93/39) |
+
+- nr 38: PO: przeciw 191, za 1, nieob. 10; PiS: za 122, nieob. 12; PSL: przeciw 33, wstrz. 1, nieob. 4; SLD: przeciw 29, nieob. 6; ZP: za 12, przeciw 3; RP: przeciw 4, za 3, nieob. 4; niez.: przeciw 12, za 7, nieob. 6
+- nr 39: PO: za 192, nieob. 10; PiS: przeciw 122, nieob. 12; PSL: za 32, wstrz. 1, nieob. 5; SLD: za 21, wstrz. 8, nieob. 6; ZP: przeciw 15; RP: za 6, nieob. 5; niez.: za 10, przeciw 7, wstrz. 2, nieob. 6
+
+Poprawki Senatu Sejm rozpatrzył 2015.06.25 (95. posiedzenie). Uchwała Senatu nie zawiera poprawek do tego przepisu ([druk 3507](https://api.sejm.gov.pl/sejm/term7/prints/3507/3507.pdf)).
+
