@@ -45,7 +45,7 @@ Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób. Tylko dwi
 
 ## Dopuszczenie do orzekania
 
-"Dopuszczenie do orzekania" oznacza tu przydzielenie sędziemu spraw przez prezesa TK. Z dokumentów wynika, że w latach 2016 takie włączenie następowało po ślubowaniu, ale było osobną czynnością prezesa (źródła niżej). RPO z kolei twierdzi, że ślubowanie samo upoważnia do udziału w czynnościach orzeczniczych ([RPO 2024](../zrodla/okres-2016-2019/rpo-niedopuszczeni-sedziowie-2024.md)). Tu nie rozstrzygamy, która wykładnia jest słuszna.
+"Dopuszczenie do orzekania" oznacza tu przydzielenie sędziemu spraw przez prezesa TK. Z dokumentów wynika, że w 2016 r. takie włączenie następowało po ślubowaniu, ale było osobną czynnością prezesa (źródła niżej). RPO z kolei twierdzi, że ślubowanie samo upoważnia do udziału w czynnościach orzeczniczych ([RPO 2024](../zrodla/okres-2016-2019/rpo-niedopuszczeni-sedziowie-2024.md)). Tu nie rozstrzygamy, która wykładnia jest słuszna.
 
 **Pszczółkowski i Przyłębska.** TK umorzył 2016.01.07 sprawę U 8/15 o uchwały Sejmu z 2015.11.25 i 2015.12.02. Według [Informacji TK za 2015 r.](../zrodla/okres-2016-2019/informacja-tk-2015.md) (s. 10 i 26) po tym postanowieniu prezes TK włączył ich do orzekania. Datę 2016.01.12 podaje ETPC w wyroku Xero Flor ([§ 42](../zrodla/xero-flor.md)). Zarządzenia prezesa nie znaleźliśmy.
 

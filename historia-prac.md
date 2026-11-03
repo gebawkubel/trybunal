@@ -32,6 +32,13 @@ Każda zmiana w repozytorium przechodzi przez PR (propozycję zmiany na GitHubie
 | [#20](https://github.com/gebawkubel/trybunal/pull/20) | 2026.11.03 | [Czy Zgromadzenie Ogólne TK było ważne](badania/zgromadzenie-2026-11-03.md) | 3 blokery, potem PASS |
 | [#21](https://github.com/gebawkubel/trybunal/pull/21) | 2026.11.03 | Tabela scenariuszy z analiz AI po Zgromadzeniu | PASS, poprawki po uwagach |
 | [#22](https://github.com/gebawkubel/trybunal/pull/22) | 2026.11.03 | Staż sędziów, budżet TK, art. 11 ust. 3 i 5 | 2 blokery, potem PASS |
+| [#23](https://github.com/gebawkubel/trybunal/pull/23) | 2026.11.03 | Porządek: jedna historia prac, nowe README | PASS |
+| [#24](https://github.com/gebawkubel/trybunal/pull/24) | 2026.11.03 | [Spór o kadencję prezes TK](badania/kadencja-prezes-2022-2023.md) | 2 blokery, potem 1, potem PASS |
+| [#25](https://github.com/gebawkubel/trybunal/pull/25) | 2026.11.03 | [Opóźniona publikacja wyroków](badania/publikacja-wyrokow.md) | PASS, poprawki po uwagach |
+| [#26](https://github.com/gebawkubel/trybunal/pull/26) | 2026.11.03 | [Wyroki ETPC i TSUE o TK](badania/wyroki-europejskie.md) | PASS, poprawki po uwagach |
+| [#27](https://github.com/gebawkubel/trybunal/pull/27) | 2026.11.03 | [Geneza: TK przed 2015 rokiem](badania/geneza-przed-2015.md) | 1 bloker, potem PASS |
+| [#28](https://github.com/gebawkubel/trybunal/pull/28) | 2026.11.03 | [Lata 2020-2023: składy, zdania odrębne, statystyki](badania/okres-2020-2023-uzupelnienie.md) | PASS, poprawki po uwagach |
+| [#29](https://github.com/gebawkubel/trybunal/pull/29) | 2026.11.03 | [Dopuszczenie sędziów do orzekania](badania/piec-miejsc.md#dopuszczenie-do-orzekania) | 2 blokery, potem PASS |
 
 Numery #1 i #12 to zgłoszenia zadań, a PR #2 i #3 z 2026.11.02 zamknięto bez scalenia. Pierwszą wersję organizacyjną przygotowano z pomocą Codex. PR #13-#16 i #18 powstały równolegle do pozostałych prac. Model podano w commitach.
 
@@ -101,3 +108,18 @@ Przed publikacją usunęliśmy z analizy A i recenzji analizy A lokalny przedros
 - Recenzent PR #22 wskazał, że wyliczenie stażu zakładało ciągłą pracę od początku aplikacji, czego życiorys nie potwierdza. Wiersz Piotrowicza w wyliczeniu opiera się częściowo na pamięci modelu, co nie wpływa na wynik.
 
 Brzmienie przepisów cytowanych w notatce prowadzący sprawdził osobno w ELI. Życiorys z druku 2333, biogram Sycha i uzasadnienie druku 3150 też sprawdził sam.
+
+## Badania z późnego wieczora 2026.11.03 (PR #24-#29)
+
+Każde badanie wykonał osobny agent w osobnej kopii repozytorium, z wyszukiwaniem w sieci. Agent pisał notatkę i karty źródeł oraz robił commit, a prowadzący (Claude Opus 5.5) wypychał gałąź, otwierał PR i zlecał recenzję innemu agentowi.
+
+| PR | Badanie | Wykonawca | Recenzent | Co poprawił recenzent |
+|---|---|---|---|---|
+| #24 | kadencja prezes | agent, claude-opus-5-5 | agent, claude-fable-5-1 | błędny opis prawa obowiązującego w dniu powołania prezes, zdanie przypisane źródłu bez pokrycia |
+| #25 | publikacja wyroków | agent, claude-opus-5-5 | agent, claude-fable-5-1 | wykładnia rządu podana jako fakt, nie dosłowne cytaty, funkcja świadka |
+| #26 | wyroki europejskie | agent, claude-opus-5-5 | agent, claude-fable-5-1 | wniosek autora podany jako ustalenie SN, liczba wyników bez filtrów |
+| #27 | geneza przed 2015 | agent, claude-opus-5-5 | agent, claude-fable-5-1 | fałszywe twierdzenie, że API Sejmu nie podaje głosów przy głosowaniu listą |
+| #28 | lata 2020-2023 | agent, claude-opus-5-5 | agent, claude-fable-5-1 | przypisanie dat i liczb do źródła, duplikat karty z PR #26 usunięty przed recenzją |
+| #29 | dopuszczenie 2015-2016 | agent, model Sonnet (wersja niepotwierdzona) | agent, claude-opus-5-5 | treść dokumentu opisana błędnie, wniosek o podstawie prawnej podany jako fakt |
+
+Przy scalaniu gałęzi kolejnych badań konflikty w `zrodla/manifest.json` rozwiązywaliśmy przez połączenie wpisów i przeliczenie sum. Od PR #28 każdy plik w `zrodla/` ma wpis w manifeście.

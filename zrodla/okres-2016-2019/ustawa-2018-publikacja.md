@@ -12,7 +12,7 @@
 - Art. 1: w brzmieniu z 2016 r. art. 19 obejmował "wyroki Trybunału oraz rozstrzygnięcia Trybunału podjęte z naruszeniem przepisów". Nowe brzmienie usuwa słowa "wyroki Trybunału oraz". Rozstrzygnięcia podjęte z naruszeniem przepisów ustaw o TK z 2015 i 2016 r. ogłasza się po zarządzeniu prezesa TK. Jeżeli dotyczyły aktów, które utraciły moc, ogłasza się je "z zaznaczeniem tych okoliczności".
 - Art. 2: prezes TK zarządza ogłoszenie w ciągu 7 dni od wejścia ustawy w życie. Art. 3: ustawa wchodzi w życie po 14 dniach od ogłoszenia.
 - Opis w API Sejmu: projekt dotyczy sposobu publikacji rozstrzygnięć z 2016.03.09, 2016.08.11 i 2016.11.07 (K 47/15, K 39/16, K 44/16).
-- Uzasadnienie, s. 4: według wnioskodawców publikacja "co do zasady nie jest konieczna", rozstrzygnięcia zapadły z naruszeniem ustaw o TK, a wszystkie ich skutki już nastąpiły, bo badane ustawy przestały obowiązywać. Publikację nazywają "prawnie obojętną".
+- Uzasadnienie, s. 4: według wnioskodawców publikacja "co do zasady nie jest konieczna", rozstrzygnięcia zapadły z naruszeniem ustaw o TK, a wszystkie ich skutki już nastąpiły, bo badane ustawy przestały obowiązywać. Publikacja jest według nich "prawnie obojętna".
 - Uzasadnienie, s. 4-5: celem jest dążenie do "zakończenia konfliktu wokół Trybunału Konstytucyjnego" (s. 4) oraz "poprawy sytuacji Polski w sporze z Komisją Europejską" (s. 5). Proponowano wzór adnotacji o utracie mocy ustawy i wydaniu wyroku z naruszeniem przepisów.
 
 Wyciąg opisowy; krótkie cytaty oznaczono cudzysłowem. Daty ujednolicono.

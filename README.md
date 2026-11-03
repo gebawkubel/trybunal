@@ -19,13 +19,17 @@ Badamy cały przebieg sporu: od jego genezy, przez wydarzenia z 2015 roku i pó�
 Stan na 2026.11.03. To wciąż wczesny etap: mamy dokumenty i przeglądy wydarzeń, ale nie ma jeszcze ocen odpowiedzialności ani własnej rekomendacji.
 
 **Od czego się zaczęło (2015)**
+- [Geneza: TK przed 2015 rokiem](badania/geneza-przed-2015.md): jak wybierano sędziów od 1997 roku i dlaczego w 2015 roku do obsadzenia było pięć miejsc.
 - [Pięć miejsc w TK](badania/piec-miejsc.md): kogo Sejm wybrał w 2015 roku, na jakie miejsca i co orzekł TK. Zawiera pełne teksty wyroków K 34/15 i K 35/15.
 - [Skąd wziął się art. 137](badania/skad-art-137.md): kto zaproponował przepis o terminie zgłaszania kandydatów na sędziów, których kadencje upływały w 2015 roku, i jak głosował Sejm.
 
 **Co działo się potem**
 - [Lata 2016-2019](badania/okres-2016-2019.md): ustawy, publikacja wyroków, zmiana kierownictwa.
 - [Kierownictwo TK i dopuszczenie sędziów do orzekania w 2016 roku](badania/kierownictwo-2016.md).
-- [Lata 2020-2023](badania/okres-2020-2023.md): ważne orzeczenia i spór europejski.
+- [Opóźniona publikacja wyroków w latach 2016-2018](badania/publikacja-wyrokow.md): które wyroki, na jakiej podstawie i z jakim skutkiem.
+- [Lata 2020-2023](badania/okres-2020-2023.md): ważne orzeczenia i spór europejski, z [uzupełnieniem](badania/okres-2020-2023-uzupelnienie.md) o składy, zdania odrębne i statystyki.
+- [Wyroki ETPC i TSUE o TK](badania/wyroki-europejskie.md): co orzekły, co zrobiła Polska i jakie są skutki dla obywateli.
+- [Spór o koniec kadencji prezes TK (2022-2024)](badania/kadencja-prezes-2022-2023.md).
 - [Od 2024 do dziś](badania/okres-2024-2026.md): próby naprawy, nowi sędziowie, spór o kierownictwo.
 
 **Spór teraz**
