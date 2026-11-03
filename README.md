@@ -20,7 +20,7 @@ Stan na 2026.11.03. To wciąż wczesny etap: mamy dokumenty i przeglądy wydarze
 
 **Od czego się zaczęło (2015)**
 - [Pięć miejsc w TK](badania/piec-miejsc.md): kogo Sejm wybrał w 2015 roku, na jakie miejsca i co orzekł TK. Zawiera pełne teksty wyroków K 34/15 i K 35/15.
-- [Skąd wziął się art. 137](badania/skad-art-137.md): kto zaproponował przepis, na podstawie którego Sejm w 2015 roku wybierał sędziów, i jak głosował Sejm.
+- [Skąd wziął się art. 137](badania/skad-art-137.md): kto zaproponował przepis o terminie zgłaszania kandydatów na sędziów, których kadencje upływały w 2015 roku, i jak głosował Sejm.
 
 **Co działo się potem**
 - [Lata 2016-2019](badania/okres-2016-2019.md): ustawy, publikacja wyroków, zmiana kierownictwa.

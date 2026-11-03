@@ -33,11 +33,11 @@ Każda zmiana w repozytorium przechodzi przez PR (propozycję zmiany na GitHubie
 | [#21](https://github.com/gebawkubel/trybunal/pull/21) | 2026.11.03 | Tabela scenariuszy z analiz AI po Zgromadzeniu | PASS, poprawki po uwagach |
 | [#22](https://github.com/gebawkubel/trybunal/pull/22) | 2026.11.03 | Staż sędziów, budżet TK, art. 11 ust. 3 i 5 | 2 blokery, potem PASS |
 
-Numery #1 i #12 to zgłoszenia zadań, a PR #2 i #3 z 2026.11.02 zamknięto bez scalenia. Pierwszą wersję organizacyjną przygotowano z pomocą Codex. PR #13-#16 i #18 prowadziła równolegle druga sesja agenta, a model podano w commitach.
+Numery #1 i #12 to zgłoszenia zadań, a PR #2 i #3 z 2026.11.02 zamknięto bez scalenia. Pierwszą wersję organizacyjną przygotowano z pomocą Codex. PR #13-#16 i #18 powstały równolegle do pozostałych prac. Model podano w commitach.
 
 ## Lista scenariuszy naprawy (PR #10, #17, #19, #21)
 
-Prowadzący: Claude Code, model claude-opus-5-5. Wszyscy agenci pracowali z wyszukiwaniem w sieci, każdy w osobnym kontekście, bez dostępu do repozytorium. Każdy etap wykonano raz.
+Prowadzący: Claude Code, model claude-opus-5-5. Wszyscy agenci pracowali z wyszukiwaniem w sieci, każdy w osobnym kontekście, bez dostępu do repozytorium. Każdy etap wykonano raz. Identyfikatory przebiegów agentów nie są publicznie weryfikowalne, więc ich nie podajemy.
 
 | Etap | Wykonawca | Wynik |
 |---|---|---|
@@ -66,7 +66,7 @@ f52aad4f48a447de551610419a542ab1ca09350a97733964cf2074b23e5aed59  polecenie-scen
 - błędne daty: powołanie Prezesa Święczkowskiego, skierowanie ustaw z 2024 roku do TK, powołanie Rady Nowej Konstytucji,
 - wyrok K 3/26 pomylony ze sporem kompetencyjnym Kpt 1/26,
 - ślubowanie w Sejmie przypisane czworgu zamiast sześciorgu sędziów,
-- błędne przypisania stanowisk: m.in. "brak stanowiska PiS wobec resetu", choć wypowiadał się poseł Wójcik, plan Szczuckiego przypisany Morawieckiemu, HFPC opisana jako przeciwna wygaszeniu kadencji, choć je popiera.
+- błędne przypisania stanowisk: m.in. "brak stanowiska PiS wobec resetu", choć wypowiadał się poseł Wójcik, plan Szczuckiego przypisany Morawieckiemu, HFPC opisana jako zwolenniczka poprawy trybu bez zmiany składu, choć popiera reset z wygaszeniem kadencji.
 
 Pełne listy są w sekcji 2 weryfikacji faktów i w części "Błędy w katalogach" weryfikacji stanowisk. W liście korzystaliśmy z wersji zweryfikowanych.
 
@@ -84,7 +84,7 @@ Pełne listy są w sekcji 2 weryfikacji faktów i w części "Błędy w kataloga
 | Staż sędziów z art. 11 ust. 2 | agent, Claude Opus 5.5 | [plik](https://github.com/gebawkubel/trybunal/blob/2d831a9acef1db7ea9c0aa9882b8ca5b01b1e28d/badania/zgromadzenie-przebieg/staz-sedziow.md) |
 | Stan budżetu TK na 2027 rok | agent, model Sonnet (wersja niepotwierdzona) | wyniki weszły do notatki tylko ze źródłami |
 
-Analizy powstały osobno, bez wglądu w drugą. Polecenie opierało się na relacjach mediów z przebiegu Zgromadzenia. Sumy SHA-256 zapisane przed recenzjami:
+Analizy powstały osobno, bez wglądu w drugą. Każdy etap wykonano raz. Polecenie powstało pod nazwą `polecenie-analiza.md`, stąd ta nazwa w recenzjach. Polecenie opierało się na relacjach mediów z przebiegu Zgromadzenia. Sumy SHA-256 zapisane przed recenzjami:
 
 ```
 fe2acc61efb8677f12a3ac6760b980f13bd1274100871c9575998753d112fb27  polecenie.md
@@ -92,7 +92,7 @@ f01e7caa1b57dde5650c825a1be052d64f33557d9c7826682bdfb59e49a63fb2  analiza-a.md
 0d4176f390bca52a441c8fdc8fd8d07bc890c7bc81722fba820d28583354e28f  analiza-b.md
 ```
 
-Przed publikacją usunęliśmy z analizy A i recenzji analizy A lokalny przedrostek ścieżek do plików repo. Suma analizy A po tej zmianie: `fa41ecf722700749d412f372b188d81c1d6a99b98cb612d9547246661d53ebdf`. W wyliczeniu stażu zamieniliśmy tylko lokalną ścieżkę na słowa "katalog roboczy agenta". Suma przed zmianą: `34b1e784f12eeed3c9b1668d148fa4f84b4887061e9e0442e7e7d2275a256e34`.
+Przed publikacją usunęliśmy z analizy A i recenzji analizy A lokalny przedrostek ścieżek do plików repo. Suma analizy A po tej zmianie: `fa41ecf722700749d412f372b188d81c1d6a99b98cb612d9547246661d53ebdf`. Wersja pierwotna, zgodna z sumą sprzed recenzji, jest w [commicie 13358fa](https://github.com/gebawkubel/trybunal/blob/13358fafa93655087f2f78c3cc5588fb13d047c3/badania/zgromadzenie-przebieg/analiza-a.md). W wyliczeniu stażu zamieniliśmy tylko lokalną ścieżkę na słowa "katalog roboczy agenta". Suma przed zmianą: `34b1e784f12eeed3c9b1668d148fa4f84b4887061e9e0442e7e7d2275a256e34`. Wersji sprzed zmiany nie ma w repozytorium, więc tej sumy nie da się sprawdzić.
 
 **Co znaleźli recenzenci.**
 - Analiza A pominęła uchwałę Sejmu z 2026.03.13. Jej pkt 3 daje stronie zwołującej argument, że stanowisko Prezesa w praktyce jest nieobsadzone. Analiza A pomyliła też daty i opisy orzeczeń.
