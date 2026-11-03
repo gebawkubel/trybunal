@@ -29,7 +29,7 @@ Napisy są automatyczne i mają błędy w nazwiskach ("Kornibowską", "Murawieck
 
 **Zdarzenie przy wejściu do TK (9:37-10:36).** O starciu Prezydenta z Korwin-Piotrowską nie ocenia nikogo personalnie: "po prostu tracimy wszyscy jako kraj i jako państwo" (10:07).
 
-**Skrócenie kadencji Sejmu i wotum nieufności (10:42-11:33).** Pytany o pomysł Konfederacji (skrócenie kadencji Sejmu), mówi o pomysłach "mniej poważnych" i wspomina "mniej poważny pomysł" osoby nazwanej w napisach "Murawiecki" "z panem Markiem Jurkiem", prawdopodobnie Mateusza Morawieckiego (10:49-10:57). Rozwiązanie parlamentu i konstruktywne wotum nieufności wymagają według niego głosów, których nie ma, a takie scenariusze są "arytmetycznie nierealne" (11:03-11:29).
+**Skrócenie kadencji Sejmu i wotum nieufności (10:42-11:33).** Pytany o pomysł Konfederacji (skrócenie kadencji Sejmu), mówi, że słyszał pomysły mniej i bardziej poważne, i wspomina "mniej poważny pomysł" osoby nazwanej w napisach "Murawiecki" "z panem Markiem Jurkiem", prawdopodobnie Mateusza Morawieckiego (10:49-10:57). Rozwiązanie parlamentu i konstruktywne wotum nieufności wymagają według niego głosów, których nie ma, a takie scenariusze są "arytmetycznie nierealne" (11:03-11:29).
 
 **Na koniec (11:44-12:04).** Pyta, dlaczego reset zabezpieczony w Konstytucji jest rozwiązaniem, "którego te dwie duże formacje polityczne tak mocno nie chcą".
 
