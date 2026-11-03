@@ -81,8 +81,8 @@ Odczytane samodzielnie:
 - Regulamin TK, M.P. 2017 poz. 767: https://api.sejm.gov.pl/eli/acts/MP/2017/767/text.pdf
 - usp, t.j. Dz.U. 2024 poz. 334, art. 130: https://api.sejm.gov.pl/eli/acts/DU/2024/334/text.html
 - ustawa o SN, t.j. Dz.U. 2024 poz. 622, art. 10: https://api.sejm.gov.pl/eli/acts/DU/2024/622/text.html
-- Konstytucja (kopia w repo): ~/projects/trybunal/publiczne/zrodla/konstytucja.md
-- K 34/15 sentencja (repo): ~/projects/trybunal/publiczne/zrodla/k-34-15.md; ustawa z 2015 art. 10: ~/projects/trybunal/publiczne/zrodla/ustawa-tk-2015.md
+- Konstytucja (kopia w repo): zrodla/konstytucja.md
+- K 34/15 sentencja (repo): zrodla/k-34-15.md; ustawa z 2015 art. 10: zrodla/ustawa-tk-2015.md
 - Relacje z 2026.11.03: tvn24.pl (st9320580), polsatnews.pl (zgromadzenie-ogolne-trybunalu-konstytucyjnego-stawilo-sie-osmioro-sedziow), rp.pl (art45436221, art45438941), oko.press (starzy-sedziowie-nie-zablokowali-zgromadzenia-tk...); komunikaty TK: trybunal.gov.pl/wiadomosci/... (komunikat z 2026.11.03; komunikat w związku z zarządzeniem Prezesa SN, sygn. II ZZ 2/26)
 
 Z wyciągów w repo (okres-2024-2026, okres-2016-2019, xero-flor.md): K 1/17, K 3/26, Kpt 1/26, M.P. 2024 poz. 198, ETPC 17392/26, Xero Flor, uchwała Kolegium SN, komunikat 2026.10.31, zarządzenie 2/2026.

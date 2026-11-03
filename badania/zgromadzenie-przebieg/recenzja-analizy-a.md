@@ -9,7 +9,7 @@ Co sprawdziłem samodzielnie (dostęp 2026.11.03):
 - usp, t.j. Dz.U. 2024 poz. 334, art. 130-132; ustawa o SN, t.j. Dz.U. 2024 poz. 622, art. 10 (oraz przeszukanie całej ustawy o SN pod kątem "przerwy")
 - metadane ELI: DU/2016/2072, DU/2016/2073, MP/2017/767, DU/2023/2698 (P 2/17)
 - uchwała Sejmu z 2026.03.13, M.P. 2026 poz. 299 (pełny tekst PDF): https://api.sejm.gov.pl/eli/acts/MP/2026/299/text.pdf
-- repo `~/projects/trybunal/publiczne/zrodla`: konstytucja.md (art. 194), k-34-15.md (sentencja), ustawa-tk-2015.md (art. 10), xero-flor.md, okres-2016-2019/k-1-17.md oraz wyciągi z okres-2024-2026 (etpc-17392-26, k-3-26, kpt-1-26, uchwala-kolegium-sn, uchwala-sejmu-2024-198, komunikat-31-pazdziernika, zarzadzenie-2-2026, sn-ii-zz-2-26)
+- repo `zrodla`: konstytucja.md (art. 194), k-34-15.md (sentencja), ustawa-tk-2015.md (art. 10), xero-flor.md, okres-2016-2019/k-1-17.md oraz wyciągi z okres-2024-2026 (etpc-17392-26, k-3-26, kpt-1-26, uchwala-kolegium-sn, uchwala-sejmu-2024-198, komunikat-31-pazdziernika, zarzadzenie-2-2026, sn-ii-zz-2-26)
 - wyszukiwanie w sieci: data U 5/24 (2024.05.28, potwierdzona w materiałach RPO), data C-448/23 (2025.12.18, komunikat curia cp250157), opinia Komisji Weneckiej (relacje xyz.pl, oko.press; numeru CDL-AD(2026)031 i pełnego tekstu nie potwierdziłem)
 
 ## 1. Cytaty i numery przepisów
