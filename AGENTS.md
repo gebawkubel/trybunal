@@ -1,6 +1,6 @@
 # Reguły projektu
 
-Czytaj README.md i metodologię. Pisz krótko po polsku. Daty: yyyy.mm.dd. W tekście autorskim używaj krótkiego łącznika i prostych apostrofów. Trzymaj tylko to, co niezbędne, bez duplikatów. Tekst dostępny pod oficjalnym adresem zapisuj jako jedną kopię MD z URL i datą dostępu. Plik oryginalny (np. PDF) zachowuj bez zmian tylko wtedy, gdy jest potrzebny do sprawdzenia, np. skan lub urzędowa publikacja. Normalizację w kopii MD ujawniaj.
+Czytaj README.md i metodologię. Pisz krótko po polsku. Daty: yyyy.mm.dd. W tekście autorskim używaj krótkiego łącznika i prostych apostrofów. Trzymaj tylko to, co niezbędne, bez duplikatów. Źródło zapisuj jako jedną kopię MD z URL oryginału i datą dostępu; plików oryginalnych (PDF, HTML) nie dodawaj. Wyjątek wymaga uzasadnienia, np. źródło znika z sieci. Normalizację w kopii MD ujawniaj.
 
 Publikuj wyłącznie jako gebawkubel. Autor i committer: Gęba w Kubeł <351696654+gebawkubel@users.noreply.github.com>. Przed publikacją sprawdź aktywne konto. Nie publikuj prywatnej historii ani lokalnych ścieżek. Agent-Role, Agent-Model i Agent-Run podawaj w commitach. Nie zgaduj modelu: nieustalony oznacz jako niepotwierdzony.
 

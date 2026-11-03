@@ -12,9 +12,9 @@ Numer artykułu zmieniał się w toku prac. Nie można utożsamiać art. 137 pie
 | [Druk 3397](../zrodla/projekt-ustawy/druk-3397.md#strona-43), sprawozdanie komisji z 2015.05.12 | Art. 136, s. 35 projektu, strona 43 PDF | Termin 30 dni od wejścia ustawy w życie na zgłoszenie kandydatów dotyczących sędziów, których kadencje upływały w 2015 roku. |
 | [Ustawa z 2015.06.25, Dz.U. 2015 poz. 1064](https://api.sejm.gov.pl/eli/acts/DU/2015/1064/text.html) | Art. 137 | Przepis o tym samym terminie i kadencjach upływających w 2015 roku. Przepis uchylający wcześniejszą ustawę jest już art. 138. |
 
-Pierwsze dwa wskazane fragmenty sprawdziliśmy w tekście odczytanym przez pypdf i na obrazie lokalnego PDF. Tekst ustawy odczytaliśmy w oficjalnym ELI. Dostęp: 2026.11.03.
+Pierwsze dwa wskazane fragmenty sprawdziliśmy w tekście odczytanym przez pypdf i na obrazie stron PDF. Tekst ustawy odczytaliśmy w oficjalnym ELI. Dostęp: 2026.11.03.
 
-Jest też ślad próby usunięcia tego przepisu. W [druku 3397-A z 2015.05.26](../zrodla/projekt-ustawy/druk-3397-a.pdf), na stronie 8 PDF, poprawka nr 52 KP PiS przewiduje skreślenie art. 136. Komisje zalecają jej odrzucenie. To zalecenie komisji, nie wynik głosowania Sejmu. Fragment sprawdziliśmy na obrazie PDF.
+Jest też ślad próby usunięcia tego przepisu. W [druku 3397-A z 2015.05.26](../zrodla/projekt-ustawy/druk-3397-a.md#strona-8), na stronie 8 PDF, poprawka nr 52 KP PiS przewiduje skreślenie art. 136. Komisje zalecają jej odrzucenie. To zalecenie komisji, nie wynik głosowania Sejmu. Fragment sprawdziliśmy na obrazie PDF.
 
 ## Kto zaproponował przepis i jak głosowały komisje
 
@@ -46,4 +46,4 @@ Zmiana numerów wynika najpewniej z innych poprawek: w trzecim czytaniu skreślo
 
 ## Zachowane źródła
 
-W katalogu źródeł są oryginalne PDF druków 1590, 3397 i 3397-A oraz kopie MD z podziałem na strony pliku: [druk 1590](../zrodla/projekt-ustawy/druk-1590.md), [druk 3397](../zrodla/projekt-ustawy/druk-3397.md), [druk 3397-A](../zrodla/projekt-ustawy/druk-3397-a.md). Każda kopia podaje URL i datę pobrania. Druk 3397-A jest skanem: pypdf nie odczytał tekstu z żadnej z ośmiu stron. Jego kopia MD jawnie oznacza ten brak i zawiera tylko ręcznie sprawdzony fragment strony 8.
+Kopie tekstowe druków z podziałem na strony pliku: [druk 1590](../zrodla/projekt-ustawy/druk-1590.md), [druk 3397](../zrodla/projekt-ustawy/druk-3397.md), [druk 3397-A](../zrodla/projekt-ustawy/druk-3397-a.md). Każda podaje adres PDF i datę pobrania. Druk 3397-A jest skanem: pypdf nie odczytał tekstu z żadnej z ośmiu stron. Jego kopia zawiera tylko ręcznie sprawdzony fragment strony 8.
