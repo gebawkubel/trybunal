@@ -23,7 +23,7 @@ Napisy są automatyczne i mają błędy w nazwiskach ("Poczek", "Śmieczkowski",
 
 **Zgromadzenie Ogólne TK zwołane przez Korwin-Piotrowską (Bosak, 8:27-8:46).** "To jest taki cosplay" (8:27). Według Bosaka Korwin-Piotrowska "ani nie jest właściwą osobą do zwoływania zgromadzenia ogólnego, ani nie dotrzymała właściwych terminów, ani właściwi sędziowie nie brali udziału" (8:38-8:46). Nie wskazuje przepisów.
 
-**Czy TK został przejęty (Bosak, 9:13-10:38).** "Trybunał Konstytucyjny nie został przejęty. Policja jedynie objęła czasową kontrolę nad budynkiem" (9:13-9:16). Przejęcie byłoby według niego wtedy, gdyby sędziowie ze ślubowaniem przed Prezydentem stanowili ponad połowę i wybrali nową ekipę na zgromadzeniu zwołanym przez Prezesa TK (9:32-9:48). Twierdzi, że Prezes SN, Prezes NSA i prezes Naczelnej Rady Adwokackiej uznają Prezesem TK Święczkowskiego (10:15-10:27).
+**Czy TK został przejęty (Bosak, 9:13-10:38).** "Trybunał Konstytucyjny nie został przejęty. Policja jedynie objęła czasową kontrolę nad budynkiem" (9:13-9:16). Przejęcie byłoby według niego wtedy, gdyby sędziowie ze ślubowaniem przed Prezydentem stanowili ponad połowę i wybrali nową ekipę na zgromadzeniu zwołanym przez Prezesa TK (9:32-9:48). Twierdzi, że Prezes SN, Prezes NSA i prezes Naczelnej Rady Adwokackiej uznają za Prezesa TK osobę powołaną na to stanowisko przez Prezydenta, czyli Święczkowskiego (nazwisko nie pada, 10:15-10:27).
 
 **Przerwa w pełnieniu funkcji Prezesa TK (Bosak, 10:52-11:12).** "z tym zawieszaniem i przerwami to jest kompletna kpina" (10:52). W Konstytucji i ustawie o TK "nie ma żadnych podstaw" (10:59), a przepisy wzięto z ustawy o sądach powszechnych (11:02-11:08).
 

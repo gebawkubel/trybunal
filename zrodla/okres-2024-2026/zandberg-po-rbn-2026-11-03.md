@@ -1,6 +1,6 @@
 # Adrian Zandberg po posiedzeniu RBN 2026.11.03
 
-- Autor nagrania: partia Razem (kanał YouTube "Razem Extra"), tytuł "PILNE 🚨 | Zandberg po Radzie Bezpieczeństwa Narodowego | Razem Extra". Kanał należy do partii, której liderem jest mówiący.
+- Autor nagrania: partia Razem (kanał YouTube "Razem Extra"), tytuł "PILNE 🚨 | Zandberg po Radzie Bezpieczeństwa Narodowego". Kanał należy do partii, której liderem jest mówiący.
 - Mówi: Adrian Zandberg (Razem). Pytania zadają dziennikarze.
 - Data: 2026.11.03, po posiedzeniu RBN. Nagranie opublikowano 2026.11.03 o 21:15 czasu polskiego (pole uploadDate na stronie nagrania).
 - URL: https://www.youtube.com/watch?v=GEr1YmtPmzo
