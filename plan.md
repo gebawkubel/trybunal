@@ -12,6 +12,6 @@ Nie wskazujemy winnego przed zebraniem dowodów. Wcześniejsze wydarzenia uwzgl�
 
 [Zadanie na GitHubie](https://github.com/gebawkubel/trybunal/issues/1)
 
-Pierwszy materiał: [pięć miejsc w TK](badania/piec-miejsc.md). Zebrano K 34/15 i K 35/15, ustawy i 15 uchwał. Trwa sprawdzanie prac nad ustawą i dokumentów ślubowań.
+Pierwszy materiał: [pięć miejsc w TK](badania/piec-miejsc.md). Zebrano K 34/15 i K 35/15, ustawy, 15 uchwał, głosowania, ślubowania i zapis komisji, na której powstał art. 137. Pozostało: sprawozdanie podkomisji, zmiana numeracji przepisu i dopuszczenie sędziów do orzekania.
 
 Później porównamy ustalenia z zarzutami padającymi w debatach i wywiadach. [Materiały do sprawdzenia](badania/materialy-do-sprawdzenia.md).
