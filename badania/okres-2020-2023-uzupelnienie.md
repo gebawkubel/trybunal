@@ -6,7 +6,7 @@ Kilka pojęć. **Skład** to sędziowie, którzy rozpoznają sprawę. **Zdanie o
 
 ## 1. Kto orzekał w kluczowych sprawach
 
-W tle są trzy osoby. ETPC w wyroku Xero Flor ocenił wybór Mariusza Muszyńskiego jako dotknięty poważnymi wadami ([karta](../zrodla/xero-flor.md), §§ 289-291). Justyn Piskorski i Jarosław Wyrembak zostali wybrani po śmierci Lecha Morawskiego i Henryka Ciocha, którzy także byli wybrani w grudniu 2015 roku. Dokumenty TK podają tylko kolejność tych zdarzeń ([kierownictwo 2016](kierownictwo-2016.md#sześć-osób-z-2015-roku)). To, że te osoby nie mogą orzekać, jest stanowiskiem RPO, Komitetu Ministrów i Sejmu z 2024 roku, a nie ustaleniem TK.
+W tle są trzy osoby. ETPC w wyroku Xero Flor ocenił wybór Mariusza Muszyńskiego jako dotknięty poważnymi wadami ([karta](../zrodla/xero-flor.md), §§ 289-291). Justyn Piskorski i Jarosław Wyrembak zostali wybrani po śmierci Lecha Morawskiego i Henryka Ciocha, którzy także byli wybrani w grudniu 2015 roku. Dokumenty TK podają tylko kolejność tych zdarzeń ([kierownictwo 2016](kierownictwo-2016.md#sześć-osób-z-2015-roku)). To, że te osoby nie mogą orzekać, jest stanowiskiem RPO, Komitetu Ministrów i Sejmu z 2024 roku, a nie ustaleniem TK. W wyroku M.L. przeciwko Polsce ETPC uznał, że udział tych trzech osób podważył legitymację składu wydającego K 1/20 ([karta](../zrodla/okres-2020-2023/etpc-m-l-40119-21.md), §§ 172-174).
 
 | Sprawa | Skład (sprawozdawca) | Wynik | Zdania odrębne | Kto z trzech osób orzekał |
 |---|---|---|---|---|
@@ -32,16 +32,10 @@ W P 7/20 TK zapisał wynik "większością głosów", ale w opublikowanym tekśc
 
 ## 3. Wykonanie wyroku Xero Flor, 2021-2023
 
-Fakty z dokumentów Rady Europy ([karta](../zrodla/okres-2020-2023/xero-flor-wykonanie.md)):
+Przebieg opisuje notatka [wyroki europejskie](wyroki-europejskie.md#2021-2023-rząd-i-tk-odrzucają-skutki-xero-flor) na podstawie [karty decyzji Komitetu Ministrów](../zrodla/okres-2020-2023/km-xero-flor-2022-2023.md). Tu dodajemy dwie informacje z notatki Sekretariatu Komitetu do posiedzenia z czerwca 2023 roku ([CM/Notes/1468/H46-20](https://hudoc.exec.coe.int/eng?i=CM/Notes/1468/H46-20E), HUDOC-EXEC, dostęp 2026.11.03):
 
-1. **2021.11.04:** Polska zapłaciła spółce 3418 euro zadośćuczynienia.
-2. **2022.04.11:** rząd poinformował, że prawo nie pozwala wznowić sprawy spółki. Powołał wyrok K 6/21 i uznał wyrok za wykonany.
-3. **2022.06.10:** Komitet Ministrów odnotował K 6/21 z "grave concern" (z poważnym zaniepokojeniem). Wskazał trzy zadania: skład TK z prawidłowo wybranych sędziów, rozwiązanie sprawy orzeczeń wydanych z udziałem osób wybranych wadliwie i ochrona wyboru sędziów przed niewłaściwym wpływem.
-4. **2022.12.08:** Komitet wezwał do dopuszczenia trzech sędziów wybranych w październiku 2015 roku i odsunięcia osób wybranych wadliwie.
-5. **2023.06.07:** Komitet przyjął rezolucję tymczasową CM/ResDH(2023)142. Rząd utrzymywał, że wyrok K 6/21 wiąże wszystkich i blokuje takie kroki.
-6. **2023.12.07:** Komitet wyraził głęboki żal z powodu braku reakcji i dalszego powoływania się na K 6/21.
-
-Ocena, że wybory były wadliwe, pochodzi od ETPC i Komitetu. Rząd w tym okresie i TK zaprzeczali, że ETPC może je oceniać. Według danych Helsińskiej Fundacji Praw Człowieka, przytoczonych przez Komitet, w latach 2017-2022 trzy kwestionowane osoby orzekały w składach, które wydały 85 wyroków i 172 postanowienia o umorzeniu. Tych liczb nie sprawdzaliśmy.
+- część "Status of execution", środki generalne ("General measures"), pkt 3: Sekretarz Generalny Rady Europy wszczął 2021.12.07 procedurę z art. 52 Konwencji po wyroku K 6/21 i rozszerzył ją na K 7/21; raport zamykający to SG/Inf(2022)39;
+- tamże, pkt 4: według Helsińskiej Fundacji Praw Człowieka w latach 2017-2022 trzy osoby wybrane wadliwie orzekały w składach, które wydały 85 wyroków i 172 postanowienia o umorzeniu. Tych liczb nie sprawdzaliśmy.
 
 ## 4. Spory wewnątrz TK (poza kadencją prezes)
 
@@ -73,15 +67,14 @@ Dane z rocznych informacji TK ([karta](../zrodla/okres-2020-2023/statystyki-tk.m
 
 ## Czego nie ustalono
 
-- Treści rezolucji CM/ResDH(2023)142 i raportu Sekretarza Generalnego RE z procedury art. 52 (SG/Inf(2022)39).
+- Treści raportu Sekretarza Generalnego RE z procedury art. 52 (SG/Inf(2022)39).
 - Kto głosował przeciw w P 7/20 i dlaczego nie ma zdania odrębnego.
 - Pełnego uzasadnienia większości w K 1/20, P 7/20, K 3/21, K 6/21 i K 7/21; streszczono tylko zdania odrębne i fragmenty.
 - Zdań odrębnych Kieresa i innych w sprawach U 2/20 i Kpt 1/20, na które powołują się Kieres i Pszczółkowski.
 - Odpowiedzi kierownictwa TK na zarzuty Pszczółkowskiego o wyznaczanie składów.
 - Liczby spraw rozstrzygniętych z udziałem kwestionowanych osób w danych TK; liczby HFHR nie sprawdzono.
 - Przyczyn zmian liczby orzeczeń i skarg.
-- Dalszego biegu sprawy KE przeciw Polsce w TSUE oraz wyroku ETPC M.L. przeciwko Polsce.
 
 ## Zapis pracy
 
-Agent-Role: badacz, luki 2020-2023. Agent-Model: claude-opus-5-5 (konfiguracja zlecenia, nie niezależne potwierdzenie). Agent-Run: sesja Claude Code 2026.11.03, zadanie luki-2020-2023. Kwerenda: strony wyroków TK i ELI, pełne teksty w IPO TK, wyszukiwarka HUDOC-EXEC, roczne informacje TK (tekst PDF, wykresy odczytane z obrazu strony). Bez mediów.
+Agent-Role: badacz, luki 2020-2023. Agent-Model: claude-opus-5-5 (konfiguracja zlecenia, nie niezależne potwierdzenie). Agent-Run: sesja Claude Code 2026.11.03, zadanie luki-2020-2023. Kwerenda: strony wyroków TK i ELI, pełne teksty w IPO TK, notatka Sekretariatu KM w HUDOC-EXEC, roczne informacje TK (tekst PDF, wykresy odczytane z obrazu strony). Bez mediów.
