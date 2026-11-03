@@ -29,6 +29,16 @@ W pkt 5 TK zakwestionował takie rozumienie przepisu o ślubowaniu, które nie p
 
 Nie oznacza to uznania całej zmiany ustawy za niekonstytucyjną: pkt 1 potwierdza jej zgodność z wymienionymi tam przepisami Konstytucji, a kolejne punkty odrębnie oceniają poszczególne regulacje. Należy czytać cały zakres rozstrzygnięcia.
 
+## Co TK napisał o skutkach wyroku?
+
+W uzasadnieniu K 34/15, część III, pkt 12 ([strony 62-63](../zrodla/k-34-15.md#strona-62)), TK opisał, co wyrok oznacza dla konkretnych wyborów. Uzasadnienie to wyjaśnienie wyroku przez sam TK, a nie osobne rozstrzygnięcie.
+
+- **Dwa miejsca grudniowe:** według TK wybór z 2015.10.08 na miejsca sędziów, których kadencje kończyły się 2015.12.02 i 2015.12.08, nie miał ważnej podstawy. Ślubowanie się nie odbyło, więc TK uznał, że tego postępowania nie można dokończyć.
+- **Trzy miejsca listopadowe:** według TK wybór z 2015.10.08 był ważny i nic nie stało na przeszkodzie, aby osoby wybrane złożyły ślubowanie przed Prezydentem ([strona 63](../zrodla/k-34-15.md#strona-63)).
+- **Obowiązek Sejmu:** TK napisał, że Sejm ma obowiązek wybrać dwóch sędziów na miejsca zwalniane w grudniu.
+
+Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób, także na trzy miejsca listopadowe. Argumenty osób, które kwestionowały to rozumowanie, opiszemy osobno, na podstawie ich własnych wypowiedzi i dokumentów.
+
 ## Czego jeszcze nie rozstrzygamy?
 
 Samo odczytanie wyroków nie kończy badania. Osobno sprawdzimy skutki dla konkretnych aktów wyboru, argumenty kwestionujące stanowisko TK i odpowiedzialność uczestników sporu. Nie zastępujemy tego hasłem „wszyscy zostali wybrani prawidłowo” albo „wszyscy zostali wybrani nieprawidłowo”.

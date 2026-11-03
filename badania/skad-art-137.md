@@ -18,7 +18,7 @@ Jest też ślad próby usunięcia tego przepisu. W [druku 3397-A z 2015.05.26](.
 
 ## Czego jeszcze nie sprawdziliśmy
 
-[Wyrok K 34/15](../zrodla/k-34-15.md#strona-33), uzasadnienie, część III, pkt 6.5, s. 32-33, opisuje wprowadzenie rozwiązania podczas prac komisji po pierwszym czytaniu. Wskazuje [posiedzenie komisji z 2015.05.12](https://orka.sejm.gov.pl/Zapisy7.nsf/wgskrnr/SPC-236): Komisja Sprawiedliwości i Praw Człowieka nr 236 i Komisja Ustawodawcza nr 129, s. 29-32 zapisu. To wskazówka do dalszego sprawdzania. Samego zapisu komisji nie odczytaliśmy ani nie zarchiwizowaliśmy: przy otwarciu serwer wymagał weryfikacji człowieka. Dostęp: 2026.11.03.
+[Wyrok K 34/15](../zrodla/k-34-15.md#strona-32), uzasadnienie, część III, pkt 6.5, s. 32-33, opisuje wprowadzenie rozwiązania podczas prac komisji po pierwszym czytaniu. Wskazuje [posiedzenie komisji z 2015.05.12](https://orka.sejm.gov.pl/Zapisy7.nsf/wgskrnr/SPC-236): Komisja Sprawiedliwości i Praw Człowieka nr 236 i Komisja Ustawodawcza nr 129, s. 29-32 zapisu. To wskazówka do dalszego sprawdzania. Samego zapisu komisji nie odczytaliśmy ani nie zarchiwizowaliśmy: przy otwarciu serwer wymagał weryfikacji człowieka. Dostęp: 2026.11.03.
 
 Następne kroki:
 
