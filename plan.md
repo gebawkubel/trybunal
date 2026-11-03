@@ -8,7 +8,7 @@ Zakres obejmuje genezę konfliktu i wszystkie późniejsze etapy aż do aktualne
 | 2015 | Kto został wybrany, na jakie miejsca i co orzekł TK? | [Pięć miejsc](badania/piec-miejsc.md), ustawy, uchwały, głosowania, ślubowania i zapis komisji |
 | 2016-2019 | Publikacja wyroków, zmiany prawa, skład i kierownictwo | [Przegląd wydarzeń](badania/okres-2016-2019.md), z listą braków |
 | 2020-2023 | Skutki ważnych orzeczeń, spór europejski i spór wewnątrz TK | [Przegląd wydarzeń](badania/okres-2020-2023.md), z listą braków |
-| 2024 do dziś | Próby naprawy, nowe wybory i aktualne decyzje | [Przegląd wydarzeń](badania/okres-2024-2026.md) i [katalog proponowanych rozwiązań](badania/scenariusze-naprawy.md) |
+| 2024 do dziś | Próby naprawy, nowe wybory i aktualne decyzje | [Przegląd wydarzeń](badania/okres-2024-2026.md) i [katalog proponowanych rozwiązań](badania/scenariusze-naprawy.md), [ważność Zgromadzenia Ogólnego z 2026.11.03](badania/zgromadzenie-2026-11-03.md) |
 
 ## Czego szukamy w każdym okresie
 
@@ -25,7 +25,8 @@ Zakres obejmuje genezę konfliktu i wszystkie późniejsze etapy aż do aktualne
 3. Sprawdzić wykonanie wyroków europejskich oraz skutki sporu dla konkretnych spraw i obywateli.
 4. Zweryfikować spór o kadencję prezes w 2022-2023 roku na podstawie oryginalnych pism i przepisów.
 5. Uzupełniać wydarzenia od 2024 roku, a aktualne komunikaty porównywać z dokumentami decyzji. Zapowiedzi nie oznaczają, że zdarzenie już nastąpiło.
-6. Dopiero po zbadaniu konkretnych zarzutów tworzyć oceny odpowiedzialności i porównanie rozwiązań. Lista propozycji nie jest jeszcze rekomendacją.
+6. Uzupełnić notatkę o Zgromadzeniu Ogólnym z 2026.11.03: uchwały i protokół, gdy zostaną opublikowane, pełna opinia Komisji Weneckiej, długość aplikacji sędziowskiej Anny Korwin-Piotrowskiej (od niej zależy, kto ma najdłuższy staż), dalszy los projektu budżetu TK.
+7. Dopiero po zbadaniu konkretnych zarzutów tworzyć oceny odpowiedzialności i porównanie rozwiązań. Lista propozycji nie jest jeszcze rekomendacją.
 
 Każdy punkt dzielimy na małe zadania z dokumentami i recenzją. [Zadanie obejmujące całość](https://github.com/gebawkubel/trybunal/issues/12). [Pierwszy moduł: pięć miejsc w 2015 roku](https://github.com/gebawkubel/trybunal/issues/1).
 
