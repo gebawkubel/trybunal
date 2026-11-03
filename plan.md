@@ -11,3 +11,5 @@ Pierwsze pytanie: **co wydarzyło się wokół wyboru pięciu sędziów TK w 201
 Nie wskazujemy winnego przed zebraniem dowodów. Wcześniejsze wydarzenia uwzględnimy tam, gdzie pomagają wyjaśnić początek sporu.
 
 [Zadanie na GitHubie](https://github.com/gebawkubel/trybunal/issues/1)
+
+Pierwszy materiał: [pięć miejsc w TK](badania/piec-miejsc.md). Zebrano K 34/15 i K 35/15; pozostałe dokumenty nadal wymagają zebrania.
