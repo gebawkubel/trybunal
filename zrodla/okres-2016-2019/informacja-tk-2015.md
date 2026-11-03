@@ -1,10 +1,10 @@
 # Informacja TK o problemach z 2015 roku: obsada pięciu miejsc
 
-- Autor: Trybunał Konstytucyjny (dokument z prezesury Andrzeja Rzeplińskiego, strona tytułowa: "Warszawa 2016"; przyjęty przez Zgromadzenie Ogólne w kwietniu 2016, druk sejmowy nr 470).
-- Data: 2016 (przedstawiona Sejmowi 2016.07.22).
-- URL: https://trybunal.gov.pl/fileadmin/content/dokumenty/publikacje/informacje_o_problemach/Informacja2015.pdf
+- Autor: Trybunał Konstytucyjny (dokument z prezesury Andrzeja Rzeplińskiego, strona tytułowa: "Warszawa 2016"; zatwierdzony przez Zgromadzenie Ogólne i zaprezentowany na jego posiedzeniu 2016.04.20; Prezes przekazał go Marszałkowi Sejmu pismem z 2016.04.27, druk sejmowy nr 470).
+- Data: 2016 (omawiana na posiedzeniu Sejmu 2016.07.22).
+- URL: https://trybunal.gov.pl/fileadmin/content/dokumenty/publikacje/informacje_o_problemach/Informacja2015.pdf; druk sejmowy: https://api.sejm.gov.pl/sejm/term8/prints/470/470.pdf (pismo przewodnie, s. 1).
 - Dostęp: 2026.11.03.
-- Lokalizator: rozdział I, pkt 3, s. 9-10; s. 23 (akapit "Mimo upływu kadencji trojga sędziów"); s. 25-26.
+- Lokalizator: rozdział I, pkt 3, s. 9-10; s. 23 (akapit "Mimo upływu kadencji trojga sędziów"); s. 26.
 
 ## Wyciąg opisowy
 
