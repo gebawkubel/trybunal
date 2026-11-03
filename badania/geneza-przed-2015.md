@@ -2,6 +2,8 @@
 
 Sprawdzono: 2026.11.03. Notatka opisuje zasady wyboru sędziów Trybunału Konstytucyjnego (TK) obowiązujące od 1997 roku, to, jak Sejm stosował je w praktyce, oraz wcześniejsze spory. Wyjaśnia też, dlaczego w 2015 roku do obsadzenia było pięć miejsc w czasie dwóch kadencji Sejmu. Nie ocenia odpowiedzialności uczestników.
 
+Oznaczenia źródeł: **[dok]** dokument lub strona autora, **[media x2]** dwa niezależne artykuły, **[media x1]** jeden artykuł. Fakty bez oznaczenia mają link do dokumentu. Relacji medialnych nie sprawdziliśmy z nagraniem.
+
 ## Zasady: Konstytucja i ustawa z 1997 roku
 
 - **Kto wybiera i na ile:** TK składa się z 15 sędziów. Sejm wybiera każdego z nich osobno („indywidualnie”) na 9 lat. Ponowny wybór jest niedopuszczalny ([Konstytucja, art. 194 ust. 1](../zrodla/konstytucja.md#art-194)).
@@ -24,7 +26,7 @@ Kto zgłosił kandydatów w 2006 roku, nie ustaliliśmy z dokumentów: API Sejmu
 
 **VII kadencja Sejmu (2011-2015), do 2012 roku.** Leon Kieres, zgłoszony przez PO, PSL i SLD, dostał 2012.07.13 340 głosów, w tym 80 posłów PiS. Wybory z października 2015 roku opisuje [notatka o pięciu miejscach](piec-miejsc.md).
 
-**Co z tego wynika.** Fakt: prawo wymagało tylko bezwzględnej większości, więc większość sejmowa mogła wybrać sędziego bez opozycji. Fakt: w imiennych głosowaniach z 2006 roku wynik rozstrzygały głosy PiS, Samoobrony i LPR (Bagińska wybrana, Szlachta odrzucony, gdy LPR się wstrzymała). Przy głosowaniu listą nie wiadomo, na kogo głosował poseł. Fakt: w zebranych głosowaniach z lat 2010-2011 nie przeszedł żaden kandydat PiS. Nasz wniosek: w obu okresach o składzie decydowała ówczesna większość, choć czasem kandydaci dostawali też głosy opozycji. Określenia w rodzaju „TK PiS” czy „TK PO” są ocenami polityków i komentatorów; tu ich nie sprawdzaliśmy. Liczba głosów nie mówi nic o kwalifikacjach ani o tym, jak sędziowie potem orzekali.
+**Co z tego wynika.** Fakt: prawo wymagało tylko bezwzględnej większości, więc większość sejmowa mogła wybrać sędziego bez opozycji. Fakt: w 2006 roku wynik rozstrzygały głosy PiS, Samoobrony i LPR, także przy głosowaniu listą. Na przykład Hermeliński dostał 237 głosów, w tym PiS 141, Samoobrony 38, LPR 28 i PSL 17. Rzepliński dostał 152 głosy wyłącznie od PO, SLD i PSL ([rozkład według klubów](../zrodla/przed-2015/glosowania-2006-2012.md#głosowania-listą-głosy-za-według-klubów)). Szlachta przepadł, gdy LPR się wstrzymała. Fakt: w latach 2007-2011 wybrani kandydaci mieli głosy PO i PSL; Rzepliński dostał 2007.12.18 222 głosy (PO 195, PSL 25, niezrzeszeni 2), a wszyscy 137 głosujących posłów PiS było przeciw. W zebranych głosowaniach z lat 2010-2011 nie przeszedł żaden kandydat PiS, choć np. Tuleja dostał także 98 głosów posłów PiS. Nasz wniosek: w obu okresach o składzie decydowała ówczesna większość, choć czasem kandydaci dostawali też głosy opozycji. Określenia w rodzaju „TK PiS” czy „TK PO” są ocenami polityków i komentatorów; tu ich nie sprawdzaliśmy. Liczba głosów nie mówi nic o kwalifikacjach ani o tym, jak sędziowie potem orzekali.
 
 ## Wcześniejsze spory o TK
 
@@ -56,7 +58,7 @@ Dlaczego dwie kadencje Sejmu? Sejm VII kadencji działał do 2015.11.11, a Sejm 
 
 ## Czego nie ustalono
 
-- Kto zgłosił kandydatów w 2006 roku (druki V kadencji i stenogramy posiedzeń z 2006.10.27, 2006.11.16-17 i 2006.12.08).
+- Kto zgłosił kandydatów w 2006 roku. Możliwa droga: archiwum druków V kadencji na orka.sejm.gov.pl (baza Druki5ka) oraz stenogramy posiedzeń z 2006.10.27, 2006.11.16-17 i 2006.12.08.
 - Czy lista uchwał z lat 1997-2012 jest pełna. Wyszukiwarka ELI nie zwróciła uchwał z lat 2004-2005, 2009 i 2013-2014; nie sprawdziliśmy, czy w tych latach nie było wyborów, czy uchwały mają inne tytuły.
 - Głosowania z lat 1997-2003 i ich rozkład według klubów.
 - Treść Regulaminu Sejmu z lat 1997-2015 o wyborze sędziów TK, w tym terminu zgłoszeń.
