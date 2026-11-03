@@ -41,7 +41,7 @@ Każda zmiana w repozytorium przechodzi przez PR (propozycję zmiany na GitHubie
 | [#29](https://github.com/gebawkubel/trybunal/pull/29) | 2026.11.03 | [Dopuszczenie sędziów do orzekania](badania/piec-miejsc.md#dopuszczenie-do-orzekania) | 2 blokery, potem PASS |
 | [#30](https://github.com/gebawkubel/trybunal/pull/30) | 2026.11.03 | Porządek po badaniach #24-#29 | PASS |
 | [#31](https://github.com/gebawkubel/trybunal/pull/31) | 2026.11.03 | [Kto odpowiada za kryzys i które rozwiązania są lepsze](badania/odpowiedzialnosc-i-rozwiazania.md) | 3 rundy blokerów, potem PASS |
-| [#32](https://github.com/gebawkubel/trybunal/pull/32) | 2026.11.03 | [Konfederacja po posiedzeniu RBN](zrodla/okres-2024-2026/konfederacja-po-rbn-2026-11-03.md), [Zandberg po spotkaniu u Prezydenta](zrodla/okres-2024-2026/zandberg-po-spotkaniu-2026-10-31.md) i [Zandberg po RBN](zrodla/okres-2024-2026/zandberg-po-rbn-2026-11-03.md): napisy nagrań WP od użytkownika i transkrypcja maszynowa nagrania Razem | PASS, poprawki po uwagach |
+| [#32](https://github.com/gebawkubel/trybunal/pull/32) | 2026.11.03 | [Konfederacja po posiedzeniu RBN](zrodla/okres-2024-2026/konfederacja-po-rbn-2026-11-03.md), [Zandberg po spotkaniu u Prezydenta](zrodla/okres-2024-2026/zandberg-po-spotkaniu-2026-10-31.md) i [Zandberg po RBN](zrodla/okres-2024-2026/zandberg-po-rbn-2026-11-03.md): napisy nagrań WP od użytkownika i transkrypcja maszynowa nagrania Razem | 1 bloker, potem PASS |
 | [#33](https://github.com/gebawkubel/trybunal/pull/33) | 2026.11.03 | Walidator pomija katalogi robocze agentów (.claude) | PASS |
 | [#34](https://github.com/gebawkubel/trybunal/pull/34) | 2026.11.03 | [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, art. 235, wyroki, projekty, Komisja Wenecka | 1 bloker, potem PASS |
 | [#35](https://github.com/gebawkubel/trybunal/pull/35) | 2026.11.03 | [Skutki dla obywateli](badania/skutki-dla-obywateli.md) | 2 blokery, potem PASS |
@@ -184,6 +184,6 @@ f6842c46b86e87494bf4d55be1875e740ac25851a84df21f2e711e9e4cfc5929  recenzja-anali
 - w skutkach dla obywateli zły numer strony raportu HFPC (s. 12 zamiast s. 22) i fakt o skarżącej M.L. bez lokalizatora;
 - w postępowaniach wobec osób tylko nieścisłości (daty przeszukania, dwie wersje liczby wniosków w jednej relacji medialnej, określenie postępowania wobec trojga sędziów).
 
-Wszystko poprawiliśmy przed scaleniem. Po badaniach skorygowaliśmy ocenę odpowiedzialności; korekty są wymienione w jej sekcji "Korekty".
+Wszystko poprawiliśmy przed scaleniem, poza jedną uwagą nieblokującą do #35 (informacja lekarza w sprawie M.L. jako relacja skarżącej), którą wprowadziliśmy w PR #37. Po badaniach skorygowaliśmy ocenę odpowiedzialności; korekty są wymienione w jej sekcji "Korekty".
 
 **Walidator (PR #33).** Katalogi robocze agentów w głównym katalogu dawały fałszywy błąd "Powtórzone ID". Walidator pomija teraz katalog .claude, który nie ma plików śledzonych. Zmianę recenzowano osobno.

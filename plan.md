@@ -26,7 +26,7 @@ Zakres obejmuje genezę konfliktu i wszystkie późniejsze etapy aż do aktualne
 4. Zweryfikować spór o kadencję prezes w 2022-2023 roku na podstawie oryginalnych pism i przepisów. Stan: [kadencja prezes](badania/kadencja-prezes-2022-2023.md); otwarte: oryginały pism sędziów i uchwały Zgromadzenia z 2023.03.01.
 5. Uzupełniać wydarzenia od 2024 roku, a aktualne komunikaty porównywać z dokumentami decyzji. Zapowiedzi nie oznaczają, że zdarzenie już nastąpiło.
 6. Uzupełnić notatkę o Zgromadzeniu Ogólnym z 2026.11.03: uchwały i protokół, gdy zostaną opublikowane, pełna opinia Komisji Weneckiej, długość aplikacji sędziowskiej Anny Korwin-Piotrowskiej (od niej zależy, kto ma najdłuższy staż), dalszy los projektu budżetu TK.
-7. Oceny odpowiedzialności i porównanie rozwiązań. Stan: [ocena](badania/odpowiedzialnosc-i-rozwiazania.md) po korekcie z 2026.11.03, z badaniami [postępowań wobec osób](badania/postepowania-wobec-osob.md) i [warunków rozwiązań](badania/warunki-rozwiazan.md); otwarte: luki wymienione w sekcji "Czego nie wiemy". To nie jest rekomendacja.
+7. Oceny odpowiedzialności i porównanie rozwiązań. Stan: [ocena](badania/odpowiedzialnosc-i-rozwiazania.md) po korekcie z 2026.11.03, z badaniami [postępowań wobec osób](badania/postepowania-wobec-osob.md), [warunków rozwiązań](badania/warunki-rozwiazan.md) i [skutków dla obywateli](badania/skutki-dla-obywateli.md); otwarte: luki wymienione w sekcji "Czego nie wiemy". To nie jest rekomendacja.
 
 Każdy punkt dzielimy na małe zadania z dokumentami i recenzją. [Zadanie obejmujące całość](https://github.com/gebawkubel/trybunal/issues/12). [Pierwszy moduł: pięć miejsc w 2015 roku](https://github.com/gebawkubel/trybunal/issues/1).
 
