@@ -155,7 +155,7 @@ Numery odnoszą się do scenariuszy powyżej. "Brak stanowiska" oznacza, że go 
 | PiS | 2, 5 | 1; reset: poseł Wójcik przeciw | Brak oficjalnego stanowiska partii wobec resetu |
 | Rozwój Plus, Mateusz Morawiecki | 5 (wotum nieufności) | - | Szczucki: własny wariant 3 |
 | Konfederacja, Mentzen, Bosak | 3, 5 (warunkowo) | - | Mentzen w 2026.04: Prezydent powinien przyjąć ślubowania. Po RBN 2026.11.03 Płaczek o posiedzeniu: "jestem przekonany, że pomysłu nie ma", a zarazem "Konfederacja ma konkretny pomysł" (bez opisu w nagraniu); Bosak: "wyborcy muszą pomóc" ([karta](../zrodla/okres-2024-2026/konfederacja-po-rbn-2026-11-03.md)) [media x1] |
-| Razem, Adrian Zandberg | 3 | - | Skrócenie kadencji Sejmu i wotum nieufności uważa za "arytmetycznie nierealne" ([karta Zandberga](../zrodla/okres-2024-2026/zandberg-po-spotkaniu-2026-10-31.md)) |
+| Razem, Adrian Zandberg | 3 | - | Skrócenie kadencji Sejmu i wotum nieufności uważa za "arytmetycznie nierealne"; po RBN 2026.11.03 odsyła też do propozycji Fundacji Batorego, HFPC, Klubu Jagiellońskiego i FOR [karta po RBN](../zrodla/okres-2024-2026/zandberg-po-rbn-2026-11-03.md) ([karta Zandberga](../zrodla/okres-2024-2026/zandberg-po-spotkaniu-2026-10-31.md)) |
 | Konfederacja Korony Polskiej, Grzegorz Braun | brak stanowiska | - | Hasło "resetu niepodległościowego" (2026.10.31) nie dotyczy TK [media x1]. Koło głosowało przeciw uchwale z 2026.03.13 |
 | TK pod kierunkiem Prezesa Święczkowskiego | 2 | 1 | Wyroki U 5/24, Kp 3/24, K 3/26. Zgromadzenia z 2026.11.03 nie uznaje |
 | Sędziowie TK wybrani w 2026 roku, Anna Korwin-Piotrowska | - | - | Stanowiska wobec scenariuszy nie znaleźliśmy. Zgromadzenie Ogólne z 2026.11.03 w składzie ośmiorga [media x2] |
@@ -181,6 +181,6 @@ Przebieg, sumy kontrolne i stałe linki do wszystkich plików, także pierwszych
 
 - Większość stanowisk znamy z mediów. Wpisów na platformie X nie odczytaliśmy bezpośrednio, a nagrań nie odsłuchaliśmy.
 - Analizy AI nie są opiniami ekspertów prawa. Zgodność dwóch modeli nie dowodzi trafności.
-- Stanowiska zmieniają się szybko. Lista pokazuje stan na wieczór 2026.11.03. Nowych stanowisk z tego dnia nie znaleźliśmy u PSL, Polski 2050, Razem, Lewicy, Korony i RPO. Reakcji premiera na oczekiwania Prezydenta z posiedzenia RBN też nie znaleźliśmy (do ok. 19:20). Z uczestników RBN wypowiedź po posiedzeniu mamy od Konfederacji (Bosak, Płaczek), z napisów do nagrania WP. Wypowiedź Zandberga po spotkaniu u Prezydenta z 2026.10.31 też mamy z napisów do nagrania WP.
+- Stanowiska zmieniają się szybko. Lista pokazuje stan na wieczór 2026.11.03. Nowych stanowisk z tego dnia nie znaleźliśmy u PSL, Polski 2050, Razem, Lewicy, Korony i RPO. Reakcji premiera na oczekiwania Prezydenta z posiedzenia RBN też nie znaleźliśmy (do ok. 19:20). Z uczestników RBN wypowiedź po posiedzeniu mamy od Konfederacji (Bosak, Płaczek), z napisów do nagrania WP. Wypowiedź Zandberga po spotkaniu u Prezydenta z 2026.10.31 też mamy z napisów do nagrania WP. Wypowiedź Zandberga po RBN mamy z naszej transkrypcji maszynowej nagrania partii Razem. Propozycji Klubu Jagiellońskiego i FOR, do których odsyła, nie odczytaliśmy.
 - Przebieg Zgromadzeń Ogólnych z 2026.11.03 znamy tylko z relacji mediów, bo protokołów i uchwał nie opublikowano.
 - Nie odczytaliśmy pełnej opinii Komisji Weneckiej z 2024 roku ani dokumentu Fundacji Batorego.
