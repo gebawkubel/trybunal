@@ -21,7 +21,7 @@ W 2015 roku kończyły się kadencje pięciu sędziów TK. Trzy kończyły się 
 
 To wybrane punkty. Brak wydarzenia w tabeli nie oznacza, że nie było ważne. Godziny ślubowania z 2015.12.03 komunikat Prezydenta nie podaje.
 
-Od pięciu osób wybranych 2015.10.08 Prezydent nie odebrał ślubowania. Potwierdza to minister w Kancelarii Prezydenta Andrzej Dera, który 2015.12.16 powiedział, że nie ma do tego podstawy, „gdyż nie ma uchwał o ich wyborze” ([wypowiedź na stronie Prezydenta](https://www.prezydent.pl/kancelaria/aktywnosc-ministrow/publikacja-orzeczenia-tk-bez-wplywu-na-stanowisko-prezydenta,9777)). To stanowisko Kancelarii Prezydenta. Biuro TK oceniało tę sytuację inaczej ([komunikat z 2015.12.23](https://trybunal.gov.pl/fileadmin/news_files/23122015-KOMUNIKAT_BIURA_TRYBUNALU_KONSTYTUCYJNEGO_01.pdf)).
+Od pięciu osób wybranych 2015.10.08 Prezydent nie odebrał ślubowania. Zgodnie podają to Kancelaria Prezydenta i Biuro TK. Minister w Kancelarii Prezydenta Andrzej Dera 2015.12.16 uzasadnił to tym, że nie ma do tego podstawy, „gdyż nie ma uchwał o ich wyborze” ([wypowiedź na stronie Prezydenta](https://www.prezydent.pl/kancelaria/aktywnosc-ministrow/publikacja-orzeczenia-tk-bez-wplywu-na-stanowisko-prezydenta,9777)). To stanowisko Kancelarii Prezydenta. Biuro TK oceniało tę sytuację inaczej: według niego trzech sędziów z października wybrano zgodnie z Konstytucją, a Prezydent nie odebrał od nich ślubowania ([komunikat z 2015.12.23](https://trybunal.gov.pl/fileadmin/news_files/23122015-KOMUNIKAT_BIURA_TRYBUNALU_KONSTYTUCYJNEGO_01.pdf)).
 
 ## Co dokładnie orzekł TK?
 
@@ -37,11 +37,11 @@ Nie oznacza to uznania całej zmiany ustawy za niekonstytucyjną: pkt 1 potwierd
 
 W uzasadnieniu K 34/15, część III, pkt 12 ([strony 62-63](../zrodla/k-34-15.md#strona-62)), TK opisał, co wyrok oznacza dla konkretnych wyborów. Uzasadnienie to wyjaśnienie wyroku przez sam TK, a nie osobne rozstrzygnięcie.
 
-- **Dwa miejsca grudniowe:** według TK wybór z 2015.10.08 na miejsca sędziów, których kadencje kończyły się 2015.12.02 i 2015.12.08, nie miał ważnej podstawy. Ślubowanie się nie odbyło, więc TK uznał, że tego postępowania nie można dokończyć.
+- **Dwa miejsca grudniowe:** według TK wybór z 2015.10.08 na miejsca sędziów, których kadencje kończyły się 2015.12.02 i 2015.12.08, opierał się na zgłoszeniu kandydatów według art. 137, czyli przepisu, który TK uznał w tym zakresie za niekonstytucyjny. TK pisze o niekonstytucyjnej „podstawie prawnej istotnego etapu procedury”. Ślubowanie się nie odbyło, więc TK uznał, że tego postępowania nie można dokończyć.
 - **Trzy miejsca listopadowe:** według TK wybór z 2015.10.08 był ważny i nic nie stało na przeszkodzie, aby osoby wybrane złożyły ślubowanie przed Prezydentem ([strona 63](../zrodla/k-34-15.md#strona-63)).
 - **Obowiązek Sejmu:** TK napisał, że Sejm ma obowiązek wybrać dwóch sędziów na miejsca zwalniane w grudniu.
 
-Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób, także na trzy miejsca listopadowe. Argumenty osób, które kwestionowały to rozumowanie, opiszemy osobno, na podstawie ich własnych wypowiedzi i dokumentów.
+Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób. Tylko dwie uchwały wskazują późniejszy początek kadencji: 2015.12.03 dla Piotra Pszczółkowskiego i 2015.12.09 dla Julii Przyłębskiej. Uchwały dotyczące Henryka Ciocha, Lecha Morawskiego i Mariusza Muszyńskiego takiej daty nie podają ([poz. 1182-1186](../zrodla/uchwaly-2015/indeks.md)). Biuro TK uznało, że tych troje wybrano na miejsca już obsadzone ([komunikat z 2015.12.23](https://trybunal.gov.pl/fileadmin/news_files/23122015-KOMUNIKAT_BIURA_TRYBUNALU_KONSTYTUCYJNEGO_01.pdf)). Argumenty osób, które kwestionowały to rozumowanie, opiszemy osobno, na podstawie ich własnych wypowiedzi i dokumentów.
 
 ## Czego jeszcze nie rozstrzygamy?
 
