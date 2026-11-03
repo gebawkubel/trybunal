@@ -31,3 +31,5 @@ fa41ecf722700749d412f372b188d81c1d6a99b98cb612d9547246661d53ebdf  analiza-a.md
 ```
 
 Uzupełnienie z późnego wieczora 2026.11.03: staż sędziów wyliczył osobny agent. W pliku zamieniliśmy tylko lokalną ścieżkę do pobranych plików na słowa "katalog roboczy agenta". Suma pliku przed tą zmianą: 34b1e784f12eeed3c9b1668d148fa4f84b4887061e9e0442e7e7d2275a256e34. Stan budżetu TK ustalił agent z modelem Sonnet (wersja niepotwierdzona); jego wyniki weszły do notatki tylko wraz ze źródłami.
+
+Wariant podstawowy w wyliczeniu stażu zakłada ciągłą pracę od początku aplikacji. Recenzent PR #22 wskazał, że życiorys tego nie potwierdza, więc notatka podaje wynik zależny od długości aplikacji. Wiersz Piotrowicza w wyliczeniu opiera się częściowo na pamięci modelu i wyszukiwarce, co nie wpływa na wynik.
