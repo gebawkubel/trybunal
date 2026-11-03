@@ -43,14 +43,26 @@ W uzasadnieniu K 34/15, część III, pkt 12 ([strony 62-63](../zrodla/k-34-15.m
 
 Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób. Tylko dwie uchwały wskazują późniejszy początek kadencji: 2015.12.03 dla Piotra Pszczółkowskiego i 2015.12.09 dla Julii Przyłębskiej. Uchwały dotyczące Henryka Ciocha, Lecha Morawskiego i Mariusza Muszyńskiego takiej daty nie podają ([poz. 1182-1186](../zrodla/uchwaly-2015/indeks.md)). Biuro TK uznało, że tych troje wybrano na miejsca już obsadzone ([komunikat z 2015.12.23](https://trybunal.gov.pl/fileadmin/news_files/23122015-KOMUNIKAT_BIURA_TRYBUNALU_KONSTYTUCYJNEGO_01.pdf)). Argumenty osób, które kwestionowały to rozumowanie, opiszemy osobno, na podstawie ich własnych wypowiedzi i dokumentów.
 
+## Dopuszczenie do orzekania
+
+Samo ślubowanie nie wystarczało, by zacząć orzekać. Prezes TK musiał jeszcze przydzielić sędziemu sprawy. Tak rozumiemy tu "dopuszczenie".
+
+**Pszczółkowski i Przyłębska.** TK umorzył 2016.01.07 sprawę U 8/15 o uchwały Sejmu z 2015.11.25 i 2015.12.02. Według [Informacji TK za 2015 r.](../zrodla/okres-2016-2019/informacja-tk-2015.md) (s. 10 i 26) po tym postanowieniu prezes TK włączył ich do orzekania. Datę 2016.01.12 podaje ETPC w wyroku Xero Flor ([§ 42](../zrodla/xero-flor.md)). Zarządzenia prezesa nie znaleźliśmy.
+
+**Cioch, Morawski, Muszyński.** Ślubowali 2015.12.03, ale prezes Rzepliński ich nie dopuścił. [Informacja TK za 2016 r.](../zrodla/okres-2016-2019/informacja-tk-2016.md) (s. 8, pisana za prezes Przyłębskiej) uznaje to za działanie "mimo braku ku temu podstawy prawnej". Rzepliński w Sejmie 2016.07.22 mówił, że Sejm wybrał tych trzech na miejsca już obsadzone ([wystąpienie](../zrodla/okres-2016-2019/rzeplinski-2016-07-22.md), s. 2-3). Dopuszczeni zostali 2016.12.20 według ETPC ([§ 59](../zrodla/xero-flor.md)), czyli w dniu, gdy Przyłębska objęła obowiązki prezesa. Podstawą była ustawa z 2016.12.13: pełniący obowiązki prezesa "przydziela sprawy sędziom Trybunału, którzy złożyli ślubowanie wobec Prezydenta" ([art. 18 pkt 2](../zrodla/okres-2016-2019/przepisy-wprowadzajace.md)). Informacja TK za 2016 r. mówi tylko, że "umożliwiono" im orzekanie, bez daty.
+
+**Hauser, Jakubecki, Ślebzak** (wybrani 2015.10.08). Prezydent nie odebrał od nich ślubowania ([Informacja TK za 2015 r.](../zrodla/okres-2016-2019/informacja-tk-2015.md), s. 23; ETPC [§ 9](../zrodla/xero-flor.md)). Nie ma dokumentu o ich dopuszczeniu; na listach sędziów orzekających z 2015 r. (s. 10) i z 2016 r. ([Informacja za 2016 r.](../zrodla/okres-2016-2019/informacja-tk-2016.md), s. 7) ich nie ma. Według [RPO z 2024 r.](../zrodla/okres-2016-2019/rpo-niedopuszczeni-sedziowie-2024.md) brak ślubowania uniemożliwił im objęcie urzędu. To stanowisko RPO. Jakubecki i Ślebzak wnieśli skargi do ETPC.
+
+**Nie ustalono:** zarządzeń prezesa z 2016.01.12 i 2016.12.20 oraz dokładnej daty przydziału spraw. Obie daty pochodzą z ETPC, bez drugiego źródła. Nie sprawdzaliśmy list sędziów po 2016 r.
+
 ## Czego jeszcze nie rozstrzygamy?
 
 Samo odczytanie wyroków nie kończy badania. Osobno sprawdzimy skutki dla konkretnych aktów wyboru, argumenty kwestionujące stanowisko TK i odpowiedzialność uczestników sporu. Nie zastępujemy tego hasłem „wszyscy zostali wybrani prawidłowo” albo „wszyscy zostali wybrani nieprawidłowo”.
 
-Zebraliśmy [ustawę z 2015.06.25](../zrodla/ustawa-tk-2015.md), [zmianę z 2015.11.19](../zrodla/zmiana-ustawy-tk-2015.md), uchwały, [głosowania](../zrodla/glosowania-2015.md) i [zapis komisji, na której powstał art. 137](skad-art-137.md). Kopie wyroków pobrane z serwera Senatu nie zawierają zdań odrębnych. Nie znaleźliśmy dokumentów pierwotnych z datami dopuszczenia poszczególnych sędziów wybranych w grudniu do orzekania. Opisy w mediach i encyklopediach nie wystarczą; to otwarte zadanie.
+Zebraliśmy [ustawę z 2015.06.25](../zrodla/ustawa-tk-2015.md), [zmianę z 2015.11.19](../zrodla/zmiana-ustawy-tk-2015.md), uchwały, [głosowania](../zrodla/glosowania-2015.md) i [zapis komisji, na której powstał art. 137](skad-art-137.md). Kopie wyroków pobrane z serwera Senatu nie zawierają zdań odrębnych. Dopuszczenie do orzekania opisuje osobna sekcja powyżej.
 
 ## Jak przygotowano tę notatkę
 
 Codex odczytał wyroki pobrane z serwera Senatu. Sentencje porównano z obrazem stron PDF. Kopie tekstowe zachowują wszystkie strony: 63 dla K 34/15 i 68 dla K 35/15. Nie przeprowadzono jeszcze niezależnej recenzji drugim modelem. Dokładny model bieżącej sesji nie został potwierdzony; nie oznaczamy jej jako wykonanej przez gpt-6-astra-medium.
 
-Uzupełnienie źródeł przygotowali agenci z osobnymi zadaniami: gpt-6-luna (uchwały) i gpt-6.1-sol (prace nad ustawą), obaj z ustawieniem medium, oraz agent Claude Code na modelu Sonnet (głosowania, ślubowania, zapis komisji). Ważne cytaty sprawdził prowadzący (claude-opus-5-5). To konfiguracja wykonanych zleceń, nie niezależne opinie prawne ani pomiar oszczędności tokenów.
+Uzupełnienie źródeł przygotowali agenci z osobnymi zadaniami: gpt-6-luna (uchwały) i gpt-6.1-sol (prace nad ustawą), obaj z ustawieniem medium, oraz agent Claude Code na modelu Sonnet (głosowania, ślubowania, zapis komisji). Sekcję o dopuszczeniu do orzekania przygotował agent Claude Code (model claude-sonnet-5-5, wersja niepotwierdzona). Ważne cytaty sprawdził prowadzący (claude-opus-5-5). To konfiguracja wykonanych zleceń, nie niezależne opinie prawne ani pomiar oszczędności tokenów.

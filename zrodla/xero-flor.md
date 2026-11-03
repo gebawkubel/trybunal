@@ -4,6 +4,8 @@
 
 Wyciąg opisowy po polsku, nie pełny tekst, nie cytat i nie tłumaczenie urzędowe. Pominięto pozostałą część wyroku. Daty i interpunkcję ujednolicono.
 
+- § 8-9: Sejm VII kadencji wybrał 2015.10.08 pięciu sędziów, w tym trzech (R.H., A.J., K.Ś.) na miejsca kończące kadencję 2015.11.06. Prezydent nie odebrał ślubowania od żadnego z wybranych 2015.10.08.
+- § 278: ETPC ocenia, że Prezydent odmówił zaprzysiężenia trzech osób wybranych 2015.10.08 i odebrał ślubowanie od trzech wybranych 2015.12.02. To ocena ETPC, nie fakt o dopuszczeniu do orzekania.
 - § 42: dopuszczenie Pszczółkowskiego i Przyłębskiej do orzekania 2016.01.12.
 - § 58: koniec kadencji prezesa Rzeplińskiego 2016.12.19.
 - §§ 59-60: dopuszczenie Ciocha, Morawskiego i Muszyńskiego 2016.12.20; powołanie Muszyńskiego na wiceprezesa 2017.07.05.
