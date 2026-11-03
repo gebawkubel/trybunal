@@ -123,3 +123,39 @@ Każde badanie wykonał osobny agent w osobnej kopii repozytorium, z wyszukiwani
 | #29 | dopuszczenie 2015-2016 | agent, model Sonnet (wersja niepotwierdzona) | agent, claude-opus-5-5 | treść dokumentu opisana błędnie, wniosek o podstawie prawnej podany jako fakt |
 
 Przy scalaniu gałęzi kolejnych badań konflikty w `zrodla/manifest.json` rozwiązywaliśmy przez połączenie wpisów i przeliczenie sum. Od PR #28 każdy plik w `zrodla/` ma wpis w manifeście.
+
+## Ocena odpowiedzialności i rozwiązań (PR #31)
+
+Wynik: [notatka o odpowiedzialności i rozwiązaniach](badania/odpowiedzialnosc-i-rozwiazania.md). Analizy oparto wyłącznie na materiale repozytorium (stan main po PR #30), bez nowego szukania w sieci.
+
+| Etap | Wykonawca | Plik |
+|---|---|---|
+| Polecenie | prowadzący, Claude Opus 5.5 | [plik](https://github.com/gebawkubel/trybunal/blob/95f069df462372e29e5237e8293e56da466df97e/badania/ocena-przebieg/polecenie.md) |
+| Analiza A | agent, Claude Fable 5.1 | [plik](https://github.com/gebawkubel/trybunal/blob/95f069df462372e29e5237e8293e56da466df97e/badania/ocena-przebieg/analiza-a.md) |
+| Analiza B | agent, Claude Opus 5.5 | [plik](https://github.com/gebawkubel/trybunal/blob/95f069df462372e29e5237e8293e56da466df97e/badania/ocena-przebieg/analiza-b.md) |
+| Recenzja analizy A | agent, Claude Opus 5.5 | [plik](https://github.com/gebawkubel/trybunal/blob/95f069df462372e29e5237e8293e56da466df97e/badania/ocena-przebieg/recenzja-analizy-a.md) |
+| Recenzja analizy B | agent, Claude Fable 5.1 | [plik](https://github.com/gebawkubel/trybunal/blob/95f069df462372e29e5237e8293e56da466df97e/badania/ocena-przebieg/recenzja-analizy-b.md) |
+
+Analizy powstały osobno, każdy etap raz. Sumy SHA-256 zapisane przed recenzjami:
+
+```
+58cd0def352290bdc018f78d1d71f18be36862f4f24c60b459f283a14fad703c  polecenie.md
+906875e03176d724031989a8ade4908d3ec0c446af4a161cbe55344809f23587  analiza-a.md
+3d5b146a5de594bede318464cde2c0bfb5cce3b036caf6792e77589b0ca07f10  analiza-b.md
+```
+
+W poleceniu przed publikacją zamieniliśmy lokalną ścieżkę repozytorium na słowo "publiczne". Suma po tej zmianie: `bbae260db457f18022177ed85c5adea26741d97707e2214c36bad6a7930b06ad`. W recenzjach zamieniono w ten sam sposób ścieżki katalogu roboczego.
+
+**Co znaleźli recenzenci.**
+- W obu analizach błędna data ślubowania czworga sędziów z 2015 roku (było 2015.12.03, tego samego dnia co K 34/15).
+- W analizie A:
+  - zwrot "sententia non existens" przypisany K 6/21 zamiast postanowieniu w P 7/20,
+  - błędna dominacja referendum,
+  - tabela, w której przy dwóch działaniach zamiast obrony podano zarzuty,
+  - wymuszone symetrie.
+- W analizie B:
+  - przepis o ślubowaniu wskazany jako art. 6 ust. 1 zamiast art. 4 ust. 1 ustawy o statusie sędziów TK,
+  - wnioski części 1 bez orzeczeń TK niekorzystnych dla obecnej większości (U 5/24, K 3/26),
+  - nieuzasadnione dominacje dwóch wariantów.
+
+Notatka przyjmuje tylko dominacje wskazane przez obie analizy i niezakwestionowane w recenzjach.

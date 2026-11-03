@@ -16,7 +16,7 @@ Badamy cały przebieg sporu: od jego genezy, przez wydarzenia z 2015 roku i pó�
 
 ## Co jest gotowe
 
-Stan na 2026.11.03. To wciąż wczesny etap: mamy dokumenty i przeglądy wydarzeń, ale nie ma jeszcze ocen odpowiedzialności ani własnej rekomendacji.
+Stan na 2026.11.03. Mamy dokumenty i przeglądy wszystkich okresów sporu oraz pierwszą ocenę odpowiedzialności i porównanie rozwiązań. Nie wydajemy własnej rekomendacji, a listy luk pokazują, czego jeszcze nie wiemy.
 
 **Od czego się zaczęło (2015)**
 - [Geneza: TK przed 2015 rokiem](badania/geneza-przed-2015.md): jak wybierano sędziów od 1997 roku i dlaczego w 2015 roku do obsadzenia było pięć miejsc.
@@ -35,6 +35,9 @@ Stan na 2026.11.03. To wciąż wczesny etap: mamy dokumenty i przeglądy wydarze
 **Spór teraz**
 - [Scenariusze naprawy TK](badania/scenariusze-naprawy.md): jakie rozwiązania są w debacie, kto je popiera i kto odrzuca.
 - [Czy Zgromadzenie Ogólne TK z 2026.11.03 było ważne](badania/zgromadzenie-2026-11-03.md): porównanie z przepisami.
+
+**Ocena**
+- [Kto odpowiada za kryzys TK i które rozwiązania są lepsze](badania/odpowiedzialnosc-i-rozwiazania.md): kluczowe decyzje, co orzekły o nich sądy, i porównanie rozwiązań według jawnych kryteriów.
 
 **Jak pracujemy**
 - [Jak sprawdzamy informacje](metodologia.md)
