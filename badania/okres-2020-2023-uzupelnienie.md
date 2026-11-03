@@ -35,14 +35,14 @@ W P 7/20 TK zapisał wynik "większością głosów", ale w opublikowanym tekśc
 Przebieg opisuje notatka [wyroki europejskie](wyroki-europejskie.md#2021-2023-rząd-i-tk-odrzucają-skutki-xero-flor) na podstawie [karty decyzji Komitetu Ministrów](../zrodla/okres-2020-2023/km-xero-flor-2022-2023.md). Tu dodajemy dwie informacje z notatki Sekretariatu Komitetu do posiedzenia z czerwca 2023 roku ([CM/Notes/1468/H46-20](https://hudoc.exec.coe.int/eng?i=CM/Notes/1468/H46-20E), HUDOC-EXEC, dostęp 2026.11.03):
 
 - część "Status of execution", środki generalne ("General measures"), pkt 3: Sekretarz Generalny Rady Europy wszczął 2021.12.07 procedurę z art. 52 Konwencji po wyroku K 6/21 i rozszerzył ją na K 7/21; raport zamykający to SG/Inf(2022)39;
-- tamże, pkt 4: według Helsińskiej Fundacji Praw Człowieka w latach 2017-2022 trzy osoby wybrane wadliwie orzekały w składach, które wydały 85 wyroków i 172 postanowienia o umorzeniu. Tych liczb nie sprawdzaliśmy.
+- tamże, pkt 4: według Helsińskiej Fundacji Praw Człowieka w latach 2017-2022 osoby wybrane na zajęte miejsca orzekały w składach, które wydały 85 wyroków i 172 postanowienia o umorzeniu. Tych liczb nie sprawdzaliśmy.
 
 ## 4. Spory wewnątrz TK (poza kadencją prezes)
 
 Udokumentowane w orzeczeniach:
 
 - **Wyznaczanie składów do wniosków o wyłączenie sędziów.** Pszczółkowski napisał w zdaniu odrębnym do K 3/21, że od 2016.12.21 wyznaczono go tylko do 6 takich składów. Z 50 wniosków w głośnych sprawach z lat 2020-2021 rozpatrywał 2. W K 3/21 sześć wniosków rozpatrywało siedmioro sędziów, w tym troje objętych wnioskami. Uważał, że składy należało wyznaczać alfabetycznie ([karta](../zrodla/okres-2020-2023/k-3-21-zdania-odrebne.md)). To jego opis; odpowiedzi prezes TK na ten zarzut nie znaleźliśmy.
-- **Terminy uzasadnień.** Uzasadnienie K 3/21 dano sędziom do podpisu 2022.09.20, prawie rok po wyroku. Ustawa przewiduje miesiąc (Pszczółkowski, pkt 1.1). W K 1/20 Wyrembak zarzucił, że uzasadnienie dano mu do podpisu przed udostępnieniem protokołu rozprawy ([karta K 1/20](../zrodla/okres-2020-2023/k-1-20.md)).
+- **Terminy uzasadnień.** Według Pszczółkowskiego uzasadnienie K 3/21 dano sędziom do podpisu 2022.09.20, prawie rok po wyroku. Ustawa przewiduje miesiąc (Pszczółkowski, pkt 1.1). W K 1/20 Wyrembak zarzucił, że uzasadnienie dano mu do podpisu przed udostępnieniem protokołu rozprawy ([karta K 1/20](../zrodla/okres-2020-2023/k-1-20.md)).
 - **Bezstronność byłych posłów.** Zarzut Kieresa i Pszczółkowskiego w K 1/20, opisany wyżej.
 
 Nie znaleźliśmy w tej kwerendzie dokumentów o odsunięciu konkretnego sędziego od orzekania w latach 2020-2023 ani skarg sędziów do innych organów.
@@ -63,7 +63,7 @@ Dane z rocznych informacji TK ([karta](../zrodla/okres-2020-2023/statystyki-tk.m
 | 2022 | 14 | 77 | 292 |
 | 2023 | 25 | 77 | 324 |
 
-**Fakt:** liczba wyroków spadła z 63 w 2015 roku do 14 w 2022 roku. Od 2021 roku umorzeń było kilka razy więcej niż wyroków. Liczba skarg spadała do 2020 roku, a w 2021 roku wzrosła. **Czego dane nie mówią:** nie wyjaśniają przyczyn. Przyczyn nie badaliśmy, więc nie przypisujemy spadku sporowi o TK. Serie skarg z lat 2015-2018 i od 2019 roku liczono nieco inaczej.
+**Fakt:** liczba wyroków spadła z 63 w 2015 roku do 14 w 2022 roku. Od 2021 roku umorzeń było kilka razy więcej niż wyroków. Serie skarg z lat 2015-2018 i od 2019 roku liczono nieco inaczej, więc porównujemy je ostrożnie: liczba skarg spadała do 2020 roku, a w 2021 roku wzrosła. **Czego dane nie mówią:** nie wyjaśniają przyczyn. Przyczyn nie badaliśmy, więc nie przypisujemy spadku sporowi o TK.
 
 ## Czego nie ustalono
 
