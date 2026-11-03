@@ -20,7 +20,7 @@ Oznaczenia jakości źródła przy stanowiskach: **[dok]** dokument lub strona a
   - **Rada Bezpieczeństwa Narodowego.** Prezydent Nawrocki w jawnej części posiedzenia nazwał sytuację kryzysem konstytucyjnym. Odpowiedzialnym uczynił premiera Tuska i zapowiedział użycie wszystkich swoich uprawnień ([TVN24](https://tvn24.pl/polska/posiedzenie-rady-bezpieczenstwa-narodowego-karol-nawrocki-krytykowal-donalda-tuska-mowil-o-pelnej-odpowiedzialnosci-st9320533), [rp.pl](https://www.rp.pl/polityka/art45438451-karol-nawrocki-do-donalda-tuska-daje-czas-do-11-listopada-na-ograniczenie-zapedow)) [media x2]. Oczekuje, że premier przed początkiem tygodnia obchodów Święta Niepodległości (2026.11.11) ograniczy działania swoich przedstawicieli w budynku TK, które Prezydent uważa za nielegalne ([komunikat KPRP](../zrodla/okres-2024-2026/rbn-2026-11-03.md)) [dok]. Rzecznik rządu Adam Szłapka ocenił, że Prezydent zrobił z posiedzenia polityczny wiec ([TVN24](https://tvn24.pl/polska/posiedzenie-rady-bezpieczenstwa-narodowego-karol-nawrocki-krytykowal-donalda-tuska-mowil-o-pelnej-odpowiedzialnosci-st9320533)) [media x1]. Szef Kancelarii Prezydenta Zbigniew Bogucki w Radiu ZET mówił, że zgromadzenie może zwołać tylko Prezes TK. W nagłówku relacji rp.pl podano też, że Prezydent nie odbierze ślubowań ([rp.pl, relacja na żywo](https://www.rp.pl/polityka/art45435671-zgromadzenia-sedziow-tk-i-sn-oraz-rbn-intensywny-polityczny-wtorek)) [media x1].
 - **Układ sił w Sejmie** ([API Sejmu, kluby](https://api.sejm.gov.pl/sejm/term10/clubs)): kluby koalicji (KO, PSL, Lewica, Polska 2050, Centrum) mają 239 posłów. Prawicowa opozycja (PiS, Rozwój Plus, Konfederacja, Korona, Demokracja Bezpośrednia) ma 210, Razem 4, niezrzeszeni 7. Zmiana Konstytucji wymaga w Sejmie 2/3 głosów przy obecności co najmniej połowy posłów (art. 235 Konstytucji), czyli 307 przy pełnej sali. Odrzucenie weta Prezydenta wymaga 3/5, czyli 276 przy pełnej sali (art. 122 ust. 5).
 
-Pełna tabela 69 sprawdzonych faktów ze źródłami: [weryfikacja faktów](scenariusze-przebieg/fakty-zweryfikowane.md).
+Pełna tabela 69 sprawdzonych faktów ze źródłami: [weryfikacja faktów](https://github.com/gebawkubel/trybunal/blob/2d831a9acef1db7ea9c0aa9882b8ca5b01b1e28d/badania/scenariusze-przebieg/fakty-zweryfikowane.md).
 
 ## Scenariusze obecne w debacie
 
@@ -169,13 +169,13 @@ Numery odnoszą się do scenariuszy powyżej. "Brak stanowiska" oznacza, że go 
 
 ## Jak powstała ta lista
 
-1. Dwa zespoły agentów AI (model Sonnet) zebrały publiczne stanowiska stron według [jednego polecenia](scenariusze-przebieg/polecenie-katalog.md).
-2. Dwa modele, Claude Fable 5.1 i Claude Opus 5.5, osobno i bez wglądu w inne wyniki, przygotowały analizy scenariuszy według [wspólnego polecenia](scenariusze-przebieg/polecenie-scenariusze.md).
+1. Dwa zespoły agentów AI (model Sonnet) zebrały publiczne stanowiska stron według [jednego polecenia](https://github.com/gebawkubel/trybunal/blob/2d831a9acef1db7ea9c0aa9882b8ca5b01b1e28d/badania/scenariusze-przebieg/polecenie-katalog.md).
+2. Dwa modele, Claude Fable 5.1 i Claude Opus 5.5, osobno i bez wglądu w inne wyniki, przygotowały analizy scenariuszy według [wspólnego polecenia](https://github.com/gebawkubel/trybunal/blob/2d831a9acef1db7ea9c0aa9882b8ca5b01b1e28d/badania/scenariusze-przebieg/polecenie-scenariusze.md).
 3. Sumy kontrolne pierwszych wersji zapisaliśmy przed recenzją.
 4. Każdą analizę zrecenzował drugi model. Osobni agenci sprawdzili fakty w źródłach pierwotnych i przypisania stanowisk.
 5. Prowadzący (Claude Opus 5.5) scalił wyniki. Twierdzenia obalone w weryfikacji pominął, a niepewne oznaczył.
 
-Wszystkie pliki, w tym pierwsze wersje z błędami wskazanymi w weryfikacji, są w [zapisie przebiegu](scenariusze-przebieg/przebieg.md).
+Przebieg, sumy kontrolne i stałe linki do wszystkich plików, także pierwszych wersji z błędami, są w [historii prac](../historia-prac.md#lista-scenariuszy-naprawy-pr-10-17-19-21).
 
 ## Ograniczenia
 

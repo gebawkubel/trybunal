@@ -16,14 +16,27 @@ Badamy cały przebieg sporu: od jego genezy, przez wydarzenia z 2015 roku i pó�
 
 ## Co jest gotowe
 
-To początek projektu. Mamy zasady pracy, [tekst Konstytucji](zrodla/konstytucja.md) i [pierwszą notatkę o pięciu miejscach w TK](badania/piec-miejsc.md), z pełnymi tekstami dwóch wyroków. Mamy też [listę scenariuszy naprawy TK obecnych w debacie](badania/scenariusze-naprawy.md), z informacją, kto je popiera i kto odrzuca. Nie opublikowaliśmy jeszcze ocen odpowiedzialności ani własnej rekomendacji.
+Stan na 2026.11.03. To wciąż wczesny etap: mamy dokumenty i przeglądy wydarzeń, ale nie ma jeszcze ocen odpowiedzialności ani własnej rekomendacji.
 
+**Od czego się zaczęło (2015)**
+- [Pięć miejsc w TK](badania/piec-miejsc.md): kogo Sejm wybrał w 2015 roku, na jakie miejsca i co orzekł TK. Zawiera pełne teksty wyroków K 34/15 i K 35/15.
+- [Skąd wziął się art. 137](badania/skad-art-137.md): kto zaproponował przepis o terminie zgłaszania kandydatów na sędziów, których kadencje upływały w 2015 roku, i jak głosował Sejm.
+
+**Co działo się potem**
+- [Lata 2016-2019](badania/okres-2016-2019.md): ustawy, publikacja wyroków, zmiana kierownictwa.
+- [Kierownictwo TK i dopuszczenie sędziów do orzekania w 2016 roku](badania/kierownictwo-2016.md).
+- [Lata 2020-2023](badania/okres-2020-2023.md): ważne orzeczenia i spór europejski.
+- [Od 2024 do dziś](badania/okres-2024-2026.md): próby naprawy, nowi sędziowie, spór o kierownictwo.
+
+**Spór teraz**
+- [Scenariusze naprawy TK](badania/scenariusze-naprawy.md): jakie rozwiązania są w debacie, kto je popiera i kto odrzuca.
+- [Czy Zgromadzenie Ogólne TK z 2026.11.03 było ważne](badania/zgromadzenie-2026-11-03.md): porównanie z przepisami.
+
+**Jak pracujemy**
 - [Jak sprawdzamy informacje](metodologia.md)
 - [Cały zakres i dalsze prace](plan.md)
-- [Lata 2016-2019](badania/okres-2016-2019.md)
-- [Lata 2020-2023](badania/okres-2020-2023.md)
-- [Od 2024 do dziś](badania/okres-2024-2026.md)
-- [Czy Zgromadzenie Ogólne TK z 2026.11.03 było ważne](badania/zgromadzenie-2026-11-03.md)
+- [Historia prac](historia-prac.md): kto co zrobił, jakie błędy znaleźli recenzenci i co poprawiliśmy.
 - [Jak możesz pomóc](wspolpraca.md)
+- Źródła: [tekst Konstytucji](zrodla/konstytucja.md) i kopie innych dokumentów w katalogu `zrodla`, każda z adresem oryginału.
 
 Projekt prowadzi **Gęba w Kubeł (GWK)** z pomocą AI. Zgodność odpowiedzi wielu modeli nie jest dowodem prawdziwości. Dokumenty można czytać tutaj lub otworzyć folder projektu w Obsidianie, programie do połączonych ze sobą notatek.

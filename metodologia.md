@@ -16,7 +16,7 @@ Nie każda błędna wypowiedź jest świadomym kłamstwem. Niezgodność działa
 
 ## AI pomaga, ale nie rozstrzyga
 
-Modele analizują pytanie osobno, zanim zobaczą odpowiedzi innych. Zapisujemy użyte materiały, polecenia, wyniki i ponowione próby. Potem sprawdzamy źródła i porównujemy argumenty. Nie wybieramy odpowiedzi przez głosowanie modeli.
+Modele analizują pytanie osobno, zanim zobaczą odpowiedzi innych. Zapisujemy użyte materiały, polecenia, wyniki i ponowione próby w [historii prac](historia-prac.md). Potem sprawdzamy źródła i porównujemy argumenty. Nie wybieramy odpowiedzi przez głosowanie modeli.
 
 ## Rozwiązania porównujemy według jawnych zasad
 
