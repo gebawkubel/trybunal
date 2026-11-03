@@ -12,7 +12,7 @@ Oznaczenia jakości źródła przy stanowiskach: **[dok]** dokument lub strona a
 - **Ustawy naprawcze z 2024 roku nie weszły w życie.** Prezydent Andrzej Duda skierował je do TK 2024.10.07. TK wyrokiem Kp 3/24 z 2025.07.29 uznał je w całości za niekonstytucyjne, przy trzech zdaniach odrębnych ([API Sejmu, proces 253](https://api.sejm.gov.pl/sejm/term10/processes/253), [TK](https://trybunal.gov.pl/s/kp-3-24)).
 - **Nowi sędziowie z 2026 roku.** Sejm wybrał 2026.03.13 sześć osób, 2026.06.11 Sławomira Patyrę, a 2026.09.04 Macieja Berka ([głosowania w API Sejmu](https://api.sejm.gov.pl/sejm/term10/votings/53/125)). Prezydent Karol Nawrocki odebrał ślubowanie od trojga: Magdaleny Bentkowskiej, Dariusza Szostka i Sławomira Patyry. Pozostali złożyli ślubowanie w Sejmie, bez Prezydenta. Prezes TK Bogdan Święczkowski ich nie dopuścił do orzekania ([ETPC, sprawa 17392/26](https://hudoc.echr.coe.int/eng?i=001-251710), § 7-14).
 - **Spór o ślubowanie.** TK wyrokiem K 3/26 z 2026.05.12 (3 głosy do 2) uznał, że przepis ustawy rozumiany jako obowiązek Prezydenta odebrania ślubowania jest niekonstytucyjny ([TK](https://trybunal.gov.pl/s/k-3-26)). ETPC 2026.05.05 wydał środek tymczasowy: władze mają nie utrudniać czworgu nowym sędziom objęcia obowiązków. To nie jest wyrok w sprawie. Komisja Wenecka w opinii CDL-AD(2026)031 z 2026.10.13 zaleciła, by Prezydent niezwłocznie odbierał ślubowanie, a przy odmowie uznała za dopuszczalne ślubowanie bez jego udziału (pkt 98). Spór kompetencyjny Prezydenta z Sejmem (Kpt 1/26) nie jest rozstrzygnięty ([TK](https://trybunal.gov.pl/s/kpt-1-26)).
-- **Ostatnie dni.** 2026.10.30 sędzia Anna Korwin-Piotrowska, jako zastępująca Prezesa, zarządziła przerwę w czynnościach Prezesa i Wiceprezesa TK ([komunikat na stronie TK](https://trybunal.gov.pl)). Prokurator Generalny złożył wnioski o uchylenie ich immunitetu [media x2]. 2026.10.31 Prezydent zaprosił liderów klubów na konsultacje.
+- **Ostatnie dni.** 2026.10.30 Anna Korwin-Piotrowska, wybrana w 2026 roku, w komunikacie podpisanym jako "zastępująca Prezesa TK" zarządziła przerwę w czynnościach Prezesa Bogdana Święczkowskiego i Wiceprezesa Bartłomieja Sochańskiego ([komunikat z 2026.10.31 na stronie TK](https://trybunal.gov.pl)). Siedmioro sędziów, w tym Święczkowski i Sochański, uznało te działania za bezprawne [media]. Kancelaria Prezydenta mówi o "siłowym przejęciu konstytucyjnego organu państwa" [media x2]. Prokurator Generalny złożył wnioski o uchylenie ich immunitetu [media x2]. 2026.10.31 Prezydent zaprosił liderów klubów na konsultacje.
 - **Układ sił w Sejmie** ([API Sejmu, kluby](https://api.sejm.gov.pl/sejm/term10/clubs)): kluby koalicji (KO, PSL, Lewica, Polska 2050, Centrum) mają 239 posłów. Prawicowa opozycja (PiS, Rozwój Plus, Konfederacja, Korona, Demokracja Bezpośrednia) ma 210, Razem 4, niezrzeszeni 7. Zmiana Konstytucji wymaga w Sejmie 2/3 głosów przy obecności co najmniej połowy posłów (art. 235 Konstytucji), czyli 307 przy pełnej sali. Odrzucenie weta Prezydenta wymaga 3/5, czyli 276 przy pełnej sali (art. 122 ust. 5).
 
 Pełna tabela 69 sprawdzonych faktów ze źródłami: [weryfikacja faktów](scenariusze-przebieg/fakty-zweryfikowane.md).
@@ -31,18 +31,18 @@ Sejm wybiera sędziów zwykłą większością, a gdy Prezydent nie odbiera ślu
   - Stowarzyszenie Iustitia [media x1].
   - Podobny kierunek zaleca Komisja Wenecka (opinia z 2026.10.13) [dok].
 - **Przeciw:**
-  - Prezydent Karol Nawrocki: "Podejmowanie pracy przez osoby, które nie złożyły ślubowania przed prezydentem, spotka się z moją twardą odpowiedzią" ([wywiad z 2026.10.15](https://www.prezydent.pl/aktualnosci/wypowiedzi-prezydenta-rp/wywiady/wywiad-z-prezydentem-rp-dla-polsat-news-i-interii-calosc,128664)) [dok],
+  - Prezydent Karol Nawrocki: "podejmowanie pracy przez sędziów, którzy nie złożyli przysięgi wobec Prezydenta Rzeczypospolitej Polskiej, z całą pewnością spotka się z moją twardą odpowiedzią" ([wywiad z 2026.10.15](https://www.prezydent.pl/aktualnosci/wypowiedzi-prezydenta-rp/wywiady/wywiad-z-prezydentem-rp-dla-polsat-news-i-interii-calosc,128664)) [dok],
   - PiS,
   - TK pod kierunkiem Prezesa Święczkowskiego (wyrok K 3/26).
 - **Główne zarzuty:** uchwała Sejmu nie jest źródłem prawa (art. 87 Konstytucji), a ustawa wymaga ślubowania "wobec Prezydenta". Zwolennicy odpowiadają, że już w 2015 roku TK w wyroku K 34/15 orzekł o obowiązku niezwłocznego odebrania ślubowania przez Prezydenta ([pkt 5 sentencji](../zrodla/k-34-15.md#strona-2)).
-- **Stan:** w toku. Pięcioro wybranych nie orzeka. Od 2026.10.30 trwa spór o to, kto kieruje TK.
+- **Stan:** w toku. Pięciorga wybranych nie dopuszczono do orzekania, a troje ślubujących przed Prezydentem odmawia orzekania do czasu ich dopuszczenia [media]. Od 2026.10.30 trwa spór o to, kto kieruje TK.
 
 ### 2. Ślubowanie tylko przed Prezydentem, który może je wstrzymać
 
 Sędzia obejmuje urząd dopiero po ślubowaniu przed Prezydentem, a Prezydent może odmówić, jeśli uważa wybór za wadliwy. Obecne kierownictwo TK pozostaje.
 
 - **Za:**
-  - Prezydent i Kancelaria Prezydenta: według szefa Kancelarii Zbigniewa Boguckiego ślubowanie w Sejmie to "ostentacyjne i świadome naruszenie prawa" (2026.04.09) [media x1],
+  - Prezydent i Kancelaria Prezydenta: szef Kancelarii Zbigniew Bogucki ocenił ślubowanie w Sejmie 2026.04.09 jako naruszenie prawa [media; dokładnego brzmienia nie potwierdziliśmy],
   - PiS: rzecznik Rafał Bochenek, "Ład konstytucyjny musi zostać przywrócony" (2026.10.31) [media x2]; Jarosław Kaczyński pod siedzibą TK 2026.09.29 wezwał do oporu, który ma mieć "charakter społeczny" [media x1],
   - TK w wyroku K 3/26 [dok].
 - **Przeciw:** koalicja rządząca, RPO, Komisja Wenecka. Ślubowania przed Prezydentem chce też część opozycji: Sławomir Mentzen (Konfederacja) w kwietniu 2026 pisał, że Prezydent powinien przyjąć ślubowanie [media x1]. Podobnie Krzysztof Szczucki (Rozwój Plus) [media x1].
@@ -60,16 +60,19 @@ Warianty:
 | Razem (Adrian Zandberg) | "reset Trybunału Konstytucyjnego i zabezpieczenie tego na poziomie konstytucyjnym", przy współpracy dużych sił politycznych | 2026.10.31 | [rp.pl](https://www.rp.pl/polityka/art45425861-zandberg-przedstawil-plan-na-kryzys-w-tk-proponuje-reset-i-nowy-sklad), [Euronews](https://pl.euronews.com/2026/10/31/kryzys-polityczny-wokol-trybunalu-bosak-chce-przedterminowych-wyborow-zandberg-proponuje-r) [media x2] |
 | PSL (Władysław Kosiniak-Kamysz, Urszula Pasławska) | Kosiniak-Kamysz: "Konsekwentnie i od lat proponuję reset konstytucyjny". Plan Pasławskiej: obecni sędziowie przechodzą w stan spoczynku, nowi wybierani większością 3/5 | 2026.10.31, 2026.11.02 | [Polsat News](https://www.polsatnews.pl/wiadomosc/2026-10-31/kosiak-kamysz-ma-pomysl-na-tk-wtoruja-mu-inni-alternatywa-to-chaos/), [Newsmax Polska](https://newsmaxpolska.pl/kraj/aktualnosci/79146/psl-proponuje-reset-w-trybunale-kadencje-sedziow-do-wygaszenia/) [media x2] |
 | Polska 2050 (Szymon Hołownia, szef klubu) | TK "musi zostać albo zlikwidowany, albo odbudowany w zupełnie inny sposób"; bez konkretnego planu | 2026.10.31 | [RMF24](https://www.rmf24.pl/fakty/polityka/news-holownia-po-spotkaniu-z-nawrockim-jest-wola-ze-strony-prezyd,nIdn,1024234) [media x2] |
-| Zarząd Helsińskiej Fundacji Praw Człowieka, za koncepcją ekspertów Fundacji Batorego | "reset konstytucyjny" jako "jedyny sposób" wyjścia z kryzysu; wybór 7 sędziów przez Sejm, 5 przez Senat, 3 przez Prezydenta. Rada HFPC się z tym nie zgadza | 2026.10.31 | [hfhr.pl](https://hfhr.pl/aktualnosci/stanowisko-zarzadu-hfpc-w-sprawie-sytuacji-wokol-tk) [dok]; dokumentu Fundacji Batorego nie odnaleźliśmy |
-| Krzysztof Szczucki (Rozwój Plus) | 12 sędziów wybieranych większością 3/5 na 12 lat, od następnej kadencji Sejmu; zaznacza, że to jego osobista propozycja | 2026.04-2026.10 | [Wprost](https://www.wprost.pl/kraj/12402846/szczucki-chce-resetu-tk-czeka-na-ruch-nawrockiego-ws-sedziow.html), [xyz.pl](https://xyz.pl/?p=197095) [media x2] |
+| Zarząd Helsińskiej Fundacji Praw Człowieka | realizacja "resetu konstytucyjnego" według koncepcji Fundacji Batorego jako "jedynym sposobem" wyjścia z kryzysu: zmiana zasad wyboru i wygaszenie kadencji wszystkich sędziów. Rada HFPC się z tym nie zgadza | 2026.10.31 | [hfhr.pl](https://hfhr.pl/aktualnosci/stanowisko-zarzadu-hfpc-w-sprawie-sytuacji-wokol-tk) [dok] |
+| Dr Tomasz Zalasiński, ekspert Fundacji Batorego | wybór 7 sędziów przez Sejm, 5 przez Senat, 3 przez Prezydenta; reset "musi zostać przeprowadzony w sposób transparentny" | 2026.10 | [OKO.press](https://oko.press/reset-trybunalu-konstytucyjnego-nowa-propozycja-zmiana-konstytucji-tk-od-nowa), [Bankier/PAP](https://www.bankier.pl/wiadomosc/Sklad-TK-wybrany-od-nowa-Pomysl-resetu-zyskuje-zwolennikow-ale-KO-protestuje-9218724.html) [media x2]; dokumentu Fundacji nie odnaleźliśmy |
+| Krzysztof Szczucki (Rozwój Plus) | 12 sędziów wybieranych większością 3/5 na 12 lat, od następnej kadencji Sejmu; zaznacza, że to jego osobista propozycja | 2026.04-2026.10 | [Bankier/PAP](https://www.bankier.pl/wiadomosc/Sklad-TK-wybrany-od-nowa-Pomysl-resetu-zyskuje-zwolennikow-ale-KO-protestuje-9218724.html) (szczegóły planu), [Wprost](https://www.wprost.pl/kraj/12402846/szczucki-chce-resetu-tk-czeka-na-ruch-nawrockiego-ws-sedziow.html), [xyz.pl](https://xyz.pl/?p=197095) [media x3] |
 | Senatorowie koalicji, m.in. Marszałek Senatu Małgorzata Kidawa-Błońska i Krzysztof Kwiatkowski | projekt zmiany Konstytucji: "Z dniem wejścia w życie niniejszej ustawy wygasa kadencja dotychczasowych sędziów Trybunału Konstytucyjnego"; 15 sędziów większością 3/5. Dalszego losu projektu nie ustaliliśmy | 2024.03.06 | [druk Senatu nr 55](https://www.senat.gov.pl/download/gfx/senat/pl/senatdruki/13161/druk/055.pdf?r13161) [dok] |
 
 - **Przeciw:**
-  - Donald Tusk: rozwiązanie "bez zmian w Konstytucji" [media x2],
+  - Donald Tusk: rozwiązanie "bez zmian w Konstytucji" [media x2]; słowo "reset" w jego cytowanych wypowiedziach nie pada, to wniosek z ich treści,
   - Włodzimierz Czarzasty: "Nie poprę żadnego resetu, nie poprę zmiany konstytucji" (2026.11.02) ([Portal Samorządowy](https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/czarzasty-jedynym-sposobem-na-rozwiazanie-sporu-ws-tk-jest-przyjecie-slubowania-sedziow-a-nie-reset-aktualizacja,682615.html)) [media x3],
   - Waldemar Żurek: "Reset to niebezpieczny pomysł dla demokracji" ([OKO.press](https://oko.press/minister-zurek-prezydent-zastosowal-brutalna-sile-jak-z-ustawek-a-reset-ws-tk-nie-jest-mozliwy), 2026.11.03) [media x2],
   - posłowie KO: Tomczykiewicz, "Nie można dokonywać resetu z ludźmi, którzy łamali konstytucję"; Myrcha ([Bankier/PAP](https://www.bankier.pl/wiadomosc/Sklad-TK-wybrany-od-nowa-Pomysl-resetu-zyskuje-zwolennikow-ale-KO-protestuje-9218724.html), 2026.10.27) [media x1],
-  - poseł PiS Michał Wójcik: "kwestia resetu jest niebezpieczna" (tamże) [media x1]. Oficjalnego stanowiska PiS nie znaleźliśmy. Przemysław Czarnek ocenia, że reset nie jest możliwy bez zdobycia 2/3 głosów [media x1].
+  - poseł PiS Michał Wójcik: "kwestia resetu jest niebezpieczna" (tamże) [media x1]. Oficjalnego stanowiska PiS nie znaleźliśmy.
+- **Inne oceny:** Przemysław Czarnek (PiS) ocenia, że reset nie jest możliwy bez zdobycia 2/3 głosów [media x1].
+- **Wcześniejsza propozycja:** 2024.01.12 Krzysztof Bosak zaproponował w Sejmie uzgodniony "reset konstytucyjny" TK, SN i KRS: "Uważamy, że to jest w tej chwili jedyna praworządna droga". Prezydent Duda: "Uważam, że jest to ciekawy pomysł" ([Wprost](https://www.wprost.pl/kraj/11556271/bosak-zaproponowal-reset-konstytucyjny-prezydent-duda-ciekawy-pomysl.html)) [media x2].
 - **Główne zarzuty:** Komisja Wenecka w opinii CDL-AD(2024)035 uznała przedwczesne zakończenie kadencji wszystkich sędziów TK za niezgodne ze standardami europejskimi [media x2, treści opinii nie odczytaliśmy]. Recenzenci obu analiz AI wskazali wyroki ETPC Baka przeciwko Węgrom i Grzęda przeciwko Polsce o przedwczesnym usuwaniu sędziów. RPO w 2024 roku ocenił, że wygaszenie kadencji "mieści się w swobodzie parlamentu" ([BIP RPO](https://bip.brpo.gov.pl/pl/content/rpo-tk-projekt-zmiany-konstytucji-senat)) [dok].
 - **Stan:** propozycje bez druku. Prezydent mówi o "resecie" ogólnie (scenariusz 4). Mentzen i Mateusz Morawiecki twierdzą, że Prezydent aprobuje ich pomysły, ale Kancelaria Prezydenta tego nie potwierdziła. Rzecznik Prezydenta: "konkretna inicjatywa musi wyjść od człowieka, który to zepsuł", czyli od premiera ([Polsat News](https://www.polsatnews.pl/wiadomosc/2026-11-02/rzecznik-prezydenta-o-przepychankach-w-tk-widac-bylo-ze-berek-sie-boi/), 2026.11.02) [media x2].
 
@@ -89,11 +92,12 @@ Spór rozstrzyga nowy Sejm albo nowy rząd. Warianty:
 - **dymisja rządu i wybory:** Przemysław Czarnek (PiS): "Pan podaje się do dymisji, prezydent rozpisuje nowe wybory i decyduje naród" (2026.11.02) ([Polsat News](https://www.polsatnews.pl/wiadomosc/2026-11-02/tusk-wskazuje-sposob-rozwiazania-konfliktu-o-tk-wspomina-o-nawrockim/)) [media x1],
 - **konstruktywne wotum nieufności i rząd techniczny Marka Jurka do wyborów w 2027 roku:** Mateusz Morawiecki (Rozwój Plus) (2026.10.31) ([TVN24](https://tvn24.pl/polska/pilne-spotkania-prezydenta-karola-nawrockiego-w-sprawie-trybunalu-konstytucyjnego-z-liderami-srodowisk-parlamentarnych-st9315602)) [media x3]. Wymaga większości ustawowej, czyli 231 głosów (art. 158).
 
-- **Przeciw:** koalicja rządząca (z wypowiedzi Tuska: "W pewnych sprawach nie może być kompromisu", orędzie 2026.10.31) [media x3].
+- **Przeciw:** wypowiedzi koalicji wprost o tym scenariuszu nie znaleźliśmy.
+- **Uwaga prawna:** sama dymisja rządu nie pozwala Prezydentowi rozpisać wyborów. Kadencję Sejmu skraca uchwała Sejmu (art. 98 ust. 3) albo Prezydent w dwóch przypadkach: gdy Sejm nie powoła rządu (art. 155 ust. 2) i gdy nie uchwali na czas budżetu (art. 225).
 
 ### 6. Nowa ustawa o TK bez zmiany Konstytucji
 
-Ustawa określa nowe zasady wyboru sędziów (np. większością 3/5), ślubowania i skutków dawnych wyborów. Pakiet z 2024 roku (druki Sejmu 253 i 254) to wariant tego scenariusza. Ustawę Sejm uchwala zwykłą większością. Prezydent może ją zawetować albo skierować do TK, ale nie może zrobić obu rzeczy naraz (art. 122). Jeśli TK uzna ustawę za niekonstytucyjną, Prezydent odmawia podpisu i żadna większość tego nie zmienia. Tak zakończył się pakiet z 2024 roku.
+Ustawa określa nowe zasady wyboru sędziów (np. większością 3/5), ślubowania i skutków dawnych wyborów. Pakiet z 2024 roku (druki Sejmu 253 i 254) to wariant tego scenariusza. Ustawę Sejm uchwala zwykłą większością. Prezydent może ją zawetować albo skierować do TK, ale nie może zrobić obu rzeczy naraz (art. 122). Jeśli TK uzna ustawę za niekonstytucyjną, Prezydent odmawia podpisu i żadna większość tego nie zmienia. Wyjątek: gdy niezgodne są tylko niektóre przepisy, niezwiązane nierozerwalnie z całą ustawą, Prezydent może podpisać ustawę bez nich (art. 122 ust. 4). Pakiet z 2024 roku TK uznał za niekonstytucyjny w całości.
 
 - **Za:** koalicja w 2024 roku (głosowania z 2024.07.24, [API Sejmu](https://api.sejm.gov.pl/sejm/term10/votings/16/12)) [dok]. W 2026 roku poseł KO Tomczykiewicz mówi o gotowości powrotu do projektu z wyborem 3/5 [media x1]. Fundacja Batorego opublikowała w 2024 roku ekspercki projekt ustawy (według katalogu, nie sprawdziliśmy).
 - **Przeciw:** PiS i Konfederacja głosowały w 2024 roku przeciw. Prezydent Duda skierował ustawy do TK, a TK uznał je za niekonstytucyjne (Kp 3/24).
@@ -101,7 +105,7 @@ Ustawa określa nowe zasady wyboru sędziów (np. większością 3/5), ślubowan
 
 ### 7. Nowa Konstytucja
 
-Prezydent 2026.05.03 powołał Radę Nowej Konstytucji: "potrzebujemy konstytucji nowej generacji" ([Notes from Poland](https://notesfrompoland.com/2026/05/04/polish-president-appoints-council-tasked-with-preparing-new-constitution/)) [media x2]. Nie wiemy, czy prace Rady obejmują TK.
+Prezydent 2026.05.03 powołał Radę Nowej Konstytucji, która ma przygotować konstytucję "nowej generacji" ([Notes from Poland](https://notesfrompoland.com/2026/05/04/polish-president-appoints-council-tasked-with-preparing-new-constitution/), [rp.pl](https://www.rp.pl/polityka/art44303401)) [media x2]. Nie wiemy, czy prace Rady obejmują TK.
 
 - **Przeciw:** Donald Tusk: Prezydent wie, że nie będzie większości konstytucyjnej dla jego pomysłów [media x2]. Krzysztof Gawkowski (Lewica): Lewica nie wejdzie do Rady [media x1].
 
@@ -119,11 +123,12 @@ Dwie niezależne analizy (Fable i Opus, osobno, na tym samym poleceniu) wskazał
 | Scenariusz | Na czym polega | Co wymaga lub co budzi zarzuty |
 |---|---|---|
 | Brak działania do 2027 roku | Dwa obozy trwają przy swoich stanowiskach, TK nie orzeka w pełnym składzie | Obie analizy oceniają go najgorzej dla pewności prawa |
+| Przejęcie TK od środka | Nowi sędziowie, gdy zyskają większość lub kierownictwo, zmieniają praktykę TK (analiza Fable) | Zależy od nierozstrzygniętego sporu o status nowych sędziów i od kworum Zgromadzenia Ogólnego; częściowo dzieje się od 2026.10.30 |
 | Naturalna wymiana składu | Kadencje kolejnych sędziów kończą się (np. Jarosław Wyrembak 2027.01.30, wyliczenie z biogramu TK), a Sejm obsadza wakaty | Działa powoli, nie rozwiązuje sporu o ślubowanie |
 | Kompromis pakietowy z Prezydentem | Np. Prezydent przyjmuje ślubowania, w zamian zmiana zasad wyboru na przyszłość | Obie analizy oceniają go wysoko pod warunkiem woli obu stron. Recenzent analizy Fable wskazał, że ocena zależy od przyjętej wykładni sporu o ślubowanie |
 | Wąska zmiana Konstytucji bez wygaszania kadencji | Np. termin na ślubowanie, obowiązek publikacji wyroków, wybór sędziów większością 3/5 z zabezpieczeniem przed blokadą | Wskazana przez obu recenzentów jako brak w analizach. Wymaga 2/3 głosów |
 | Wykonanie wyroków ETPC i TSUE jako plan | Ustawa wykonująca wyroki europejskie, nacisk Komisji Europejskiej i Komitetu Ministrów Rady Europy | Komitet Ministrów w 2026.06 wezwał do ustawy o składzie TK [media x1]. Kroków Komisji Europejskiej po wyroku TSUE nie ustaliliśmy |
-| Pominięcie TK przez sądy | Sądy same oceniają zgodność ustaw z Konstytucją (art. 8 ust. 2) | Według katalogu Zandberg wskazał to jako wariant awaryjny, ale weryfikator tego nie potwierdził. Krytyka: niejednolite orzecznictwo |
+| Pominięcie TK przez sądy | Sądy same oceniają zgodność ustaw z Konstytucją (art. 8 ust. 2) | Według katalogu Zandberg wskazał to jako wariant awaryjny. Weryfikator stanowisk tego nie potwierdził w czterech artykułach, a weryfikator faktów podaje to za mediami. Krytyka: niejednolite orzecznictwo |
 | Referendum | Głosowanie obywateli w sprawie ustroju TK (art. 125) | Rzecznik Prezydenta: "Mówi się o resecie, referendum" [media x2]. Nikt nie złożył wniosku |
 | Trybunał Stanu dla Prezydenta | Postawienie Prezydenta w stan oskarżenia za odmowę ślubowań (art. 145): 2/3 Zgromadzenia Narodowego | Wskazany przez obu recenzentów. Brak takiej większości |
 | Rozstrzygnięcie Kpt 1/26 lub wyrok ETPC w sprawie 17392/26 | Spór rozstrzyga orzeczenie TK albo ETPC | Pierwsze zależy od składu TK, którego status jest sporny; drugie nie ma terminu |
@@ -135,7 +140,7 @@ Numery odnoszą się do scenariuszy powyżej. "Brak stanowiska" oznacza, że go 
 
 | Strona | Za | Przeciw | Uwagi |
 |---|---|---|---|
-| Donald Tusk, KO | 1 | 3, 5, 7 | Część posłów KO dopuszcza ustawę z wyborem 3/5 (6) |
+| Donald Tusk, KO | 1 | 3 (wniosek z wypowiedzi: "bez zmian w Konstytucji"), 7 | Część posłów KO dopuszcza ustawę z wyborem 3/5 (6). O scenariuszu 5 wprost się nie wypowiedział |
 | Senatorowie koalicji, Marszałek Senatu | 3 (projekt z 2024) | - | Stanowiska Marszałek Senatu z 2026 nie znaleźliśmy |
 | Rząd, Waldemar Żurek | 1 | 3 | |
 | PSL, Władysław Kosiniak-Kamysz | 3 | - | Własny plan PSL z 2026.11.02 |
