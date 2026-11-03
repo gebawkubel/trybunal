@@ -28,3 +28,7 @@ f52aad4f48a447de551610419a542ab1ca09350a97733964cf2074b23e5aed59  polecenie-scen
 ```
 
 Katalogi i analizy zawierały błędy wykryte później w weryfikacji, np. nieaktualną liczebność klubów, błędne daty i przypisania stanowisk. Lista ich zawiera [weryfikacja faktów](fakty-zweryfikowane.md#2-błędy-w-plikach) oraz [weryfikacja stanowisk](stanowiska-zweryfikowane.md#błędy-w-katalogach). W liście końcowej korzystaliśmy z wersji zweryfikowanych.
+
+## Aktualizacja z wieczora 2026.11.03
+
+Wyniki Zgromadzeń Ogólnych TK i SN oraz posiedzenia RBN zebrał agent (model sonnet, wersja niepotwierdzona) przez wyszukiwarkę. Na stronie TK sprawdziliśmy bezpośrednio komunikat z 2026.11.03. Do listy dodaliśmy tylko informacje z przypisanym źródłem. Cytatów z relacji nie przenosiliśmy, bo nie porównaliśmy ich z nagraniami.
