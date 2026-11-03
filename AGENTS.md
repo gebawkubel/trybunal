@@ -23,3 +23,5 @@ Po PASS i zielonych kontrolach agent prowadzący publikuje raport recenzenta prz
 Przed scaleniem sprawdź aktywne konto, stan PR, SHA i wynik kontroli. Używaj zwykłego merge, aby zachować commity badawcze. Po scaleniu sprawdź autora, committera i CI main. GitHub może wystąpić jako techniczny committer: GitHub <noreply@github.com>; autorem pozostaje GWK. To sprawdzenie metadanych, nie dowód autentyczności.
 
 Ta procedura działa w aktywnej sesji agentów. Nie jest usługą działającą w tle bez uruchomionej sesji. Nie nadajemy kodowi z zewnętrznych PR sekretów ani dostępu do zapisu. Zmiany narzędzi recenzujemy oddzielnie od materiałów badawczych.
+
+Scalanie przez GitHub używa obecnie autora gebawkubel <gebawkubel@gmail.com>, czyli adresu konta GWK. Kontrola dopuszcza tę dokładną parę. Lokalne commity nadal używają adresu noreply GWK. Nie dopuszczaj innych adresów bez weryfikacji.

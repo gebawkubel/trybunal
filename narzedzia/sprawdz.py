@@ -31,7 +31,8 @@ for p in r.rglob('*'):
    if anchor not in slugs: errors.append('Brak kotwicy: '+link)
 # Sprawdzamy historię aktualnej wersji, bez obcych lokalnych gałęzi.
 email='351696654+gebawkubel@users.noreply.github.com'
-authors={f'Gęba w Kubeł <{email}>', f'gebawkubel <{email}>'}
+authors={f'Gęba w Kubeł <{email}>', f'gebawkubel <{email}>',
+         'gebawkubel <gebawkubel@gmail.com>'}
 committers=authors | {'GitHub <noreply@github.com>'}
 result=subprocess.run(['git','log','HEAD','--format=%an <%ae>|%cn <%ce>'],cwd=r,capture_output=True,text=True)
 if result.returncode!=0:
