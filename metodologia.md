@@ -4,7 +4,7 @@
 
 Szukamy ustaw, wyroków, uchwał, zapisów posiedzeń i pełnych nagrań. Przy każdym ustaleniu podajemy źródło i dokładne miejsce, np. artykuł ustawy lub stronę wyroku. Sprawdzamy przepisy obowiązujące w czasie badanego wydarzenia.
 
-Zachowujemy czytelną kopię dokumentu z adresem źródła. Oryginalny plik trzymamy, gdy jest potrzebny do sprawdzenia, np. skan. Ważne cytaty porównujemy z oryginałem. Zapis wypowiedzi przygotowany przez AI sprawdzamy z nagraniem.
+Zachowujemy czytelną kopię dokumentu z adresem oryginału. Samych plików oryginalnych nie powielamy. Ważne cytaty porównujemy z oryginałem. Zapis wypowiedzi przygotowany przez AI sprawdzamy z nagraniem.
 
 ## Oddzielamy zdarzenie od oceny
 
