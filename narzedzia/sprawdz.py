@@ -12,7 +12,6 @@ for p in r.rglob('*'):
  if not p.is_file() or '.git' in p.parts: continue
  if p.suffix not in ('.md','.json','.yml','.py'):continue
  s=p.read_text()
- # Oryginały HTML pozostają niezmienione; nie wykonujemy ich.
  for forbidden in ['/Users/', '/home/', 'ghp_', 'gho_', 'github_pat_']:
   if forbidden in s and p.suffix!='.py':errors.append('Dane prywatne: '+str(p.relative_to(r)))
  if p.suffix!='.md':continue

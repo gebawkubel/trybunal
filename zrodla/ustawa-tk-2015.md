@@ -1,8 +1,8 @@
 # Ustawa o TK z 2015.06.25
 
-[Źródło: API Sejmu](https://api.sejm.gov.pl/eli/acts/DU/2015/1064/text.html). [Pobrany HTML](ustawa-tk-2015.html). Dostęp: 2026.11.03. Publikator: Dz. U. 2015 poz. 1064.
+[Źródło: API Sejmu](https://api.sejm.gov.pl/eli/acts/DU/2015/1064/text.html). Dostęp: 2026.11.03. Publikator: Dz. U. 2015 poz. 1064.
 
-Kopia tekstu z serwisu ELI. Zachowano oznaczenia przepisów, dodano nagłówki artykułów i ujednolicono odstępy, myślniki oraz apostrofy. Przed cytowaniem sprawdź fragment w oryginale. Nie jest to tekst uwzględniający wszystkie późniejsze zmiany.
+Kopia tekstu z serwisu ELI. Zachowano oznaczenia przepisów, dodano nagłówki artykułów i ujednolicono odstępy, myślniki oraz apostrofy. Przed cytowaniem sprawdź fragment pod adresem źródła. Nie jest to tekst uwzględniający wszystkie późniejsze zmiany.
 
 Ustawa
 z dnia 25 czerwca 2015 r.

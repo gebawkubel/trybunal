@@ -7,7 +7,7 @@ tags: [konstytucja]
 ---
 # Konstytucja RP
 
-[Źródło: strona Trybunału Konstytucyjnego](https://trybunal.gov.pl/o-trybunale/akty-normatywne/konstytucja-rzeczypospolitej-polskiej). Pobrano: 2026.11.02. [Zachowany oryginał strony](konstytucja.html).
+[Źródło: strona Trybunału Konstytucyjnego](https://trybunal.gov.pl/o-trybunale/akty-normatywne/konstytucja-rzeczypospolitej-polskiej). Pobrano: 2026.11.02.
 
 Poniżej jest kopia do czytania i linkowania. Sprawdziliśmy obecność wszystkich 243 artykułów oraz kolejność słów względem pobranej strony. Dodaliśmy nagłówki artykułów i ujednoliciliśmy odstępy, myślniki oraz apostrofy.
 
