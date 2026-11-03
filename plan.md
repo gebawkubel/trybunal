@@ -8,7 +8,7 @@ Zakres obejmuje genezę konfliktu i wszystkie późniejsze etapy aż do aktualne
 | 2015 | Kto został wybrany, na jakie miejsca i co orzekł TK? | [Pięć miejsc](badania/piec-miejsc.md), ustawy, uchwały, głosowania, ślubowania, zapis komisji i dopuszczenie do orzekania |
 | 2016-2019 | Publikacja wyroków, zmiany prawa, skład i kierownictwo | [Przegląd wydarzeń](badania/okres-2016-2019.md), [kierownictwo w 2016 roku](badania/kierownictwo-2016.md), [publikacja wyroków](badania/publikacja-wyrokow.md) |
 | 2020-2023 | Skutki ważnych orzeczeń, spór europejski i spór wewnątrz TK | [Przegląd wydarzeń](badania/okres-2020-2023.md), [uzupełnienie](badania/okres-2020-2023-uzupelnienie.md), [wyroki europejskie](badania/wyroki-europejskie.md), [kadencja prezes](badania/kadencja-prezes-2022-2023.md) |
-| 2024 do dziś | Próby naprawy, nowe wybory i aktualne decyzje | [Przegląd wydarzeń](badania/okres-2024-2026.md) i [katalog proponowanych rozwiązań](badania/scenariusze-naprawy.md), [ważność Zgromadzenia Ogólnego z 2026.11.03](badania/zgromadzenie-2026-11-03.md) |
+| 2024 do dziś | Próby naprawy, nowe wybory i aktualne decyzje | [Przegląd wydarzeń](badania/okres-2024-2026.md) i [katalog proponowanych rozwiązań](badania/scenariusze-naprawy.md), [ważność Zgromadzenia Ogólnego z 2026.11.03](badania/zgromadzenie-2026-11-03.md), [warunki rozwiązań](badania/warunki-rozwiazan.md), [postępowania wobec osób](badania/postepowania-wobec-osob.md), [skutki dla obywateli](badania/skutki-dla-obywateli.md) |
 
 ## Czego szukamy w każdym okresie
 
@@ -21,12 +21,12 @@ Zakres obejmuje genezę konfliktu i wszystkie późniejsze etapy aż do aktualne
 ## Kolejne zadania
 
 1. Uzupełnić zmiany składu i dopuszczenie do orzekania, w tym następstwo po sędziach oraz wybór kierownictwa w 2016 roku. Stan: [kierownictwo i dopuszczenie do orzekania w 2016 roku](badania/kierownictwo-2016.md).
-2. Zbadać przyczyny i skutki opóźnionej publikacji wyroków, wraz z argumentami rządu i TK. Stan: [publikacja wyroków](badania/publikacja-wyrokow.md); otwarte: pisma prezesa TK i odpowiedzi KPRM, wynik śledztwa podjętego w 2025 roku.
-3. Sprawdzić wykonanie wyroków europejskich oraz skutki sporu dla konkretnych spraw i obywateli. Stan: [wyroki europejskie](badania/wyroki-europejskie.md); otwarte: orzecznictwo NSA i sądów powszechnych, wypłata zadośćuczynień.
+2. Zbadać przyczyny i skutki opóźnionej publikacji wyroków, wraz z argumentami rządu i TK. Stan: [publikacja wyroków](badania/publikacja-wyrokow.md); otwarte: pisma prezesa TK i odpowiedzi KPRM, wynik śledztwa podjętego w 2025 roku ([postępowania wobec osób](badania/postepowania-wobec-osob.md)).
+3. Sprawdzić wykonanie wyroków europejskich oraz skutki sporu dla konkretnych spraw i obywateli. Stan: [wyroki europejskie](badania/wyroki-europejskie.md), [skutki dla obywateli](badania/skutki-dla-obywateli.md) (orzecznictwo NSA i SN, zadośćuczynienia); otwarte: szersze orzecznictwo sądów powszechnych, liczba spraw zawieszonych w TK, dane za 2025-2026.
 4. Zweryfikować spór o kadencję prezes w 2022-2023 roku na podstawie oryginalnych pism i przepisów. Stan: [kadencja prezes](badania/kadencja-prezes-2022-2023.md); otwarte: oryginały pism sędziów i uchwały Zgromadzenia z 2023.03.01.
 5. Uzupełniać wydarzenia od 2024 roku, a aktualne komunikaty porównywać z dokumentami decyzji. Zapowiedzi nie oznaczają, że zdarzenie już nastąpiło.
 6. Uzupełnić notatkę o Zgromadzeniu Ogólnym z 2026.11.03: uchwały i protokół, gdy zostaną opublikowane, pełna opinia Komisji Weneckiej, długość aplikacji sędziowskiej Anny Korwin-Piotrowskiej (od niej zależy, kto ma najdłuższy staż), dalszy los projektu budżetu TK.
-7. Oceny odpowiedzialności i porównanie rozwiązań. Stan: [pierwsza wersja](badania/odpowiedzialnosc-i-rozwiazania.md), oparta na zbadanym materiale; otwarte: luki wymienione w jej sekcji "Czego nie wiemy". To nie jest rekomendacja.
+7. Oceny odpowiedzialności i porównanie rozwiązań. Stan: [ocena](badania/odpowiedzialnosc-i-rozwiazania.md) po korekcie z 2026.11.03, z badaniami [postępowań wobec osób](badania/postepowania-wobec-osob.md), [warunków rozwiązań](badania/warunki-rozwiazan.md) i [skutków dla obywateli](badania/skutki-dla-obywateli.md); otwarte: luki wymienione w sekcji "Czego nie wiemy". To nie jest rekomendacja.
 
 Każdy punkt dzielimy na małe zadania z dokumentami i recenzją. [Zadanie obejmujące całość](https://github.com/gebawkubel/trybunal/issues/12). [Pierwszy moduł: pięć miejsc w 2015 roku](https://github.com/gebawkubel/trybunal/issues/1).
 
