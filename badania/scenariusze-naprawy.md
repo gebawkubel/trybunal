@@ -12,7 +12,7 @@ Oznaczenia jakości źródła przy stanowiskach: **[dok]** dokument lub strona a
 - **Ustawy naprawcze z 2024 roku nie weszły w życie.** Prezydent Andrzej Duda skierował je do TK 2024.10.07. TK wyrokiem Kp 3/24 z 2025.07.29 uznał je w całości za niekonstytucyjne, przy trzech zdaniach odrębnych ([API Sejmu, proces 253](https://api.sejm.gov.pl/sejm/term10/processes/253), [TK](https://trybunal.gov.pl/s/kp-3-24)).
 - **Nowi sędziowie z 2026 roku.** Sejm wybrał 2026.03.13 sześć osób, 2026.06.11 Sławomira Patyrę, a 2026.09.04 Macieja Berka ([głosowania w API Sejmu](https://api.sejm.gov.pl/sejm/term10/votings/53/125)). Prezydent Karol Nawrocki odebrał ślubowanie od trojga: Magdaleny Bentkowskiej, Dariusza Szostka i Sławomira Patyry. Pozostali złożyli ślubowanie w Sejmie, bez Prezydenta. Prezes TK Bogdan Święczkowski ich nie dopuścił do orzekania ([ETPC, sprawa 17392/26](https://hudoc.echr.coe.int/eng?i=001-251710), § 7-14).
 - **Spór o ślubowanie.** TK wyrokiem K 3/26 z 2026.05.12 (3 głosy do 2) uznał, że przepis ustawy rozumiany jako obowiązek Prezydenta odebrania ślubowania jest niekonstytucyjny ([TK](https://trybunal.gov.pl/s/k-3-26)). ETPC 2026.05.05 wydał środek tymczasowy: władze mają nie utrudniać czworgu nowym sędziom objęcia obowiązków. To nie jest wyrok w sprawie. Komisja Wenecka w opinii CDL-AD(2026)031 z 2026.10.13 zaleciła, by Prezydent niezwłocznie odbierał ślubowanie, a przy odmowie uznała za dopuszczalne ślubowanie bez jego udziału (pkt 98). Spór kompetencyjny Prezydenta z Sejmem (Kpt 1/26) nie jest rozstrzygnięty ([TK](https://trybunal.gov.pl/s/kpt-1-26)).
-- **Ostatnie dni.** 2026.10.30 Anna Korwin-Piotrowska, wybrana w 2026 roku, w komunikacie podpisanym jako "zastępująca Prezesa TK" zarządziła przerwę w czynnościach Prezesa Bogdana Święczkowskiego i Wiceprezesa Bartłomieja Sochańskiego ([komunikat z 2026.10.31 na stronie TK](https://trybunal.gov.pl)). Siedmioro sędziów, w tym Święczkowski i Sochański, uznało te działania za bezprawne [media]. Kancelaria Prezydenta mówi o "siłowym przejęciu konstytucyjnego organu państwa" [media x2]. Prokurator Generalny złożył wnioski o uchylenie ich immunitetu [media x2]. 2026.10.31 Prezydent zaprosił liderów klubów na konsultacje.
+- **Ostatnie dni.** 2026.10.30 Anna Korwin-Piotrowska, wybrana w 2026 roku, w komunikacie podpisanym jako "zastępująca Prezesa TK" zarządziła przerwę w czynnościach Prezesa Bogdana Święczkowskiego i Wiceprezesa Bartłomieja Sochańskiego ([komunikat z 2026.10.31 na stronie TK](https://trybunal.gov.pl)). Siedmioro sędziów orzekających przed 2026 rokiem, w tym Święczkowski i Sochański, uznało te działania za bezprawne [media]. Kancelaria Prezydenta nazwała to "siłowe przejęcie konstytucyjnego organu państwa" [media x2]. Prokurator Generalny złożył wnioski o uchylenie ich immunitetu [media x2]. 2026.10.31 Prezydent zaprosił liderów klubów na konsultacje.
 - **Układ sił w Sejmie** ([API Sejmu, kluby](https://api.sejm.gov.pl/sejm/term10/clubs)): kluby koalicji (KO, PSL, Lewica, Polska 2050, Centrum) mają 239 posłów. Prawicowa opozycja (PiS, Rozwój Plus, Konfederacja, Korona, Demokracja Bezpośrednia) ma 210, Razem 4, niezrzeszeni 7. Zmiana Konstytucji wymaga w Sejmie 2/3 głosów przy obecności co najmniej połowy posłów (art. 235 Konstytucji), czyli 307 przy pełnej sali. Odrzucenie weta Prezydenta wymaga 3/5, czyli 276 przy pełnej sali (art. 122 ust. 5).
 
 Pełna tabela 69 sprawdzonych faktów ze źródłami: [weryfikacja faktów](scenariusze-przebieg/fakty-zweryfikowane.md).
@@ -35,7 +35,7 @@ Sejm wybiera sędziów zwykłą większością, a gdy Prezydent nie odbiera ślu
   - PiS,
   - TK pod kierunkiem Prezesa Święczkowskiego (wyrok K 3/26).
 - **Główne zarzuty:** uchwała Sejmu nie jest źródłem prawa (art. 87 Konstytucji), a ustawa wymaga ślubowania "wobec Prezydenta". Zwolennicy odpowiadają, że już w 2015 roku TK w wyroku K 34/15 orzekł o obowiązku niezwłocznego odebrania ślubowania przez Prezydenta ([pkt 5 sentencji](../zrodla/k-34-15.md#strona-2)).
-- **Stan:** w toku. Pięciorga wybranych nie dopuszczono do orzekania, a troje ślubujących przed Prezydentem odmawia orzekania do czasu ich dopuszczenia [media]. Od 2026.10.30 trwa spór o to, kto kieruje TK.
+- **Stan:** w toku. Pięciorga wybranych nie dopuszczono do orzekania. Sławomir Patyra, który ślubował przed Prezydentem, odmawia orzekania do czasu ich dopuszczenia [media x2]. Od 2026.10.30 trwa spór o to, kto kieruje TK.
 
 ### 2. Ślubowanie tylko przed Prezydentem, który może je wstrzymać
 
@@ -105,7 +105,7 @@ Ustawa określa nowe zasady wyboru sędziów (np. większością 3/5), ślubowan
 
 ### 7. Nowa Konstytucja
 
-Prezydent 2026.05.03 powołał Radę Nowej Konstytucji, która ma przygotować konstytucję "nowej generacji" ([Notes from Poland](https://notesfrompoland.com/2026/05/04/polish-president-appoints-council-tasked-with-preparing-new-constitution/), [rp.pl](https://www.rp.pl/polityka/art44303401)) [media x2]. Nie wiemy, czy prace Rady obejmują TK.
+Prezydent 2026.05.03 powołał Radę Nowej Konstytucji, która ma przygotować konstytucję "nowej generacji" ([Notes from Poland](https://notesfrompoland.com/2026/05/04/polish-president-appoints-council-tasked-with-preparing-new-constitution/), [rp.pl](https://www.rp.pl/polityka/art44303401-karol-nawrocki-zaczyna-prace-nad-nowa-konstytucja-tak-dalej-byc-nie-moze)) [media x2]. Nie wiemy, czy prace Rady obejmują TK.
 
 - **Przeciw:** Donald Tusk: Prezydent wie, że nie będzie większości konstytucyjnej dla jego pomysłów [media x2]. Krzysztof Gawkowski (Lewica): Lewica nie wejdzie do Rady [media x1].
 
@@ -123,7 +123,7 @@ Dwie niezależne analizy (Fable i Opus, osobno, na tym samym poleceniu) wskazał
 | Scenariusz | Na czym polega | Co wymaga lub co budzi zarzuty |
 |---|---|---|
 | Brak działania do 2027 roku | Dwa obozy trwają przy swoich stanowiskach, TK nie orzeka w pełnym składzie | Obie analizy oceniają go najgorzej dla pewności prawa |
-| Przejęcie TK od środka | Nowi sędziowie, gdy zyskają większość lub kierownictwo, zmieniają praktykę TK (analiza Fable) | Zależy od nierozstrzygniętego sporu o status nowych sędziów i od kworum Zgromadzenia Ogólnego; częściowo dzieje się od 2026.10.30 |
+| Przejęcie TK od środka | Nowi sędziowie, gdy zyskają większość lub kierownictwo, zmieniają praktykę TK (analiza Fable) | Zależy od nierozstrzygniętego sporu o status nowych sędziów i od kworum Zgromadzenia Ogólnego. Według analizy Fable proces trwa od 2026.10.30 |
 | Naturalna wymiana składu | Kadencje kolejnych sędziów kończą się (np. Jarosław Wyrembak 2027.01.30, wyliczenie z biogramu TK), a Sejm obsadza wakaty | Działa powoli, nie rozwiązuje sporu o ślubowanie |
 | Kompromis pakietowy z Prezydentem | Np. Prezydent przyjmuje ślubowania, w zamian zmiana zasad wyboru na przyszłość | Obie analizy oceniają go wysoko pod warunkiem woli obu stron. Recenzent analizy Fable wskazał, że ocena zależy od przyjętej wykładni sporu o ślubowanie |
 | Wąska zmiana Konstytucji bez wygaszania kadencji | Np. termin na ślubowanie, obowiązek publikacji wyroków, wybór sędziów większością 3/5 z zabezpieczeniem przed blokadą | Wskazana przez obu recenzentów jako brak w analizach. Wymaga 2/3 głosów |
