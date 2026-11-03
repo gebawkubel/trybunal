@@ -20,7 +20,7 @@ Zakres obejmuje genezę konfliktu i wszystkie późniejsze etapy aż do aktualne
 
 ## Kolejne zadania
 
-1. Uzupełnić zmiany składu i dopuszczenie do orzekania, w tym następstwo po sędziach oraz wybór kierownictwa w 2016 roku.
+1. Uzupełnić zmiany składu i dopuszczenie do orzekania, w tym następstwo po sędziach oraz wybór kierownictwa w 2016 roku. Stan: [kierownictwo i dopuszczenie do orzekania w 2016 roku](badania/kierownictwo-2016.md).
 2. Zbadać przyczyny i skutki opóźnionej publikacji wyroków, wraz z argumentami rządu i TK.
 3. Sprawdzić wykonanie wyroków europejskich oraz skutki sporu dla konkretnych spraw i obywateli.
 4. Zweryfikować spór o kadencję prezes w 2022-2023 roku na podstawie oryginalnych pism i przepisów.
