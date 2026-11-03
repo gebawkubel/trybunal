@@ -37,7 +37,7 @@ Nie oznacza to uznania całej zmiany ustawy za niekonstytucyjną: pkt 1 potwierd
 
 W uzasadnieniu K 34/15, część III, pkt 12 ([strony 62-63](../zrodla/k-34-15.md#strona-62)), TK opisał, co wyrok oznacza dla konkretnych wyborów. Uzasadnienie to wyjaśnienie wyroku przez sam TK, a nie osobne rozstrzygnięcie.
 
-- **Dwa miejsca grudniowe:** według TK wybór z 2015.10.08 na miejsca sędziów, których kadencje kończyły się 2015.12.02 i 2015.12.08, opierał się na zgłoszeniu kandydatów według art. 137, czyli przepisu, który TK uznał w tym zakresie za niekonstytucyjny. TK pisze o niekonstytucyjnej „podstawie prawnej istotnego etapu procedury”. Ślubowanie się nie odbyło, więc TK uznał, że tego postępowania nie można dokończyć.
+- **Dwa miejsca grudniowe:** według TK wybór z 2015.10.08 na miejsca sędziów, których kadencje kończyły się 2015.12.02 i 2015.12.08, opierał się na zgłoszeniu kandydatów według art. 137, czyli przepisu, który TK uznał w tym zakresie za niekonstytucyjny. TK pisze, że „podstawa prawna istotnego etapu ich procedury wyborczej została zakwestionowana przez Trybunał jako niekonstytucyjna”. Ślubowanie się nie odbyło, więc TK uznał, że tego postępowania nie można dokończyć.
 - **Trzy miejsca listopadowe:** według TK wybór z 2015.10.08 był ważny i nic nie stało na przeszkodzie, aby osoby wybrane złożyły ślubowanie przed Prezydentem ([strona 63](../zrodla/k-34-15.md#strona-63)).
 - **Obowiązek Sejmu:** TK napisał, że Sejm ma obowiązek wybrać dwóch sędziów na miejsca zwalniane w grudniu.
 
