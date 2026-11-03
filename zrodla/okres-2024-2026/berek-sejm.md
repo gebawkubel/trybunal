@@ -3,9 +3,9 @@
 - Autor: Kancelaria Sejmu, dział Komunikaty.
 - Data: 2026.10.14, godz. 10:15.
 - Tytuł: "Marszałek Sejmu Włodzimierz Czarzasty wręczył Maciejowi Berkowi uchwałę Sejmu o wyborze na stanowisko sędziego TK".
-- URL listy, na której stoi komunikat: https://www.sejm.gov.pl/Sejm10.nsf/wydarzenia.xsp?symbol=MEDIA_KOMUNIKATY&page=2 (pozycja z 14 października; numer strony listy zmienia się z czasem). Bezpośredni adres zawiera identyfikator dokumentu, którego narzędzie nie pozwoliło odczytać; komunikat odnajduje się po tytule.
+- URL: https://www.sejm.gov.pl/Sejm10.nsf/komunikat.xsp?documentId=2D8D06C7149A1BF4C1258E90002DBD9A&symbol=KOMUNIKATY_KOMUNIKAT
 - Dostęp: 2026.11.03, przez przeglądarkę (serwer blokuje pobieranie automatyczne).
-- Lokalizator: akapity 1-5 treści.
+- Lokalizator: akapity 1-6 treści.
 
 ## Wyciąg opisowy
 
