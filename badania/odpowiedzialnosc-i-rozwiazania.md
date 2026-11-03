@@ -22,7 +22,7 @@ Jedna zasada dotyczy całej notatki: zdanie "sąd uznał działanie za niezgodne
 
 ### Co z tego wynika
 
-1. **Sądy stwierdziły niezgodność z prawem po obu stronach sporu.** TK w K 34/15 i K 35/15 uznał przepis uchwalony w 2015 roku przez większość PO-PSL, która dziś współtworzy koalicję, za częściowo niezgodny z Konstytucją, a wybór na dwa miejsca grudniowe za nieskuteczny. Te wyroki uznają obie strony. Po stronie większości PiS z lat 2015-2023 chodzi o wybór sędziów i brak ślubowania w 2015 roku oraz wstrzymanie publikacji wyroków w 2016 roku. Do tego TSUE ocenił wyroki P 7/20 i K 3/21 jako sprzeczne z prawem UE. Wobec obecnej większości TK w U 5/24 uznał uchwałę Sejmu z 2024 roku za niezgodną z Konstytucją, a w K 3/26 przyjął wykładnię przeciwną praktyce Sejmu. Druga strona nie uznaje tych wyroków, bo kwestionuje skład TK. Każda strona ma więc "swoje" orzeczenia, a TK przestał być sędzią, którego obie słuchają.
+1. **Sądy stwierdziły niezgodność z prawem po obu stronach sporu.** TK w K 34/15 uznał przepis uchwalony w 2015 roku przez większość PO-PSL, która dziś współtworzy koalicję, za częściowo niezgodny z Konstytucją, przez co wybór na dwa miejsca grudniowe był nieskuteczny. Tego wyroku nikt nie kwestionuje z powodu składu TK. Po stronie większości PiS z lat 2015-2023 chodzi o przepis o kadencjach ze zmiany ustawy z 2015.11.19, uznany w K 35/15 za częściowo niezgodny z Konstytucją, wybór sędziów i brak ślubowania w 2015 roku oraz wstrzymanie publikacji wyroków w 2016 roku. Do tego TSUE ocenił wyroki P 7/20 i K 3/21 jako sprzeczne z prawem UE. Wobec obecnej większości TK w U 5/24 uznał uchwałę Sejmu z 2024 roku za niezgodną z Konstytucją, a w K 3/26 przyjął wykładnię przeciwną praktyce Sejmu. Druga strona nie uznaje tych wyroków, bo kwestionuje skład TK. Każda strona ma więc "swoje" orzeczenia, a TK przestał być sędzią, którego obie słuchają.
 2. **Odpowiedzialność poniosło tylko państwo.** Polska przegrała sprawy w ETPC (Xero Flor, M.L., A.R.) i w TSUE, a Komitet Ministrów Rady Europy nadal nadzoruje wykonanie wyroków. Zadośćuczynienia płaci państwo, a strony spraw ponoszą skutki podważania orzeczeń.
 3. **Odpowiedzialności osobistej nie poniósł nikt.** Materiał repozytorium nie odnotowuje wniosku do Trybunału Stanu ani wyroku karnego lub dyscyplinarnego w żadnej z tych spraw. Toczy się śledztwo w sprawie publikacji wyroków, według mediów są wnioski o uchylenie immunitetu z 2026 roku, a stan śledztwa wobec prezesa Rzeplińskiego, znanego z jednego źródła medialnego, jest nieznany.
 
@@ -61,14 +61,14 @@ Wspólne dane dla wszystkich wariantów:
 | Referendum | Sejm może je zarządzić bezwzględną większością (art. 125 ust. 2), którą koalicja ma | nic nie zmienia samo | bez wpływu | bez wpływu | wykonalne | średnie: dalsza polaryzacja |
 | Trybunał Stanu dla Prezydenta | 2/3 Zgromadzenia Narodowego (art. 145) | nie naprawia TK | bez wpływu | bez wpływu | brak większości | bardzo wysokie |
 | Rozstrzygnięcie sporu Kpt 1/26 albo wyrok ETPC w sprawie 17392/26 | dopuszczalne | zależy od treści | zależy od treści | niska: skład TK sporny, ETPC bez terminu, TK w K 6/21 uznał, że ETPC nie może oceniać wyboru sędziów TK | poza kontrolą stron | średnie |
-| Porozumienie o dobrowolnych odejściach sędziów | zgodne z prawem | zależy od treści | pozytywny wpływ | wysoka, jeśli dojdzie do skutku | brak śladu w debacie i zgody sędziów | niskie |
+| Porozumienie o dobrowolnych odejściach sędziów | zgodne z prawem | zależy od treści | zależy od tego, kto zastąpi odchodzących | wysoka, jeśli dojdzie do skutku | brak śladu w debacie | niskie |
 
 ### Co z tego wynika
 
-**Rozwiązania gorsze od innych pod każdym względem.** Obie analizy wskazały trzy takie rozwiązania. Recenzenci przyjęli to z zastrzeżeniami opisanymi przy każdym:
+**Rozwiązania gorsze od innych pod każdym względem.** Obie analizy wskazały trzy takie rozwiązania. Recenzenci zgłosili do nich zastrzeżenia opisane przy każdym:
 - **Likwidacja TK** wymaga tej samej większości co wąska zmiana Konstytucji, a w żadnym kryterium nie wypada lepiej. Recenzent analizy A uznał to tylko częściowo, bo w niej nie oceniono wszystkich kryteriów. W tej notatce oceniliśmy je w tabeli.
 - **Trybunał Stanu dla Prezydenta** wymaga podobnej większości, nie naprawia TK i niesie większe ryzyko odwetu.
-- **Przejęcie TK od środka** ma słabsze podstawy prawne niż wariant 1, mniejszą pewność prawa i większe ryzyko nadużyć. Obaj recenzenci zastrzegli jednak, że to raczej dalszy ciąg wariantu 1 niż odrębna możliwość, więc porównanie jest niepełne.
+- **Przejęcie TK od środka** ma słabsze podstawy prawne niż wariant 1, mniejszą pewność prawa i większe ryzyko nadużyć. Recenzent analizy A uznał tę dominację za wątpliwą, a recenzent analizy B zastrzegł, że to raczej dalszy ciąg wariantu 1 niż odrębna możliwość, więc porównanie jest niepełne.
 
 Reset po 2027 roku i nowa Konstytucja wypadają słabo, ale nie są gorsze we wszystkim, bo nie wymagają działania teraz albo ich treść jest nieznana.
 
