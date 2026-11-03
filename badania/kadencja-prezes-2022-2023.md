@@ -1,0 +1,74 @@
+# Spór o koniec kadencji prezes TK Julii Przyłębskiej (2022-2024)
+
+Stan sprawdzenia: 2026.11.03. Notatka wyjaśnia, dlaczego od grudnia 2022 roku jedni uważali, że Julia Przyłębska nie jest już prezesem TK, a inni, że pozostaje nim do końca 2024 roku. Opisuje przepisy, argumenty obu stron i skutki. Nie ocenia osobistej odpowiedzialności. Okoliczności samego powołania w 2016 roku opisuje [notatka o kierownictwie w 2016 roku](kierownictwo-2016.md).
+
+Oznaczenia: **[dok]** dokument autora stanowiska lub organu, **[media x2]** dwa artykuły, **[media x1]** jeden artykuł. Cytatów z mediów nie porównano z oryginałami pism.
+
+## Dwie kadencje: sędziego i prezesa
+
+- **Sędzia TK** ma kadencję 9 lat ([Konstytucja, art. 194 ust. 1](../zrodla/konstytucja.md#art-194)). Sejm wybrał Przyłębską 2015.12.02, a jej kadencja zaczęła się 2015.12.09 ([M.P. 2015 poz. 1185, art. 2](../zrodla/uchwaly-2015/1185.md)). Dziewięć lat od tej daty to 2024.12.09; taki dzień końca podawały Biuro TK i Rada Legislacyjna (niżej).
+- **Prezes TK** to funkcja kierownicza. Powołuje go Prezydent spośród kandydatów Zgromadzenia Ogólnego, czyli zebrania sędziów TK ([art. 194 ust. 2](../zrodla/konstytucja.md#art-194)). Konstytucja nie określa długości kadencji prezesa.
+- Prezydent powołał Przyłębską na prezesa z dniem 2016.12.21 ([M.P. 2016 poz. 1237](../zrodla/okres-2016-2019/postanowienie-prezes.md)).
+
+## Co mówią przepisy i dlaczego daty się nie zgadzają
+
+- Ustawa o organizacji i trybie postępowania przed TK z 2016.11.30, art. 10 ust. 2: "Kadencja Prezesa Trybunału trwa sześć lat". Kadencja kończy się wcześniej m.in. z końcem kadencji sędziego albo przez zrzeczenie się (art. 10 ust. 3). Ponowne powołanie jest niedopuszczalne (art. 10 ust. 4). Tak samo brzmi tekst jednolity, Dz.U. 2019 poz. 2393 ([karta przepisów](../zrodla/okres-2020-2023/kadencja-prezesa-przepisy.md)).
+- Przy wakacie (braku prezesa) pracami TK kieruje sędzia o najdłuższym łącznym stażu. Zwołuje on Zgromadzenie, które w ciągu miesiąca przedstawia kandydatów (art. 11 ust. 1-3, ta sama karta).
+- **Kluczowy szczegół czasowy:** przepisy wprowadzające ogłoszono 2016.12.19. Zgodnie z ich art. 1 ustawa o organizacji weszła w życie po 14 dniach, czyli 2017.01.03, poza art. 1-6, które obowiązywały od 2016.12.20. Art. 10 do wyjątków nie należał ([karta przepisów](../zrodla/okres-2020-2023/kadencja-prezesa-przepisy.md); [karta przepisów wprowadzających](../zrodla/okres-2016-2019/przepisy-wprowadzajace.md)).
+- W dniu powołania obowiązywały więc: ustawa z 2016.07.22 (art. 16 o powołaniu prezesa) i przepisy wprowadzające (art. 17-22). W tych tekstach nie znaleźliśmy przepisu o długości kadencji prezesa (ta sama karta, z zastrzeżeniem zakresu wyszukiwania). W odczytanych przepisach przejściowych nie znaleźliśmy też reguły, czy sześcioletnia kadencja obejmie prezesa powołanego przed 2017.01.03.
+
+Nasze wyliczenie, bez oceny, która metoda jest prawidłowa:
+
+| Założenie | Koniec funkcji prezesa |
+|---|---|
+| 6 lat od 2016.12.21, ostatni dzień kadencji | 2022.12.20 (data podawana przez Fundację Batorego i Biernata [media x1]) |
+| 6 lat od 2016.12.21, dzień wygaśnięcia | 2022.12.21 (data z uchwały Sejmu z 2024 roku) |
+| Brak kadencji prezesa w dniu powołania, funkcja trwa do końca kadencji sędziego | 2024.12.09 |
+
+## Stanowisko: kadencja prezesa skończyła się w grudniu 2022 roku
+
+- **Sędziowie TK.** Według Wprost, który powołuje się na Rzeczpospolitą, w styczniu 2023 roku wniosek o zwołanie Zgromadzenia podpisało sześcioro sędziów: Bogdan Święczkowski, Mariusz Muszyński (wiceprezes), Jakub Stelina, Andrzej Zielonacki, Wojciech Sych i Zbigniew Jędrzejewski ([Wprost, 2023.01.06](https://www.wprost.pl/11035237)) [media x1]. Ten sam skład, również za Rzeczpospolitą, podaje [Interia](https://wydarzenia.interia.pl/kraj/news-kadencja-julii-przylebskiej-trybunal-konstytucyjny-podjal-uc,nId,6628356), więc nie jest to niezależne potwierdzenie. Jakub Stelina osobno pisał do prezes, że jej kadencja już wygasła (tytuł artykułu Gazety Prawnej, [GP](https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8633801,trybunal-konstytucyjny-sedzia-przylebska-prezes-kadencja-wygasla.html); tekstu nie odczytano) [media x1].
+- **Kolejne pisma.** 2023.02.28 sześcioro sędziów ponowiło wezwanie. Wskazali na upływ sześciu lat i miesięcznego terminu na kandydatów oraz na wniosek Prezydenta z 2023.02.21 w sprawie ustawy o SN ([Wprost, 2023.02.28](https://www.wprost.pl/11118076)) [media x1]. Przed Wielkanocą 2023 roku pięcioro (Stelina, Zielonacki, Sych, Muszyński, Jędrzejewski) napisało do Przyłębskiej jako osoby tymczasowo kierującej TK. Uznali, że jej czynności jako prezesa są nieskuteczne, i zadeklarowali gotowość do rozpoznania sprawy Kp 1/23. List opublikowała sędzia Krystyna Pawłowicz ([OKO.press, 2023.04.06](https://oko.press/tk-bunt-list-sedziow)) [media x1].
+- **Argument prawny tej strony:** nowa ustawa obowiązuje od 2017.01.03 także wobec osób już pełniących funkcję. Dawnej ustawy po jej uchyleniu nie wolno stosować domyślnie. Tak argumentowali eksperci Fundacji Batorego, a prof. Stanisław Biernat dodawał, że po upływie kadencji TK powinien kierować sędzia o najdłuższym stażu ([Prawo.pl, 2022.12.20](https://www.prawo.pl/prawnicy-sady/kadencja-prezes-przylebskiej-wygasa-20-grudnia,518691.html)) [media x1]. Biernat podtrzymał to w polemice z RPO ([karta repliki RPO](../zrodla/okres-2020-2023/rpo-kadencja-prezesa.md)).
+- **Sejm X kadencji (2024.03.06):** sześcioletnia kadencja wygasła 2022.12.21 ([M.P. 2024 poz. 198, s. 2](../zrodla/okres-2024-2026/uchwala-sejmu-2024-198.md)) [dok]. To stanowisko Sejmu, nie wyrok.
+
+## Stanowisko: funkcja trwa do końca kadencji sędziego (2024.12.09)
+
+- **Biuro TK i prezes.** Biuro TK odpowiadało mediom, że kadencja urzędującego prezesa zakończy się z wygaśnięciem mandatu sędziego, a art. 10 ust. 2 jej nie dotyczy ([Prawo.pl, 2022.12.20](https://www.prawo.pl/prawnicy-sady/kadencja-prezes-przylebskiej-wygasa-20-grudnia,518691.html); [Forsal/PAP, 2023.01.03](https://forsal.pl/gospodarka/polityka/artykuly/8626176,rada-legislacyjna-koniec-kadencji-prezes-tk.html)) [media x2]. Przyłębska twierdziła, że powołano ją przed wejściem w życie przepisu o sześciu latach ([Wprost, 2023.02.28](https://www.wprost.pl/11118076)) [media x1].
+- **Rada Legislacyjna przy Prezesie Rady Ministrów** (przewodniczący prof. Marek Szydło), opinia przekazana PAP 2023.01.03: w dniu powołania przepisy nie określały kadencji prezesa. Ustawodawca może wprowadzić kadencję tylko na przyszłość i nie może skrócić trwającej (K 35/15). Wniosek: funkcja kończy się 2024.12.09 ([Forsal/PAP](https://forsal.pl/gospodarka/polityka/artykuly/8626176,rada-legislacyjna-koniec-kadencji-prezes-tk.html)) [media x1]. Rada jest organem doradczym, jej opinia nie jest stanowiskiem rządu. Premier Morawiecki mówił o takiej intencji ustawodawcy ([Prawo.pl](https://www.prawo.pl/prawnicy-sady/kadencja-prezes-przylebskiej-wygasa-20-grudnia,518691.html)) [media x1].
+- **RPO prof. Marcin Wiącek (2023.05.30):** w dniu powołania art. 10 ust. 2 był w okresie vacatio legis (między ogłoszeniem a wejściem w życie), więc jeszcze nie obowiązywał. Czas urzędowania wynika z Konstytucji i trwa do końca kadencji sędziego ([karta](../zrodla/okres-2020-2023/rpo-kadencja-prezesa.md)) [dok]. RPO nie oceniał braku uchwały Zgromadzenia z 2016 roku.
+- **K 35/15** jest wspólnym punktem odniesienia. TK uznał tam ustawowe wygaszenie kadencji urzędującego prezesa za nieuprawnioną ingerencję w niezależność TK ([K 35/15, s. 62-63, pkt 8.7.2](../zrodla/k-35-15.md)). Wyrok nie dotyczył przepisów z 2016 roku. Jego zastosowanie do tego sporu to interpretacja stron.
+- **Prezydent Andrzej Duda** mówił, że gospodarzem sprawy jest TK ([Wprost, 2023.01.06](https://www.wprost.pl/11035237)) [media x1]. Pisemnego stanowiska Kancelarii Prezydenta w sprawie daty końca kadencji nie znaleźliśmy.
+
+## Skutki
+
+1. **Zgromadzenie z 2023.03.01.** Przyłębska zwołała Zgromadzenie, które uchwałą stwierdziło brak podstaw do zwołania Zgromadzenia w celu wyboru kandydatów na prezesa. TK podał, że uchwałę przyjęto bezwzględną większością przy wymaganym kworum, i opublikował listę 10 obecnych: Przyłębska, Pawłowicz, Piotrowicz, Piskorski, Pszczółkowski, Sochański, Święczkowski, Warciński, Wojciechowski, Wyrembak. Według Onetu głosowało tylko ośmioro, bo Święczkowski i Pszczółkowski się wycofali, a pięcioro autorów pism nie przyszło ([TVN24, 2023.03.02](https://tvn24.pl/polska/konflikt-w-tk-kulisy-glosowania-w-sprawie-przylebskiej-onet-wycofali-sie-sedziowie-zabraklo-kworum-st6790038); [Interia](https://wydarzenia.interia.pl/kraj/news-kadencja-julii-przylebskiej-trybunal-konstytucyjny-podjal-uc,nId,6628356)) [media x2]. Autorzy pism uznali tę uchwałę za nieistniejącą ([OKO.press](https://oko.press/tk-bunt-list-sedziow)) [media x1].
+2. **Kp 1/23 (ustawa o SN).** Kontrola ustawy przed podpisem wymaga pełnego składu, czyli co najmniej 11 sędziów (art. 37 ust. 1 pkt 1 ustawy, według [uzasadnienia druku 3187](../zrodla/okres-2020-2023/druk-3187.md)). Termin z 2023.05.31 przeniesiono na 2023.06.27 ([karta Kp 1/23](../zrodla/okres-2020-2023/kp-1-23.md)). Według Prawo.pl rozprawa 2023.05.31 nie odbyła się z braku wymaganej liczby sędziów ([Prawo.pl, 2023.06.01](https://www.prawo.pl/kadry/poprawka-poselska-zamiast-pelnego-skladu-tk,521125.html)) [media x1]. Wyrok zapadł dopiero 2023.12.11 w składzie 11 osób. Spośród autorów pism orzekali Jędrzejewski i Święczkowski. Nie było Muszyńskiego, Steliny, Sycha i Zielonackiego ([karta Kp 1/23](../zrodla/okres-2020-2023/kp-1-23.md)).
+3. **Projekt zmniejszenia składów.** 2023.05.04 posłowie złożyli projekt obniżenia pełnego składu z 11 do 9 i kworum Zgromadzenia z 10 do 9, uzasadniany m.in. zapobieganiem obstrukcji. Projekt nie został uchwalony ([druk 3187](../zrodla/okres-2020-2023/druk-3187.md)).
+4. **Komisja Europejska** w raporcie z 2023.07.05 opisała kwestionowanie funkcji prezes od grudnia 2022 roku i odmowy orzekania ([karta raportu](../zrodla/okres-2020-2023/raport-ke-2023.md)) [dok].
+5. **Sejm 2024.03.06** uznał, że osoba kierująca TK nie ma do tego umocowania ([karta uchwały](../zrodla/okres-2024-2026/uchwala-sejmu-2024-198.md)). TK w wyroku U 5/24 uznał tę uchwałę za niezgodną z Konstytucją ([przegląd 2024-2026, pkt 1](okres-2024-2026.md)).
+
+## Koniec sporu w praktyce
+
+- Według Gazety Wyborczej Przyłębska zrzekła się funkcji prezesa 2024.11.29. 2024.12.02 TK określił ją jako sędzię kierującą pracami TK na podstawie art. 11 ust. 2 ustawy ([Polsat News, 2024.12.02](https://www.polsatnews.pl/wiadomosc/2024-12-02/komunikat-tk-ws-julii-przylebskiej-nie-jest-prezesem/); [TVN24](https://tvn24.pl/polska/sedzia-kierujaca-pracami-trybunalu-informacja-o-przylebskiej-i-ogromna-odprawa-st8203962)) [media x2]. Zrzeczenie się to podstawa z art. 10 ust. 3 pkt 3; komunikatu TK w oryginale nie odczytaliśmy.
+- 2024.12.06 Zgromadzenie wyłoniło kandydatów: Bartłomieja Sochańskiego i Bogdana Święczkowskiego. Nieoficjalnie głosowało 13 sędziów ([OKO.press](https://oko.press/prezydent-powolal-bogdana-swieczkowskiego-na-prezesa-trybunalu-konstytucyjnego); [TVN24](https://tvn24.pl/polska/trybunal-konstytucyjny-kto-zastapi-julie-przylebska-wybrano-dwoch-kandydatow-st8211126)) [media x2].
+- 2024.12.09 Prezydent postanowieniem z tego dnia powołał Święczkowskiego na prezesa ([Kancelaria Prezydenta](https://www.prezydent.pl/aktualnosci/nominacje/prezydent-powolal-bogdana-swieczkowskiego-na-prezesa-tk,95276); [TK](https://trybunal.gov.pl/wiadomosci/uroczystosci-spotkania-wyklady/art/nowy-prezes-trybunalu-konstytucyjnego)) [dok]. Tego samego dnia skończyła się kadencja sędziowska Przyłębskiej.
+- **Brak aktu w Monitorze Polskim.** Wyszukiwanie w API ELI (wydawca M.P., lata 2024-2026, tytuły z "Prezesa Trybunału" i "Trybunału Konstytucyjnego") nie zwraca postanowienia o powołaniu Święczkowskiego; dla 2016 roku zwraca oba akty dotyczące Przyłębskiej ([wyszukiwanie ELI](https://api.sejm.gov.pl/eli/acts/search?publisher=MP&year=2024&title=Prezesa%20Trybuna%C5%82u&limit=200)). Bankier podał, że premier nie opublikował postanowienia ([Bankier](https://www.bankier.pl/wiadomosc/Rzad-kontra-TK-Premier-nie-publikuje-postanowienia-o-nowym-prezesie-8879167.html)) [media x1].
+
+## Czy ktoś rozstrzygnął spór?
+
+Żaden sąd ani TK w orzeczeniu nie rozstrzygnął, kiedy skończyła się funkcja prezes. Zgromadzenie z 2023.03.01 uznało, że nie ma podstaw do wyboru kandydatów, ale jego ważność kwestionowano. Sejm w 2024 roku przyjął wersję z 2022 roku, a TK w U 5/24 zakwestionował uchwałę Sejmu. Spór nie został więc rozstrzygnięty co do zasady. Wygasł z powodu zrzeczenia się funkcji i końca kadencji sędziowskiej. Oba stanowiska opierają się na innej odpowiedzi na to samo pytanie: czy przepis o sześciu latach objął prezesa powołanego w okresie vacatio legis.
+
+## Czego nie ustalono
+
+- Oryginałów pism sędziów (daty, podpisy, adresaci) ani odpowiedzi prezes nie odczytaliśmy. Znamy je z mediów. Pierwsza lista sygnatariuszy obejmuje Święczkowskiego, lista z kwietnia już nie.
+- Piotr Pszczółkowski nie występuje wśród sygnatariuszy w żadnym odczytanym źródle; był na liście obecnych 2023.03.01. Andrzej Jakubecki nie był sędzią orzekającym TK ([kierownictwo 2016](kierownictwo-2016.md)), więc nie mógł podpisać pism.
+- Tekstu uchwały Zgromadzenia z 2023.03.01 ani komunikatów TK z 2022-2024 nie odczytaliśmy z trybunal.gov.pl.
+- Nie znaleźliśmy opinii Biura Analiz Sejmowych ani pisemnego stanowiska Kancelarii Prezydenta o dacie końca kadencji. Opinię Rady Legislacyjnej znamy z PAP.
+- Nie ustaliliśmy, dlaczego nie odbyła się rozprawa 2023.06.27 i co działo się w Kp 1/23 do grudnia 2023 roku, ani ile innych spraw opóźnił spór.
+- Dokładnej daty i formy zrzeczenia się funkcji nie potwierdziliśmy w dokumencie. Wyniku głosowania 2024.12.06 TK nie podał.
+- Nie przeanalizowaliśmy uzasadnienia U 5/24 w części o kadencji prezes.
+
+## Zapis pracy
+
+Agent-Role: badacz, kadencja prezes 2022-2023. Agent-Model: claude-opus-5-5 (Claude Code). Agent-Run: sesja Claude Code 2026.11.03, zadanie kadencja-prezes. Odczytano teksty ustaw z ELI, wyrok Kp 1/23 z M.P., druk 3187 z API Sejmu, stronę RPO, strony Kancelarii Prezydenta i TK oraz artykuły prasowe przez narzędzie streszczające strony. Kilka stron mediów (PAP, Gazeta Prawna) było niedostępnych. Nie przeprowadzono niezależnej recenzji prawnej.
