@@ -30,3 +30,4 @@ Wszystkie pozostałe notatki są w [liście analiz](analizy.md).
 
 - **Znalazłeś błąd albo brakujący dokument?** Zgłoś to w zakładce [Issues](https://github.com/gebawkubel/trybunal/issues) i podaj źródło.
 - **Chcesz sprawdzić coś swoim modelem AI?** Wybierz pytanie z Issues i prześlij wynik. Instrukcja: [jak możesz pomóc](wspolpraca.md).
+- **Szczegóły techniczne** (układ plików, kontrole, czytanie w Obsidianie): [informacje techniczne](techniczne.md).

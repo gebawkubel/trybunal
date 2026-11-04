@@ -36,3 +36,4 @@ Wszystkie notatki badawcze projektu. Punktem wyjścia jest [historia sporu](hist
 - [Materiały do sprawdzenia](badania/materialy-do-sprawdzenia.md): co jeszcze czeka na odczytanie.
 - [Zakres i otwarte zadania](plan.md).
 - [Historia prac](historia-prac.md): kto co zrobił, co znaleźli recenzenci, co poprawiliśmy.
+- [Informacje techniczne](techniczne.md): układ plików i automatyczne kontrole.
