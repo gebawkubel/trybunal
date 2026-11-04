@@ -323,3 +323,28 @@ Pierwsza wersja notatki jest w commicie [acfc922](https://github.com/gebawkubel/
 ```
 6172828a4390eb0cc18a48612ad6cd8c9ffa2540931eb0a0ff4c0b7dfa51569d  komisja-2026-04-28.md (pierwsza wersja)
 ```
+
+## Symulacja negocjacji: etap 2 (issue #46)
+
+Pakiet wiedzy, karty dziesięciu postaci składu W1, instrukcje wariantów motywacji i arbitra oraz luki przygotował Claude Fable 5.1 (wysoki wysiłek, nowy agent Claude Code), według wytycznych etapu 2 dopisanych publicznie do issue #46. Polecenie: treść issue z komentarzami i jawna wiadomość techniczna. Wykonawca pracował na wersji 70b735a (gałąź `symulacja-baza-etap-2`), która łączyła zrecenzowany etap 1 z dwoma zrecenzowanymi, wtedy jeszcze nie scalonymi opracowaniami (#45, #48); GitHub miał awarię i scalanie stało. Wyniki: [pakiet wiedzy](badania/symulacja/etap-2/pakiet-wiedzy.md), [instrukcja arbitra](badania/symulacja/etap-2/arbiter.md), [warianty motywacji](badania/symulacja/etap-2/warianty-motywacji.md), [luki](badania/symulacja/etap-2/luki.md) i karty postaci w tym samym katalogu.
+
+Sumy SHA-256 oryginałów (nazwa robocza, w nawiasie plik w repozytorium):
+
+```
+167361e9375afb1998a92677178e5d070be15b7429cdcabb5a85511ddfc65b2f  arbiter.md (badania/symulacja/etap-2/arbiter.md)
+455d9f5a830e252206ad89303366b1e8f74b23d6713ac8c7fc4a031a65b8f575  karta-bosak.md (badania/symulacja/etap-2/karta-bosak.md)
+7fd453f93526920afd1730e5235f77162735a8571e3005bdd09b7a71fd9ca2f1  karta-czarzasty.md (badania/symulacja/etap-2/karta-czarzasty.md)
+afbd00ea421e2005858bb91d7ea6daaa40be79f8937f3aea270f475a2464a652  karta-holownia.md (badania/symulacja/etap-2/karta-holownia.md)
+05b425a8865ef2390cd29d488545b18e12fb529663560ff04df8c4403c806241  karta-kaczynski.md (badania/symulacja/etap-2/karta-kaczynski.md)
+3ea4cbd231641d6bf7b132bdb4bd8f885a7f2f2d138f05de55e456e6c18b6d4a  karta-korwin-piotrowska.md (badania/symulacja/etap-2/karta-korwin-piotrowska.md)
+daaf6b00f0873054f6a084577cbd809d15955b0f886414a7074af3d24d424eda  karta-kosiniak-kamysz.md (badania/symulacja/etap-2/karta-kosiniak-kamysz.md)
+0c356d8581d3c06ce023f258eda98b6a799d54b140c7feb0028a54bc5e591975  karta-morawiecki.md (badania/symulacja/etap-2/karta-morawiecki.md)
+ae017499993d712fa434cbc7052bf9b5c590f8426bceb98dac7b22555333d163  karta-nawrocki.md (badania/symulacja/etap-2/karta-nawrocki.md)
+7433bdaa7768ef4c7798945587f0c4c45ae45635c5bc7843245e3c35a71e35d5  karta-swieczkowski.md (badania/symulacja/etap-2/karta-swieczkowski.md)
+22149325b4319c49a198bda68ef8bca3596fdd81622c37ebc9741ef568dfd2c9  karta-tusk.md (badania/symulacja/etap-2/karta-tusk.md)
+df38eb961093749ee4874d51297b3e16b244c606efb9cb6a0a978d495d0d8290  luki.md (badania/symulacja/etap-2/luki.md)
+ac458f6ffa259d9d5ae80500583efb14e9744ef6735976fd6ee4e9e77b8d66cb  pakiet-wiedzy.md (badania/symulacja/etap-2/pakiet-wiedzy.md)
+6114ebe4427694d27cdecd1077fbc04a4f24ff6b55b2e0b8d5ecdb5be255d881  warianty-motywacji.md (badania/symulacja/etap-2/warianty-motywacji.md)
+5cd0d4836fdbbbb2e0cd21f90e5b8c04849923f420eaa221eb96fe6e969bdbe5  issue-46.md (badania/symulacja/etap-2/polecenie-issue.md)
+6eefaaeb96b34814a21643f797e0d549c80cd4e448589690a90bf958eb5343af  wiadomosc-techniczna.md (badania/symulacja/etap-2/wiadomosc.md)
+```
