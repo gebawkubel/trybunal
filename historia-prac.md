@@ -272,3 +272,12 @@ Uzupełnienie po scaleniu PR #43: w kolejnym PR dodaliśmy ścieżkę karty KJ w
 ## Odpowiedź na pytanie (issue #38)
 
 Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordynator (Opus). Zbiera wnioski z [rekomendacji modeli](badania/rekomendacje-modeli.md) i [bilansu propozycji](badania/bilans-propozycji.md), bez własnej rekomendacji projektu.
+
+## Symulacja negocjacji: skład stołu (issue #46)
+
+Na prośbę użytkownika z 2026.11.04 planujemy symulację zamkniętego spotkania kluczowych graczy sporu ([issue #46](https://github.com/gebawkubel/trybunal/issues/46)). Pierwszy etap, kogo zaprosić i jakie warianty uruchomić, wykonał Claude Fable 5.1 (wysoki wysiłek, agent Claude Code) na repozytorium w wersji 78e9e45, bez internetu i bez wglądu w rekomendacje modeli, bilans propozycji i odpowiedź z #38. Polecenie napisał koordynator (Opus). Model zgłosił, że jedno wyszukiwanie zwróciło przypadkiem pojedyncze linie z plików objętych zakazem; według niego ich nie otwierał. Wynik: [skład stołu](badania/symulacja/sklad-stolu.md).
+
+```
+e3647191f9ffe7127ba3a9575290bf7aa0da706dc000f2d8c46ea3cac80e12d5  polecenie-sklad.md (badania/symulacja/polecenie-sklad.md)
+b2f7bf75e2d58ef262d23a708de7d6254f48f2d69c113648489c7c02e084a67f  sklad.md (badania/symulacja/sklad-stolu.md)
+```
