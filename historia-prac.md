@@ -272,3 +272,13 @@ Uzupełnienie po scaleniu PR #43: w kolejnym PR dodaliśmy ścieżkę karty KJ w
 ## Odpowiedź na pytanie (issue #38)
 
 Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordynator (Opus). Zbiera wnioski z [rekomendacji modeli](badania/rekomendacje-modeli.md) i [bilansu propozycji](badania/bilans-propozycji.md), bez własnej rekomendacji projektu.
+
+## Symulacja negocjacji: etap 1 (issue #46)
+
+Pierwszą próbę etapu 1 (PR #47, commit c274b85) zamknęliśmy bez scalania: polecenie napisał koordynator poza issue i dopisał w nim własne wytyczne, m.in. przykładową listę kandydatów. Na prośbę użytkownika z 2026.11.04 do issue #46 doszła zasada przejrzystości: wykonawca dostaje tylko dosłowną treść issue i krótką wiadomość techniczną, obie publikowane. Etap 1 wykonał od nowa Claude Fable 5.1 (wysoki wysiłek, nowy agent Claude Code) na repozytorium w wersji 78e9e45. Wynik: [skład stołu i plan przebiegów](badania/symulacja/etap-1.md).
+
+```
+87b17221569d2b4c2fb0229d72aa7f1f4c2e64a9c8a1c5155da663b2deb3dfe8  issue-46.md (badania/symulacja/etap-1-polecenie-issue.md)
+bb5286b12e1c2810a8028278609d83d477a10fff91e1089a78e13d34274f9e7d  wiadomosc-techniczna.md (badania/symulacja/etap-1-wiadomosc.md)
+db923f3ff54019ddf97908c85a7e2da020b2d7010c053858384ce09ecc0e6575  etap-1.md (badania/symulacja/etap-1.md)
+```
