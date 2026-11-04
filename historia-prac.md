@@ -204,3 +204,21 @@ Po poprawkach druga runda dała PASS.
 - cytat Dudka nie był dosłowny;
 - tabela przypisywała Rozwojowi Plus objęcie resetem sędziów z 2026 roku bez źródła (przy okazji recenzent wskazał niejasny zapis wiersza Fundacji Batorego).
 W drugiej rundzie zostały 2 drobne blokery: numeracja akapitów w karcie Dudka i "koła" zamiast "klubu poselskiego". W trzeciej: pominięty Szef Kancelarii Prezydenta w opisie karencji i niewierny opis bloku 4 w tym wpisie. Wszystkie poprawił prowadzący. Raporty recenzji obu PR są w komentarzach na GitHubie ([#39](https://github.com/gebawkubel/trybunal/pull/39), [#40](https://github.com/gebawkubel/trybunal/pull/40)).
+
+## Rekomendacje modeli (issue #38)
+
+Na prośbę użytkownika z 2026.11.04 pytanie o najlepsze rozwiązanie sporu zadaliśmy osobno dwóm modelom: Claude Fable 5.1 (wysoki wysiłek, agent Claude Code, tylko odczyt) i GPT-6 Astra (wysoki wysiłek, Codex CLI w trybie tylko do odczytu). Oba pracowały na repozytorium w wersji 92bdfc2, bez internetu. Polecenia napisał koordynator (Opus). Każdy model zrecenzował pierwszą wersję drugiego, a potem poprawił swoją. Recenzję Fable napisał osobny agent. Poprawki powstawały z roboczą wersją notatki o propozycjach z debaty, przed jej recenzją. Fable dostał dodatkowo trzy sprostowania do tej notatki, Astra nie. Codex przerwał pracę z powodu limitu, więc poprawka Astry powstała po jego odnowieniu. Wynik i porównanie: [rekomendacje modeli](badania/rekomendacje-modeli.md).
+
+Sumy SHA-256 plików przed dodaniem nagłówków:
+
+```
+afa279713a479720f4c2d88055e7a98695a3d954d68fcc82e098f0e02c185708  polecenie.md (rekomendacje/polecenie.md)
+4c36897314ad118e4d26189247df2c052d2ab55d6aef99c9d201b92ab88ddf69  recenzja.md (rekomendacje/polecenie-recenzji.md)
+d33b2a71de5af39018e6fccf20e65d8482666fe251fa5b369c5ae1d5d337f608  poprawka.md (rekomendacje/polecenie-poprawki.md)
+dc160c70938387933e4aa82fe4d7df18536f97d5831115480601e38bcc0d1e4c  fable.md (rekomendacje/fable-high-wersja-1.md)
+1764c2897e897ef69d797ff2dad6d5e016e9588d366661081ecf5fedb2095036  astra.md (rekomendacje/astra-high-wersja-1.md)
+4ed83e810ecd6ecd21a0f00f0fc25cbd10e66bf1c41ce420da2cc547c06eb217  recenzja-astra-o-fable.md
+0c64f1c6f94a3de888fa8ab275f41bde88aba1fee826979ce158643f663ee389  recenzja-fable-o-astra.md
+2a3dbf72c2d0f8b78d53a6bfee9fc23d199bba94c39b8ff83343fc0ae9b69df1  fable-v2.md (rekomendacje/fable-high.md)
+9ef3a1795f5139cd29356e09c42de97ae722e7ae54ba03b939aa0c94a873b057  astra-v2.md (rekomendacje/astra-high.md)
+```

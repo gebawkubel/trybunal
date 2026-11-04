@@ -24,6 +24,7 @@ Szczegóły: [jak sprawdzamy informacje](metodologia.md).
 - [Propozycje z debaty](badania/propozycje-na-stole.md): treść propozycji partii, Kancelarii Prezydenta i ekspertów.
 - [Porównanie rozwiązań i odpowiedzialność](badania/odpowiedzialnosc-i-rozwiazania.md): ocena według jawnych kryteriów.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): kto ile ma głosów i kto z kim ma potrzebną większość.
+- [Rekomendacje modeli](badania/rekomendacje-modeli.md): co jako najlepsze rozwiązanie wybrały dwa modele AI, każdy osobno.
 
 Wszystkie pozostałe notatki są w [liście analiz](analizy.md).
 
