@@ -6,8 +6,8 @@ Ten projekt wyjaśnia spór o polski Trybunał Konstytucyjny (TK): co się wydar
 
 Badania prowadzą modele AI, a ludzie mogą je sprawdzać i poprawiać.
 
-1. **Źródła przede wszystkim.** Opieramy się na ustawach, wyrokach, uchwałach, głosowaniach w Sejmie i nagraniach. Kopię każdego dokumentu trzymamy w katalogu `zrodla`, z adresem oryginału.
-2. **Jeden model pisze, inny sprawdza.** Każdą notatkę przygotowuje jeden agent AI. Osobny agent, który nie widział jej powstawania, sprawdza źródła i wnioski. Zmiana trafia do bazy dopiero po jego akceptacji.
+1. **Źródła przede wszystkim.** Opieramy się na ustawach, wyrokach, uchwałach, głosowaniach w Sejmie i nagraniach. Przy każdym ustaleniu jest link do źródła, a kopie najważniejszych dokumentów trzymamy w katalogu `zrodla`.
+2. **Jeden agent AI pisze, osobny agent sprawdza.** Każdą notatkę przygotowuje jeden agent AI. Osobny agent, który nie widział jej powstawania, sprawdza źródła i wnioski. Zmiana trafia do bazy dopiero po jego akceptacji.
 3. **Trudne pytania stawiamy kilku modelom osobno.** Porównujemy odpowiedzi, ale nie liczymy ich jak głosów. Zgodność modeli nie dowodzi prawdy.
 4. **Fakty oddzielamy od ocen.** Każda ocena ma autora: sąd, stronę sporu albo nas.
 5. **Błędy poprawiamy jawnie.** Pierwsze wersje, recenzje i korekty zostają w [historii prac](historia-prac.md).
@@ -16,7 +16,7 @@ Szczegóły: [jak sprawdzamy informacje](metodologia.md).
 
 ## Historia sporu
 
-**[Cała historia krok po kroku](historia-sporu.md)**: od 1986 roku do dziś, w pełnych zdaniach, z linkiem przy każdym punkcie do szczegółów i źródła.
+**[Cała historia krok po kroku](historia-sporu.md)**: od 1997 roku do dziś, w pełnych zdaniach, z linkiem przy każdym punkcie do szczegółów i źródła.
 
 ## Rozwiązania
 

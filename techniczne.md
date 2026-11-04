@@ -19,13 +19,13 @@ Wszystkie dokumenty to pliki Markdown (`.md`). Można je czytać na GitHubie alb
 
 ## Automatyczna kontrola
 
-Przed każdą zmianą uruchamiamy:
+Przed wysłaniem zmiany na GitHub uruchamiamy:
 
 ```
 python3 narzedzia/sprawdz.py
 ```
 
-Program sprawdza sumy kontrolne źródeł, czy linki między plikami prowadzą do istniejących plików i nagłówków, czy w tekstach nie ma prywatnych ścieżek ani kluczy dostępu, typografię oraz autora i committera w historii Git. Ta sama kontrola działa na GitHubie przy każdej propozycji zmiany. Kontrola wykrywa błędy techniczne, nie sprawdza prawdziwości treści.
+Program sprawdza sumy kontrolne źródeł, czy linki między plikami prowadzą do istniejących plików i nagłówków, czy w tekstach nie ma prywatnych ścieżek ani tokenów GitHub, typografię oraz autora i committera w historii Git. Ta sama kontrola działa na GitHubie przy każdej propozycji zmiany. Kontrola wykrywa błędy techniczne, nie sprawdza prawdziwości treści.
 
 ## Jak zmiana trafia do bazy
 

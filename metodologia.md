@@ -16,7 +16,7 @@ Nie każda błędna wypowiedź jest świadomym kłamstwem. Niezgodność działa
 
 ## AI pomaga, ale nie rozstrzyga
 
-Każdą notatkę pisze jeden agent AI, a sprawdza osobny agent, który nie widział jej powstawania. Recenzent porównuje tekst ze źródłami i zgłasza błędy. Zmiana trafia do bazy dopiero po jego akceptacji i automatycznych kontrolach. Modele analizują pytanie osobno, zanim zobaczą odpowiedzi innych. Zapisujemy użyte materiały, polecenia, wyniki i ponowione próby w [historii prac](historia-prac.md). Potem sprawdzamy źródła i porównujemy argumenty. Nie wybieramy odpowiedzi przez głosowanie modeli.
+Każdą notatkę pisze jeden agent AI, a sprawdza osobny agent z osobnym kontekstem, który nie widział jej powstawania. Może to być ten sam model. Recenzent porównuje tekst ze źródłami i zgłasza błędy. Zmiana trafia do bazy dopiero po jego akceptacji i automatycznych kontrolach. Modele analizują pytanie osobno, zanim zobaczą odpowiedzi innych. Zapisujemy użyte materiały, polecenia, wyniki i ponowione próby w [historii prac](historia-prac.md). Potem sprawdzamy źródła i porównujemy argumenty. Nie wybieramy odpowiedzi przez głosowanie modeli.
 
 ## Rozwiązania porównujemy według jawnych zasad
 

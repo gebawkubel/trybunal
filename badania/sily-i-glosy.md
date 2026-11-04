@@ -27,7 +27,7 @@ Razem: koalicja rządząca (KO, PSL, Lewica, Polska 2050, Centrum) ma **239** po
 
 | Kto | Co może | Źródło |
 |---|---|---|
-| Senat | zmiana Konstytucji wymaga bezwzględnej większości senatorów; kluby koalicji mają 58 z 99 | [warunki rozwiązań](warunki-rozwiazan.md) |
+| Senat | zmiana Konstytucji wymaga w Senacie bezwzględnej większości głosów przy obecności co najmniej połowy senatorów; kluby koalicji mają 58 z 99 | [warunki rozwiązań](warunki-rozwiazan.md) |
 | Prezydent Karol Nawrocki | weto zwykłej ustawy albo skierowanie jej do TK; odbiera ślubowanie sędziów; ustawę zmieniającą Konstytucję "podpisuje" w 21 dni (art. 235 ust. 7), sporne, czy może ją skierować do TK | [warunki rozwiązań](warunki-rozwiazan.md#2-czy-prezydent-może-skierować-zmianę-konstytucji-do-tk) |
 | TK pod kierunkiem Prezesa Bogdana Święczkowskiego | może uznać ustawę za niezgodną z Konstytucją, jak w Kp 3/24 | [karta Kp 3/24](../zrodla/okres-2024-2026/kp-3-24.md) |
 | Sędziowie TK wybrani w 2026 roku | ośmioro obradowało 2026.11.03 jako Zgromadzenie Ogólne | [czy Zgromadzenie było ważne](zgromadzenie-2026-11-03.md) |
@@ -43,7 +43,7 @@ Razem: koalicja rządząca (KO, PSL, Lewica, Polska 2050, Centrum) ma **239** po
 | Zmiana Konstytucji | 307 (2/3) i bezwzględna większość w Senacie | art. 235 ust. 4 |
 | Skrócenie kadencji Sejmu | 307 (2/3) | art. 98 ust. 3 |
 
-Progi liczy się od posłów obecnych i głosujących, więc przy nieobecnościach spadają. Liczby przy pełnej sali to najwyższy możliwy próg.
+Progi ustawy, weta i zmiany Konstytucji liczy się od posłów obecnych i głosujących, więc przy nieobecnościach spadają. Skrócenie kadencji Sejmu wymaga zawsze 307 głosów, bo liczy się od ustawowej liczby posłów.
 
 ## Kto z kim ma większość (nasze wyliczenia)
 
@@ -53,7 +53,7 @@ Progi liczy się od posłów obecnych i głosujących, więc przy nieobecnościa
 - **Blokada zmiany Konstytucji:** przy pełnej sali wystarczy 154 głosów przeciw. PiS sam (147) nie blokuje. PiS z Rozwojem Plus (187) blokuje, PiS z Konfederacją (164) też.
 - **Blokada odrzucenia weta:** wystarczy 185 głosów przeciw. PiS z Rozwojem Plus (187) blokuje, PiS z Konfederacją (164) nie.
 
-Wniosek z rachunku: każde trwałe rozwiązanie w Sejmie wymaga głosów PiS albo Rozwoju Plus. Rozwój Plus jest jedynym klubem opozycji, który razem z koalicją daje 3/5, i jednym z dwóch, bez których 2/3 bez PiS jest nieosiągalne (drugi to Konfederacja).
+Wniosek z rachunku: każde trwałe rozwiązanie w Sejmie wymaga głosów PiS albo Rozwoju Plus. Rozwój Plus jest jedynym klubem opozycji poza PiS, który razem z koalicją daje 3/5, i jednym z dwóch, bez których 2/3 bez PiS jest nieosiągalne (drugi to Konfederacja).
 
 ## Czego nie wiemy
 
