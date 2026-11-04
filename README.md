@@ -21,6 +21,7 @@ Szczegóły: [jak sprawdzamy informacje](metodologia.md).
 ## Rozwiązania
 
 - [Scenariusze naprawy](badania/scenariusze-naprawy.md): co jest w debacie, kto za tym stoi i kto jest przeciw.
+- [Propozycje z debaty](badania/propozycje-na-stole.md): treść propozycji partii, Kancelarii Prezydenta i ekspertów.
 - [Porównanie rozwiązań i odpowiedzialność](badania/odpowiedzialnosc-i-rozwiazania.md): ocena według jawnych kryteriów.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): kto ile ma głosów i kto z kim ma potrzebną większość.
 
