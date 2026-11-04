@@ -156,34 +156,40 @@ TURA = {
                          "Napisz jedną wypowiedź."),
     "dodatkowa": ("Dodatkowa runda dyskusji przed powtórnym głosowaniem. Teraz mówi {imie}, "
                   "czyli Ty. Napisz jedną wypowiedź."),
-    "glosowanie": ("{nazwa_rundy}. Arbiter wymienił pakiety do głosowania w swojej ostatniej "
-                   "wypowiedzi. Teraz głosuje {imie}, czyli Ty: dla każdego pakietu po kolei napisz "
-                   "\"za\" albo \"przeciw\" i co deklarujesz."),
+    "glosowanie": ("{nazwa_rundy}. Pakiety do głosowania, w tej kolejności: {pakiety} (opis w "
+                   "ostatniej wypowiedzi arbitra). Teraz głosuje {imie}, czyli Ty: dla każdego "
+                   "pakietu po kolei napisz \"za\" albo \"przeciw\" i co deklarujesz."),
 }
 ARBITER_FORMAT = (
-    "Wiadomość techniczna skryptu. Odpowiadasz obiektem JSON zgodnym z podanym schematem. "
-    "Pole \"tekst\" to Twoja wypowiedź do zapisu rozmowy; pozostałe pola to decyzje, które "
-    "skrypt wykonuje. Skrypt pilnuje limitów liczbowych i nie pozwala wybrać opcji, których "
-    "reguły w danej chwili nie dopuszczają.")
+    "Wiadomość techniczna skryptu. Odpowiadasz obiektem JSON zgodnym ze schematem, który jest "
+    "taki sam przy każdym Twoim wywołaniu. Pole \"tekst\" to Twoja wypowiedź do zapisu rozmowy. "
+    "Pola \"decyzja\", \"poza_kolejnoscia\", \"pakiety\" i \"wynik\" to decyzje, które skrypt "
+    "wykonuje. W danej chwili dozwolone są tylko wartości wymienione niżej; pole, którego zdanie "
+    "niżej nie wymienia, wypełniasz wartością \"nie_dotyczy\" (pole \"pakiety\": pusta lista). "
+    "Skrypt sprawdza wartości i pilnuje limitów liczbowych.")
 ARBITER_TURA = {
     "otwarcie": ("Pierwsza wypowiedź arbitra: otwarcie spotkania, przed rundą otwarcia. "
-                 "Kolejność wypowiedzi w tym przebiegu: {kolejnosc}."),
+                 "Kolejność wypowiedzi w tym przebiegu: {kolejnosc}. Pola decyzji: \"nie_dotyczy\"."),
     "po_rundzie": ("Koniec rundy: {nazwa_rundy}. Napisz stan stołu po tej rundzie i zdecyduj, co "
-                   "dalej. {informacje} Pole \"decyzja\": \"dalej\" (następna runda dyskusji), "
-                   "\"glosowanie\" (runda głosowania; w polu \"pakiety\" podaj numery pakietów w "
-                   "kolejności głosowania) albo \"brak_porozumienia\". Pole \"poza_kolejnoscia\": "
-                   "postać, której udzielasz głosu poza kolejnością, bo w tej rundzie wezwano ją "
-                   "wprost do odpowiedzi, albo \"brak\"; ta postać mówi zaraz po Twojej wypowiedzi, "
-                   "a jej wypowiedź liczy się do tej rundy."),
+                   "dalej. {informacje} Pole \"decyzja\", dozwolone teraz: {decyzje}. Znaczenie: "
+                   "\"dalej\" (następna runda dyskusji), \"glosowanie\" (runda głosowania; w polu "
+                   "\"pakiety\" podaj numery pakietów w kolejności głosowania i wymień je w tekście), "
+                   "\"brak_porozumienia\". Pole \"poza_kolejnoscia\", dozwolone teraz: {poza}; to "
+                   "postać, której udzielasz głosu poza kolejnością, bo w tej rundzie wezwano ją wprost "
+                   "do odpowiedzi; mówi zaraz po Twojej wypowiedzi, a jej wypowiedź liczy się do tej "
+                   "rundy. Pole \"wynik\": \"nie_dotyczy\"."),
     "po_glosowaniu": ("Koniec rundy: {nazwa_rundy}. Ogłoś wynik według części 6 instrukcji. "
-                      "{informacje} Pole \"wynik\": \"porozumienie\", \"porozumienie_czesciowe\", "
-                      "\"brak_porozumienia\" albo, jeśli jest dostępne, \"dodatkowa_runda\" (jedna "
-                      "dodatkowa runda dyskusji i powtórne głosowanie, gdy pakiet przeszedł z "
-                      "zastrzeżeniami, które zmieniają jego treść)."),
+                      "{informacje} Pole \"wynik\", dozwolone teraz: {wyniki}. Znaczenie: "
+                      "\"porozumienie\", \"porozumienie_czesciowe\", \"brak_porozumienia\", "
+                      "\"dodatkowa_runda\" (jedna dodatkowa runda dyskusji i powtórne głosowanie, gdy "
+                      "pakiet przeszedł z zastrzeżeniami, które zmieniają jego treść). Pola "
+                      "\"decyzja\" i \"poza_kolejnoscia\": \"nie_dotyczy\"."),
     "przerwanie": ("Skrypt przerywa przebieg: {powod}. Ogłoś brak porozumienia według części 6 "
                    "instrukcji (warunek d): ostatni stan stołu, które progi były najbliżej "
-                   "spełnienia i czego zabrakło."),
+                   "spełnienia i czego zabrakło. Pola decyzji: \"nie_dotyczy\"."),
 }
+ARBITER_POPRAWKA = ("Poprzednia odpowiedź nie została przyjęta ({blad}). Odpowiedz ponownie, "
+                    "z dozwolonymi wartościami.")
 ODMOWA_PAS = ("Pas. [Adnotacja skryptu: model nie wygenerował wypowiedzi ({powod}); zgodnie z "
               "regułą skryptu liczy się to jako \"Pas\".]")
 UCIECIE = "[Adnotacja skryptu: wypowiedź ucięta po limicie {limit} tokenów.]"
@@ -333,6 +339,8 @@ def teksty_techniczne() -> dict:
             "WATEK_NAGLOWEK": WATEK_NAGLOWEK, "KARTA_NAGLOWEK": KARTA_NAGLOWEK,
             **{f"TURA.{k}": v for k, v in TURA.items()}, "ARBITER_FORMAT": ARBITER_FORMAT,
             **{f"ARBITER_TURA.{k}": v for k, v in ARBITER_TURA.items()},
+            "ARBITER_POPRAWKA": ARBITER_POPRAWKA, "SCHEMAT_ARBITRA": json.dumps(
+                SCHEMAT_ARBITRA, ensure_ascii=False, sort_keys=True),
             "ODMOWA_PAS": ODMOWA_PAS, "UCIECIE": UCIECIE, "NAGLOWEK_ZAPISU": NAGLOWEK_ZAPISU}
 
 
@@ -395,17 +403,33 @@ def zapytanie_arbitra(t: Teksty, watek: list[Wpis], tura: str, ttl: str) -> dict
     return {"system": system, "messages": messages}, przepis
 
 
-def schemat_arbitra(typ: str, dozwolone: dict) -> dict:
-    props = {"tekst": {"type": "string"}}
-    if typ == "po_rundzie":
-        props["decyzja"] = {"type": "string", "enum": dozwolone["decyzja"]}
-        props["poza_kolejnoscia"] = {"type": "string", "enum": dozwolone["poza_kolejnoscia"]}
-        props["pakiety"] = {"type": "array", "items": {"type": "string"}}
-    elif typ == "po_glosowaniu":
-        props["wynik"] = {"type": "string", "enum": dozwolone["wynik"]}
-    return {"type": "json_schema", "schema": {
-        "type": "object", "properties": props, "required": list(props),
-        "additionalProperties": False}}
+NIE_DOTYCZY = "nie_dotyczy"
+DECYZJE = ["dalej", "glosowanie", "brak_porozumienia"]
+WYNIKI = ["porozumienie", "porozumienie_czesciowe", "brak_porozumienia", "dodatkowa_runda"]
+# Jeden stały schemat dla wszystkich wywołań arbitra: zmiana output_config.format unieważnia
+# bufor (dokumentacja structured outputs). Co dozwolone w danej chwili, mówi zdanie tury,
+# a sprawdza skrypt (Przebieg.arbitruj).
+SCHEMAT_ARBITRA = {"type": "json_schema", "schema": {
+    "type": "object",
+    "properties": {
+        "tekst": {"type": "string"},
+        "decyzja": {"type": "string", "enum": DECYZJE + [NIE_DOTYCZY]},
+        "poza_kolejnoscia": {"type": "string",
+                             "enum": ["brak", NIE_DOTYCZY] + [n for _, n in POSTACIE]},
+        "pakiety": {"type": "array", "items": {"type": "string"}},
+        "wynik": {"type": "string", "enum": WYNIKI + [NIE_DOTYCZY]},
+    },
+    "required": ["tekst", "decyzja", "poza_kolejnoscia", "pakiety", "wynik"],
+    "additionalProperties": False}}
+
+
+def cialo(model: str, max_tokens: int, effort: str, req: dict, arbiter: bool) -> dict:
+    """Pełne ciało zapytania: to samo trafia do API i do sumy SHA-256 w zapisie."""
+    oc = {"effort": effort}
+    if arbiter:
+        oc["format"] = SCHEMAT_ARBITRA
+    return {"model": model, "max_tokens": max_tokens, "thinking": {"type": "adaptive"},
+            "output_config": oc, **req}
 
 
 # =============================================================================
@@ -475,7 +499,12 @@ class Atrapa:
         return int(len(tekst.split()) * 4.4) + 4
 
     def _usage(self, req: dict, stale: dict, wyjscie: int) -> dict:
-        bloki = []
+        # Ustawienia (model, rozumowanie, output_config ze schematem) wchodzą do prefiksu bufora:
+        # inny schemat albo wysiłek to inny prefiks. Schemat arbitra liczy się w tokenach.
+        ust = json.dumps({k: req[k] for k in ("model", "thinking", "output_config")},
+                         sort_keys=True)
+        tok_ust = self.tok.get("schemat_arbitra", 300) if "format" in req["output_config"] else 0
+        bloki = [(sha(ust), tok_ust, False)]
         for b in req["system"]:
             bloki.append((sha(b["text"]), self._tokeny_tekstu(b["text"], stale.get(sha(b["text"]))),
                           "cache_control" in b))
@@ -517,7 +546,7 @@ class Atrapa:
                       + " ".join(["słowo"] * self.zal["slowa_arbitra"])}
         if typ == "po_rundzie":
             r = kontekst["runda"]
-            d.update(decyzja="dalej", poza_kolejnoscia="brak", pakiety=[])
+            d.update(decyzja="dalej", poza_kolejnoscia="brak", pakiety=[], wynik=NIE_DOTYCZY)
             if sc == "maks" or sc == "typowy":
                 ostatni = kontekst.get("ostatni_mowca")
                 kandydaci = [x for x in dozwolone["poza_kolejnoscia"] if x not in ("brak", ostatni)]
@@ -528,11 +557,19 @@ class Atrapa:
                 d["pakiety"] = ["1"] if d["decyzja"] == "glosowanie" else []
             if sc == "typowy" and r == 6:
                 d.update(decyzja="glosowanie", pakiety=["1"])
+            poprawka = "Poprzednia odpowiedź nie została przyjęta" in req["messages"][-1]["content"]
+            if sc == "maks" and r == RUNDY_DYSKUSJI and not poprawka:
+                d["decyzja"] = "dalej"  # niedozwolone po 8. rundzie: sprawdza ponowienie z poprawką
         elif typ == "po_glosowaniu":
+            d.update(decyzja=NIE_DOTYCZY, poza_kolejnoscia=NIE_DOTYCZY, pakiety=[])
             d["wynik"] = "dodatkowa_runda" if "dodatkowa_runda" in dozwolone["wynik"] else (
                 "porozumienie_czesciowe" if sc == "typowy" else "brak_porozumienia")
+        else:
+            d.update(decyzja=NIE_DOTYCZY, poza_kolejnoscia=NIE_DOTYCZY, pakiety=[], wynik=NIE_DOTYCZY)
         tekst = json.dumps(d, ensure_ascii=False)
         wyj = self.zal["tokeny_myslenia_arbitra"] + int(len(tekst.split()) * 4.4)
+        if self.zal.get("drogie_ogloszenie") and typ in ("po_glosowaniu", "przerwanie"):
+            wyj = self.zal["max_tokens"]  # najdroższe możliwe wyjście w ostatnich wywołaniach
         return d, "end_turn", None, self._usage(req, stale, wyj)
 
 
@@ -544,21 +581,18 @@ class Api:
         self.model, self.effort, self.max_tokens = model, effort, max_tokens
         self._baza = None
 
-    def _wywolaj(self, req, output_config):
-        with self.client.messages.stream(model=self.model, max_tokens=self.max_tokens,
-                                         thinking={"type": "adaptive"},
-                                         output_config=output_config, **req) as s:
+    def _wywolaj(self, body):
+        with self.client.messages.stream(**body) as s:
             m = s.get_final_message()
         tekst = "".join(b.text for b in m.content if b.type == "text")
         details = m.stop_details.model_dump() if getattr(m, "stop_details", None) else None
         return tekst, m.stop_reason, details, m.usage.model_dump(), m.id
 
     def postac(self, klucz, req, stale, faza, runda):
-        return self._wywolaj(req, {"effort": self.effort})
+        return self._wywolaj(req)
 
     def arbiter(self, typ, req, stale, dozwolone, kontekst):
-        tekst, stop, details, usage, mid = self._wywolaj(
-            req, {"effort": self.effort, "format": schemat_arbitra(typ, dozwolone)})
+        tekst, stop, details, usage, mid = self._wywolaj(req)
         try:
             d = json.loads(tekst) if stop != "refusal" else None
         except json.JSONDecodeError:
@@ -591,6 +625,8 @@ class Przebieg:
         self.watek: list[Wpis] = []
         self.wydano = 0.0
         self.koszty = {"postac": [], "arbiter": []}
+        self.ostatnie = {}  # rola albo "postac:<klucz>" -> (usage, liczba wpisów wątku)
+        self.pakiety = []
         self.l_wypowiedzi = 0
         self.l_poza = 0
         self.l_wywolan = 0
@@ -687,47 +723,80 @@ class Przebieg:
         self._dopisz("zapis.md", f"### {w.nr}. {kto}\n\n*{runda}*\n\n{tekst}\n\n")
 
     # --- koszt ---------------------------------------------------------------
-    def _rezerwa(self, rola) -> float:
-        """Górna granica kosztu następnego wywołania: 1,5 x najdroższe z 10 ostatnich wywołań
-        tej roli; przed pierwszym: cały prefiks zapisany do bufora i pełne max_tokens."""
-        if self.koszty[rola]:
-            return 1.5 * max(self.koszty[rola][-10:])
+    def _granica(self, rola, klucz=None) -> float:
+        """Szacowana górna granica kosztu następnego wywołania. Zakłada, że prefiks z poprzedniego
+        wywołania o tym samym prefiksie jest w buforze (stały schemat i ustawienia, TTL 1 h):
+        odczyt tego prefiksu, zapis wszystkiego, co doszło od tamtej chwili (tekst liczony po
+        1 tokenie na 1,5 znaku, z zapasem), wejście bez bufora jak poprzednio i pełne max_tokens
+        wyjścia; co najmniej 1,5 x najdroższe z 10 ostatnich wywołań roli (bez pierwszego, które
+        zawiera jednorazowy zapis prefiksu). W układzie etap2 prefiks postaci zawiera jej kartę,
+        więc punktem odniesienia jest poprzednie wywołanie tej samej postaci; jej pierwsze
+        wywołanie zapisuje kartę i cały dotychczasowy wątek. Przed pierwszym wywołaniem roli:
+        cały prefiks zapisany do bufora."""
         c = CENNIK[self.model]
-        pref = 300_000 if rola == "arbiter" else 200_000
-        return (pref * c["zapis_1h"] + self.a.max_tokens * c["wyjscie"]) / 1e6
+        wyj = self.a.max_tokens * c["wyjscie"]
+        znaki = lambda od: sum(len(w.blok()) for w in self.watek[od:])  # noqa: E731
+        osobny = rola == "postac" and self.a.uklad == "etap2" and klucz is not None
+        klucz_pref = f"postac:{klucz}" if osobny else rola
+        if klucz_pref in self.ostatnie:
+            u, n0 = self.ostatnie[klucz_pref]
+            nowe = znaki(n0) / 1.5 + 1000
+        elif rola in self.ostatnie:
+            u, _ = self.ostatnie[rola]
+            nowe = (znaki(0) + len(self.t.karty[klucz])) / 1.5 + 1000
+        else:
+            pref = (300_000 if rola == "arbiter" else 200_000) + znaki(0) / 1.5
+            return (pref * c["zapis_1h"] + wyj) / 1e6
+        odczyt = (u.get("cache_read_input_tokens") or 0) + (u.get("cache_creation_input_tokens") or 0)
+        g = (odczyt * c["odczyt"] + (u.get("input_tokens") or 0) * c["wejscie"]
+             + nowe * c["zapis_1h"] + wyj) / 1e6
+        ostatnie = self.koszty[rola][1:][-10:]
+        return max(g, 1.5 * max(ostatnie)) if ostatnie else g
 
-    def _sprawdz_limit(self, rola):
-        potrzeba = self._rezerwa(rola) + (self._rezerwa("arbiter") if rola != "arbiter" else 0)
+    def _sprawdz_limit(self, rola, klucz=None):
+        """Przed wywołaniem: wydane + to wywołanie + zapas na ogłoszenie przerwania przez arbitra
+        musi się zmieścić w limicie. Przed wywołaniem arbitra zapas obejmuje dwa wywołania arbitra
+        (to i ewentualne ogłoszenie przerwania)."""
+        potrzeba = self._granica(rola, klucz) + self._granica("arbiter")
         if self.wydano + potrzeba > self.a.limit_usd:
             raise Przerwanie(f"limit kosztu {self.a.limit_usd} USD (wydano {self.wydano:.2f} USD, "
-                             f"rezerwa na następne wywołanie i ogłoszenie arbitra {potrzeba:.2f} USD)")
+                             f"zapas na następne wywołanie i ogłoszenie arbitra {potrzeba:.2f} USD)")
 
-    def _rekord_wywolania(self, req, przepis, wynik, rola, typ):
+    def _rekord_wywolania(self, body, przepis, wynik, rola, typ, klucz=None):
         tekst, stop, details, usage = wynik[:4]
         mid = wynik[4] if len(wynik) > 4 else None
         c = koszt(usage, self.model, self.a.ttl)
         self.wydano += c
         self.koszty[rola].append(c)
+        self.ostatnie[rola] = (usage, len(self.watek))
+        if klucz:
+            self.ostatnie[f"postac:{klucz}"] = (usage, len(self.watek))
         self.l_wywolan += 1
-        cialo = json.dumps({"model": self.model, "max_tokens": self.a.max_tokens, **req},
-                           ensure_ascii=False, sort_keys=True)
+        cialo_json = json.dumps(body, ensure_ascii=False, sort_keys=True)
+        oc = body["output_config"]
+        przepis = dict(przepis, model=body["model"], max_tokens=body["max_tokens"],
+                       thinking=body["thinking"], effort=oc["effort"],
+                       format="SCHEMAT_ARBITRA" if "format" in oc else None)
         return {"wywolanie": self.l_wywolan, "typ": typ, "id_odpowiedzi": mid,
                 "stop_reason": stop, "stop_details": details, "usage": usage,
                 "koszt_usd": round(c, 6), "wydano_lacznie_usd": round(self.wydano, 6),
-                "sha256_zapytania": sha(cialo), "przepis_zapytania": przepis,
+                "sha256_zapytania": sha(cialo_json), "przepis_zapytania": przepis,
                 "czas": dt.datetime.now().isoformat(timespec="seconds")}
 
     # --- wywołania -------------------------------------------------------------
     def mow(self, klucz, faza, runda_nr, nazwa_rundy, tura_klucz):
         if self.l_wypowiedzi >= LIMIT_WYPOWIEDZI:
             raise Przerwanie(f"limit {LIMIT_WYPOWIEDZI} wypowiedzi postaci")
-        self._sprawdz_limit("postac")
+        self._sprawdz_limit("postac", klucz)
         tura = TURA[tura_klucz].format(imie=NAZWA[klucz], n=runda_nr, max=RUNDY_DYSKUSJI,
-                                       nazwa_rundy=nazwa_rundy)
+                                       nazwa_rundy=nazwa_rundy,
+                                       pakiety=", ".join(self.pakiety) or "(arbiter nie podał numerów)")
         req, przepis = zapytanie_postaci(self.t, klucz, self.watek, tura, self.a.uklad, self.a.ttl)
-        wynik = self.w.postac(klucz, req, self.stale, faza, runda_nr)
+        body = cialo(self.model, self.a.max_tokens, self.a.effort, req, arbiter=False)
+        wynik = self._wywolaj(lambda: self.w.postac(klucz, body, self.stale, faza, runda_nr),
+                              "postac", klucz)
         tekst, stop = wynik[0], wynik[1]
-        rek = self._rekord_wywolania(req, przepis, wynik, "postac", faza)
+        rek = self._rekord_wywolania(body, przepis, wynik, "postac", faza, klucz)
         if stop == "refusal" or not tekst.strip():
             powod = "odmowa, stop_reason refusal" if stop == "refusal" else f"pusta odpowiedź, stop_reason {stop}"
             rek["tekst_modelu"] = tekst
@@ -750,28 +819,49 @@ class Przebieg:
             return self.w.tokeny_tekstu(tekst)
         return int(len(tekst.split()) * 4.4)
 
+    def _wywolaj(self, f, rola, klucz=None):
+        """Jedno ponowienie po błędzie połączenia albo serwera w trakcie strumienia (SDK ponawia
+        tylko przed rozpoczęciem odpowiedzi). Przed ponowieniem skrypt sprawdza limit kosztu;
+        koszt nieudanego strumienia nie jest znany ze `usage`."""
+        try:
+            return f()
+        except Exception as e:  # noqa: BLE001
+            if not ponawialny(e):
+                raise
+            self._dopisz("zapis.jsonl", json.dumps({"blad_wywolania": f"{type(e).__name__}: {e}",
+                                                    "czas": dt.datetime.now().isoformat(
+                                                        timespec="seconds")},
+                                                   ensure_ascii=False) + "\n")
+            time.sleep(30)
+            self._sprawdz_limit(rola, klucz)
+            return f()
+
     def arbitruj(self, typ, nazwa_rundy, dozwolone=None, **kontekst):
-        if typ != "przerwanie":
-            self._sprawdz_limit("arbiter")
-        tura = ARBITER_TURA[typ].format(nazwa_rundy=nazwa_rundy, **kontekst)
-        req, przepis = zapytanie_arbitra(self.t, self.watek, tura, self.a.ttl)
+        dozwolone = dozwolone or {}
+        opis = {k: ", ".join(f'"{x}"' for x in v) for k, v in dozwolone.items()}
+        tura = ARBITER_TURA[typ].format(nazwa_rundy=nazwa_rundy, decyzje=opis.get("decyzja"),
+                                        poza=opis.get("poza_kolejnoscia"), wyniki=opis.get("wynik"),
+                                        **kontekst)
         kontekst["nazwa_rundy"] = nazwa_rundy
+        blad = None
         for proba in (1, 2):
-            wynik = self.w.arbiter(typ, req, self.stale, dozwolone or {}, kontekst)
+            if typ != "przerwanie":
+                self._sprawdz_limit("arbiter")
+            t = tura if blad is None else f"{tura}\n\n{ARBITER_POPRAWKA.format(blad=blad)}"
+            req, przepis = zapytanie_arbitra(self.t, self.watek, t, self.a.ttl)
+            body = cialo(self.model, self.a.max_tokens, self.a.effort, req, arbiter=True)
+            wynik = self._wywolaj(
+                lambda: self.w.arbiter(typ, body, self.stale, dozwolone, kontekst), "arbiter")
             d, stop = wynik[0], wynik[1]
-            rek = self._rekord_wywolania(req, przepis, wynik, "arbiter", f"arbiter_{typ}")
-            if isinstance(d, dict):
-                rek["odpowiedz_json"] = d
-            ok = isinstance(d, dict) and isinstance(d.get("tekst"), str) and d["tekst"].strip()
-            if ok and dozwolone:
-                ok = all(d.get(p) in v for p, v in dozwolone.items())
-            if ok:
-                rek.pop("odpowiedz_json", None)
+            rek = self._rekord_wywolania(body, przepis, wynik, "arbiter", f"arbiter_{typ}")
+            blad = sprawdz_arbitra(d, dozwolone, stop)
+            if blad is None:
                 rek["decyzje"] = {k: v for k, v in d.items() if k != "tekst"}
                 self._do_watku("arbiter", nazwa_rundy, d["tekst"], rek)
                 self._stan(nazwa_rundy)
                 return d
-            rek["blad"] = f"niepoprawna odpowiedź arbitra (próba {proba}); stop_reason {stop}"
+            rek["odpowiedz_json"] = d
+            rek["blad"] = f"odpowiedź arbitra nieprzyjęta (próba {proba}): {blad}"
             self._dopisz("zapis.jsonl", json.dumps(rek, ensure_ascii=False) + "\n")
             if typ == "przerwanie":
                 break
@@ -803,13 +893,14 @@ class Przebieg:
         ostatni = NAZWA[teksty[-1][0]] if teksty else None
         d = self.arbitruj("po_rundzie", nazwa, {"decyzja": decyzje, "poza_kolejnoscia": poza},
                           informacje=" ".join(info), runda=nr, ostatni_mowca=ostatni)
-        if d["poza_kolejnoscia"] != "brak" and d["decyzja"] != "brak_porozumienia":
+        if d["poza_kolejnoscia"] not in ("brak", NIE_DOTYCZY) and d["decyzja"] != "brak_porozumienia":
             klucz = next(k for k, v in NAZWA.items() if v == d["poza_kolejnoscia"])
             self.l_poza += 1
             self.mow(klucz, "dyskusja", nr, nazwa + ", głos poza kolejnością", "poza_kolejnoscia")
         return d
 
-    def glosowanie(self, nazwa, dodatkowa_dostepna):
+    def glosowanie(self, nazwa, dodatkowa_dostepna, pakiety):
+        self.pakiety = [str(x) for x in pakiety]
         self.runda("glosowanie", 0, nazwa, "glosowanie")
         wyniki = ["porozumienie", "porozumienie_czesciowe", "brak_porozumienia"]
         if dodatkowa_dostepna:
@@ -833,7 +924,8 @@ class Przebieg:
             if d["decyzja"] == "brak_porozumienia":
                 wynik = "brak_porozumienia"
             else:
-                g = self.glosowanie("Runda głosowania", dodatkowa_dostepna=True)
+                g = self.glosowanie("Runda głosowania", dodatkowa_dostepna=True,
+                                    pakiety=d["pakiety"])
                 wynik = g["wynik"]
                 if wynik == "dodatkowa_runda":
                     t = self.runda("dyskusja", nr + 1, "Dodatkowa runda dyskusji", "dodatkowa")
@@ -842,7 +934,8 @@ class Przebieg:
                     if d["decyzja"] == "brak_porozumienia":
                         wynik = "brak_porozumienia"
                     else:
-                        wynik = self.glosowanie("Powtórne głosowanie", dodatkowa_dostepna=False)["wynik"]
+                        wynik = self.glosowanie("Powtórne głosowanie", dodatkowa_dostepna=False,
+                                                pakiety=d["pakiety"])["wynik"]
             stan = "zakończony"
         except Przerwanie as e:
             stan = f"przerwany: {e}"
@@ -866,6 +959,33 @@ class Przebieg:
                                  f"Koszt z `usage`: {self.wydano:.2f} USD, wywołań: {self.l_wywolan}, "
                                  f"wypowiedzi postaci: {self.l_wypowiedzi}.\n")
         return podsum
+
+
+def sprawdz_arbitra(d, dozwolone: dict, stop) -> str | None:
+    """Zwraca opis błędu albo None. Sprawdza tylko pola, których dotyczy dana chwila."""
+    if stop == "refusal":
+        return "odmowa modelu"
+    if not isinstance(d, dict) or not isinstance(d.get("tekst"), str) or not d["tekst"].strip():
+        return f"brak poprawnego JSON z polem tekst (stop_reason {stop})"
+    for pole, wartosci in dozwolone.items():
+        w = d.get(pole)
+        if pole == "poza_kolejnoscia" and w == NIE_DOTYCZY:
+            w = "brak"
+        if w not in wartosci:
+            return f"pole {pole} = {d.get(pole)!r}, dozwolone: {', '.join(wartosci)}"
+    if dozwolone.get("decyzja") and d.get("decyzja") == "glosowanie" and not d.get("pakiety"):
+        return "decyzja glosowanie bez numerów pakietów w polu pakiety"
+    return None
+
+
+def ponawialny(e: Exception) -> bool:
+    try:
+        import anthropic
+    except ImportError:
+        return False
+    if isinstance(e, anthropic.APIConnectionError):
+        return True
+    return isinstance(e, anthropic.APIStatusError) and (e.status_code >= 500 or e.status_code == 429)
 
 
 def jest_pas(tekst: str) -> bool:
@@ -959,6 +1079,13 @@ def tryb_policz(args):
         zapisz(f"system_arbitra_{p}", t.system_arbitra())
         t0 = Teksty(t.wariant, t.pakiet, kd, t.arbiter, "", args.wariant, p)
         zapisz(f"system_arbitra_{p}_bez_zrodel", t0.system_arbitra())
+    # Tokeny stałego schematu odpowiedzi arbitra (różnica z formatem i bez niego).
+    bez = c.messages.count_tokens(model=m, messages=[{"role": "user", "content": "Test."}],
+                                  output_config={"effort": "medium"}).input_tokens
+    z = c.messages.count_tokens(model=m, messages=[{"role": "user", "content": "Test."}],
+                                output_config={"effort": "medium", "format": SCHEMAT_ARBITRA}).input_tokens
+    res["teksty"]["schemat_arbitra"] = {"tokeny": z - bez, "sha256": sha(json.dumps(
+        SCHEMAT_ARBITRA, ensure_ascii=False, sort_keys=True))}
     # Kontrola rachunku: pełne pierwsze zapytanie postaci w obu układach.
     t = wczytaj_teksty(args.wariant, args.pakiet, True)
     w = [Wpis(1, "arbiter", "Otwarcie", "Otwarcie spotkania (tekst kontrolny).")]
@@ -970,13 +1097,16 @@ def tryb_policz(args):
     return res
 
 
-def tokeny_dla_atrapy(plik, wariant, pakiet) -> dict:
+def tokeny_dla_atrapy(plik, wariant, pakiet, ze_zrodlami=True) -> dict:
     """Mapuje nazwy stałych tekstów przebiegu na liczbę tokenów z trybu policz."""
     if not plik:
         return {}
     d = json.loads(Path(plik).read_text(encoding="utf-8"))["teksty"]
     out = {"system_postaci": d[f"system_postaci_{wariant}_{pakiet}"]["tokeny"],
-           "system_arbitra": d[f"system_arbitra_{pakiet}"]["tokeny"]}
+           "system_arbitra": d[f"system_arbitra_{pakiet}" + ("" if ze_zrodlami else "_bez_zrodel")][
+               "tokeny"]}
+    if "schemat_arbitra" in d:
+        out["schemat_arbitra"] = d["schemat_arbitra"]["tokeny"]
     for k, _ in POSTACIE:
         out[f"karta_{k}_z_naglowkiem"] = d[f"karta_{k}_z_naglowkiem"]["tokeny"]
     return out
@@ -994,7 +1124,9 @@ def main():
     p.add_argument("--max-tokens", type=int, default=16000,
                    help="limit wyjścia z rozumowaniem; limit tekstu wypowiedzi to 1100 tokenów")
     p.add_argument("--ttl", default="1h", choices=["5m", "1h"])
-    p.add_argument("--uklad", default="wspolny-watek", choices=["wspolny-watek", "etap2"])
+    p.add_argument("--uklad", default="etap2", choices=["etap2", "wspolny-watek"],
+                   help="etap2: wariant, pakiet, karta, wątek (domyślny, rozstrzygnięcie prowadzącego "
+                        "w issue #46); wspolny-watek: karta po wątku (tańszy)")
     p.add_argument("--przesuniecie", type=int, default=0,
                    help="przesunięcie kolejności otwarcia (0: od Nawrockiego, 1: od Tuska, ...)")
     p.add_argument("--limit-usd", type=float, default=25.0)
@@ -1007,6 +1139,8 @@ def main():
     p.add_argument("--slowa-arbitra", type=int, default=200)
     p.add_argument("--tokeny-myslenia-postaci", type=int, default=1500)
     p.add_argument("--tokeny-myslenia-arbitra", type=int, default=3000)
+    p.add_argument("--atrapa-drogie-ogloszenie", action="store_true",
+                   help="(proba) ogłoszenia arbitra po głosowaniu i przy przerwaniu z pełnym max_tokens")
     p.add_argument("--zapisz-teksty", help="(zbuduj) katalog na sklejone teksty")
     a = p.parse_args()
     if a.model not in CENNIK:
@@ -1025,8 +1159,9 @@ def main():
     if a.tryb == "proba":
         zal = {"slowa_wypowiedzi": a.slowa_wypowiedzi, "slowa_arbitra": a.slowa_arbitra,
                "tokeny_myslenia_postaci": a.tokeny_myslenia_postaci,
-               "tokeny_myslenia_arbitra": a.tokeny_myslenia_arbitra}
-        wyk = Atrapa(a.scenariusz, tokeny_dla_atrapy(a.tokeny, a.wariant, a.pakiet), zal, teksty)
+               "tokeny_myslenia_arbitra": a.tokeny_myslenia_arbitra,
+               "drogie_ogloszenie": a.atrapa_drogie_ogloszenie, "max_tokens": a.max_tokens}
+        wyk = Atrapa(a.scenariusz, tokeny_dla_atrapy(a.tokeny, a.wariant, a.pakiet, not a.bez_kart_zrodel), zal, teksty)
     else:
         dzis = dt.date.today().strftime("%Y.%m.%d")
         if not a.potwierdzam_koszt:

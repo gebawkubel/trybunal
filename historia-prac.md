@@ -391,7 +391,7 @@ e6e97359336e53510d9a52990bc6da147027281c0fc0389d12fad7fd3cee4457  pakiet-wiedzy.
 
 ## Symulacja negocjacji: etap 3 (issue #46)
 
-Skrypt rozmowy i arbitra (`narzedzia/symulacja/`) napisał Claude Opus 5.5 (osobny agent Claude Code) według wytycznych etapu 3 dopisanych publicznie do issue #46. Polecenie: treść issue i jawna wiadomość techniczna; w trakcie pracy wykonawca dostał też uzupełnienie o zapisie na żywo, opublikowane najpierw w issue. Wykonawca mógł wywoływać tylko liczenie tokenów; generowania nie uruchamiał. Szacunek kosztu pierwszego przebiegu: około 15 USD (zakres 12-23 USD), opis w `narzedzia/symulacja/README.md`.
+Skrypt rozmowy i arbitra (`narzedzia/symulacja/`) napisał Claude Opus 5.5 (osobny agent Claude Code) według wytycznych etapu 3 dopisanych publicznie do issue #46. Polecenie: treść issue i jawna wiadomość techniczna; w trakcie pracy wykonawca dostał też uzupełnienie o zapisie na żywo, opublikowane najpierw w issue. Wykonawca mógł wywoływać tylko liczenie tokenów; generowania nie uruchamiał. Szacunek kosztu pierwszego przebiegu: około 15 USD (zakres 12-23 USD); po pierwszej rundzie recenzji (stały schemat arbitra, zapas w limicie kosztu) i po wyborze kolejności kontekstu z etapu 2 przez prowadzącego: około 18 USD (zakres 16-24 USD), opis w `narzedzia/symulacja/README.md`.
 
 ```
 a32dc38d1d22288e82b0d61e0610c0778d9d8d43397343018ebcf54cb763680c  issue-46.md (badania/symulacja/etap-3/polecenie-issue.md)

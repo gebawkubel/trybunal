@@ -117,6 +117,10 @@
    "tokeny": 73076,
    "slowa": 16498,
    "sha256": "89c4cfe6570efd3863e54eda81dc804ddc64bfc102887f85f53c984e0f85688a"
+  },
+  "schemat_arbitra": {
+   "tokeny": 664,
+   "sha256": "1c0b200c534224b5be151e30b20e278fd2cf1d8e39db272973b7fd7cdb0a8ad4"
   }
  },
  "pelne_zapytanie_nawrocki_wspolny-watek": 128814,
