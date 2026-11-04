@@ -272,3 +272,7 @@ Uzupełnienie po scaleniu PR #43: w kolejnym PR dodaliśmy ścieżkę karty KJ w
 ## Odpowiedź na pytanie (issue #38)
 
 Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordynator (Opus). Zbiera wnioski z [rekomendacji modeli](badania/rekomendacje-modeli.md) i [bilansu propozycji](badania/bilans-propozycji.md), bez własnej rekomendacji projektu.
+
+## Wywiad Bosaka w Polsat News (issue #48)
+
+Czytelnik wskazał wywiad Krzysztofa Bosaka w "Graffiti" Polsat News z 2026.11.04 i przekazał automatyczne napisy. Kartę nagrania i [notatkę z porównaniem z bazą](badania/bosak-2026-11-04.md) przygotował agent Opus (claude-opus-5-5, Claude Code) na podstawie automatycznych napisów YouTube, bez odsłuchu ([karta](zrodla/okres-2024-2026/bosak-polsat-2026-11-04.md)). Karta jest wyciągiem z krótkimi cytatami, jak inne karty nagrań. Spośród 35 twierdzeń 12 już było w bazie, 10 jest nowych, 5 nie zgadza się z dokumentami, 8 to oceny. Jedyne nowe sprawdzenie poza bazą: wyroki TK w Dzienniku Ustaw z lat 2024-2026 w API ELI Sejmu. Nowe elementy stanowiska Konfederacji dopisano w [propozycjach z debaty](badania/propozycje-na-stole.md) i w indeksie stron [scenariuszy naprawy](badania/scenariusze-naprawy.md).

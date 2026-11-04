@@ -26,6 +26,7 @@ Wszystkie notatki badawcze projektu. Punktem wyjścia jest [historia sporu](hist
 
 - [Scenariusze naprawy](badania/scenariusze-naprawy.md): co jest w debacie i kto za tym stoi.
 - [Propozycje z debaty](badania/propozycje-na-stole.md): co dokładnie proponują partie, Kancelaria Prezydenta i eksperci, według ich dokumentów.
+- [Wywiad Bosaka z 2026.11.04](badania/bosak-2026-11-04.md): jego twierdzenia i propozycje w porównaniu z bazą.
 - [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, rola Prezydenta, kluczowe wyroki, projekty resetu, Komisja Wenecka.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): liczby posłów i możliwe większości.
 - [Odpowiedź na pytanie o najlepsze rozwiązanie](badania/odpowiedz.md): co wynika z rekomendacji modeli i bilansu propozycji.
