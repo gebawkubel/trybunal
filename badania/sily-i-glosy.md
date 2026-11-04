@@ -10,7 +10,7 @@ Stan na 2026.11.04. Notatka pokazuje, ile głosów ma każdy klub i koło w Sejm
 |---|---|---|---|
 | Koalicja Obywatelska (KO) | 156 | koalicja rządząca | 1; część posłów dopuszcza 6 |
 | Prawo i Sprawiedliwość (PiS) | 147 | opozycja | 2, 5 |
-| Rozwój Plus (Mateusz Morawiecki) | 40 | opozycja | 5 (wotum nieufności); Krzysztof Szczucki: własny wariant 3 |
+| Rozwój Plus (Mateusz Morawiecki) | 40 | opozycja | 3 (własny projekt z 2026.10.07, [treść](propozycje-na-stole.md#2-rozwój-plus-i-krzysztof-szczucki-20261007)), 5 (wotum nieufności) |
 | PSL-Trzecia Droga | 32 | koalicja rządząca | 3, własny plan z 2026.11.02 |
 | Lewica | 21 | koalicja rządząca | 1 |
 | Konfederacja | 17 | opozycja | 3, 5 (warunkowo) |
