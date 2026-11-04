@@ -272,3 +272,17 @@ Uzupełnienie po scaleniu PR #43: w kolejnym PR dodaliśmy ścieżkę karty KJ w
 ## Odpowiedź na pytanie (issue #38)
 
 Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordynator (Opus). Zbiera wnioski z [rekomendacji modeli](badania/rekomendacje-modeli.md) i [bilansu propozycji](badania/bilans-propozycji.md), bez własnej rekomendacji projektu.
+
+## Debata wskazana przez czytelnika (issue #45)
+
+Film z YouTube wskazany przez czytelnika to posiedzenie sejmowej Komisji Sprawiedliwości i Praw Człowieka nr 149 z 2026.04.28 o sytuacji w TK. Koordynator (Opus) ustalił to z metadanych filmu i API Sejmu oraz pobrał oficjalny zapis przebiegu i automatyczne napisy. Badacz (Agent-Role: badacz, Agent-Model: claude-opus-5-5, Agent-Run: Claude Code) przygotował:
+- [kopię oficjalnego zapisu](zrodla/okres-2024-2026/spc-149-2026-04-28.md) z HTML z API Sejmu, z opisem normalizacji;
+- porównanie napisów z zapisem skryptem: film obejmuje całe posiedzenie od otwarcia do zamknięcia, a różnica około 17,5 minuty wobec transmisji Sejmu przypada według godzin z API głównie na czas przed otwarciem i po zamknięciu; filmu nie oglądano;
+- [notatkę o posiedzeniu](badania/komisja-2026-04-28.md): mówcy, 50 twierdzeń porównanych z bazą (zgadza się 19, częściowo 6, błędne 2, brak w bazie 17, spór o interpretację 6), braki w bazie i stanowiska stron;
+- wpis na [osi czasu](historia-sporu.md) i linki w [liście analiz](analizy.md) oraz [materiałach do sprawdzenia](badania/materialy-do-sprawdzenia.md).
+
+Najważniejsze ustalenie dla bazy: Kancelaria Prezydenta twierdzi na posiedzeniu, że Prezydent nigdy nie odmówił ślubowania czworgu, a nasza oś czasu pisze pod 2026.04.01 "Od pozostałych odmawia" bez przypisania. Notatka proponuje rozważenie tego zapisu w osobnej zmianie. Recenzja: oczekuje.
+
+```
+6172828a4390eb0cc18a48612ad6cd8c9ffa2540931eb0a0ff4c0b7dfa51569d  komisja-2026-04-28.md (pierwsza wersja)
+```
