@@ -6,18 +6,33 @@ Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.
 
 ## W skrócie
 
-Wszystkie 10 przebiegów skończyło się porozumieniem i nikt nie głosował przeciw. Łączny koszt wyniósł 56,35 USD z budżetu 100 USD.
+**Założenia.**
+- Modele AI zagrały osoby, od których naprawdę zależy rozwiązanie sporu o TK, przy jednym stole i w jednym wspólnym wątku. Każda postać dostała ten sam pakiet faktów ze stanem na 2026.11.04 i własną kartę z prawdziwymi wypowiedziami.
+- Arbiter, osobny agent, pilnował kolejności i liczył głosy według Konstytucji. Porozumienie zapadało, gdy pakiet miał wymagane głosy w Sejmie i Senacie i zgodę osób, które muszą coś wykonać. Zgoda wszystkich nie była potrzebna.
+- Postacie grały w trzech wariantach motywacji: (a) dobro państwa, (b) ugraj jak najwięcej, ale ostatecznie dobro państwa, (c) czysty interes polityczny.
+- Skład, karty, reguły i skrypt przygotowały osobne agenty według jawnych wytycznych z issue #46. Każdy etap przeszedł recenzję.
 
-W każdym przebiegu powtarza się ten sam zestaw kroków "na teraz", bez ustawy:
-- czworo sędziów wybranych w 2026 roku ślubuje przed Prezydentem;
-- policja wychodzi z TK, a Prezes i Wiceprezes wracają;
-- Anna Korwin-Piotrowska cofa swoje zarządzenia;
-- zaprzysiężeni zostają dopuszczeni do orzekania;
-- rząd publikuje zaległe wyroki.
+**Co przeprowadziliśmy.**
+- 10 rozmów: 1 przy stole z 10 postaciami i 9 przy stole z 6 postaciami (Nawrocki, Tusk, Kaczyński, Czarzasty, Święczkowski, Korwin-Piotrowska). Mniejszy stół powstał po uwadze prowadzącego, że nie trzeba zapraszać osób, których głos niczego nie rozstrzyga.
+- 420 wywołań modelu: 357 wypowiedzi postaci (w tym 11 głosów poza kolejnością) i 63 wypowiedzi arbitra. Razem około 106 tys. słów.
+- Około 2 godzin samej rozmowy, od 10 do 25 minut na przebieg.
+- Koszt: 56,35 USD z budżetu 100 USD (od 3,81 do 14,50 USD na przebieg).
+- Ucięte po limicie długości: 10 wypowiedzi w przebiegu 1. Po podniesieniu limitu w przebiegach 2-10 ucięte zostały już tylko 2 wypowiedzi.
 
-Żaden pakiet nie usuwa sędziów wybranych w 2026 roku. Czworo ślubuje, a sprawa Macieja Berka zostaje otwarta albo trafia do osobnej procedury. Różni się to, co postacie uzgodniły na dalszy czas: od braku jakiejkolwiek ustawy po zmianę Konstytucji z resetem.
-
-Trzeba to czytać ostrożnie. Jednomyślność we wszystkich 10 przebiegach, także przy motywacji "czysty interes polityczny", może oznaczać, że model gra postacie zbyt ugodowo. Sprawdzi to seria kontrolna na innym modelu, przewidziana w issue.
+**Wnioski.**
+- Wszystkie 10 rozmów skończyło się porozumieniem i nikt nie głosował przeciw.
+- Za każdym razem powtarza się ten sam zestaw kroków "na teraz", bez ustawy:
+  - czworo sędziów wybranych w 2026 roku ślubuje przed Prezydentem;
+  - policja wychodzi z TK, a Prezes i Wiceprezes wracają;
+  - Anna Korwin-Piotrowska cofa swoje zarządzenia;
+  - zaprzysiężeni zostają dopuszczeni do orzekania;
+  - rząd publikuje zaległe wyroki.
+- Żaden pakiet nie usuwa sędziów wybranych w 2026 roku. Sprawa Macieja Berka zostaje otwarta albo trafia do osobnej procedury.
+- Rozwiązanie na dalszy czas się różni:
+  - 3 razy zmiana Konstytucji, w tym raz reset ze stanem spoczynku obecnych sędziów;
+  - 4 razy zwykła ustawa z wyborem sędziów większością 3/5;
+  - 3 razy nic poza krokami "na teraz".
+- Trzeba to czytać ostrożnie. Jednomyślność także przy "czystym interesie" może oznaczać, że model gra postacie zbyt ugodowo. Sprawdzi to seria kontrolna na innym modelu, przewidziana w issue.
 
 ## Ustawienia
 
