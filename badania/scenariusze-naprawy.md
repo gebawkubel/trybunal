@@ -139,6 +139,14 @@ Dwie niezależne analizy (Fable i Opus, osobno, na tym samym poleceniu, przed Zg
 | Rozstrzygnięcie Kpt 1/26 lub wyrok ETPC w sprawie 17392/26 | Spór rozstrzyga orzeczenie TK albo ETPC | Pierwsze zależy od składu TK, którego status jest sporny; drugie nie ma terminu |
 | Porozumienie o dobrowolnych odejściach | Część sędziów rezygnuje w ramach porozumienia stron | Wskazane przez recenzenta analizy Fable, bez śladu w debacie |
 
+## Scenariusze z symulacji negocjacji
+
+W [symulacji negocjacji](symulacja/przebieg-1/raport.md) (issue #46) model AI grał 10 osób, od których zależy rozwiązanie sporu. Wypowiedzi są wygenerowane, a nie prawdziwe. Wynik jednego przebiegu nie przewiduje decyzji tych osób. Pokazuje układ, którego nikt dotąd nie zgłosił, a który przy założeniach symulacji zebrał zgodę wszystkich postaci.
+
+| Scenariusz | Na czym polega | Co wymaga lub co budzi zarzuty |
+|---|---|---|
+| Reset z zachowaniem sędziów z 2026 roku | Zmiana Konstytucji. Obecni sędziowie przechodzą w stan spoczynku z zachowaniem statusu i uposażenia. Ośmioro wybranych w 2026 roku wchodzi do nowego, 15-osobowego składu z mocy przepisu przejściowego, z kadencjami losowanymi jak u wszystkich. Pozostałe 7 miejsc Sejm obsadza większością 3/5, a przy blokadzie po 60 dniach rozstrzyga losowanie. Ślubowanie przed Prezydentem w 21 dni, po pisemnej odmowie ponowny wybór 3/5. Do stwierdzenia niezgodności w pełnym składzie potrzeba 2/3 w zamkniętym katalogu spraw. Bez przepisu o dawnych wyrokach. Wcześniej, 2026.11.10: wyjście policji, powrót Prezesa, ślubowanie czworga, publikacja wyroków | Wymaga 307 głosów, czyli KO i PiS razem. W symulacji KO przyjęła reset, bo nie traci sędziów z 2026 roku, a PiS w zamian za próg 2/3 i ślubowanie przed Prezydentem. W rzeczywistości Czarzasty odrzucał reset i zmianę Konstytucji, a Tusk mówił o rozwiązaniu "bez zmian w Konstytucji" (scenariusz 3). Ośmioro z 15 to większość, stąd żądanie progu 2/3. Tekst przepisów nie powstał, a poprawności prawnej nikt nie sprawdził. Jeden przebieg, kolejne w toku |
+
 ## Kto za czym stoi: indeks stron
 
 Numery odnoszą się do scenariuszy powyżej. "Brak stanowiska" oznacza, że go nie znaleźliśmy, a nie, że go nie ma.
@@ -174,6 +182,7 @@ Numery odnoszą się do scenariuszy powyżej. "Brak stanowiska" oznacza, że go 
 3. Sumy kontrolne pierwszych wersji zapisaliśmy przed recenzją.
 4. Każdą analizę zrecenzował drugi model. Osobni agenci sprawdzili fakty w źródłach pierwotnych i przypisania stanowisk.
 5. Prowadzący (Claude Opus 5.5) scalił wyniki. Twierdzenia obalone w weryfikacji pominął, a niepewne oznaczył.
+6. Część "Scenariusze z symulacji negocjacji" dopisał 2026.11.04 koordynator (Claude Opus 5.5) na prośbę prowadzącego, na podstawie [raportu z przebiegu 1](symulacja/przebieg-1/raport.md).
 
 Przebieg, sumy kontrolne i stałe linki do wszystkich plików, także pierwszych wersji z błędami, są w [historii prac](../historia-prac.md#lista-scenariuszy-naprawy-pr-10-17-19-21).
 

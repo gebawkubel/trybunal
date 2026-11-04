@@ -405,3 +405,14 @@ Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 2 blokery: zmie
 45804ee4e07e335f745afa64b4a29a9e5d54fe0c0442b87906b9aa30d14fe7cd  wiadomosc-poprawka.md (badania/symulacja/etap-3/wiadomosc-poprawka.md)
 9ce9f3a9edbdf9c118edc40fab167297551742492e62ac5da527d87b9698cfd6  wiadomosc-rozstrzygniecia.md (badania/symulacja/etap-3/wiadomosc-rozstrzygniecia.md)
 ```
+
+## Symulacja negocjacji: przebieg 1 (issue #46)
+
+Pierwszy płatny przebieg uruchomił koordynator 2026.11.04, 14:03-14:29: skrypt z PR #53, skład W1, wariant (b), model `claude-opus-5-5`, wysiłek `medium`, limit 25 USD. Koszt z `usage`: 14,50 USD (szacunek około 18 USD), 81 wywołań. Wynik według arbitra: porozumienie, 10 głosów za pakietem nr 1. Uciętych po limicie 1100 tokenów było 11 wypowiedzi, każda z głosem złożonym przed cięciem. Zapis, ustawienia i sumy: `badania/symulacja/przebieg-1/`. W `zapis.md` zamieniono 12 półpauz z wypowiedzi modelu na łączniki; `zapis.jsonl` jest bez zmian.
+
+Na prośbę prowadzącego koordynator napisał [raport](badania/symulacja/przebieg-1/raport.md) z porównaniem z wcześniejszymi analizami i dopisał wynikowy wariant ("reset z zachowaniem sędziów z 2026 roku") do [scenariuszy naprawy](badania/scenariusze-naprawy.md#scenariusze-z-symulacji-negocjacji).
+
+```
+8a471bca7251d286f77c90e7d2bf92bd719086817ff22ea1861e6add50520107  zapis.md (oryginał; w repo 0636945628b5aaecd93c70225f6de2775317b6e49b2fb2096527abaa74a883d3)
+c7d2bf5272f189a278578fa8428783f7649af9fa6478b3fd14732a448ccf8ea6  zapis.jsonl
+```
