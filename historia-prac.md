@@ -275,14 +275,18 @@ Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordy
 
 ## Symulacja negocjacji: etap 1 (issue #46)
 
-Pierwszą próbę etapu 1 (PR #47, commit c274b85) zamknęliśmy bez scalania: polecenie napisał koordynator poza issue i dopisał w nim własne wytyczne, m.in. przykładową listę kandydatów. Na prośbę użytkownika z 2026.11.04 do issue #46 doszła zasada przejrzystości: wykonawca dostaje tylko dosłowną treść issue i krótką wiadomość techniczną, obie publikowane. Etap 1 wykonał od nowa Claude Fable 5.1 (wysoki wysiłek, nowy agent Claude Code) na repozytorium w wersji 78e9e45. Wynik: [skład stołu i plan przebiegów](badania/symulacja/etap-1.md).
+Pierwszą próbę etapu 1 (PR #47, [commit c274b85](https://github.com/gebawkubel/trybunal/tree/c274b853aed3ff0de71e71d991e6002d6b083b3a)) zamknęliśmy bez scalania: polecenie napisał koordynator poza issue i dopisał w nim własne wytyczne, m.in. przykładową listę kandydatów. Na prośbę użytkownika z 2026.11.04 do issue #46 doszła zasada przejrzystości: wykonawca dostaje tylko dosłowną treść issue i krótką wiadomość techniczną, obie publikowane. Etap 1 wykonał od nowa Claude Fable 5.1 (wysoki wysiłek, nowy agent Claude Code) na repozytorium w wersji 78e9e45. Wynik: [skład stołu i plan przebiegów](badania/symulacja/etap-1.md).
 
 ```
 87b17221569d2b4c2fb0229d72aa7f1f4c2e64a9c8a1c5155da663b2deb3dfe8  issue-46.md (badania/symulacja/etap-1-polecenie-issue.md)
 bb5286b12e1c2810a8028278609d83d477a10fff91e1089a78e13d34274f9e7d  wiadomosc-techniczna.md (badania/symulacja/etap-1-wiadomosc.md)
 db923f3ff54019ddf97908c85a7e2da020b2d7010c053858384ce09ecc0e6575  etap-1.md (oryginał wersji 1, commit 57463fe)
 61636b0692fc757ba3bfdce876cb592dc00c71947865946c28ca446cc756879f  wiadomosc-poprawka.md (oryginał; badania/symulacja/etap-1-wiadomosc-poprawka.md)
-8cd57fbddfcd6f806c0e9521ea0c65ebb32941aa3837b53d27c38120193f77ae  etap-1-v2.md (oryginał wersji 2; badania/symulacja/etap-1.md)
+8cd57fbddfcd6f806c0e9521ea0c65ebb32941aa3837b53d27c38120193f77ae  etap-1-v2.md (oryginał wersji 2, commit 0624cb0)
+1b6d283c17a7adfb6195c8adabc2289f62a1e482ceb635772129f45ebd6988f5  wiadomosc-poprawka-2.md (oryginał; badania/symulacja/etap-1-wiadomosc-poprawka-2.md)
+e1ba02aec6254e1fc461974ebb3271d78cf98685ff32f286bed7766a406f6a74  etap-1-v3.md (oryginał wersji 3; badania/symulacja/etap-1.md)
 ```
 
 Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 6 blokerów, głównie arytmetycznych: kto jest "niezbędny" w ścieżkach i regułach arbitra, inicjatywa 57 posłów zamiast 92, rola PSL przy wotum nieufności, oraz dwa fakty niezgodne z repo (przebieg głosowań, nieobecni na konsultacjach 2026.10.31). [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628753608) opublikowaliśmy w issue #46, a poprawki zrobił autor etapu w tej samej rozmowie, według jawnej wiadomości. Wersja 1: [commit 57463fe](https://github.com/gebawkubel/trybunal/blob/57463fe13de56d0ba7110bb1a080520fe4d6f055/badania/symulacja/etap-1.md).
+
+W drugiej rundzie recenzent potwierdził usunięcie B1-B6, ale zatrzymał trzy nowe błędy arytmetyczne z poprawek: brakujące głosy w ścieżce konstytucyjnej (11 z 17, nie 7), podwójnie policzone koło Kukiza w regułach wariantu W2 i zbyt szeroko określonych niezbędnych przy wotum nieufności. [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628905883) jest w issue #46; poprawki zrobił autor etapu (wersja 3).
