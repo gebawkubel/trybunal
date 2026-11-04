@@ -16,7 +16,9 @@ Badamy cały przebieg sporu: od jego genezy, przez wydarzenia z 2015 roku i pó�
 
 ## Co jest gotowe
 
-Stan na 2026.11.03. Mamy dokumenty i przeglądy wszystkich okresów sporu oraz pierwszą ocenę odpowiedzialności i porównanie rozwiązań. Nie wydajemy własnej rekomendacji, a listy luk pokazują, czego jeszcze nie wiemy.
+Stan na 2026.11.04. Mamy dokumenty i przeglądy wszystkich okresów sporu oraz pierwszą ocenę odpowiedzialności i porównanie rozwiązań. Nie wydajemy własnej rekomendacji, a listy luk pokazują, czego jeszcze nie wiemy.
+
+**Zacznij tutaj:** [Historia sporu krok po kroku](historia-sporu.md). Cała historia od 1986 roku do dziś, w pełnych zdaniach, z linkiem przy każdym punkcie do szczegółów i źródła.
 
 **Od czego się zaczęło (2015)**
 - [Geneza: TK przed 2015 rokiem](badania/geneza-przed-2015.md): jak wybierano sędziów od 1997 roku i dlaczego w 2015 roku do obsadzenia było pięć miejsc.
@@ -47,6 +49,6 @@ Stan na 2026.11.03. Mamy dokumenty i przeglądy wszystkich okresów sporu oraz p
 - [Cały zakres i dalsze prace](plan.md)
 - [Historia prac](historia-prac.md): kto co zrobił, jakie błędy znaleźli recenzenci i co poprawiliśmy.
 - [Jak możesz pomóc](wspolpraca.md)
-- Źródła: [tekst Konstytucji](zrodla/konstytucja.md) i kopie innych dokumentów w katalogu `zrodla`, każda z adresem oryginału.
+- Źródła: [tekst Konstytucji](zrodla/konstytucja.md), głosowania Sejmu z rozkładem na kluby ([2015](zrodla/glosowania-2015.md), [2015-2026](zrodla/glosowania-tk-2015-2026.md)) i kopie innych dokumentów w katalogu `zrodla`, każda z adresem oryginału.
 
 Projekt prowadzi **Gęba w Kubeł (GWK)** z pomocą AI. Zgodność odpowiedzi wielu modeli nie jest dowodem prawdziwości. Dokumenty można czytać tutaj lub otworzyć folder projektu w Obsidianie, programie do połączonych ze sobą notatek.
