@@ -15,11 +15,11 @@ Tak. Rozmowa przeszła wszystkie fazy przewidziane w skrypcie:
 
 Skrypt zapisał 81 wywołań modelu, w tym 73 wypowiedzi postaci. Arbiter ogłosił wynik według reguł.
 
-**Koszt:** 14,50 USD, policzony z pola `usage` w odpowiedziach API. Szacunek przed przebiegiem wynosił około 18 USD ([README skryptu](../../../narzedzia/symulacja/README.md)). Większość tokenów to odczyt z bufora (12,6 mln). Zapis do bufora wyniósł 1,16 mln, a wyjście 131 tys. tokenów.
+**Koszt:** 14,50 USD, policzony z pola `usage` w odpowiedziach API. Szacunek przed przebiegiem wynosił około 18 USD ([README skryptu](../../../narzedzia/symulacja/README.md)). Większość tokenów to odczyt z bufora, czyli tańsze ponowne użycie tekstu wysłanego już wcześniej do modelu (12,6 mln). Zapis do bufora wyniósł 1,16 mln, a tekst napisany przez model, z rozumowaniem, 131 tys. tokenów.
 
 **Co trzeba poprawić przed kolejnymi przebiegami:**
-1. **Ucięte wypowiedzi.** 11 wypowiedzi przekroczyło limit 1100 tokenów: 2 w dyskusji, 3 w pierwszym głosowaniu i 6 w powtórnym. Każdy głos "za" padł przed ucięciem, więc wynik się nie zmienia, ale części zastrzeżeń i zobowiązań brakuje. Limit trzeba podnieść albo skrócić wymagany format głosu.
-2. **Ryzyko zbyt łatwej zgody.** Wszystkie postacie zgodziły się już w trzeciej rundzie. Ten sam model gra wszystkich i może być zbyt ugodowy. Na przykład Włodzimierz Czarzasty mówił naprawdę 2026.11.02: "Nie poprę żadnego resetu, nie poprę zmiany konstytucji". Jego postać zaczęła od tego samego (7), a po dwóch rundach zmieniła zdanie (30). Rozstrzygną to dopiero kolejne przebiegi, zwłaszcza wariant (c), "czysty interes polityczny", oraz seria kontrolna na innym modelu.
+1. **Ucięte wypowiedzi.** Skrypt ucina wypowiedź po 1100 tokenach tekstu (to reguła skryptu, nie przerwanie przez API). Ucięte zostało 10 wypowiedzi: 1 w dyskusji, 3 w pierwszym głosowaniu i 6 w powtórnym. W dyskusji ucięcie urwało część B pakietu Hołowni (31), więc arbiter udzielił mu głosu poza kolejnością, by ją dokończył (36). W głosowaniach każdy głos "za" padł przed ucięciem, więc wynik się nie zmienia, ale części zastrzeżeń i zobowiązań brakuje. Limit trzeba podnieść albo skrócić wymagany format głosu.
+2. **Ryzyko zbyt łatwej zgody.** Zarys porozumienia przyjęły wszystkie postacie już w drugiej rundzie dyskusji (25-34). Ten sam model gra wszystkich i może być zbyt ugodowy. Na przykład Włodzimierz Czarzasty mówił naprawdę 2026.11.02: "Nie poprę żadnego resetu, nie poprę zmiany konstytucji". Jego postać zaczęła od tego samego (7), a po dwóch rundach zmieniła zdanie (30). Rozstrzygną to dopiero kolejne przebiegi, zwłaszcza wariant (c), "czysty interes polityczny", oraz seria kontrolna na innym modelu.
 3. **Porozumienie warunkowe.** Tekstu przepisów nie ma. Według pakietu napisze go zespół KO, PiS i Rozwoju Plus, a 2026.11.09 KO i PiS mają go parafować. Arbiter zapisał to jako warunek (81).
 
 ## Wynik
@@ -27,10 +27,10 @@ Skrypt zapisał 81 wywołań modelu, w tym 73 wypowiedzi postaci. Arbiter ogłos
 Arbiter ogłosił **porozumienie** (81). Wszystkie 10 postaci głosowało "za" pakietem nr 1, który złożył i uzupełniał Szymon Hołownia (31, 66). Każda postać dodała zastrzeżenia.
 
 **Część A, zmiana Konstytucji:**
-- 15 sędziów wybieranych przez Sejm większością 3/5 na 9 lat. Kandydatów zgłasza klub albo 15 posłów. Gdy w 60 dni nie ma wyboru, rozstrzyga losowanie.
-- 4 lata karencji dla polityków, także z Kancelarii Prezydenta.
+- 15 sędziów wybieranych przez Sejm większością 3/5 na 9 lat. Kandydatów zgłasza klub albo 15 posłów.
+- 4 lata karencji, czyli przerwy przed wyborem na sędziego, dla polityków, także z Kancelarii Prezydenta.
 - **Wszyscy obecni sędziowie przechodzą w stan spoczynku**, z zachowanym statusem i uposażeniem zapisanymi w Konstytucji.
-- **Ośmioro wybranych w 2026 roku wchodzi do nowego składu z mocy przepisu przejściowego**, a nie na podstawie uchwał Sejmu z 2026 roku. Kadencje całego pierwszego składu losuje publicznie PKW.
+- **Ośmioro wybranych w 2026 roku wchodzi do nowego składu z mocy przepisu przejściowego**, a nie na podstawie uchwał Sejmu z 2026 roku. Pozostałe 7 miejsc Sejm obsadza większością 3/5, a gdy w 60 dni nie ma wyboru, rozstrzyga losowanie. Kadencje całego pierwszego składu losuje publicznie PKW.
 - Ślubowanie przed Prezydentem w 21 dni. Jeśli Prezydent pisemnie odmówi, Sejm wybiera ponownie większością 3/5, a ślubowanie odbywa się w 7 dni.
 - Składy pięcioosobowe. Do uznania przepisu za niezgodny z Konstytucją w pełnym składzie potrzeba 2/3 głosów, w zamkniętym katalogu spraw. Katalog nie obejmuje praw jednostki.
 - Prezesa powołuje Prezydent spośród kandydatów Zgromadzenia Ogólnego, na 3 lata. Wyroki ogłasza sam Trybunał.
@@ -56,13 +56,13 @@ Poza gwarancją stołu zostały m.in. prokuratura, immunitety, PKW, ETPC, senato
 1. **Otwarcie.** Reset w jakiejś postaci proponowali Morawiecki (5), Kosiniak-Kamysz (6), Hołownia (8) i Bosak (9), a Prezydent popierał go pod trzema warunkami (2). Tusk wykluczył reset, "który wymaże wybór dokonany legalnie przez Sejm w 2026 roku" (3). Czarzasty odrzucił reset i zmianę Konstytucji w ogóle (7), a Korwin-Piotrowska wygaszenie kadencji wybranych na wolne miejsca (11).
 2. **Pomost.** Kosiniak-Kamysz zaproponował, żeby ośmioro z 2026 roku trafiło z mocy Konstytucji na listę głosowaną łącznie większością 3/5 (17). Czarzasty chciał, żeby zostali bez ponownego głosowania, z kadencją od dnia wyboru (18). Hołownia połączył oba stanowiska. Ośmioro wchodzi z mocy przepisu przejściowego Konstytucji, uchwalonego także głosami PiS, ale z kadencjami losowanymi jak u wszystkich (19). Tak "nikt nie jest wymazany i nikt nie dostaje przywileju".
 3. **Zgoda KO.** Tusk przyjął reset pod warunkiem wariantu Hołowni (26). Prezydent odrzucił kadencje liczone od wyboru w 2026 roku (25), a Czarzasty z nich zrezygnował (30).
-4. **Cena PiS.** Kaczyński zauważył, że ośmioro z piętnaściorga to większość Trybunału, i zażądał progu 2/3 pełnego składu do stwierdzenia niezgodności (27). Kosiniak-Kamysz zawęził ten próg do wniosków organów i polityków (29, 30), a Bosak przyjął go, "bo bez niego ośmioro byłoby większością" (32). W pakiecie próg objął zamknięty katalog spraw, bez praw jednostki.
+4. **Cena PiS.** Kaczyński zauważył, że ośmioro z piętnaściorga to większość Trybunału, i zażądał progu 2/3 pełnego składu do stwierdzenia niezgodności (27). Kosiniak-Kamysz zawęził ten próg do wniosków organów i polityków (29; Czarzasty przyjął to w 30), a Bosak przyjął go, "bo bez niego ośmioro byłoby większością" (32). W pakiecie próg objął zamknięty katalog spraw, bez praw jednostki.
 
 ## Porównanie z wcześniejszymi analizami
 
 Pakiet wiedzy postaci nie zawierał rekomendacji modeli, bilansu propozycji ani scenariuszy z analiz AI ([issue #46](https://github.com/gebawkubel/trybunal/issues/46)). Porównujemy je dopiero teraz.
 
-**Co jest nowe.** Żadna propozycja z debaty nie łączy stanu spoczynku obecnych sędziów z pozostawieniem w składzie ośmiorga wybranych w 2026 roku ([propozycje z debaty](../../propozycje-na-stole.md), tabela "Porównanie"):
+**Co jest nowe.** Żadna znana nam propozycja z debaty nie łączy wprost stanu spoczynku obecnych sędziów z pozostawieniem w składzie ośmiorga wybranych w 2026 roku ([propozycje z debaty](../../propozycje-na-stole.md), tabela "Porównanie"):
 - Konfederacja, Klub Jagielloński, HFPC i Razem: sędziowie z 2026 roku odchodzą jak wszyscy;
 - Fundacja Batorego: ci, którzy orzekają, przechodzą w stan spoczynku, a pozostali mogą tylko ponownie kandydować;
 - PSL i Rozwój Plus: los sędziów z 2026 roku jest niejasny.
@@ -73,7 +73,8 @@ Rekomendacje Fable i Astry odrzucały reset w ogóle ([rekomendacje modeli](../.
 
 **Co było już wcześniej:**
 - 15 sędziów, 3/5 i losowanie przy blokadzie: Konfederacja;
-- losowane kadencje pierwszego składu: Konfederacja i Bosak ([wywiad z 2026.11.04](../../bosak-2026-11-04.md));
+- próg 2/3: Klub Jagielloński (pełnego składu) i Rozwój Plus (składu orzekającego);
+- losowane kadencje pierwszego składu: Konfederacja, Klub Jagielloński (losowanie przez PKW) i Bosak ([wywiad z 2026.11.04](../../bosak-2026-11-04.md));
 - 3-letnia kadencja Prezesa: Fundacja Batorego;
 - stan spoczynku z zachowaniem statusu: PSL, Rozwój Plus, Batory i Klub Jagielloński;
 - kroki z 2026.11.10: Bosak oraz kompromis z Prezydentem z rekomendacji modeli;
@@ -88,4 +89,4 @@ Wariant dopisaliśmy do [scenariuszy naprawy](../../scenariusze-naprawy.md#scena
 - [zapis.md](zapis.md): zapis rozmowy. Jedyna zmiana względem oryginału: 12 półpauz w wypowiedziach modelu zamieniliśmy na łączniki, bo wymaga tego walidator repozytorium.
 - `zapis.jsonl`: ten sam zapis bez zmian, z polem `usage`, kosztem i sumą SHA-256 zapytania przy każdym wywołaniu.
 - `ustawienia.json`, `wynik.json`, `stan.json`, `techniczne.json`: ustawienia, wynik, stan końcowy i stałe teksty techniczne skryptu.
-- `sumy.txt`: sumy SHA-256 oryginałów, także tekstów wysłanych do modelu (system postaci, system arbitra, karty). Sumy kart są takie same jak sumy kart z etapu 2 (`badania/symulacja/etap-2/`) w historii prac, Teksty systemowe skrypt składa z repozytorium (tryb `zbuduj`), więc ich nie kopiujemy. Sumy ich części (pakiet wiedzy, wariant (b), instrukcja arbitra, karty źródeł) i suma skryptu w `ustawienia.json` są takie same jak w [sumach skryptu](../../../narzedzia/symulacja/sumy.json).
+- `sumy.txt`: sumy SHA-256 oryginałów, także tekstów wysłanych do modelu (system postaci, system arbitra, karty). Sumy kart są takie same jak sumy kart z etapu 2 (`badania/symulacja/etap-2/`) w historii prac. Teksty systemowe skrypt składa z repozytorium (tryb `zbuduj`), więc ich nie kopiujemy. Sumy ich części (pakiet wiedzy, wariant (b), instrukcja arbitra, karty źródeł) i suma skryptu w `ustawienia.json` są takie same jak w [sumach skryptu](../../../narzedzia/symulacja/sumy.json).
