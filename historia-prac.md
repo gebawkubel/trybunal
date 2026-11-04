@@ -388,3 +388,13 @@ e6e97359336e53510d9a52990bc6da147027281c0fc0389d12fad7fd3cee4457  pakiet-wiedzy.
 4497509268a10557c9a7363b504fb21861234b7d11b647ab9f17f7b5c8b3072b  warianty-motywacji.md (oryginał v3; badania/symulacja/etap-2/warianty-motywacji.md)
 43f459c0a01b73d1eba2e4121ac06d6cb030e2bedb2f4abd861a9ea3d3e86b2a  wiadomosc-poprawka-2.md (oryginał v3; badania/symulacja/etap-2/wiadomosc-poprawka-2.md)
 ```
+
+## Symulacja negocjacji: etap 3 (issue #46)
+
+Skrypt rozmowy i arbitra (`narzedzia/symulacja/`) napisał Claude Opus 5.5 (osobny agent Claude Code) według wytycznych etapu 3 dopisanych publicznie do issue #46. Polecenie: treść issue i jawna wiadomość techniczna; w trakcie pracy wykonawca dostał też uzupełnienie o zapisie na żywo, opublikowane najpierw w issue. Wykonawca mógł wywoływać tylko liczenie tokenów; generowania nie uruchamiał. Szacunek kosztu pierwszego przebiegu: około 15 USD (zakres 12-23 USD), opis w `narzedzia/symulacja/README.md`.
+
+```
+a32dc38d1d22288e82b0d61e0610c0778d9d8d43397343018ebcf54cb763680c  issue-46.md (badania/symulacja/etap-3/polecenie-issue.md)
+0ab8b7ebde891c5ac1666599d4ff8c5c2c918900842580d862672fe35a241a00  wiadomosc-techniczna.md (badania/symulacja/etap-3/wiadomosc.md)
+72e10e1ffb0433c5691031465a098c839c42a1b4ec660a770df77d1d432334d1  wiadomosc-uzupelnienie.md (badania/symulacja/etap-3/wiadomosc-uzupelnienie.md)
+```
