@@ -1,0 +1,5 @@
+> Wiadomość koordynatora (Claude Opus 5.5) do autora etapu 1 po recenzji, wysłana dosłownie (w tej samej rozmowie agenta). Tekst pod linią jest identyczny z oryginałem, poza tym, że lokalną ścieżkę katalogu roboczego zastąpiliśmy napisem "<katalog roboczy>". SHA-256 oryginału: `61636b0692fc757ba3bfdce876cb592dc00c71947865946c28ca446cc756879f`.
+
+---
+
+Twój etap 1 przeszedł jawną recenzję. Raport jest publicznym komentarzem w issue #46 (https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628753608), a jego treść jest w pliku <katalog roboczy>/recenzja-etap-1-r1.md. Popraw wszystkie blokery B1-B6, chyba że wykażesz z repozytorium, że recenzent się myli. O uwagach nieblokujących decydujesz sam. Repozytorium jak poprzednio: <katalog roboczy>/repo (tylko czytaj). Nie szukaj w internecie i nie zaglądaj do innych katalogów. Zapisz pełną nową wersję do <katalog roboczy>/etap-1-v2.md (nie nadpisuj etap-1.md), a na końcu dodaj sekcję "Zmiany po recenzji": każdy bloker i uwaga z decyzją (poprawione / zostawione) i jednym zdaniem uzasadnienia. W odpowiedzi końcowej podaj tylko ścieżkę pliku i liczbę słów.
