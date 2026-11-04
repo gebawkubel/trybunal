@@ -1,0 +1,124 @@
+{
+ "model": "claude-opus-5-5",
+ "data": "2026.11.04",
+ "baza_pustego_zapytania": 9,
+ "teksty": {
+  "pakiet_podstawowy": {
+   "tokeny": 118923,
+   "slowa": 27433,
+   "sha256": "8099cba4af4dd1d781ad75878bd3b913bef2bdd4a574b2e422c6640901684f4b"
+  },
+  "pakiet_minimalny": {
+   "tokeny": 65311,
+   "slowa": 14247,
+   "sha256": "828834e276a475ffb2d49eadcf0561728bba5109067f5b9a9668532ec92fc8d2"
+  },
+  "wariant_a": {
+   "tokeny": 1709,
+   "slowa": 494,
+   "sha256": "bb91ff9da00ee0d5f02351cd7e75adbd5edee427ea7e097c696e7627d62409e3"
+  },
+  "wariant_b": {
+   "tokeny": 1717,
+   "slowa": 503,
+   "sha256": "70ac79e30e62bc020fe147ac19484238d4a9421ca4607d34d8b2df57f1fc2791"
+  },
+  "wariant_c": {
+   "tokeny": 1688,
+   "slowa": 491,
+   "sha256": "d32bdcc1cef9ed3a879b63272ba60222e8239343e22dedc9521cbeee05fe80aa"
+  },
+  "karta_nawrocki_z_naglowkiem": {
+   "tokeny": 8011,
+   "slowa": 1965,
+   "sha256": "588e5c451cc8f5b21fc866d8b38a833671abe5da5c70da7dc25f4e38ab137543"
+  },
+  "karta_tusk_z_naglowkiem": {
+   "tokeny": 6472,
+   "slowa": 1626,
+   "sha256": "084b163b717f80ab3f097b2979dd7fd4aafcd571966ac33a6c56022708ee6535"
+  },
+  "karta_kaczynski_z_naglowkiem": {
+   "tokeny": 5260,
+   "slowa": 1386,
+   "sha256": "c5a263a6bb52fddd4854ae15e5f58e084b694a34d49c224a01bf1ffbddecd915"
+  },
+  "karta_morawiecki_z_naglowkiem": {
+   "tokeny": 4220,
+   "slowa": 1122,
+   "sha256": "aee6d58f7fb875a59f8be78c3061753d69a8e6c5c548c2f045e6afaac936dba0"
+  },
+  "karta_kosiniak-kamysz_z_naglowkiem": {
+   "tokeny": 3857,
+   "slowa": 1020,
+   "sha256": "519c670f8b882d95017c5b54b4519196998ba864f74760bb92f6b9c333e33947"
+  },
+  "karta_czarzasty_z_naglowkiem": {
+   "tokeny": 3963,
+   "slowa": 1015,
+   "sha256": "1e5370e66a1967aeced10af6284ccbd04ee2669c6fe90c0d9168c5cac3835a98"
+  },
+  "karta_holownia_z_naglowkiem": {
+   "tokeny": 3007,
+   "slowa": 783,
+   "sha256": "0ae433a9f99c18a2adb9f4234b54ee44f1db6e1b386da0e21f9cd5b0cd6361d6"
+  },
+  "karta_bosak_z_naglowkiem": {
+   "tokeny": 5387,
+   "slowa": 1361,
+   "sha256": "1a7d04b7cb9b205ff3ba84df20a9369ec2cb200b79572c26500868b33986a3d8"
+  },
+  "karta_swieczkowski_z_naglowkiem": {
+   "tokeny": 7870,
+   "slowa": 1865,
+   "sha256": "7b6b7b79975263b2cf52e3cf6f9d38e00d3ec0018d746eba78b97a714ba063f4"
+  },
+  "karta_korwin-piotrowska_z_naglowkiem": {
+   "tokeny": 7095,
+   "slowa": 1679,
+   "sha256": "e1168077146eecf0d99b042740d70422a92b3fa6bd5c5f1ebf1984d20efb9341"
+  },
+  "arbiter": {
+   "tokeny": 7765,
+   "slowa": 2251,
+   "sha256": "08445af7c3cc107dd34075acf02e233f48116115a8a8b091934531a987adc255"
+  },
+  "karty_zrodel": {
+   "tokeny": 56410,
+   "slowa": 13666,
+   "sha256": "774d3d9fe9757fd73e949f7eec42f8061f87d352b4cb4cadb930316f0fd812c1"
+  },
+  "system_postaci_b_podstawowy": {
+   "tokeny": 120640,
+   "slowa": 27936,
+   "sha256": "24c9f7c9a22da4b0c794b018aee2efdf833b134eef5f29f4543c74772d23c330"
+  },
+  "system_arbitra_podstawowy": {
+   "tokeny": 183098,
+   "slowa": 43350,
+   "sha256": "59a6fbbecd2f8d04d0ad90aa2109a3458a96131b6d06b3fe3f05ab31c5588e58"
+  },
+  "system_arbitra_podstawowy_bez_zrodel": {
+   "tokeny": 126688,
+   "slowa": 29684,
+   "sha256": "b497daac16d32daa8596c03024d87c90edeedb23058b0f14bd6365f4d42075e8"
+  },
+  "system_postaci_b_minimalny": {
+   "tokeny": 67028,
+   "slowa": 14750,
+   "sha256": "af5601aa29ec3be653c48f736a85f67fa401aa521fa913e3b5d2fb347342d0a8"
+  },
+  "system_arbitra_minimalny": {
+   "tokeny": 129486,
+   "slowa": 30164,
+   "sha256": "2a0faff5ba92a4d8992bf320ec7810a2a133b7b07ea951d14a18dd1018576e41"
+  },
+  "system_arbitra_minimalny_bez_zrodel": {
+   "tokeny": 73076,
+   "slowa": 16498,
+   "sha256": "89c4cfe6570efd3863e54eda81dc804ddc64bfc102887f85f53c984e0f85688a"
+  }
+ },
+ "pelne_zapytanie_nawrocki_wspolny-watek": 128814,
+ "pelne_zapytanie_nawrocki_etap2": 128813
+}
