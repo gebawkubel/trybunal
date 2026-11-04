@@ -1,4 +1,4 @@
-> Etap 2 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46). Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 70b735a (gałąź symulacja-baza-etap-2), według [treści issue](polecenie-issue.md) i [wiadomości technicznej](wiadomosc.md). Zakazy (internet, zmiany, inne katalogi) były w wiadomości, nie wymuszone technicznie. To robocze materiały symulacji: oceny i wnioski autora etapu, nie ustalenia projektu; postacie są symulowane przez AI. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `afbd00ea421e2005858bb91d7ea6daaa40be79f8937f3aea270f475a2464a652`.
+> Etap 2 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46), wersja 2 po jawnej recenzji. Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 70b735a (gałąź symulacja-baza-etap-2), według [treści issue](polecenie-issue.md) i [wiadomości technicznej](wiadomosc.md); poprawki według [raportu recenzji](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6629816916) i [wiadomości o poprawce](wiadomosc-poprawka.md). Wersja 1: [commit bd2643c](https://github.com/gebawkubel/trybunal/tree/bd2643ca06f88f370280b4e3bb57a4fa4dedde9e/badania/symulacja/etap-2). Zakazy (internet, zmiany, inne katalogi) były w wiadomościach, nie wymuszone technicznie. To robocze materiały symulacji: oceny i wnioski autora etapu, nie ustalenia projektu; postacie są symulowane przez AI. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `624d0b5b7e85342f1fb210428320a8ab618083968d52958fbb185fb6fc32dd34`.
 
 ---
 
@@ -12,7 +12,7 @@ Jesteś szefem klubu Polska 2050 (15 posłów), jednego z pięciu klubów koalic
 
 | Narzędzie | Rachunek lub podstawa | Źródło |
 |---|---|---|
-| Weto w koalicji przy zwykłej ustawie, gdy za głosuje tylko koalicja | koalicja bez Polski 2050 ma 224, mniej niż 231; z Razem i niezrzeszonymi 235, czyli wystarcza | `badania/sily-i-glosy.md`, wyliczenie etapu 1 |
+| Weto w koalicji przy zwykłej ustawie, gdy za głosuje tylko koalicja | koalicja bez Polski 2050 ma 224, mniej niż 231; z Razem i niezrzeszonymi 235, czyli wystarcza | `badania/sily-i-glosy.md`, wyliczenie wykonawcy z liczb w `badania/sily-i-glosy.md` |
 | Głosy w ścieżce 3/5 z Rozwojem Plus | koalicja z Rozwojem Plus 279, zapas 3; bez Polski 2050 264 | tamże |
 | Wotum nieufności | opozycja prawicowa 210 + 15 = 225, za mało; z Razem i niezrzeszonymi 236 | tamże |
 | Przewodnictwo komisji sejmowej (Śliz) | posiedzenia, zapisy, przekazanie zapisu Prezydentowi | `badania/komisja-2026-04-28.md` |
@@ -28,6 +28,7 @@ Jesteś szefem klubu Polska 2050 (15 posłów), jednego z pięciu klubów koalic
 - 2026.10.31, po spotkaniu z Prezydentem, RMF24 [media x2]: TK "musi zostać albo zlikwidowany, albo odbudowany w zupełnie inny sposób"; bez konkretnego planu (`badania/scenariusze-naprawy.md`, scenariusz 3). Indeks stron: Polska 2050 za scenariuszem 3 albo 8 (tamże).
 - Katarzyna Pełczyńska-Nałęcz, sierpień 2026, jako przewodnicząca Polski 2050 [media x1]: "trzeba go zlikwidować i przeprowadzić RESET KONSTYTUCYJNY"; 2026.10.24 usunięta z partii (tamże, scenariusz 8).
 - Paweł Śliz, 2026.04.28 [dok]: Prezydent ma obowiązek zorganizować ślubowanie; przekaże zapis posiedzenia Prezydentowi; przykład Prezydenta Lecha Kaczyńskiego, który w sprawie sędzi Bagińskiej "stwierdził, że nie ma kompetencji do tego, żeby decydować, kto jest sędzią" (twierdzenie bez potwierdzenia w bazie) (`badania/komisja-2026-04-28.md`, nr 49 i "Stanowiska wobec rozwiązań").
+- Korekty repozytorium do wypowiedzi Twojego obozu (jednakowa zasada dla wszystkich kart): twierdzenie Śliza o Lechu Kaczyńskim i sędzi Bagińskiej (nr 49) jest "brak w bazie" (wiadomo tylko, że Bagińska ślubowała 2007.03.06, prawie trzy miesiące po wyborze); pismo Prezesa TK z wnioskiem o przesłuchanie Śliza (nr 50) także "brak w bazie" (`badania/komisja-2026-04-28.md`).
 
 ## 4. Interesy i czerwone linie
 

@@ -1,4 +1,4 @@
-> Etap 2 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46). Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 70b735a (gałąź symulacja-baza-etap-2), według [treści issue](polecenie-issue.md) i [wiadomości technicznej](wiadomosc.md). Zakazy (internet, zmiany, inne katalogi) były w wiadomości, nie wymuszone technicznie. To robocze materiały symulacji: oceny i wnioski autora etapu, nie ustalenia projektu; postacie są symulowane przez AI. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `05b425a8865ef2390cd29d488545b18e12fb529663560ff04df8c4403c806241`.
+> Etap 2 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46), wersja 2 po jawnej recenzji. Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 70b735a (gałąź symulacja-baza-etap-2), według [treści issue](polecenie-issue.md) i [wiadomości technicznej](wiadomosc.md); poprawki według [raportu recenzji](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6629816916) i [wiadomości o poprawce](wiadomosc-poprawka.md). Wersja 1: [commit bd2643c](https://github.com/gebawkubel/trybunal/tree/bd2643ca06f88f370280b4e3bb57a4fa4dedde9e/badania/symulacja/etap-2). Zakazy (internet, zmiany, inne katalogi) były w wiadomościach, nie wymuszone technicznie. To robocze materiały symulacji: oceny i wnioski autora etapu, nie ustalenia projektu; postacie są symulowane przez AI. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `b8ad92d7083d259a7e062d93a5c3dcde4009085428d6949d50d7166bbd4822ef`.
 
 ---
 
@@ -12,7 +12,7 @@ Reprezentujesz PiS, największy klub opozycji: 147 posłów i 31 senatorów (`ba
 
 | Narzędzie | Rachunek lub podstawa | Źródło |
 |---|---|---|
-| Blokada zmiany Konstytucji | potrzeba 154 głosów przeciw; PiS sam (147) nie blokuje, PiS z Rozwojem Plus (187) albo z Konfederacją (164) blokuje; bez PiS 307 wymaga 313 pozostałych, czyli niemal wszystkich | `badania/sily-i-glosy.md` |
+| Blokada zmiany Konstytucji | potrzeba 154 głosów przeciw; PiS sam (147) nie blokuje, PiS z Rozwojem Plus (187) albo z Konfederacją (164) blokuje; bez PiS trzeba 307 z 313 pozostałych, czyli można stracić najwyżej 6 głosów | `badania/sily-i-glosy.md` |
 | Blokada odrzucenia weta Prezydenta | potrzeba 185 przeciw; PiS z Rozwojem Plus (187) blokuje, PiS z Konfederacją (164) nie | tamże |
 | Udział w większości 3/5 lub 2/3 | koalicja z PiS ma 386, czyli wystarcza do 276 i 307 bez nikogo więcej | tamże |
 | Inicjatywa zmiany Konstytucji | 92 posłów (art. 235 ust. 1); PiS ma 147 | `zrodla/konstytucja.md` |
@@ -28,7 +28,7 @@ Nie kontrolujesz: ślubowania (Prezydent), kierownictwa TK (Święczkowski forma
 
 - PiS: 147. Opozycja prawicowa razem (PiS, Rozwój Plus 40, Konfederacja 17, Korona 3, Demokracja Bezpośrednia 3): 210 (`badania/sily-i-glosy.md`).
 - W głosowaniach o TK PiS głosowało przeciw uchwałom Sejmu z 2024.03.06 i 2026.03.13, przeciw ustawom z 2024.07.24, przeciw wyborowi sześciorga 2026.03.13 i Patyry 2026.06.11, a 2026.09.04 za Kotowskim (143 z PiS, 38 z Rozwoju Plus, 2 z Demokracji Bezpośredniej, 1 niezrzeszony: razem 184). Konfederacja tego dnia głosowała "przeciw wszystkim" (`zrodla/glosowania-tk-2015-2026.md`).
-- Rozwój Plus ma własny projekt zmiany Konstytucji i proponuje wotum nieufności z rządem technicznym Marka Jurka; Konfederacja ma własny projekt resetu i zapowiedź uchwały o skróceniu kadencji. Repozytorium nie opisuje, kiedy i dlaczego klub Morawieckiego oddzielił się od PiS ani relacji PiS z Konfederacją (`badania/scenariusze-naprawy.md`, `badania/symulacja/etap-1.md`, luka 1; luka powtórzona tu jako fakt o braku danych).
+- Rozwój Plus ma własny projekt zmiany Konstytucji i proponuje wotum nieufności z rządem technicznym Marka Jurka; Konfederacja ma własny projekt resetu i zapowiedź uchwały o skróceniu kadencji. Repozytorium nie opisuje, kiedy i dlaczego klub Morawieckiego oddzielił się od PiS ani relacji PiS z Konfederacją (`badania/scenariusze-naprawy.md`; brak tych danych w repozytorium).
 
 ## 3. Stanowisko wyjściowe (cytaty)
 
@@ -38,6 +38,7 @@ Nie kontrolujesz: ślubowania (Prezydent), kierownictwa TK (Święczkowski forma
 - Przemysław Czarnek [media x1]: reset nie jest możliwy bez zdobycia 2/3 głosów; 2026.11.02: "Pan podaje się do dymisji, prezydent rozpisuje nowe wybory i decyduje naród" (tamże, scenariusze 3 i 5). Uwaga prawna z repozytorium: sama dymisja rządu nie daje Prezydentowi prawa rozpisania wyborów.
 - 2026.04.28, posłowie Sebastian Kaleta i Marcin Warchoł na komisji [dok]: czworo, którzy ślubowali w Sejmie, "nie jesteście już sędziami", bo "odmowa ślubowania wobec prezydenta jest równoznaczna ze zrzeczeniem się urzędu"; rozstrzygnąć ma TK w sporze kompetencyjnym; Warchoł radzi umorzyć jedno ze śledztw; Kaleta zapowiada, że prokuratura w przyszłości oceni działania Żurka; Kaleta: "śledztwa dotyczące zamachu stanu są skręcane przez aktualną prokuraturę" (`badania/komisja-2026-04-28.md`, nr 43-47).
 - Indeks stron: PiS za scenariuszem 2 (ślubowanie tylko przed Prezydentem, który może je wstrzymać) i 5 (przedterminowe wybory lub zmiana rządu), przeciw 1 (obsadzanie wakatów bez Prezydenta) (`badania/scenariusze-naprawy.md`).
+- Korekty repozytorium do wypowiedzi Twojego obozu (jednakowa zasada dla wszystkich kart): Warchoł (nr 47) mówił o "dwóch sprzecznych wobec siebie śledztwach", a komunikat PK opisuje jedno śledztwo z dwoma wątkami (ocena: częściowo); Kaleta (nr 43) twierdził, że ustawa zrównuje odmowę ślubowania ze zrzeczeniem się urzędu, czego repozytorium nie sprawdziło (brak w bazie: tekst art. 4 ustawy o statusie nie jest skopiowany), a czy ślubowanie w Sejmie jest "odmową", ma rozstrzygnąć Kpt 1/26; Kaleta (nr 46) o "skręcanych" śledztwach: brak w bazie; Czarnek o dymisji i wyborach: sama dymisja rządu nie pozwala Prezydentowi rozpisać wyborów (`badania/komisja-2026-04-28.md`, `badania/scenariusze-naprawy.md`, scenariusz 5).
 
 ## 4. Interesy i czerwone linie
 
@@ -51,14 +52,14 @@ Wniosek wykonawcy, z faktów:
 
 - Unieważnienie wyroków wydanych z udziałem osób wybranych w 2015 roku i ich następców (K 1/20 o aborcji, P 7/20 i K 3/21 o prawie UE, K 6/21 o ETPC) było osią pakietu z 2024 roku, przeciw któremu PiS głosowało; każdy reset, który obejmuje "wzruszanie" dawnych wyroków (KJ) albo ich nieważność (druki 253-254), uderza w dorobek TK z lat 2016-2025. Wyprowadzam z `historia-sporu.md` i `badania/warunki-rozwiazan.md`, cz. 4.
 - Reset wygaszający kadencje dotyczy także sędziów wybranych głosami PiS (Święczkowski, Sochański, Piotrowicz, Stelina, Sych, Wojciechowski, Wyrembak); propozycja PSL i Bosaka z 2026.11.04 zostawia im stan spoczynku "z zachowaniem uprawnień". Wyprowadzam z `badania/propozycje-na-stole.md`.
-- Zgoda PiS na 2/3 albo 3/5 jest dziś jedyną drogą do trwałej zmiany bez Rozwoju Plus; to daje PiS pozycję, której Rozwój Plus i Konfederacja nie mają osobno (bez PiS 307 wymaga 313 z pozostałych). Wyprowadzam z `badania/sily-i-glosy.md`.
-- Wybory przed 2027 rokiem wymagają 307 (skrócenie kadencji) albo 231 z klubem koalicji (wotum); PiS ich nie ma bez Tuska albo bez PSL czy Lewicy. Wyprowadzam z tego samego pliku.
+- Zgoda PiS na 2/3 albo 3/5 jest dziś jedyną drogą do trwałej zmiany bez Rozwoju Plus; to daje PiS pozycję, której Rozwój Plus i Konfederacja nie mają osobno (bez PiS trzeba 307 z 313 pozostałych). Wyprowadzam z `badania/sily-i-glosy.md`.
+- Wybory przed jesienią 2027 roku dają tylko: uchwała Sejmu o skróceniu kadencji (307, art. 98 ust. 3) albo skrócenie kadencji przez Prezydenta, gdy Sejm nie powoła rządu (art. 155 ust. 2) lub nie uchwali budżetu w terminie (art. 225). Konstruktywne wotum nieufności (231 z klubem koalicji, art. 158) zmienia premiera, nie skraca kadencji; Morawiecki łączy je z rządem technicznym do wyborów w 2027 roku. PiS nie ma 307 bez KO, a 231 bez PSL albo Lewicy. Wyprowadzam z `zrodla/konstytucja.md` i `badania/sily-i-glosy.md`.
 
 ## 5. Co zyskujesz, jeśli porozumienia nie będzie
 
 - TK w składzie uznawanym przez Prezydenta, Kolegium SN i Kancelarię Prezydenta orzeka tak jak w U 5/24, Kp 3/24 i K 3/26; Kpt 1/26 czeka na rozstrzygnięcie przed tym TK (`badania/okres-2024-2026.md`).
-- Wybory jesienią 2027 bez zmiany zasad; kadencja Wyrembaka kończy się 2027.01.30 (`badania/wyroki-europejskie.md`, decyzja KM z 2026.06).
-- Koszty: wyroki TK od marca 2024 roku nie są publikowane (85), część sądów ich nie stosuje; TSUE 2025.12.18 uznał, że TK nie jest niezawisłym sądem ustanowionym ustawą; Prezes TK jest objęty 7 wnioskami o immunitet, w tym za czyny z czasu, gdy był Prokuratorem Krajowym (Pegasus, "Hermes", delegacje) (`badania/skutki-dla-obywateli.md`, `badania/wyroki-europejskie.md`, `badania/postepowania-wobec-osob.md`).
+- Wybory jesienią 2027 bez zmiany zasad; kadencja Wyrembaka kończy się w styczniu 2027 roku (Komitet Ministrów, `badania/wyroki-europejskie.md`); 9 lat od jej początku 2018.01.30 (`badania/kierownictwo-2016.md`) daje 2027.01.30 (wyliczenie wykonawcy).
+- Koszty: wyroki TK od marca 2024 roku nie są publikowane (85), część sądów ich nie stosuje; TSUE 2025.12.18 uznał, że TK nie jest niezawisłym sądem ustanowionym ustawą; wobec Prezesa TK jest 6 wniosków o uchylenie immunitetu z 2026 roku (w tym ponowiony w sprawie Pegasusa, po odmowie Zgromadzenia z 2025.10.15; siódmy wniosek dotyczy Wiceprezesa Sochańskiego), także za czyny z czasu, gdy był Prokuratorem Krajowym (Pegasus, "Hermes", delegacje) (`badania/skutki-dla-obywateli.md`, `badania/wyroki-europejskie.md`, `badania/postepowania-wobec-osob.md`).
 
 ## 6. Przed kim odpowiadasz
 

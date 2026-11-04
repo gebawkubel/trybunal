@@ -348,3 +348,23 @@ ac458f6ffa259d9d5ae80500583efb14e9744ef6735976fd6ee4e9e77b8d66cb  pakiet-wiedzy.
 5cd0d4836fdbbbb2e0cd21f90e5b8c04849923f420eaa221eb96fe6e969bdbe5  issue-46.md (badania/symulacja/etap-2/polecenie-issue.md)
 6eefaaeb96b34814a21643f797e0d549c80cd4e448589690a90bf958eb5343af  wiadomosc-techniczna.md (badania/symulacja/etap-2/wiadomosc.md)
 ```
+
+Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 5 blokerów: zaniżony o połowę szacunek tokenów pakietu (zmierzony `count_tokens`: około 118,5 tys.) i za niski limit tokenów wypowiedzi, niespójną granicę między faktem a oceną w pakiecie, błąd prawny i dwa liczbowe w karcie Kaczyńskiego, słowa przypisane Kosiniakowi-Kamyszowi na podstawie adresu URL oraz nierówne traktowanie (tylko karta Bosaka zawierała korekty jego wypowiedzi). [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6629816916) jest w issue #46; poprawki zrobił autor etapu (wersja 2, opis zmian w `luki.md`). Wersja 1: [commit bd2643c](https://github.com/gebawkubel/trybunal/tree/bd2643ca06f88f370280b4e3bb57a4fa4dedde9e/badania/symulacja/etap-2).
+
+```
+a0149bad72164c4d9efb065289d5a909b044461d8822025049f8582109d14dd4  arbiter.md (oryginał v2; badania/symulacja/etap-2/arbiter.md)
+0a04afdc95984be0820f26909daef60ffa1db88305e560362bc3c457ff47588c  karta-bosak.md (oryginał v2; badania/symulacja/etap-2/karta-bosak.md)
+0ab7cd78aa1aee04e5314f906fb2cc3a4da342271dfee4a956b6530de8bcfa93  karta-czarzasty.md (oryginał v2; badania/symulacja/etap-2/karta-czarzasty.md)
+624d0b5b7e85342f1fb210428320a8ab618083968d52958fbb185fb6fc32dd34  karta-holownia.md (oryginał v2; badania/symulacja/etap-2/karta-holownia.md)
+b8ad92d7083d259a7e062d93a5c3dcde4009085428d6949d50d7166bbd4822ef  karta-kaczynski.md (oryginał v2; badania/symulacja/etap-2/karta-kaczynski.md)
+daf787e387f12441a0bb0369c88ff50ecbac794ef99b0ef3720b691d13fae4a3  karta-korwin-piotrowska.md (oryginał v2; badania/symulacja/etap-2/karta-korwin-piotrowska.md)
+2c9d89ed90cac62dba42315cddd92f5a7b878c70eb2a76ea8039f9bff5ec33b2  karta-kosiniak-kamysz.md (oryginał v2; badania/symulacja/etap-2/karta-kosiniak-kamysz.md)
+a76bbf0bb54d0d475042ae756c8b3de6727343a8dad1a0fb9876a521ff542620  karta-morawiecki.md (oryginał v2; badania/symulacja/etap-2/karta-morawiecki.md)
+aa86dd11d67458f93e55ce26890a6da62f49df25f86d906d0d789d3d3f3c288f  karta-nawrocki.md (oryginał v2; badania/symulacja/etap-2/karta-nawrocki.md)
+cc6fe7d0fb10dcbb26f357e0c7720314189c1033fd886fb4cbca1e128ed84eda  karta-swieczkowski.md (oryginał v2; badania/symulacja/etap-2/karta-swieczkowski.md)
+ff9d2518ba1ce9fd2da6306a34248c828e242d2f038b3c260495c49d14f82fcd  karta-tusk.md (oryginał v2; badania/symulacja/etap-2/karta-tusk.md)
+cca79bc86069701df940aa12042c8d50a06906ecaf2cbba43a43dff18cfa5c62  luki.md (oryginał v2; badania/symulacja/etap-2/luki.md)
+a91afbf898b554477a349f65671eea1477047fde430bb0959ea2fd061f8584a3  pakiet-wiedzy.md (oryginał v2; badania/symulacja/etap-2/pakiet-wiedzy.md)
+4497509268a10557c9a7363b504fb21861234b7d11b647ab9f17f7b5c8b3072b  warianty-motywacji.md (oryginał v2; badania/symulacja/etap-2/warianty-motywacji.md)
+00f9977e766183a0acd087d7226bacf8d10703ee19b6d1eb5cbe6f4eec18a6bf  wiadomosc-poprawka.md (oryginał v2; badania/symulacja/etap-2/wiadomosc-poprawka.md)
+```
