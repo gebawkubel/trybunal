@@ -199,8 +199,8 @@ Wszystko poprawiliśmy przed scaleniem, poza jedną uwagą nieblokującą do #35
 Po poprawkach druga runda dała PASS.
 
 **Propozycje z debaty (PR #40).** Agent z modelem Opus odczytał dokumenty autorów propozycji: PSL, Rozwoju Plus, Konfederacji, Fundacji Batorego, HFPC, Klubu Jagiellońskiego, druk Kukiz'15 i PiS z 2015 roku, a także wypowiedź Boguckiego i felieton Dudka. Recenzent (Opus) w pierwszej rundzie znalazł 4 blokery:
-- raport Rozwoju Plus jest publiczny w domenie rozwoj.plus, a notatka twierdziła, że strona jest za hasłem;
+- raport Rozwoju Plus jest publiczny w domenie rozwoj.plus, a notatka twierdziła, że strona jest za hasłem, i bez źródła pisała, że reset obejmuje sędziów z 2026 roku;
 - cytat Boguckiego był wyrwany z kontekstu;
 - cytat Dudka nie był dosłowny;
-- tabela myliła dwie grupy sędziów u Fundacji Batorego.
-W drugiej rundzie zostały 2 drobne blokery: numeracja akapitów w karcie Dudka i "koła" zamiast "klubu poselskiego". Poprawił je prowadzący.
+- tabela przypisywała Rozwojowi Plus objęcie resetem sędziów z 2026 roku bez źródła (przy okazji recenzent wskazał niejasny zapis wiersza Fundacji Batorego).
+W drugiej rundzie zostały 2 drobne blokery: numeracja akapitów w karcie Dudka i "koła" zamiast "klubu poselskiego". W trzeciej: pominięty Szef Kancelarii Prezydenta w opisie karencji i niewierny opis bloku 4 w tym wpisie. Wszystkie poprawił prowadzący. Raporty recenzji obu PR są w komentarzach na GitHubie ([#39](https://github.com/gebawkubel/trybunal/pull/39), [#40](https://github.com/gebawkubel/trybunal/pull/40)).
