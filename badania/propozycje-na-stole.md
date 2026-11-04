@@ -21,13 +21,13 @@ Dwa pojęcia:
 
 Scenariusze opisują Szczuckiego jako autora osobistej propozycji (2026.04). 2026.10.07 Rozwój Plus przedstawił na konferencji (Morawiecki, Szczucki, Paweł Jabłoński) raport "Trybunał dla Rzeczypospolitej" z projektem zmiany Konstytucji ([karta](../zrodla/okres-2024-2026/rozwoj-plus-trybunal-2026.md)) [dok]. Szczucki jest według PAP współautorem projektu ([Gazeta Prawna](https://www.gazetaprawna.pl/prawnik/artykuly/11326900,reforma-tk-12-sedziow-wiekszosc-3-5-projekt.html)) [media x1]. Strony w nawiasach to strony PDF.
 
-- **Wybór:** 12 sędziów (zamiast 15) wybieranych indywidualnie przez Sejm większością co najmniej 3/5 przy obecności połowy posłów, na 12 lat, bez ponownego wyboru (art. 194 ust. 1, s. 31). Kandydatów zgłaszają kluby, koła albo 15 posłów (ust. 2).
+- **Wybór:** 12 sędziów (zamiast 15) wybieranych indywidualnie przez Sejm większością co najmniej 3/5 przy obecności połowy posłów, na 12 lat, bez ponownego wyboru (art. 194 ust. 1, s. 31). Kandydatów zgłasza klub parlamentarny, klub poselski albo grupa co najmniej 15 posłów (ust. 2).
 - **Gdy Sejm nie wybierze następcy w 100 dni od wygaśnięcia mandatu:** Prezydent może skrócić kadencję Sejmu (art. 194 ust. 3, s. 32).
 - **Pierwszy skład:** wybiera dopiero następny Sejm, w jednym głosowaniu łącznym, w 100 dni od początku swojej kadencji. Bez wyboru Prezydent może skrócić kadencję, i tak w każdym kolejnym Sejmie aż do wyboru (art. 3 ust. 1-2, s. 33). Kadencje od 1 do 12 lat losuje Marszałek Sejmu przed ślubowaniem (art. 3 ust. 4-5).
 - **Obecni sędziowie:** "sędziowie Trybunału Konstytucyjnego sprawujący urząd w tym dniu przechodzą w stan spoczynku" w dniu wejścia zmiany w życie (art. 2, s. 32), czyli z początkiem następnej kadencji Sejmu (art. 4, s. 34).
 - **Sędziowie wybrani w 2026 roku:** niejasne. Projekt nie mówi, czy "sprawuje urząd" ktoś, kogo nie dopuszczono do orzekania.
 - **Ślubowanie:** wobec Prezydenta, kadencja zaczyna się z dniem ślubowania (art. 194 ust. 5, s. 32).
-- **Karencja:** 4 lata dla byłego Prezydenta, posła, senatora, członka rządu, wiceministra, Szefa i ministrów Kancelarii Prezydenta i członka krajowych władz wykonawczych partii (art. 194 ust. 4, s. 32).
+- **Karencja:** 4 lata dla byłego Prezydenta, posła, senatora, członka rządu, wiceministra, sekretarza lub podsekretarza stanu w Kancelarii Prezydenta i członka krajowych władz wykonawczych partii (art. 194 ust. 4, s. 32).
 - **Publikacja wyroków:** w Dzienniku Urzędowym TK (art. 190 ust. 2, s. 31).
 - **Większość w TK:** stwierdzenie niezgodności z Konstytucją wymaga 2/3 głosów składu orzekającego (art. 190 ust. 5, s. 31).
 - **Kierownictwo:** Prezydent powołuje Prezesa i Wiceprezesa spośród sędziów TK (art. 194 ust. 6), według uzasadnienia "według własnego uznania" (s. 46).

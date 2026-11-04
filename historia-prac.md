@@ -187,3 +187,20 @@ f6842c46b86e87494bf4d55be1875e740ac25851a84df21f2e711e9e4cfc5929  recenzja-anali
 Wszystko poprawiliśmy przed scaleniem, poza jedną uwagą nieblokującą do #35 (informacja lekarza w sprawie M.L. jako relacja skarżącej), którą wprowadziliśmy w PR #37. Po badaniach skorygowaliśmy ocenę odpowiedzialności; korekty są wymienione w jej sekcji "Korekty".
 
 **Walidator (PR #33).** Katalogi robocze agentów w głównym katalogu dawały fałszywy błąd "Powtórzone ID". Walidator pomija teraz katalog .claude, który nie ma plików śledzonych. Zmianę recenzowano osobno.
+
+## Porządek i propozycje z debaty (PR #39, #40)
+
+**Porządek (PR #39).** Na prośbę użytkownika z 2026.11.04 powstała oś czasu `historia-sporu.md`, przeniesiona z wersji roboczej spoza repo. Wszystkie notatki dostały linki do głosowań, kart źródeł i osi czasu. Linki w notatkach dodał agent z modelem Sonnet, resztę prowadzący (Opus). Doszły też karta głosowań 2015-2026, przygotowana wcześniej przez agenta Sonnet i niepublikowana, oraz notatka o siłach i głosach w Sejmie. README skróciliśmy do celu, metody, historii, rozwiązań i współpracy. Recenzent (Opus, osobny kontekst) w pierwszej rundzie znalazł 6 blokerów, m.in.:
+- uzasadnienie odmowy ślubowania w 2015 roku bez źródła;
+- datę 1986 bez źródła;
+- link P 7/20 prowadzący do postanowienia zamiast wyroku;
+- zły numer głosowania z 2010 roku;
+- próg z art. 98 ust. 3, który liczy się od ustawowej liczby posłów.
+Po poprawkach druga runda dała PASS.
+
+**Propozycje z debaty (PR #40).** Agent z modelem Opus odczytał dokumenty autorów propozycji: PSL, Rozwoju Plus, Konfederacji, Fundacji Batorego, HFPC, Klubu Jagiellońskiego, druk Kukiz'15 i PiS z 2015 roku, a także wypowiedź Boguckiego i felieton Dudka. Recenzent (Opus) w pierwszej rundzie znalazł 4 blokery:
+- raport Rozwoju Plus jest publiczny w domenie rozwoj.plus, a notatka twierdziła, że strona jest za hasłem;
+- cytat Boguckiego był wyrwany z kontekstu;
+- cytat Dudka nie był dosłowny;
+- tabela myliła dwie grupy sędziów u Fundacji Batorego.
+W drugiej rundzie zostały 2 drobne blokery: numeracja akapitów w karcie Dudka i "koła" zamiast "klubu poselskiego". Poprawił je prowadzący.
