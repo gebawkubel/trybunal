@@ -36,7 +36,13 @@ Oba modele oceniają szansę na zgodę stron nisko. Fable: "niska do średniej, 
 - **PiS nie jest arytmetycznie konieczny**, ale bez niego wskazana w bilansie konfiguracja (koalicja, Rozwój Plus, Konfederacja, Razem) ma 300 głosów i potrzebuje jeszcze 7. Wymaga też zgody Lewicy, która reset odrzuca.
 - **Rozwój Plus jest języczkiem u wagi przy odrzucaniu weta.** Koalicja z nim ma 279, a bez niego i bez PiS jest 273, o 3 za mało do 276.
 
-Bilans nie obejmuje pakietu modeli, bo nikt go w debacie nie zgłosił. Powstał później i niezależnie od rekomendacji, ale jego wynik zgadza się z ich głównym argumentem przeciw resetowi: KO, bez której nie ma 307 głosów, traci w każdym konkretnym projekcie resetu. A reset to większość propozycji z debaty.
+Bilans powstał później i niezależnie od rekomendacji, ale jego wynik zgadza się z ich głównym argumentem przeciw resetowi: KO, bez której nie ma 307 głosów, traci w każdym konkretnym projekcie resetu z debaty. A reset to większość propozycji z debaty.
+
+W [issue #57](https://github.com/gebawkubel/trybunal/issues/57) bilans uzupełniono o dwie propozycje spoza debaty:
+- **15. Reset z zachowaniem sędziów z 2026 roku**, z [symulacji negocjacji](symulacja/wyniki.md). Bilans KO jest tu mieszany, a nie ujemny;
+- **16. Pakiet modeli**, czyli wąska zmiana Konstytucji bez resetu i kompromis z Prezydentem. Bilans KO jest dodatni.
+
+Obie propozycje mają według bilansu szansę "niską". Brakuje tekstu przepisów i potwierdzonej zgody stron, a porozumienie postaci AI w symulacji nie jest porozumieniem prawdziwych stron.
 
 ## Czego to nie przesądza
 
