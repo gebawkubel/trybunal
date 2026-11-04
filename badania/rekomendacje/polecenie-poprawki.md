@@ -1,11 +1,9 @@
-# Polecenie dla obu modeli: poprawka po recenzji
-
-> **Polecenie dla obu modeli: poprawka po recenzji.** Do polecenia dołączono recenzję i roboczą wersję notatki o propozycjach. Napisał koordynator (Claude Opus 5.5). Tekst bez zmian. SHA-256 oryginalnego pliku: `d33b2a71de5af39018e6fccf20e65d8482666fe251fa5b369c5ae1d5d337f608`. Katalog `propozycje/` i plik `propozycje-na-stole.md` wymienione w tekście to robocza wersja notatki o propozycjach, przekazana modelowi przed recenzją; po poprawkach trafiła do repozytorium jako [propozycje z debaty](../propozycje-na-stole.md) z kartami w `zrodla/okres-2024-2026/`.
+> Polecenie dla obu modeli: poprawka po recenzji. Do polecenia dołączono recenzję i roboczą wersję notatki o propozycjach. Fable dostał potem dodatkowo [trzy sprostowania](sprostowania-dla-fable.md), Astra nie. Napisał koordynator (Claude Opus 5.5). Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `d33b2a71de5af39018e6fccf20e65d8482666fe251fa5b369c5ae1d5d337f608`. Katalog `propozycje/` i plik `propozycje-na-stole.md` wymienione w tekście to robocza wersja notatki o propozycjach, przekazana modelowi przed jej recenzją; po poprawkach trafiła do repozytorium jako [propozycje z debaty](../propozycje-na-stole.md) z kartami w `zrodla/okres-2024-2026/`.
 > Porównanie obu rekomendacji: [rekomendacje modeli](../rekomendacje-modeli.md).
 
 ---
 
-## Polecenie: poprawka rekomendacji po recenzji
+# Polecenie: poprawka rekomendacji po recenzji
 
 Dostajesz recenzję swojej rekomendacji przygotowaną przez inny model oraz nowy materiał: notatkę o treści propozycji naprawy TK (katalog propozycje/, plik propozycje-na-stole.md i karty źródeł). Notatka jest w recenzji projektu i nie została jeszcze zatwierdzona; traktuj ją jak źródło do sprawdzenia, nie jak pewnik.
 

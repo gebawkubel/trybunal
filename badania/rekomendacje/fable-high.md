@@ -1,11 +1,9 @@
-# Rekomendacja Fable High
-
-> **Rekomendacja Fable High.** Wersja ostateczna, poprawiona po recenzji. Model Claude Fable 5.1, wysoki wysiłek rozumowania, agent w Claude Code. Tekst modelu bez redakcji. SHA-256 oryginalnego pliku: `2a3dbf72c2d0f8b78d53a6bfee9fc23d199bba94c39b8ff83343fc0ae9b69df1`. Ścieżki w tekście (np. `badania/...`, `zrodla/...`) odnoszą się do katalogu głównego repozytorium w wersji 92bdfc2. Katalog `propozycje/` i plik `propozycje-na-stole.md` wymienione w tekście to robocza wersja notatki o propozycjach, przekazana modelowi przed recenzją; po poprawkach trafiła do repozytorium jako [propozycje z debaty](../propozycje-na-stole.md) z kartami w `zrodla/okres-2024-2026/`.
+> Rekomendacja Fable High, wersja ostateczna, poprawiona po recenzji. Model Claude Fable 5.1, wysoki wysiłek rozumowania, agent Claude Code; zakaz korzystania z internetu i zmian w repozytorium był w poleceniu, nie wymuszony technicznie. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `2a3dbf72c2d0f8b78d53a6bfee9fc23d199bba94c39b8ff83343fc0ae9b69df1`. Ścieżki w tekście (np. `badania/...`, `zrodla/...`) odnoszą się do katalogu głównego repozytorium w wersji 92bdfc2. Katalog `propozycje/` i plik `propozycje-na-stole.md` wymienione w tekście to robocza wersja notatki o propozycjach, przekazana modelowi przed jej recenzją; po poprawkach trafiła do repozytorium jako [propozycje z debaty](../propozycje-na-stole.md) z kartami w `zrodla/okres-2024-2026/`.
 > Opinia modelu, nie ustalenie projektu ani opinia prawna. Porównanie obu rekomendacji: [rekomendacje modeli](../rekomendacje-modeli.md).
 
 ---
 
-## Rekomendacja (wersja 2 po recenzji): pakt konstytucyjny o TK bez resetu
+# Rekomendacja (wersja 2 po recenzji): pakt konstytucyjny o TK bez resetu
 
 Data: 2026.11.04. Materiał: repozytorium 92bdfc2, recenzja, notatka propozycje-na-stole.md (niezatwierdzona, z korektami koordynatora). Fakty podaję z nazwą pliku; zdania od "Moja ocena" to mój osąd.
 

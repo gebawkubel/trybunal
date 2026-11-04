@@ -1,11 +1,9 @@
-# Polecenie dla obu modeli: rekomendacja
-
-> **Polecenie dla obu modeli: rekomendacja.** Ten sam tekst dostały oba modele, każdy osobno. Napisał koordynator (Claude Opus 5.5). Tekst bez zmian. SHA-256 oryginalnego pliku: `afa279713a479720f4c2d88055e7a98695a3d954d68fcc82e098f0e02c185708`. 
+> Polecenie dla obu modeli: rekomendacja. Ten sam tekst dostały oba modele, każdy osobno. Napisał koordynator (Claude Opus 5.5). Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `afa279713a479720f4c2d88055e7a98695a3d954d68fcc82e098f0e02c185708`. 
 > Porównanie obu rekomendacji: [rekomendacje modeli](../rekomendacje-modeli.md).
 
 ---
 
-## Polecenie: rekomendacja rozwiązania sporu o TK
+# Polecenie: rekomendacja rozwiązania sporu o TK
 
 Data: 2026.11.04. Materiał: repozytorium bazy wiedzy o sporze wokół Trybunału Konstytucyjnego (TK) w katalogu podanym przez zlecającego, wersja 92bdfc2. Zacznij od README.md, historia-sporu.md, badania/scenariusze-naprawy.md, badania/odpowiedzialnosc-i-rozwiazania.md i badania/warunki-rozwiazan.md. Inne pliki czytaj według potrzeby. Nie szukaj w internecie. Pracujesz sam: nie znasz odpowiedzi innych modeli.
 
