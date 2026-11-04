@@ -25,6 +25,7 @@ Wszystkie notatki badawcze projektu. Punktem wyjścia jest [historia sporu](hist
 ## Rozwiązania
 
 - [Scenariusze naprawy](badania/scenariusze-naprawy.md): co jest w debacie i kto za tym stoi.
+- [Propozycje z debaty](badania/propozycje-na-stole.md): co dokładnie proponują partie, Kancelaria Prezydenta i eksperci, według ich dokumentów.
 - [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, rola Prezydenta, kluczowe wyroki, projekty resetu, Komisja Wenecka.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): liczby posłów i możliwe większości.
 
