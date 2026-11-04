@@ -46,9 +46,25 @@ Każda zmiana w repozytorium przechodzi przez PR (propozycję zmiany na GitHubie
 | [#34](https://github.com/gebawkubel/trybunal/pull/34) | 2026.11.03 | [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, art. 235, wyroki, projekty, Komisja Wenecka | 1 bloker, potem PASS |
 | [#35](https://github.com/gebawkubel/trybunal/pull/35) | 2026.11.03 | [Skutki dla obywateli](badania/skutki-dla-obywateli.md) | 2 blokery, potem PASS |
 | [#36](https://github.com/gebawkubel/trybunal/pull/36) | 2026.11.03 | [Postępowania wobec osób](badania/postepowania-wobec-osob.md) | PASS, poprawki po uwagach |
-| [#37](https://github.com/gebawkubel/trybunal/pull/37) | 2026.11.03 | Porządek po badaniach #34-#36: korekta oceny, README, plan | w toku |
+| [#37](https://github.com/gebawkubel/trybunal/pull/37) | 2026.11.03 | Porządek po badaniach #34-#36: korekta oceny, README, plan | 1 runda blokerów, potem PASS |
+| [#39](https://github.com/gebawkubel/trybunal/pull/39) | 2026.11.04 | Porządek: [historia sporu](historia-sporu.md), linki, prostsze README | 1 runda blokerów, potem PASS |
+| [#40](https://github.com/gebawkubel/trybunal/pull/40) | 2026.11.04 | [Propozycje naprawy TK z debaty](badania/propozycje-na-stole.md): treść z dokumentów autorów | 3 rundy blokerów, potem PASS |
+| [#41](https://github.com/gebawkubel/trybunal/pull/41) | 2026.11.04 | Scenariusze naprawy: korekty po odczytaniu propozycji | 1 runda blokerów, potem PASS |
+| [#42](https://github.com/gebawkubel/trybunal/pull/42) | 2026.11.04 | [Rekomendacje Fable High i Astra High](badania/rekomendacje-modeli.md) (issue #38) | 2 rundy blokerów, potem PASS |
+| [#43](https://github.com/gebawkubel/trybunal/pull/43) | 2026.11.04 | [Bilans propozycji](badania/bilans-propozycji.md) (issue #38) | 1 runda blokerów, potem PASS |
+| [#44](https://github.com/gebawkubel/trybunal/pull/44) | 2026.11.04 | [Odpowiedź na pytanie](badania/odpowiedz.md) (issue #38) | 1 runda blokerów, potem PASS |
+| [#49](https://github.com/gebawkubel/trybunal/pull/49) | 2026.11.04 | [Posiedzenie komisji sejmowej z 2026.04.28](badania/komisja-2026-04-28.md) (issue #45) | 1 runda blokerów, potem PASS |
+| [#50](https://github.com/gebawkubel/trybunal/pull/50) | 2026.11.04 | Symulacja negocjacji, etap 1: [skład stołu i plan](badania/symulacja/etap-1.md) (issue #46) | 3 rundy blokerów, potem PASS |
+| [#51](https://github.com/gebawkubel/trybunal/pull/51) | 2026.11.04 | [Wywiad Bosaka z 2026.11.04](badania/bosak-2026-11-04.md) (issue #48) | 1 runda blokerów, potem PASS |
+| [#52](https://github.com/gebawkubel/trybunal/pull/52) | 2026.11.04 | Symulacja, etap 2: [pakiet wiedzy](badania/symulacja/etap-2/pakiet-wiedzy.md) i karty postaci (issue #46) | 2 rundy blokerów, potem PASS |
+| [#53](https://github.com/gebawkubel/trybunal/pull/53) | 2026.11.04 | Symulacja, etap 3: [skrypt rozmowy i arbitra](narzedzia/symulacja/README.md) (issue #46) | 1 runda blokerów, potem PASS |
+| [#54](https://github.com/gebawkubel/trybunal/pull/54) | 2026.11.04 | Symulacja, [przebieg 1](badania/symulacja/przebieg-1/raport.md) i nowy wariant w scenariuszach (issue #46) | 1 runda blokerów, potem PASS |
+| [#55](https://github.com/gebawkubel/trybunal/pull/55) | 2026.11.04 | Symulacja, [etap 4](badania/symulacja/etap-4.md): mniejszy stół, dłuższe wypowiedzi (issue #46) | 1 runda blokerów, potem PASS |
+| [#56](https://github.com/gebawkubel/trybunal/pull/56) | 2026.11.04 | Symulacja, przebiegi 2-10 i zestawienie wyników (issue #46) | 2 rundy blokerów, potem PASS |
+| [#58](https://github.com/gebawkubel/trybunal/pull/58) | 2026.11.04 | Bilans propozycji: propozycje 15 i 16 spoza debaty (issue #57) | PASS |
+| [#59](https://github.com/gebawkubel/trybunal/pull/59) | 2026.11.04 | [Symulacja negocjacji](badania/symulacja/wyniki.md): podsumowanie, wpis w README (issue #46, #57) | 1 runda blokerów, potem PASS |
 
-Numery #1 i #12 to zgłoszenia zadań, a PR #2 i #3 z 2026.11.02 zamknięto bez scalenia. Pierwszą wersję organizacyjną przygotowano z pomocą Codex. PR #13-#16 i #18 powstały równolegle do pozostałych prac. Model podano w commitach.
+Numery #1 i #12 to zgłoszenia zadań, a PR #2 i #3 z 2026.11.02 zamknięto bez scalenia. Numery #38, #45, #46, #48 i #57 to zgłoszenia zadań. PR #47 (pierwsza wersja etapu 1 symulacji) zamknięto bez scalenia, bo polecenie zawierało wytyczne koordynatora spoza issue; etap powtórzono w PR #50. Pierwszą wersję organizacyjną przygotowano z pomocą Codex. PR #13-#16 i #18 powstały równolegle do pozostałych prac. Model podano w commitach.
 
 ## Lista scenariuszy naprawy (PR #10, #17, #19, #21)
 
