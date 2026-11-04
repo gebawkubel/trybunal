@@ -1,6 +1,6 @@
 # TK w latach 2020-2023: uzupełnienie braków
 
-Stan kwerendy i dostęp do źródeł: 2026.11.03. Notatka uzupełnia [przegląd okresu](okres-2020-2023.md) o punkty z sekcji "Braki". Kolejność odpowiada znaczeniu dla sporu o skład TK. Nie omawiamy sporu o kadencję prezes TK, który bada osobna notatka. Nie oceniamy osobistej winy.
+Stan kwerendy i dostęp do źródeł: 2026.11.03. Notatka uzupełnia [przegląd okresu](okres-2020-2023.md) o punkty z sekcji "Braki". Kolejność odpowiada znaczeniu dla sporu o skład TK. Nie omawiamy sporu o kadencję prezes TK, który bada [osobna notatka](kadencja-prezes-2022-2023.md). Nie oceniamy osobistej winy.
 
 Kilka pojęć. **Skład** to sędziowie, którzy rozpoznają sprawę. **Zdanie odrębne** to pisemny sprzeciw sędziego wobec wyroku albo tylko wobec jego uzasadnienia. **OTK ZU** to urzędowy zbiór orzeczeń TK. **Komitet Ministrów** Rady Europy pilnuje, czy państwa wykonują wyroki Europejskiego Trybunału Praw Człowieka (ETPC).
 
