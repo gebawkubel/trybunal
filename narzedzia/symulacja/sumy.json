@@ -1,18 +1,18 @@
 {
  "wersja_pakietu": "70b735a",
- "sha256_skryptu": "26d95b158cd263fbd580ec36849732ece08323827c0f7abc6a2e77b2436672bb",
+ "sha256_skryptu": "7d3350b38b31dab651cf066ff23999b8c6886e501b5007257a55189892868e23",
  "teksty": {
   "wariant_a": {
-   "sha256": "bb91ff9da00ee0d5f02351cd7e75adbd5edee427ea7e097c696e7627d62409e3",
-   "slowa": 494
+   "sha256": "d894f8a9befb0406c5b7daa4fb3f76e2df62367485fd79f3f1f486816a981b07",
+   "slowa": 563
   },
   "wariant_b": {
-   "sha256": "70ac79e30e62bc020fe147ac19484238d4a9421ca4607d34d8b2df57f1fc2791",
-   "slowa": 503
+   "sha256": "90a2b8914aeb1aa5009d9aaa1f0231ff07c1e0fa4475e3ddfb34c76a9fb7c77b",
+   "slowa": 572
   },
   "wariant_c": {
-   "sha256": "d32bdcc1cef9ed3a879b63272ba60222e8239343e22dedc9521cbeee05fe80aa",
-   "slowa": 491
+   "sha256": "723ebadbbf22fb7df7b085e0b739021b1034984db23c900bde4bfd4b069536a3",
+   "slowa": 560
   },
   "pakiet_podstawowy": {
    "sha256": "8099cba4af4dd1d781ad75878bd3b913bef2bdd4a574b2e422c6640901684f4b",
@@ -27,8 +27,8 @@
    "slowa": 13666
   },
   "arbiter": {
-   "sha256": "08445af7c3cc107dd34075acf02e233f48116115a8a8b091934531a987adc255",
-   "slowa": 2251
+   "sha256": "95a07faed03239982c6f6e14667928fe7b7c7470823de2af7afd56323a81f728",
+   "slowa": 2335
   },
   "karta_nawrocki": {
    "sha256": "9049d7dece1d7e1029b044310d8dac387d9c15f6336802cb6eb276ba391c70a0",
@@ -42,25 +42,9 @@
    "sha256": "e3892bdeeb151d281361757f6c3fd975153a2e68dbd22b2b13e3427df509c9c1",
    "slowa": 1379
   },
-  "karta_morawiecki": {
-   "sha256": "a76bbf0bb54d0d475042ae756c8b3de6727343a8dad1a0fb9876a521ff542620",
-   "slowa": 1115
-  },
-  "karta_kosiniak-kamysz": {
-   "sha256": "2c9d89ed90cac62dba42315cddd92f5a7b878c70eb2a76ea8039f9bff5ec33b2",
-   "slowa": 1013
-  },
   "karta_czarzasty": {
    "sha256": "0ab7cd78aa1aee04e5314f906fb2cc3a4da342271dfee4a956b6530de8bcfa93",
    "slowa": 1008
-  },
-  "karta_holownia": {
-   "sha256": "624d0b5b7e85342f1fb210428320a8ab618083968d52958fbb185fb6fc32dd34",
-   "slowa": 776
-  },
-  "karta_bosak": {
-   "sha256": "b88a79a67ddef5d6e01807a07582d6494170e5d658145ae6c1039289fc5ef833",
-   "slowa": 1354
   },
   "karta_swieczkowski": {
    "sha256": "72c42e3af8b54e1effb16fa105619990f8cbd194bd80675a2c67796b83973a0d",
@@ -80,14 +64,14 @@
   "TURA.dyskusja": "9e3195f615bf6a00d246a028a4511ce8cfeefce648be1d97b8b6d1cb9136908d",
   "TURA.poza_kolejnoscia": "e67fb9319aa947dee180ca4d8079a8da47df7109ba25563bf104ed9941d1e370",
   "TURA.dodatkowa": "aa7a9b16eb4a30f4ba7e9c306d7022f2b580d5e603960a77ec780745872b47b3",
-  "TURA.glosowanie": "23ea5c1583342982c529742418335804d4f839f5ad6870d0e2caa6942b5bfe96",
+  "TURA.glosowanie": "8a5415624757e9a9f1b5014c939b12dcc42c115dd403c2c6fc24281f1d461668",
   "ARBITER_FORMAT": "34596c424ad17e012d902212ca283b73098ad4beefb42c66e4c7c8578728637c",
   "ARBITER_TURA.otwarcie": "2c840cfa074000fc06a5f52539df37444f02f086b212b9e5a2d79e250a67b16b",
   "ARBITER_TURA.po_rundzie": "af1213ba7974e7d88c1b8c2b4d40fe34468c35d0888b415107ddb838058582e7",
   "ARBITER_TURA.po_glosowaniu": "e8431c8b9701ea2fc158c2cf7f5780bde749d3a108538be6704f5bf23a21b5a2",
   "ARBITER_TURA.przerwanie": "f9971155bfce1287b7475ebc5f749870723f67c40b6704cee80ce485f1e1ef29",
   "ARBITER_POPRAWKA": "c3c34594b562ac4796cb183775723fc58ef5ccaa4bb24bb0cb2f0b054b5b2c4c",
-  "SCHEMAT_ARBITRA": "1c0b200c534224b5be151e30b20e278fd2cf1d8e39db272973b7fd7cdb0a8ad4",
+  "SCHEMAT_ARBITRA": "b127643b7b4e0807257aacf48321913d2afabb2e62dd1fd886d2aa23f0285008",
   "ODMOWA_PAS": "7468559328372edc6a4e0e994ed5e74b44c1e1ebfc71574b2db0ecf704f86215",
   "UCIECIE": "abd8ca321c4323eaf023f407a097304399fdaecc0d2a7ad948f73074a6239681",
   "NAGLOWEK_ZAPISU": "49b20722fe81c5ced23e11d36ce11c824ddebe92be9826be4bdc931bd18759e3"

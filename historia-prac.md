@@ -416,3 +416,15 @@ Na prośbę prowadzącego koordynator napisał [raport](badania/symulacja/przebi
 8a471bca7251d286f77c90e7d2bf92bd719086817ff22ea1861e6add50520107  zapis.md (oryginał; w repo 0636945628b5aaecd93c70225f6de2775317b6e49b2fb2096527abaa74a883d3)
 c7d2bf5272f189a278578fa8428783f7649af9fa6478b3fd14732a448ccf8ea6  zapis.jsonl
 ```
+
+## Symulacja negocjacji: etap 4 (issue #46)
+
+Po przebiegu 1 prowadzący napisał w #46, że przy stole nie trzeba tylu osób, zgoda wszystkich nie jest wymagana, a długość wypowiedzi trzeba umiarkowanie poprawić. Koordynator zapisał te uwagi dosłownie w komentarzu "Etap 4" i zlecił wykonanie osobnemu agentowi (Claude Opus 5.5, Claude Code). Polecenie: treść issue z komentarzami i jawna wiadomość techniczna, w jednym pliku o SHA-256 `0072843696f5d995404b4e25e765214554f480ee3bb4c6809f9f1e1d599493c8` (w wiadomości ścieżkę lokalną zastąpiono "<katalog roboczy>"). Pierwsza wersja wyniku: commit [01b1b37](https://github.com/gebawkubel/trybunal/commit/01b1b37d3ed21d4c9bd4f3066a59294d05098adf). Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 1 bloker: cytat z Kp 3/24 z błędnym lokalizatorem, niedosłowny i o zbyt szerokim zakresie. Wykonawca poprawił go w `etap-4.md` i w `arbiter.md` (nowe sumy tekstów) oraz wprowadził 7 z 8 uwag; polecenie poprawki: `wiadomosc-poprawka.md` (w opublikowanej wersji ścieżka zastąpiona "<katalog roboczy>").
+
+```
+25f32052c68121e023253bc4fa589b3bb889c5c42798be9a43ea3a3cf4f923fa  polecenie-issue.md (badania/symulacja/etap-4/polecenie-issue.md)
+68eac874b7a3c274d80eb8f205944989f24fa58f5a83321473089d8cf8d25566  wiadomosc.md (badania/symulacja/etap-4/wiadomosc.md)
+97c0e296f7e9f4211af1e884becd9aca56ee78fd283b59442c18e073bc783ba1  etap-4.md (pierwsza wersja, 01b1b37)
+e6ebcdfeb08d2c524ab77bb96f42678b063222af941934f81b3a96ee7696d10d  wiadomosc-poprawka.md (badania/symulacja/etap-4/wiadomosc-poprawka.md)
+dc10c9603e45222cd5e573bc82601d5b503a1f21739d2010bc3ba36b3915a436  etap-4.md (wersja 2 po recenzji, 47f6183)
+```

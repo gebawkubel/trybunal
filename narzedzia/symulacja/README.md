@@ -1,8 +1,8 @@
-# Skrypt symulacji negocjacji o TK (issue #46, etap 3)
+# Skrypt symulacji negocjacji o TK (issue #46, etapy 3 i 4)
 
-Skrypt `symulacja.py` prowadzi jedną rozmowę dziesięciu postaci i arbitra według [instrukcji arbitra](../../badania/symulacja/etap-2/arbiter.md). Każda postać i arbiter to osobne wywołanie tego samego modelu (domyślnie Claude Opus 5.5) z tymi samymi ustawieniami. Skrypt nie zmienia treści materiałów etapów 1 i 2: wysyła je dosłownie i przed każdym przebiegiem sprawdza ich sumy SHA-256 z nagłówków plików etapu 2.
+Skrypt `symulacja.py` prowadzi jedną rozmowę sześciu postaci (skład W5 z [etapu 4](../../badania/symulacja/etap-4.md)) i arbitra według [instrukcji arbitra](../../badania/symulacja/etap-2/arbiter.md). Każda postać i arbiter to osobne wywołanie tego samego modelu (domyślnie Claude Opus 5.5) z tymi samymi ustawieniami. Skrypt nie zmienia treści materiałów etapów 1 i 2: wysyła je dosłownie i przed każdym przebiegiem sprawdza ich sumy SHA-256 z nagłówków plików etapu 2.
 
-Napisał wykonawca etapu 3 (Claude Opus 5.5, agent Claude Code) na repozytorium w wersji 0726d6f, według treści issue #46 z komentarzami. To narzędzie i szacunek do jawnej recenzji; płatny przebieg uruchamia koordynator po PASS. Wersja 2 po pierwszej rundzie recenzji i po rozstrzygnięciu prowadzącego (zmiany: na końcu pliku).
+Napisał wykonawca etapu 3 (Claude Opus 5.5, agent Claude Code) na repozytorium w wersji 0726d6f, według treści issue #46 z komentarzami. To narzędzie i szacunek do jawnej recenzji; płatny przebieg uruchamia koordynator po PASS. Wersja 2 po pierwszej rundzie recenzji i po rozstrzygnięciu prowadzącego. Etap 4 (Claude Opus 5.5, agent Claude Code) zmienił skład, limity długości i szacunek; przebieg 1 (skład W1, dziesięć postaci) używał [wersji z commita e28858b](https://github.com/gebawkubel/trybunal/tree/e28858b48371ff022bd458bcc3bc4b6565f891c6/narzedzia/symulacja). Zmiany: na końcu pliku.
 
 ## Jak uruchomić
 
@@ -22,7 +22,7 @@ python3 narzedzia/symulacja/symulacja.py zbuduj --wyjscie narzedzia/symulacja/su
 python3 narzedzia/symulacja/symulacja.py policz --zmienna-klucza ANTHROPIC_CREDITS_API_KEY --wyjscie tokeny.json
 python3 narzedzia/symulacja/symulacja.py proba --tokeny narzedzia/symulacja/tokeny.json --wyjscie <katalog>
 python3 narzedzia/symulacja/symulacja.py przebieg --wariant b --zmienna-klucza ANTHROPIC_CREDITS_API_KEY \
-    --limit-usd 25 --cennik-sprawdzony <dzisiejsza data yyyy.mm.dd> --potwierdzam-koszt --wyjscie <katalog>
+    --limit-usd 18 --cennik-sprawdzony <dzisiejsza data yyyy.mm.dd> --potwierdzam-koszt --wyjscie <katalog>
 ```
 
 Klucz API: skrypt czyta go tylko ze zmiennej środowiskowej, której nazwę podaje `--zmienna-klucza`, i przekazuje jawnie do klienta SDK. Klucz nie trafia do kodu, zapisu ani repozytorium. Płatny przebieg nie ruszy bez `--potwierdzam-koszt` i bez daty sprawdzenia cennika równej dniu przebiegu.
@@ -53,22 +53,22 @@ Kolejność według arbiter.md, część 2: otwarcie arbitra, runda otwarcia, na
 
 | Reguła | Jak działa w skrypcie |
 |---|---|
-| Głos poza kolejnością | arbiter może go udzielić raz na rundę, w podsumowaniu rundy; postać mówi zaraz po nim, a wypowiedź liczy się do tej rundy. Najwyżej 10 w przebiegu, tylko w rundach dyskusji 1-8. Uproszczenie: arbiter decyduje po rundzie, nie w jej trakcie, żeby nie wywoływać go po każdej wypowiedzi |
+| Głos poza kolejnością | arbiter może go udzielić raz na rundę, w podsumowaniu rundy; postać mówi zaraz po nim, a wypowiedź liczy się do tej rundy. Najwyżej 8 w przebiegu (jeden na rundę), tylko w rundach dyskusji 1-8. Uproszczenie: arbiter decyduje po rundzie, nie w jej trakcie, żeby nie wywoływać go po każdej wypowiedzi |
 | Runda głosowania | gdy arbiter ją ogłosi (wniosek o głosowanie i pełna runda od wniosku, ocenia arbiter); po 8. rundzie i po rundzie samych "Pas" skrypt dopuszcza tylko głosowanie albo brak porozumienia; po rundzie otwarcia tylko dalszą dyskusję. Każda postać głosuje raz, po kolei nad wszystkimi pakietami wymienionymi przez arbitra; numery pakietów z decyzji arbitra są w zdaniu tury głosowania |
 | "Pas" | skrypt rozpoznaje wypowiedź zaczynającą się od "Pas" (także po podpisie w pierwszej linii) |
 | Dodatkowa runda | najwyżej jedna, na decyzję arbitra po głosowaniu; po powtórnym głosowaniu przebieg się kończy |
-| Długość wypowiedzi | po odpowiedzi skrypt liczy tokeny tekstu (count_tokens); powyżej 1100 ucina do ostatniego pełnego zdania i dopisuje adnotację; pełny tekst zostaje w zapisie JSONL |
+| Długość wypowiedzi | po odpowiedzi skrypt liczy tokeny tekstu (count_tokens); powyżej 1400 (około 390 słów; postacie mają pisać do około 250 słów, w głosowaniu do około 200) ucina do ostatniego pełnego zdania i dopisuje adnotację; pełny tekst zostaje w zapisie JSONL |
 | Odmowa modelu albo pusta odpowiedź postaci | liczy się jako "Pas" z adnotacją skryptu widoczną w wątku; bez ponawiania i bez zmiany modelu |
 | Błędna odpowiedź arbitra (brak JSON, odmowa, wartość niedozwolona w danej chwili, głosowanie bez numerów pakietów) | jedno ponowienie z dopisanym zdaniem, czego nie przyjęto (zdanie stoi po punkcie bufora, więc bufor zostaje); po drugim błędzie przebieg się kończy |
 | Błąd połączenia albo serwera w trakcie odpowiedzi | jedno ponowienie po 30 sekundach, po ponownym sprawdzeniu limitu kosztu; błąd jest zapisany w JSONL. Koszt nieudanego strumienia nie jest znany ze `usage`, więc nie wchodzi do sumy |
-| Limit wypowiedzi | najwyżej 130 wypowiedzi postaci (arbiter.md: 10 + 80 + 10 poza kolejnością + 10 + 10 + 10) |
-| Limit kosztu | domyślnie 25 USD. Przed każdym wywołaniem (także przed ponowieniem) skrypt sprawdza, czy wydana kwota plus szacowana górna granica tego wywołania i jednego ogłoszenia arbitra o przerwaniu mieści się w limicie. Granica: odczyt z bufora prefiksu z poprzedniego wywołania tej roli, zapis wszystkiego, co doszło od tamtej chwili (z zapasem), pełne `max_tokens` wyjścia, co najmniej 1,5 razy najdroższe z 10 ostatnich wywołań. To granica przy działającym buforze, nie bezwzględna: gdyby bufor wygasł (przerwa ponad godzinę), wywołanie może kosztować więcej. Gdy limit się nie mieści, skrypt przerywa, arbiter ogłasza brak porozumienia według warunku (d), a stan zostaje zapisany |
+| Limit wypowiedzi | najwyżej 80 wypowiedzi postaci (arbiter.md: 6 + 48 + 8 poza kolejnością + 6 + 6 + 6) |
+| Limit kosztu | domyślnie 18 USD (plan przebiegów w etapie 4). Przed każdym wywołaniem (także przed ponowieniem) skrypt sprawdza, czy wydana kwota plus szacowana górna granica tego wywołania i jednego ogłoszenia arbitra o przerwaniu mieści się w limicie. Granica: odczyt z bufora prefiksu z poprzedniego wywołania tej roli, zapis wszystkiego, co doszło od tamtej chwili (z zapasem), pełne `max_tokens` wyjścia, co najmniej 1,5 razy najdroższe z 10 ostatnich wywołań. To granica przy działającym buforze, nie bezwzględna: gdyby bufor wygasł (przerwa ponad godzinę), wywołanie może kosztować więcej. Gdy limit się nie mieści, skrypt przerywa, arbiter ogłasza brak porozumienia według warunku (d), a stan zostaje zapisany |
 
 Koszt każdego wywołania skrypt liczy z pola `usage` odpowiedzi według cennika w `symulacja.py` (Claude Opus 5.5: wejście 4 USD, zapis bufora 5 min 5 USD, zapis bufora 1 h 8 USD, odczyt bufora 0,20 USD, wyjście 20 USD za milion tokenów; [cennik](https://platform.claude.com/docs/en/about-claude/pricing), sprawdzony 2026.11.04). Wyjście obejmuje tokeny rozumowania.
 
 ## Bufor (cache) i układ kontekstu
 
-Instrukcja wariantu i pakiet (około 120 tys. tokenów) są jednakowe dla wszystkich postaci, więc trafiają do bufora raz, a każda postać czyta je z bufora. Karta stoi po pakiecie, a wątek po karcie, więc każda postać ma własny prefiks w buforze (karta i wątek): przy każdej wypowiedzi czyta go z bufora i dopisuje to, co inni powiedzieli od jej poprzedniej wypowiedzi (około 10-13 wpisów). Bufor ma czas życia 1 godzinę, bo między wypowiedziami tej samej postaci mija około 11 wywołań. Arbiter ma własny prefiks (instrukcja, pakiet, karty źródeł, wątek) i stały schemat odpowiedzi.
+Instrukcja wariantu i pakiet (około 120 tys. tokenów) są jednakowe dla wszystkich postaci, więc trafiają do bufora raz, a każda postać czyta je z bufora. Karta stoi po pakiecie, a wątek po karcie, więc każda postać ma własny prefiks w buforze (karta i wątek): przy każdej wypowiedzi czyta go z bufora i dopisuje to, co inni powiedzieli od jej poprzedniej wypowiedzi (w składzie W5 około 6-8 wpisów). Bufor ma czas życia 1 godzinę, bo między wypowiedziami tej samej postaci mija około 7 wywołań. Arbiter ma własny prefiks (instrukcja, pakiet, karty źródeł, wątek) i stały schemat odpowiedzi.
 
 Układ `--uklad wspolny-watek` (karta po wątku) pozwala wszystkim postaciom dzielić bufor wątku i według atrapy jest tańszy o około 3-7 USD na przebieg. Prowadzący wybrał kolejność z etapu 2, więc ta opcja zostaje tylko jako porównanie.
 
@@ -83,56 +83,43 @@ W katalogu `--wyjscie` skrypt zapisuje:
 
 ## Tryb próbny: wynik
 
-Pomiar 2026.11.04 endpointem `count_tokens` dla `claude-opus-5-5` ([tokeny.json](tokeny.json)):
+Pomiar 2026.11.04 endpointem `count_tokens` dla `claude-opus-5-5` ([tokeny.json](tokeny.json), po zmianach etapu 4):
 
 | Tekst | Tokeny |
 |---|---|
 | pakiet podstawowy (27 433 słowa) | 118 923 |
 | pakiet minimalny | 65 311 |
-| instrukcja wariantu (a), (b), (c) | 1 688-1 717 |
-| karty postaci (z nagłówkiem) | 3 007 (Hołownia) - 8 011 (Nawrocki) |
-| instrukcja arbitra | 7 765 |
+| instrukcja wariantu (a), (b), (c) | 1 914-1 943 |
+| karty postaci W5 (z nagłówkiem) | 3 963 (Czarzasty) - 8 011 (Nawrocki) |
+| instrukcja arbitra | 8 015 |
 | karty źródeł dla arbitra | 56 410 |
-| stały schemat odpowiedzi arbitra | 664 |
-| system postaci, wariant (b), pakiet podstawowy | 120 640 |
-| system arbitra z kartami źródeł | 183 098 |
-| pełne pierwsze zapytanie Nawrockiego | 128 814 |
+| stały schemat odpowiedzi arbitra | 588 |
+| system postaci, wariant (b), pakiet podstawowy | 120 866 |
+| system arbitra z kartami źródeł | 183 348 |
+| pełne pierwsze zapytanie Nawrockiego | 129 039 |
 
-Pakiet ma 118 923 tokeny wobec 118 529 zmierzonych przez recenzenta etapu 2; różnica to linie z nazwami plików i znaczniki "[...]".
+Atrapa (wariant b, skład W5, układ etap2) przeszła scenariusze:
 
-Atrapa (wariant b, skład W1, układ etap2) przeszła trzy scenariusze:
-
-- "typowy": głosowanie po 6. rundzie, dodatkowa runda, powtórne głosowanie; 114 wywołań, 103 wypowiedzi postaci, 3 poza kolejnością;
-- "maks": 8 rund, głos poza kolejnością w każdej, dodatkowa runda; 142 wywołania, 128 wypowiedzi postaci. Sprawdza też ucięcie zbyt długiej wypowiedzi, odmowę modelu liczoną jako "Pas" i ponowienie odpowiedzi arbitra z niedozwoloną decyzją ("dalej" po 8. rundzie): ponowienie z poprawką kosztowało tyle co zwykłe wywołanie, bez ponownego zapisu prefiksu;
+- "typowy": głosowanie po 6. rundzie (opcja `--atrapa-glosowanie-po`), dodatkowa runda, powtórne głosowanie; 74 wywołania, 63 wypowiedzi postaci;
+- "maks": 8 rund, głos poza kolejnością w każdej, dodatkowa runda; 94 wywołania, 80 wypowiedzi postaci, czyli limit. Sprawdza też ucięcie zbyt długiej wypowiedzi (Czarzasty, 3. runda), odmowę modelu liczoną jako "Pas" (Kaczyński, 2. runda) i ponowienie odpowiedzi arbitra z niedozwoloną decyzją;
 - "pas": wszyscy "Pas" w 1. rundzie, arbiter może tylko zakończyć.
 
-Kolejność w każdej rundzie zgadza się z kolejnością otwarcia, także z `--przesuniecie 1`; żadna postać nie mówi więcej niż dwa razy w rundzie. Atrapa modeluje zależność bufora od ustawień i schematu: ustawienia i schemat są początkiem prefiksu, więc ich zmiana unieważnia bufor. Limit kosztu sprawdziłem w 72 przebiegach atrapy (limity 4-28 USD, scenariusze typowy i maks, wypowiedzi po 250 słów, rozumowanie 1 500 / 3 000 albo 4 000 / 8 000 tokenów, także z najdroższym możliwym ostatnim ogłoszeniem arbitra, `--atrapa-drogie-ogloszenie`): żaden nie przekroczył limitu, najmniejszy zapas to 0,08 USD.
+Kolejność w każdej rundzie zgadza się z kolejnością otwarcia, także z `--przesuniecie 1`. Limit kosztu sprawdziłem w 120 przebiegach atrapy (limity 3-20 USD, scenariusze typowy i maks, wypowiedzi po 250 słów, rozumowanie 1 500 / 3 000 albo 4 000 / 8 000 tokenów, z najdroższym ogłoszeniem arbitra i bez niego): żaden nie przekroczył limitu, najmniejszy zapas to 0,18 USD. Recenzent PR #55 w szerszej siatce (144 przebiegi) nie znalazł przekroczenia; jego najmniejszy zapas to 0,076 USD.
 
-## Szacunek kosztu pierwszego przebiegu
+## Szacunek kosztu przebiegu (etap 4)
 
-Atrapa liczy `usage` z modelu bufora (odczyt od najdłuższego zapisanego prefiksu, zapis do ostatniego punktu bufora) i z pomiaru tokenów. Niepewne są długość wypowiedzi i liczba tokenów rozumowania, więc podaję zakres. Założenia: wariant (b), skład W1, układ etap2, pakiet podstawowy, arbiter z kartami źródeł, wysiłek `medium`, bufor 1 h, wpisy bufora nie wygasają, wypowiedź arbitra około 200 słów, bez ponowień.
+Atrapa liczy `usage` z modelu bufora i z pomiaru tokenów. Założenia wzięte z przebiegu 1: wypowiedź postaci 200 słów atrapy (przy jej przeliczniku 4,4 tokena na słowo około 880 tokenów, jak średnio w przebiegu 1), rozumowanie postaci 600 tokenów, wypowiedź arbitra 270 słów atrapy, rozumowanie arbitra 1 200 tokenów. Korekta: ta sama atrapa na skrypcie z przebiegu 1 (skład W1, głosowanie po 3. rundzie, głos poza kolejnością w każdej rundzie, `--atrapa-poza-co-runde`) daje 12,81 USD wobec zmierzonych 14,50 USD, więc wyniki mnożę przez 1,13.
 
-| Scenariusz | Wypowiedź postaci | Rozumowanie (postać / arbiter) | Koszt |
-|---|---|---|---|
-| typowy, 103 wypowiedzi | 160 słów (około 700 tokenów) | 500 / 1 500 | 15,8 USD |
-| typowy | 160 słów | **1 500 / 3 000** | **18,2 USD** |
-| typowy | 160 słów | 4 000 / 8 000 | 24,4 USD |
-| typowy | 250 słów | 1 500 / 3 000 | 22,1 USD |
-| typowy | 250 słów | 4 000 / 8 000 | 28,3 USD, czyli przerwanie na limicie 25 USD |
-| maks, 128 wypowiedzi | 160 słów | 1 500 / 3 000 | 22,4 USD |
-| maks | 250 słów | 1 500 / 3 000 | 27,5 USD, przerwanie na limicie |
+| Scenariusz W5 | Atrapa | Po korekcie |
+|---|---|---|
+| jak przebieg 1 (głosowanie po 3. rundzie, poza kolejnością w każdej rundzie) | 8,10 USD | około 9,2 USD |
+| to samo, każda wypowiedź blisko limitu 1400 tokenów (310 słów atrapy) | 9,40 USD | około 10,6 USD |
+| typowy (głosowanie po 6. rundzie) | 10,73 USD | około 12,1 USD |
+| maks | 13,24 USD | około 15,0 USD |
+| maks, wypowiedzi 250 słów, rozumowanie 1 500 / 3 000 | 16,42 USD | około 18,5 USD |
+| pas | 3,97 USD | około 4,5 USD |
 
-Wynik środkowy: około 18 USD (arbiter 3,4 USD, postacie 14,8 USD: zapis bufora 7,2, wyjście 4,3, odczyt bufora 3,3). Pierwsze wywołanie każdej strony kosztuje najwięcej (zapis pakietu: około 1,1 USD u postaci i 1,6 USD u arbitra), kolejne około 0,13-0,19 USD u postaci i 0,15-0,20 USD u arbitra. Największa pozycja to zapis wątku do bufora osobno dla każdej postaci, wynikający z kolejności z etapu 2. Pakiet minimalny daje około 16,1 USD, arbiter bez kart źródeł około 17,6 USD, układ `wspolny-watek` około 14,8 USD. Czas przebiegu nie był mierzony; przy 114 wywołaniach po 30-60 sekund to około 1-2 godzin.
-
-Propozycja liczby przebiegów w limicie 100 USD (ocena wykonawcy; decyzja prowadzącego po przebiegu 1, na podstawie kosztu zmierzonego z `usage`):
-
-| Zmierzony koszt przebiegu 1 | Przebiegi W1 w limicie |
-|---|---|
-| do 11 USD | 9 (pełny plan 3 x 3) |
-| 11-14 USD | 7 |
-| 14-16,5 USD | 6 (po dwa na wariant) |
-| 16,5-20 USD | 5 |
-| 20-25 USD | 4, albo tańsze ustawienia: wysiłek `low`, pakiet minimalny |
+Układ `wspolny-watek` w scenariuszu jak przebieg 1: 7,37 USD w atrapie. Plan przebiegów i limit 18 USD na przebieg: [etap 4](../../badania/symulacja/etap-4.md), część 4. Szacunek dla składu W1 sprzed przebiegu 1 jest w [wersji z commita e28858b](https://github.com/gebawkubel/trybunal/blob/e28858b48371ff022bd458bcc3bc4b6565f891c6/narzedzia/symulacja/README.md).
 
 ## Ograniczenia
 
@@ -158,3 +145,15 @@ Według [raportu recenzji](https://github.com/gebawkubel/trybunal/issues/46#issu
 | Uwaga 5, głos poza kolejnością po decyzji "glosowanie" | zostawione, bo dotyczy mechanizmu, który prowadzący zostawił bez zmian |
 | Uwaga 6, rezerwa jako oszacowanie | rezerwa jest teraz granicą przy działającym buforze; zastrzeżenie w tabeli reguł |
 | Uwaga 7, szacunek w `historia-prac.md` | zaktualizowany |
+
+## Zmiany w etapie 4
+
+Według [etapu 4](../../badania/symulacja/etap-4.md):
+
+| Co | Zmiana |
+|---|---|
+| Skład | W5: Nawrocki, Tusk, Kaczyński, Czarzasty, Święczkowski, Korwin-Piotrowska (`POSTACIE`); stały schemat arbitra ma teraz te sześć nazwisk |
+| Długość wypowiedzi | limit 1400 tokenów zamiast 1100; zdanie tury głosowania prosi o krótki głos bez powtarzania treści pakietu |
+| Limity | 80 wypowiedzi postaci, 8 głosów poza kolejnością (arbiter.md, część 2) |
+| Limit kosztu | domyślnie 18 USD |
+| Atrapa | opcje `--atrapa-glosowanie-po` i `--atrapa-poza-co-runde` (do porównania z przebiegiem 1); przypadki testowe ucięcia i odmowy przeniesione na postacie z W5 |
