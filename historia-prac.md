@@ -280,5 +280,9 @@ Pierwszą próbę etapu 1 (PR #47, commit c274b85) zamknęliśmy bez scalania: p
 ```
 87b17221569d2b4c2fb0229d72aa7f1f4c2e64a9c8a1c5155da663b2deb3dfe8  issue-46.md (badania/symulacja/etap-1-polecenie-issue.md)
 bb5286b12e1c2810a8028278609d83d477a10fff91e1089a78e13d34274f9e7d  wiadomosc-techniczna.md (badania/symulacja/etap-1-wiadomosc.md)
-db923f3ff54019ddf97908c85a7e2da020b2d7010c053858384ce09ecc0e6575  etap-1.md (badania/symulacja/etap-1.md)
+db923f3ff54019ddf97908c85a7e2da020b2d7010c053858384ce09ecc0e6575  etap-1.md (oryginał wersji 1, commit 57463fe)
+61636b0692fc757ba3bfdce876cb592dc00c71947865946c28ca446cc756879f  wiadomosc-poprawka.md (oryginał; badania/symulacja/etap-1-wiadomosc-poprawka.md)
+8cd57fbddfcd6f806c0e9521ea0c65ebb32941aa3837b53d27c38120193f77ae  etap-1-v2.md (oryginał wersji 2; badania/symulacja/etap-1.md)
 ```
+
+Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 6 blokerów, głównie arytmetycznych: kto jest "niezbędny" w ścieżkach i regułach arbitra, inicjatywa 57 posłów zamiast 92, rola PSL przy wotum nieufności, oraz dwa fakty niezgodne z repo (przebieg głosowań, nieobecni na konsultacjach 2026.10.31). [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628753608) opublikowaliśmy w issue #46, a poprawki zrobił autor etapu w tej samej rozmowie, według jawnej wiadomości. Wersja 1: [commit 57463fe](https://github.com/gebawkubel/trybunal/blob/57463fe13de56d0ba7110bb1a080520fe4d6f055/badania/symulacja/etap-1.md).
