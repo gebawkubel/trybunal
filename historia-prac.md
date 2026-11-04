@@ -284,9 +284,13 @@ db923f3ff54019ddf97908c85a7e2da020b2d7010c053858384ce09ecc0e6575  etap-1.md (ory
 61636b0692fc757ba3bfdce876cb592dc00c71947865946c28ca446cc756879f  wiadomosc-poprawka.md (oryginał; badania/symulacja/etap-1-wiadomosc-poprawka.md)
 8cd57fbddfcd6f806c0e9521ea0c65ebb32941aa3837b53d27c38120193f77ae  etap-1-v2.md (oryginał wersji 2, commit 0624cb0)
 1b6d283c17a7adfb6195c8adabc2289f62a1e482ceb635772129f45ebd6988f5  wiadomosc-poprawka-2.md (oryginał; badania/symulacja/etap-1-wiadomosc-poprawka-2.md)
-e1ba02aec6254e1fc461974ebb3271d78cf98685ff32f286bed7766a406f6a74  etap-1-v3.md (oryginał wersji 3; badania/symulacja/etap-1.md)
+e1ba02aec6254e1fc461974ebb3271d78cf98685ff32f286bed7766a406f6a74  etap-1-v3.md (oryginał wersji 3, commit 066697b)
+7b5375e3c58706ecd4208c529b09483cf1c21a04300d3bb21d298afe21b006b5  wiadomosc-poprawka-3.md (oryginał; badania/symulacja/etap-1-wiadomosc-poprawka-3.md)
+d72d7bde944e28fd3c610fd054d73ce25ab0649faa5cfdd9c065185df3446f76  etap-1-v4.md (oryginał wersji 4; badania/symulacja/etap-1.md)
 ```
 
 Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 6 blokerów, głównie arytmetycznych: kto jest "niezbędny" w ścieżkach i regułach arbitra, inicjatywa 57 posłów zamiast 92, rola PSL przy wotum nieufności, oraz dwa fakty niezgodne z repo (przebieg głosowań, nieobecni na konsultacjach 2026.10.31). [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628753608) opublikowaliśmy w issue #46, a poprawki zrobił autor etapu w tej samej rozmowie, według jawnej wiadomości. Wersja 1: [commit 57463fe](https://github.com/gebawkubel/trybunal/blob/57463fe13de56d0ba7110bb1a080520fe4d6f055/badania/symulacja/etap-1.md).
 
 W drugiej rundzie recenzent potwierdził usunięcie B1-B6, ale zatrzymał trzy nowe błędy arytmetyczne z poprawek: brakujące głosy w ścieżce konstytucyjnej (11 z 17, nie 7), podwójnie policzone koło Kukiza w regułach wariantu W2 i zbyt szeroko określonych niezbędnych przy wotum nieufności. [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628905883) jest w issue #46; poprawki zrobił autor etapu (wersja 3).
+
+W trzeciej rundzie recenzent zatrzymał jedno zdanie o tym, kiedy Konfederacja jest niezbędna przy wotum nieufności. Recenzent zaznaczył, że nieprecyzyjne brzmienie pochodziło z jego własnej propozycji poprawki. [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628976888) jest w issue #46; poprawkę zrobił autor etapu (wersja 4).

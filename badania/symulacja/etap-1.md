@@ -1,8 +1,8 @@
-> Etap 1 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46): skład stołu i plan przebiegów, wersja 3 po dwóch rundach jawnej recenzji. Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 78e9e45. Polecenie: [treść issue #46](etap-1-polecenie-issue.md) i [wiadomość techniczna](etap-1-wiadomosc.md); poprawki według raportów recenzji ([runda 1](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628753608), [runda 2](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628905883)) i wiadomości o poprawkach ([1](etap-1-wiadomosc-poprawka.md), [2](etap-1-wiadomosc-poprawka-2.md)). Poprzednie wersje: [1](https://github.com/gebawkubel/trybunal/blob/57463fe13de56d0ba7110bb1a080520fe4d6f055/badania/symulacja/etap-1.md), [2](https://github.com/gebawkubel/trybunal/blob/0624cb0b65dc956403ec0861cabfc6f2d21bb968/badania/symulacja/etap-1.md). Zakazy (internet, zmiany, inne katalogi) były w wiadomościach, nie wymuszone technicznie. To ocena modelu, nie ustalenie projektu. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `e1ba02aec6254e1fc461974ebb3271d78cf98685ff32f286bed7766a406f6a74`.
+> Etap 1 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46): skład stołu i plan przebiegów, wersja 4 po trzech rundach jawnej recenzji. Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 78e9e45. Polecenie: [treść issue #46](etap-1-polecenie-issue.md) i [wiadomość techniczna](etap-1-wiadomosc.md); poprawki według raportów recenzji ([runda 1](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628753608), [runda 2](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628905883), [runda 3](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628976888)) i wiadomości o poprawkach ([1](etap-1-wiadomosc-poprawka.md), [2](etap-1-wiadomosc-poprawka-2.md), [3](etap-1-wiadomosc-poprawka-3.md)). Poprzednie wersje: [1](https://github.com/gebawkubel/trybunal/blob/57463fe13de56d0ba7110bb1a080520fe4d6f055/badania/symulacja/etap-1.md), [2](https://github.com/gebawkubel/trybunal/blob/0624cb0b65dc956403ec0861cabfc6f2d21bb968/badania/symulacja/etap-1.md), [3](https://github.com/gebawkubel/trybunal/blob/066697b41ca049505c591c6838b2a46a9ebe1268/badania/symulacja/etap-1.md). Zakazy (internet, zmiany, inne katalogi) były w wiadomościach, nie wymuszone technicznie. To ocena modelu, nie ustalenie projektu. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `d72d7bde944e28fd3c610fd054d73ce25ab0649faa5cfdd9c065185df3446f76`.
 
 ---
 
-# Etap 1: skład stołu i plan przebiegów symulacji negocjacji o TK (wersja 3, po dwóch rundach recenzji)
+# Etap 1: skład stołu i plan przebiegów symulacji negocjacji o TK (wersja 4, po trzech rundach recenzji)
 
 Wykonane na polecenie z issue #46 (plik `issue-46.md`). Materiał: repozytorium w wersji 78e9e45, bez internetu. Nie czytałem plików `badania/rekomendacje-modeli.md`, `badania/rekomendacje/`, `badania/bilans-propozycji.md` ani `badania/odpowiedz.md`. W `badania/scenariusze-naprawy.md` pominąłem wiersz tabeli, który streszcza rekomendacje modeli. Wersja 2 poprawiła blokery B1-B6 z recenzji (runda 1), wersja 3 poprawia blokery R2-B1 do R2-B3 (runda 2); wykaz zmian jest na końcu.
 
@@ -94,7 +94,7 @@ Blokują tę ścieżkę w praktyce Prezydent (brak ślubowania) i Prezes TK (bra
 | Skrócenie kadencji przez Prezydenta | tylko gdy Sejm nie powoła rządu (art. 155 ust. 2) albo nie uchwali budżetu w 4 miesiące (art. 225) | budżet na 2027 rok jest w Sejmie bez części dla TK (`badania/zgromadzenie-2026-11-03.md`); ocena wykonawcy: art. 225 to realna dźwignia Prezydenta, jeśli spór o budżet TK opóźni całą ustawę budżetową |
 | Dymisja rządu | sama nie daje Prezydentowi prawa rozpisania wyborów (`badania/scenariusze-naprawy.md`, uwaga prawna) | Czarnek (PiS) wzywa do dymisji |
 
-Niezbędni w wotum nieufności (wyliczenia własne z `badania/sily-i-glosy.md`): zawsze PiS i Rozwój Plus, bo bez PiS opozycja prawicowa ma 63, a bez Rozwoju Plus 170, i nawet z PSL (95 albo 202) nie ma 231. Konfederacja jest niezbędna tylko wtedy, gdy przechodzi sam PSL albo sama Lewica bez Razem i niezrzeszonych (bez Konfederacji 193 + 32 = 225, 193 + 21 = 214); z Razem i niezrzeszonymi PSL wystarcza także bez Konfederacji (204 + 32 = 236). Korona i Demokracja Bezpośrednia (6) są niezbędne tylko w wariancie z samą Lewicą (dokładnie 231); przy PSL bez nich jest 204 + 32 = 236. Z klubów koalicji PSL i Lewica wystarczają same, Polska 2050 albo Centrum tylko z Razem i niezrzeszonymi. KO arytmetycznie też wystarcza (366), ale to rachunek, nie scenariusz: wotum jest skierowane przeciw premierowi z KO. W skróceniu kadencji KO i PiS.
+Niezbędni w wotum nieufności (wyliczenia własne z `badania/sily-i-glosy.md`): zawsze PiS i Rozwój Plus, bo bez PiS opozycja prawicowa ma 63, a bez Rozwoju Plus 170, i nawet z PSL (95 albo 202) nie ma 231. Konfederacja jest niezbędna zawsze, gdy z koalicji przechodzi sama Lewica (bez Konfederacji 193 + 21 = 214, a z Razem i niezrzeszonymi najwyżej 193 + 21 + 11 = 225), a przy samym PSL tylko bez Razem i niezrzeszonych (193 + 32 = 225; z nimi 236). Korona i Demokracja Bezpośrednia (6) są niezbędne tylko w wariancie z samą Lewicą (dokładnie 231); przy PSL bez nich jest 204 + 32 = 236. Z klubów koalicji PSL i Lewica wystarczają same, Polska 2050 albo Centrum tylko z Razem i niezrzeszonymi. KO arytmetycznie też wystarcza (366), ale to rachunek, nie scenariusz: wotum jest skierowane przeciw premierowi z KO. W skróceniu kadencji KO i PiS.
 
 ### Ścieżka G: rozstrzygnięcie przez organ, którego obie strony posłuchają
 
@@ -268,7 +268,7 @@ Blokery:
 
 - **R2-B1 (brakujące głosy w ścieżce C bez PiS): poprawione.** Koalicja, Rozwój Plus i Konfederacja to 296, więc brakuje 11 z 17 głosów Razem, Korony, Demokracji Bezpośredniej i niezrzeszonych (np. Razem i 7 z 13); poprawiłem zdanie w ścieżce C i wiersz tabeli podsumowania.
 - **R2-B2 (W2, Kukiz policzony podwójnie): poprawione.** 207 już zawiera Demokrację Bezpośrednią, więc z Polską 2050 i Razem jest 226, a z Koroną 229, w obu wypadkach za mało; przepisałem zasady arbitra w W2, wniosek o PSL bez zmian.
-- **R2-B3 (ścieżka F, "opozycja prawicowa w komplecie"): poprawione.** Niezbędni zawsze PiS i Rozwój Plus (bez PiS 63, bez Rozwoju Plus 170); Konfederacja tylko przy samym PSL albo samej Lewicy bez Razem i niezrzeszonych; Korona i Demokracja Bezpośrednia tylko w wariancie z samą Lewicą; kolejność liczb w nawiasie poprawiona.
+- **R2-B3 (ścieżka F, "opozycja prawicowa w komplecie"): poprawione.** Niezbędni zawsze PiS i Rozwój Plus (bez PiS 63, bez Rozwoju Plus 170); Konfederacja zawsze przy samej Lewicy, a przy samym PSL tylko bez Razem i niezrzeszonych (doprecyzowane w rundzie 3); Korona i Demokracja Bezpośrednia tylko w wariancie z samą Lewicą; kolejność liczb w nawiasie poprawiona.
 
 Uwagi nieblokujące:
 
@@ -276,3 +276,13 @@ Uwagi nieblokujące:
 - **2 (Tusk, "bez którego nie ma 231"): poprawione.** Dopisałem założenie: przy samej koalicji (83), a 307 zawsze (304).
 - **3 (G1 i G4, niezrzeszeni): poprawione.** Dopisałem 2 niezrzeszonych przeciw w G1 i 1 niezrzeszonego za Kotowskim w G4.
 - **4 (stały link w historia-prac.md): zostawione, poza zakresem.** To plik koordynatora.
+
+## Zmiany po recenzji (runda 3)
+
+Bloker:
+
+- **R3-B1 (Konfederacja przy Lewicy): poprawione.** Bez Konfederacji Lewica z Razem i niezrzeszonymi daje 193 + 21 + 11 = 225, za mało, więc przy samej Lewicy Konfederacja jest niezbędna zawsze, a przy samym PSL tylko bez Razem i niezrzeszonych (225; z nimi 236); poprawiłem zdanie w ścieżce F i wpis R2-B3 w zmianach z rundy 2.
+
+Uwaga nieblokująca:
+
+- **Status uwagi 4 z rundy 2: zostawione.** Status "poza zakresem" dotyczy dokumentu autora; koordynator wykonał tę uwagę w `historia-prac.md`.
