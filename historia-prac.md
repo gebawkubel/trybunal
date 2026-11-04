@@ -295,6 +295,19 @@ W drugiej rundzie recenzent potwierdził usunięcie B1-B6, ale zatrzymał trzy n
 
 W trzeciej rundzie recenzent zatrzymał jedno zdanie o tym, kiedy Konfederacja jest niezbędna przy wotum nieufności. Recenzent zaznaczył, że nieprecyzyjne brzmienie pochodziło z jego własnej propozycji poprawki. [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6628976888) jest w issue #46; poprawkę zrobił autor etapu (wersja 4).
 
+## Wywiad Bosaka w Polsat News (issue #48)
+
+Czytelnik wskazał wywiad Krzysztofa Bosaka w "Graffiti" Polsat News z 2026.11.04 i przekazał automatyczne napisy. Kartę nagrania i [notatkę z porównaniem z bazą](badania/bosak-2026-11-04.md) przygotował agent Opus (claude-opus-5-5, Claude Code) na podstawie automatycznych napisów YouTube, bez odsłuchu ([karta](zrodla/okres-2024-2026/bosak-polsat-2026-11-04.md)). Karta jest wyciągiem z krótkimi cytatami, jak inne karty nagrań. Spośród 36 twierdzeń 13 już było w bazie, 10 jest nowych, 4 nie zgadzają się z dokumentami, 9 to oceny. Jedyne nowe sprawdzenie poza bazą: wyroki TK ogłoszone od 2023.12.13 w Dzienniku Ustaw i Monitorze Polskim, w API ELI Sejmu. Nowe elementy stanowiska Konfederacji dopisano w [propozycjach z debaty](badania/propozycje-na-stole.md) i w indeksie stron [scenariuszy naprawy](badania/scenariusze-naprawy.md).
+
+Recenzent (Opus, osobny kontekst) zatrzymał pierwszą wersję (commit 89600c7) z pięcioma blokerami:
+- sprawdzenie publikacji wyroków objęło tylko lata 2024-2026, a rząd urzęduje od 2023.12.13; brakowało 6 wyroków z grudnia 2023 roku w Dzienniku Ustaw i Kp 1/23 w Monitorze Polskim;
+- teza o "szczególnych sytuacjach" przy ślubowaniu opierała się na czasowniku dopisanym do napisów; kontekst wskazuje na odłożenie, nie odmowę;
+- wariant "dwa tygodnie" może być wtrąceniem prowadzącego;
+- zdanie, że Bosak woli wotum nieufności "zamiast" skrócenia kadencji, było za mocne;
+- zły znacznik czasu przy pytaniu o głos za Święczkowskim i brak zaznaczenia, że "nie zaprzecza" to wniosek z kontekstu.
+
+Poprawki: liczba wyroków ogłoszonych za obecnego rządu (9 w Dzienniku Ustaw i 1 w Monitorze Polskim, sprawdzone w ELI), data objęcia urzędu ze źródłem; twierdzenie o ślubowaniu rozdzielone na zgodne częściowo z K 34/15 i K 3/26 oraz na ocenę Bosaka, z trzema przesłankami z K 34/15 jako wnioskiem projektu; zastrzeżenia przy wariancie "dwa tygodnie" i przy wotum nieufności; znaczniki 7:47 i 8:56. Przy okazji wprowadziliśmy uwagi nieblokujące: dokładność znaczników, terminy maksymalne w art. 235, łagodniejsze ujęcie ślubowania w Konstytucji, kto pierwszy podał pięć godzin obrad, wyliczenie 2030.12.09 jako nasz wniosek.
+
 ## Debata wskazana przez czytelnika (issue #45)
 
 Film z YouTube wskazany przez czytelnika to posiedzenie sejmowej Komisji Sprawiedliwości i Praw Człowieka nr 149 z 2026.04.28 o sytuacji w TK. Koordynator (Opus) ustalił to z metadanych filmu i API Sejmu oraz pobrał oficjalny zapis przebiegu i automatyczne napisy. Badacz (Agent-Role: badacz, Agent-Model: claude-opus-5-5, Agent-Run: Claude Code) przygotował:
