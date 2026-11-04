@@ -25,8 +25,9 @@ Szczegóły: [jak sprawdzamy informacje](metodologia.md).
 - [Porównanie rozwiązań i odpowiedzialność](badania/odpowiedzialnosc-i-rozwiazania.md): ocena według jawnych kryteriów.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): kto ile ma głosów i kto z kim ma potrzebną większość.
 - [Odpowiedź na pytanie o najlepsze rozwiązanie](badania/odpowiedz.md): podsumowanie rekomendacji modeli i bilansu propozycji.
-- [Bilans propozycji](badania/bilans-propozycji.md): kto zyskuje, a kto traci na każdej propozycji z debaty.
+- [Bilans propozycji](badania/bilans-propozycji.md): kto zyskuje, a kto traci na każdej propozycji z debaty i na dwóch pomysłach spoza niej.
 - [Rekomendacje modeli](badania/rekomendacje-modeli.md): co jako najlepsze rozwiązanie wybrały dwa modele AI, każdy osobno.
+- [Symulacja negocjacji](badania/symulacja/wyniki.md): eksperyment, w którym modele AI zagrały polityków i sędziów przy jednym stole. Czy się dogadali i co wymyślili, z pełnymi zapisami 10 rozmów.
 
 Wszystkie pozostałe notatki są w [liście analiz](analizy.md).
 

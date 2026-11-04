@@ -31,12 +31,18 @@ Oba modele oceniają szansę na zgodę stron nisko. Fable: "niska do średniej, 
 
 ## Co pokazuje bilans propozycji
 
-[Bilans propozycji](bilans-propozycji.md) (GPT-6.1 Sol) ocenia 14 propozycji z debaty dla 14 sił. Wszystkie dostały ocenę szansy "niska", z jednym wyjątkiem: utrzymanie obecnej blokady ma szansę "wysoką", ale to nie jest naprawa. (Przy nowej ustawie bez zmiany Konstytucji bilans dodaje, że wysoka jest szansa na samo uchwalenie jej przez Sejm, ale nie na skuteczną reformę.) Wnioski bilansu:
+[Bilans propozycji](bilans-propozycji.md) (GPT-6.1 Sol) ocenia 14 propozycji z debaty (oraz, od #57, dwie spoza debaty) dla 14 sił. Wszystkie dostały ocenę szansy "niska", z jednym wyjątkiem: utrzymanie obecnej blokady ma szansę "wysoką", ale to nie jest naprawa. (Przy nowej ustawie bez zmiany Konstytucji bilans dodaje, że wysoka jest szansa na samo uchwalenie jej przez Sejm, ale nie na skuteczną reformę.) Wnioski bilansu:
 - **KO jest konieczna dla każdej zmiany Konstytucji**, a w każdym konkretnym projekcie resetu (propozycje 3-9) jej bilans jest ujemny.
 - **PiS nie jest arytmetycznie konieczny**, ale bez niego wskazana w bilansie konfiguracja (koalicja, Rozwój Plus, Konfederacja, Razem) ma 300 głosów i potrzebuje jeszcze 7. Wymaga też zgody Lewicy, która reset odrzuca.
 - **Rozwój Plus jest języczkiem u wagi przy odrzucaniu weta.** Koalicja z nim ma 279, a bez niego i bez PiS jest 273, o 3 za mało do 276.
 
-Bilans nie obejmuje pakietu modeli, bo nikt go w debacie nie zgłosił. Powstał później i niezależnie od rekomendacji, ale jego wynik zgadza się z ich głównym argumentem przeciw resetowi: KO, bez której nie ma 307 głosów, traci w każdym konkretnym projekcie resetu. A reset to większość propozycji z debaty.
+Bilans powstał później i niezależnie od rekomendacji, ale jego wynik zgadza się z ich głównym argumentem przeciw resetowi: KO, bez której nie ma 307 głosów, traci w każdym konkretnym projekcie resetu z debaty. A reset to większość propozycji z debaty.
+
+W [issue #57](https://github.com/gebawkubel/trybunal/issues/57) bilans uzupełniono o dwie propozycje spoza debaty:
+- **15. Reset z zachowaniem sędziów z 2026 roku**, z [symulacji negocjacji](symulacja/wyniki.md). Bilans KO jest tu mieszany, a nie ujemny;
+- **16. Pakiet modeli**, czyli wąska zmiana Konstytucji bez resetu i kompromis z Prezydentem. Bilans KO jest dodatni.
+
+Obie propozycje mają według bilansu szansę "niską". Brakuje uzgodnionego tekstu przepisów i potwierdzonej zgody stron, a porozumienie postaci AI w symulacji nie jest porozumieniem prawdziwych stron.
 
 ## Czego to nie przesądza
 

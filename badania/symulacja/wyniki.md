@@ -1,12 +1,12 @@
-# Symulacja negocjacji: wyniki przebiegów 1-10
+# Symulacja negocjacji: czy politycy grani przez AI się dogadają?
 
-**To symulacja.** Wszystkie wypowiedzi napisał model AI (Claude Opus 5.5) grający prawdziwe osoby. Nie są to słowa tych osób i nie jest to przewidywanie, co zrobią. Symulacja sprawdza, jakie porozumienie da się złożyć przy założeniach z [issue #46](https://github.com/gebawkubel/trybunal/issues/46).
+**To symulacja.** Wszystkie wypowiedzi napisał model AI (Claude Opus 5.5) grający prawdziwe osoby. Nie są to słowa tych osób i nie jest to przewidywanie, co zrobią. To był eksperyment: chcieliśmy sprawdzić, czy postacie w ogóle się dogadają i co wymyślą, a przy okazji wyłonić nowe pomysły na rozwiązanie sporu. Wytyczne są w [issue #46](https://github.com/gebawkubel/trybunal/issues/46).
 
-Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.11.04. Każdy przebieg ma katalog `badania/symulacja/przebieg-N/` z zapisem rozmowy (`zapis.md`), surowym zapisem (`zapis.jsonl`), ustawieniami i sumami SHA-256.
+Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.11.04. Pełne rozmowy i materiały przygotowawcze są w części "Szczegóły".
 
 ## W skrócie
 
-**Założenia.**
+**Plan i założenia.**
 - Modele AI zagrały osoby, od których naprawdę zależy rozwiązanie sporu o TK, przy jednym stole i w jednym wspólnym wątku. Każda postać dostała ten sam pakiet faktów ze stanem na 2026.11.04 i własną kartę z prawdziwymi wypowiedziami.
 - Arbiter, osobny agent, pilnował kolejności i liczył głosy według Konstytucji. Porozumienie zapadało, gdy pakiet miał wymagane głosy w Sejmie i Senacie i zgodę osób, które muszą coś wykonać. Zgoda wszystkich nie była potrzebna.
 - Postacie grały w trzech wariantach motywacji: (a) dobro państwa, (b) ugraj jak najwięcej, ale ostatecznie dobro państwa, (c) czysty interes polityczny.
@@ -19,7 +19,7 @@ Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.
 - Koszt: 56,35 USD z budżetu 100 USD (od 3,81 do 14,50 USD na przebieg).
 - Ucięte po limicie długości: 10 wypowiedzi w przebiegu 1. Po podniesieniu limitu w przebiegach 2-10 ucięte zostały już tylko 2 wypowiedzi.
 
-**Wnioski.**
+**Wynik i wnioski.**
 - Wszystkie 10 rozmów skończyło się porozumieniem i nikt nie głosował przeciw.
 - Za każdym razem powtarza się ten sam zestaw kroków "na teraz", bez ustawy:
   - czworo sędziów wybranych w 2026 roku ślubuje przed Prezydentem;
@@ -32,7 +32,8 @@ Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.
   - 3 razy zmiana Konstytucji, w tym raz reset ze stanem spoczynku obecnych sędziów;
   - 4 razy zwykła ustawa z wyborem sędziów większością 3/5;
   - 3 razy nic poza krokami "na teraz".
-- Trzeba to czytać ostrożnie. Jednomyślność także przy "czystym interesie" może oznaczać, że model gra postacie zbyt ugodowo. Sprawdzi to seria kontrolna na innym modelu, przewidziana w issue.
+- Trzeba to czytać ostrożnie. Jednomyślność także przy "czystym interesie" może oznaczać, że model gra postacie zbyt ugodowo. Prowadzący zrezygnował z serii kontrolnej na innym modelu (K1-K3), przewidzianej w issue #46 i w planie etapu 1, bo symulacja miała być tylko eksperymentem.
+- Nowe pomysły trafiły do [scenariuszy naprawy](../scenariusze-naprawy.md#scenariusze-z-symulacji-negocjacji) i do [bilansu propozycji](../bilans-propozycji.md) jako propozycja 15 (reset z zachowaniem sędziów z 2026 roku). Warianty zmiany Konstytucji bez resetu bilans opisał przy propozycji 16, a ustawę 3/5 z krokami "na teraz" zaliczył do częściowych wariantów propozycji 12 (część "Dobór scenariuszy spoza debaty").
 
 ## Ustawienia
 
@@ -81,11 +82,27 @@ Skróty: "3/5" to większość trzech piątych głosów w Sejmie; "Kpt 1/26" to 
 
 ## Ograniczenia
 
-- Wszystkie postacie i arbitra gra ten sam model. Zgoda może wynikać z jego skłonności do ugody, a nie z interesów stron. Seria kontrolna na innym modelu jeszcze się nie odbyła.
+- Wszystkie postacie i arbitra gra ten sam model. Zgoda może wynikać z jego skłonności do ugody, a nie z interesów stron. Serii kontrolnej na innym modelu nie przeprowadziliśmy.
 - Na stole W5 głosy PSL, Polski 2050 i Centrum arbiter liczył tak, jak zadeklarował Tusk ([etap 4](etap-4.md)). To założenie, a nie fakt. Tam, gdzie pakiet wymagał progu, suma bez tej reguły też go spełniała. W przebiegu 10 Tusk nie zadeklarował tych klubów, więc reguła nie dała żadnego głosu.
 - Powrót Wiceprezesa Sochańskiego, który nie siedzi przy stole, arbiter w części przebiegów (6, 9) wpisał jako "poza gwarancją stołu".
 - Nikt nie sprawdził poprawności prawnej pakietów. Arbiter liczył tylko głosy i drogi.
 - W przebiegach 2-10 Korwin-Piotrowska mówi także w imieniu pozostałych sędziów z 2026 roku. Arbiter za każdym razem zaznaczał, że ta grupa nie jest jednolita.
+
+## Szczegóły
+
+**Rozmowy.** Każdą można przeczytać w całości, wypowiedź po wypowiedzi:
+- [przebieg 1](przebieg-1/zapis.md), z [raportem](przebieg-1/raport.md): 10 postaci, wariant (b);
+- [przebieg 2](przebieg-2/zapis.md), [3](przebieg-3/zapis.md), [4](przebieg-4/zapis.md): zaczyna Nawrocki, warianty (a), (c), (b);
+- [przebieg 5](przebieg-5/zapis.md), [6](przebieg-6/zapis.md), [7](przebieg-7/zapis.md): zaczyna Tusk, warianty (a), (c), (b);
+- [przebieg 8](przebieg-8/zapis.md), [9](przebieg-9/zapis.md), [10](przebieg-10/zapis.md): zaczyna Kaczyński, warianty (a), (c), (b).
+
+**Przygotowanie.** Każdy etap przygotował osobny agent AI według treści issue, a osobny recenzent go sprawdził:
+1. [Etap 1](etap-1.md): kto siedzi przy stole i dlaczego, plan przebiegów.
+2. Etap 2: [pakiet wiedzy](etap-2/pakiet-wiedzy.md) wspólny dla wszystkich, karty postaci: [Nawrocki](etap-2/karta-nawrocki.md), [Tusk](etap-2/karta-tusk.md), [Kaczyński](etap-2/karta-kaczynski.md), [Morawiecki](etap-2/karta-morawiecki.md), [Kosiniak-Kamysz](etap-2/karta-kosiniak-kamysz.md), [Czarzasty](etap-2/karta-czarzasty.md), [Hołownia](etap-2/karta-holownia.md), [Bosak](etap-2/karta-bosak.md), [Święczkowski](etap-2/karta-swieczkowski.md), [Korwin-Piotrowska](etap-2/karta-korwin-piotrowska.md), [warianty motywacji](etap-2/warianty-motywacji.md), [reguły arbitra](etap-2/arbiter.md), [luki w wiedzy](etap-2/luki.md).
+3. Etap 3: [skrypt prowadzący rozmowę](../../narzedzia/symulacja/README.md).
+4. [Etap 4](etap-4.md): mniejszy stół, porozumienie bez zgody wszystkich, dłuższe wypowiedzi.
+
+Polecenia dla agentów, raporty recenzji i sumy kontrolne są w [historii prac](../../historia-prac.md).
 
 ## Pliki
 

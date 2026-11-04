@@ -31,8 +31,9 @@ Wszystkie notatki badawcze projektu. Punktem wyjścia jest [historia sporu](hist
 - [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, rola Prezydenta, kluczowe wyroki, projekty resetu, Komisja Wenecka.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): liczby posłów i możliwe większości.
 - [Odpowiedź na pytanie o najlepsze rozwiązanie](badania/odpowiedz.md): co wynika z rekomendacji modeli i bilansu propozycji.
-- [Bilans propozycji](badania/bilans-propozycji.md): co każda propozycja z debaty daje i odbiera każdej sile i czy ma potrzebne głosy.
+- [Bilans propozycji](badania/bilans-propozycji.md): co każda propozycja z debaty, a także dwie propozycje spoza niej, daje i odbiera każdej sile i czy ma potrzebne głosy.
 - [Rekomendacje modeli](badania/rekomendacje-modeli.md): co jako najlepsze rozwiązanie wybrały Fable High i Astra High, z pełnymi tekstami, poleceniami i linkami do wersji pierwszych i recenzji.
+- [Symulacja negocjacji](badania/symulacja/wyniki.md): eksperyment, w którym modele AI zagrały kluczowe osoby sporu; plan, przebieg, wynik i wnioski, a stamtąd zapisy wszystkich 10 rozmów i materiały przygotowawcze.
 
 ## Źródła i warsztat
 
