@@ -28,6 +28,7 @@ Wszystkie notatki badawcze projektu. Punktem wyjścia jest [historia sporu](hist
 - [Propozycje z debaty](badania/propozycje-na-stole.md): co dokładnie proponują partie, Kancelaria Prezydenta i eksperci, według ich dokumentów.
 - [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, rola Prezydenta, kluczowe wyroki, projekty resetu, Komisja Wenecka.
 - [Siły i głosy w Sejmie](badania/sily-i-glosy.md): liczby posłów i możliwe większości.
+- [Rekomendacje modeli](badania/rekomendacje-modeli.md): co jako najlepsze rozwiązanie wybrały Fable High i Astra High, z pełnymi tekstami, poleceniami i linkami do wersji pierwszych i recenzji.
 
 ## Źródła i warsztat
 

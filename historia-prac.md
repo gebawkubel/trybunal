@@ -204,3 +204,48 @@ Po poprawkach druga runda dała PASS.
 - cytat Dudka nie był dosłowny;
 - tabela przypisywała Rozwojowi Plus objęcie resetem sędziów z 2026 roku bez źródła (przy okazji recenzent wskazał niejasny zapis wiersza Fundacji Batorego).
 W drugiej rundzie zostały 2 drobne blokery: numeracja akapitów w karcie Dudka i "koła" zamiast "klubu poselskiego". W trzeciej: pominięty Szef Kancelarii Prezydenta w opisie karencji i niewierny opis bloku 4 w tym wpisie. Wszystkie poprawił prowadzący. Raporty recenzji obu PR są w komentarzach na GitHubie ([#39](https://github.com/gebawkubel/trybunal/pull/39), [#40](https://github.com/gebawkubel/trybunal/pull/40)).
+
+## Rekomendacje modeli (issue #38)
+
+Na prośbę użytkownika z 2026.11.04 pytanie o najlepsze rozwiązanie sporu zadaliśmy osobno dwóm modelom: Claude Fable 5.1 (wysoki wysiłek, agent Claude Code) i GPT-6 Astra (wysoki wysiłek, Codex CLI w piaskownicy tylko do odczytu). Oba pracowały na kopii repozytorium w wersji 92bdfc2. Zakaz korzystania z internetu był w poleceniu. Zakazu zmian w repozytorium u Fable pilnowała tylko wiadomość zlecająca agentowi ("tylko czytaj, niczego tam nie zmieniaj"), u Astry piaskownica. Polecenia napisał koordynator (Opus).
+
+Każdy model zrecenzował pierwszą wersję drugiego. Pierwszą wersję Astry recenzował nowy agent Fable, a nie autor rekomendacji Fable. Potem każdy model poprawił swoją wersję, mając roboczą notatkę o propozycjach z debaty, jeszcze przed jej recenzją. Fable dostał dodatkowo trzy sprostowania do tej notatki, Astra nie. Pierwsze uruchomienie poprawki Astry przerwał limit użycia Codex, zanim powstał tekst. Poprawkę uruchomiono od nowa w nowej sesji, z tym samym materiałem. Wynik i porównanie: [rekomendacje modeli](badania/rekomendacje-modeli.md).
+
+Pierwsze wersje i recenzje krzyżowe są w commicie fca2d67: [Fable wersja 1](https://github.com/gebawkubel/trybunal/blob/fca2d67f3e86f0516e1e4f0b9bba11fe414bffad/badania/rekomendacje/fable-high-wersja-1.md), [Astra wersja 1](https://github.com/gebawkubel/trybunal/blob/fca2d67f3e86f0516e1e4f0b9bba11fe414bffad/badania/rekomendacje/astra-high-wersja-1.md), [recenzja Astry o Fable](https://github.com/gebawkubel/trybunal/blob/fca2d67f3e86f0516e1e4f0b9bba11fe414bffad/badania/rekomendacje/recenzja-astra-o-fable.md), [recenzja Fable o Astrze](https://github.com/gebawkubel/trybunal/blob/fca2d67f3e86f0516e1e4f0b9bba11fe414bffad/badania/rekomendacje/recenzja-fable-o-astra.md).
+
+Recenzent PR #42 (Opus, osobny kontekst) w pierwszej rundzie znalazł 7 blokerów:
+- porównanie przypisywało obu modelom to, co mówił jeden: klasyfikację "nowe połączenie" (Astra uznaje rdzeń za istniejący wariant), część argumentów przeciw resetowi i ocenę szans;
+- budżet TK i deeskalacja były w tabeli jako różnica, choć ma je też Fable;
+- teksty opisane jako "bez redakcji" miały nieujawnione zmiany nagłówków i końcowych znaków nowej linii;
+- opis zrównywał ograniczenia techniczne obu modeli;
+- pierwsze wersje i recenzje leżały w drzewie repozytorium, wbrew zasadzie z AGENTS.md.
+
+Poprawiliśmy to. Doszły też: osobny wiersz o progu 3/5 (modele liczą go inaczej), treść sprostowań dla Fable i objaśnienia pojęć.
+
+Sumy SHA-256 oryginałów (nazwa robocza, w nawiasie plik w repozytorium):
+
+```
+afa279713a479720f4c2d88055e7a98695a3d954d68fcc82e098f0e02c185708  polecenie.md (rekomendacje/polecenie.md)
+4c36897314ad118e4d26189247df2c052d2ab55d6aef99c9d201b92ab88ddf69  recenzja.md (rekomendacje/polecenie-recenzji.md)
+d33b2a71de5af39018e6fccf20e65d8482666fe251fa5b369c5ae1d5d337f608  poprawka.md (rekomendacje/polecenie-poprawki.md)
+b1b823b06efa8a4d3c0fe30aaa241ab8467055abb8d4148f232d04fd81411111  sprostowania-dla-fable.txt (rekomendacje/sprostowania-dla-fable.md)
+dc160c70938387933e4aa82fe4d7df18536f97d5831115480601e38bcc0d1e4c  fable.md (wersja 1 Fable, commit fca2d67)
+1764c2897e897ef69d797ff2dad6d5e016e9588d366661081ecf5fedb2095036  astra.md (wersja 1 Astry, commit fca2d67)
+4ed83e810ecd6ecd21a0f00f0fc25cbd10e66bf1c41ce420da2cc547c06eb217  recenzja-astra-o-fable.md (commit fca2d67)
+0c64f1c6f94a3de888fa8ab275f41bde88aba1fee826979ce158643f663ee389  recenzja-fable-o-astra.md (commit fca2d67)
+2a3dbf72c2d0f8b78d53a6bfee9fc23d199bba94c39b8ff83343fc0ae9b69df1  fable-v2.md (rekomendacje/fable-high.md)
+9ef3a1795f5139cd29356e09c42de97ae722e7ae54ba03b939aa0c94a873b057  astra-v2.md (rekomendacje/astra-high.md)
+```
+
+Robocza notatka o propozycjach przekazana obu modelom do poprawki (później poprawiona w PR #40):
+
+```
+a35c7ee1fb06b600969bf4f219051d6f675772a2276582b71b4aa948fbdfd5c3  propozycje-na-stole.md
+9f2fb6533720ac1d88f31ea2691f5eb5ec182c7176c5d9715f131c694072162e  batory-zalasinski-2026.md
+3b9812fc1c335575bbd1adc9046254d3478adb9405fc1258385fb596017826b2  druk-166-2015.md
+8f58825efd87484c0a5765fa9626e2fb3875db12484096cd22065b1a61a3f2d5  dudek-2026-11-01.md
+2bb0be551417323d4bc9a3080a517f0c3cd98749056bae0dbc3fbaa99f6e945a  hfpc-zarzad-2026-10-31.md
+f8ba4f617c941a93f42a77878d56fc39c86053aeb6cfb57f8c5a24a41b051bc4  kj-29-warunkow.md
+8bd677fef9af1851fee8b63ec74c766ba12bb139a48b815b691ab11fbd8e9db2  konfederacja-reset-2026-10-31.md
+78fba1dff5c05b03b64c92c672704073ef2d46816a42defca625f38b0b979458  psl-reset-2026-11-03.md
+```
