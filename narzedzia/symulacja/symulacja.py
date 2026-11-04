@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Symulacja negocjacji o TK (issue #46, etap 3): skrypt rozmowy i arbitra.
+"""Symulacja negocjacji o TK (issue #46, etapy 3 i 4): skrypt rozmowy i arbitra.
 
 Tryby:
   zbuduj    skleja teksty (pakiet, warianty, karty, arbiter), sprawdza sumy SHA-256
@@ -43,16 +43,12 @@ CENNIK = {
 CENNIK_ZRODLO = "https://platform.claude.com/docs/en/about-claude/pricing"
 CENNIK_DATA = "2026.11.04"
 
-# --- Skład W1 ------------------------------------------------------------------
+# --- Skład W5 (etap 4; przebieg 1 miał skład W1, wersja skryptu z commita e28858b) ---
 POSTACIE = [  # kolejność otwarcia z arbiter.md, część 2
     ("nawrocki", "Karol Nawrocki"),
     ("tusk", "Donald Tusk"),
     ("kaczynski", "Jarosław Kaczyński"),
-    ("morawiecki", "Mateusz Morawiecki"),
-    ("kosiniak-kamysz", "Władysław Kosiniak-Kamysz"),
     ("czarzasty", "Włodzimierz Czarzasty"),
-    ("holownia", "Szymon Hołownia"),
-    ("bosak", "Krzysztof Bosak"),
     ("swieczkowski", "Bogdan Święczkowski"),
     ("korwin-piotrowska", "Anna Korwin-Piotrowska"),
 ]
@@ -66,9 +62,9 @@ def podpis(klucz: str) -> str:
 
 # --- Limity z arbiter.md, część 2 ----------------------------------------------
 RUNDY_DYSKUSJI = 8
-LIMIT_POZA_KOLEJNOSCIA = 10
-LIMIT_WYPOWIEDZI = 130
-LIMIT_TOKENOW_WYPOWIEDZI = 1100
+LIMIT_POZA_KOLEJNOSCIA = 8   # najwyżej raz na rundę dyskusji
+LIMIT_WYPOWIEDZI = 80        # 6 + 48 + 8 + 6 + 6 + 6
+LIMIT_TOKENOW_WYPOWIEDZI = 1400
 
 # --- Pakiet wiedzy (pakiet-wiedzy.md, części 2-4) --------------------------------
 # Wycięcia: (nr linii, rodzaj, tekst). "od": usuń od tekstu do końca linii;
@@ -158,7 +154,8 @@ TURA = {
                   "czyli Ty. Napisz jedną wypowiedź."),
     "glosowanie": ("{nazwa_rundy}. Pakiety do głosowania, w tej kolejności: {pakiety} (opis w "
                    "ostatniej wypowiedzi arbitra). Teraz głosuje {imie}, czyli Ty: dla każdego "
-                   "pakietu po kolei napisz \"za\" albo \"przeciw\" i co deklarujesz."),
+                   "pakietu po kolei napisz krótko \"za\" albo \"przeciw\", co deklarujesz i jakie masz "
+                   "zastrzeżenia, bez powtarzania treści pakietu."),
 }
 ARBITER_FORMAT = (
     "Wiadomość techniczna skryptu. Odpowiadasz obiektem JSON zgodnym ze schematem, który jest "
@@ -531,11 +528,11 @@ class Atrapa:
             tekst = f"Atrapa: {NAZWA[klucz]} głosuje: pakiet 1: za; deklaruję głosy klubu."
         else:
             slowa = z["slowa_wypowiedzi"]
-            if sc == "maks" and runda == 3 and klucz == "bosak":
-                slowa = 400  # sprawdza ucinanie
+            if sc == "maks" and runda == 3 and klucz == "czarzasty":
+                slowa = 500  # sprawdza ucinanie
             tekst = (f"Atrapa: {NAZWA[klucz]}, {faza} {runda}. "
                      + " ".join(["słowo"] * max(slowa - 6, 1)) + ".")
-            if sc == "maks" and runda == 2 and klucz == "morawiecki":
+            if sc == "maks" and runda == 2 and klucz == "kaczynski":
                 stop, tekst, details = "refusal", "", {"type": "refusal", "category": None}
         wyj = z["tokeny_myslenia_postaci"] + (int(len(tekst.split()) * 4.4) if tekst else 0)
         return tekst, stop, details, self._usage(req, stale, wyj)
@@ -550,12 +547,13 @@ class Atrapa:
             if sc == "maks" or sc == "typowy":
                 ostatni = kontekst.get("ostatni_mowca")
                 kandydaci = [x for x in dozwolone["poza_kolejnoscia"] if x not in ("brak", ostatni)]
-                if r >= 1 and (sc == "maks" or r % 2 == 0) and kandydaci:
+                co_runde = sc == "maks" or self.zal.get("poza_co_runde")
+                if r >= 1 and (co_runde or r % 2 == 0) and kandydaci:
                     d["poza_kolejnoscia"] = kandydaci[0]
             if "dalej" not in dozwolone["decyzja"]:
                 d["decyzja"] = "glosowanie" if sc != "pas" else "brak_porozumienia"
                 d["pakiety"] = ["1"] if d["decyzja"] == "glosowanie" else []
-            if sc == "typowy" and r == 6:
+            if sc == "typowy" and r == self.zal.get("glosowanie_po", 6):
                 d.update(decyzja="glosowanie", pakiety=["1"])
             poprawka = "Poprzednia odpowiedź nie została przyjęta" in req["messages"][-1]["content"]
             if sc == "maks" and r == RUNDY_DYSKUSJI and not poprawka:
@@ -1122,14 +1120,15 @@ def main():
     p.add_argument("--model", default="claude-opus-5-5")
     p.add_argument("--effort", default="medium", choices=["low", "medium", "high", "xhigh", "max"])
     p.add_argument("--max-tokens", type=int, default=16000,
-                   help="limit wyjścia z rozumowaniem; limit tekstu wypowiedzi to 1100 tokenów")
+                   help="limit wyjścia z rozumowaniem; limit tekstu wypowiedzi to "
+                        f"{LIMIT_TOKENOW_WYPOWIEDZI} tokenów")
     p.add_argument("--ttl", default="1h", choices=["5m", "1h"])
     p.add_argument("--uklad", default="etap2", choices=["etap2", "wspolny-watek"],
                    help="etap2: wariant, pakiet, karta, wątek (domyślny, rozstrzygnięcie prowadzącego "
                         "w issue #46); wspolny-watek: karta po wątku (tańszy)")
     p.add_argument("--przesuniecie", type=int, default=0,
                    help="przesunięcie kolejności otwarcia (0: od Nawrockiego, 1: od Tuska, ...)")
-    p.add_argument("--limit-usd", type=float, default=25.0)
+    p.add_argument("--limit-usd", type=float, default=18.0)
     p.add_argument("--zmienna-klucza", help="nazwa zmiennej środowiskowej z kluczem API")
     p.add_argument("--potwierdzam-koszt", action="store_true")
     p.add_argument("--cennik-sprawdzony", help="data sprawdzenia cennika (yyyy.mm.dd), dziś")
@@ -1141,6 +1140,10 @@ def main():
     p.add_argument("--tokeny-myslenia-arbitra", type=int, default=3000)
     p.add_argument("--atrapa-drogie-ogloszenie", action="store_true",
                    help="(proba) ogłoszenia arbitra po głosowaniu i przy przerwaniu z pełnym max_tokens")
+    p.add_argument("--atrapa-glosowanie-po", type=int, default=6,
+                   help="(proba, scenariusz typowy) po której rundzie dyskusji arbiter ogłasza głosowanie")
+    p.add_argument("--atrapa-poza-co-runde", action="store_true",
+                   help="(proba, scenariusz typowy) głos poza kolejnością w każdej rundzie, nie co drugą")
     p.add_argument("--zapisz-teksty", help="(zbuduj) katalog na sklejone teksty")
     a = p.parse_args()
     if a.model not in CENNIK:
@@ -1160,7 +1163,8 @@ def main():
         zal = {"slowa_wypowiedzi": a.slowa_wypowiedzi, "slowa_arbitra": a.slowa_arbitra,
                "tokeny_myslenia_postaci": a.tokeny_myslenia_postaci,
                "tokeny_myslenia_arbitra": a.tokeny_myslenia_arbitra,
-               "drogie_ogloszenie": a.atrapa_drogie_ogloszenie, "max_tokens": a.max_tokens}
+               "drogie_ogloszenie": a.atrapa_drogie_ogloszenie, "max_tokens": a.max_tokens,
+               "glosowanie_po": a.atrapa_glosowanie_po, "poza_co_runde": a.atrapa_poza_co_runde}
         wyk = Atrapa(a.scenariusz, tokeny_dla_atrapy(a.tokeny, a.wariant, a.pakiet, not a.bez_kart_zrodel), zal, teksty)
     else:
         dzis = dt.date.today().strftime("%Y.%m.%d")
