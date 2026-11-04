@@ -2,11 +2,19 @@
 
 Stan na 2026.11.04. Zadanie z [issue #38](https://github.com/gebawkubel/trybunal/issues/38).
 
-Notatkę napisał model GPT-6.1 Sol (wysoki wysiłek rozumowania, Codex CLI w piaskownicy tylko do odczytu, bez internetu) według [polecenia](rekomendacje/polecenie-bilansu.md), na repozytorium w wersji d8b2eb1. Ścieżki plików w tekście odnoszą się do katalogu głównego repozytorium. Zyski, straty i szanse to oceny modelu, nie ustalenia projektu. Fakty i liczby sprawdził osobny recenzent; poprawki po recenzji opisuje [historia prac](../historia-prac.md#bilans-propozycji-issue-38). Rekomendacje dwóch innych modeli, z ich własnym bilansem, są w [rekomendacjach modeli](rekomendacje-modeli.md).
+Notatkę napisał model GPT-6.1 Sol (wysoki wysiłek rozumowania, Codex CLI w piaskownicy tylko do odczytu, bez internetu) według [polecenia](rekomendacje/polecenie-bilansu.md), na repozytorium w wersji d8b2eb1. Ścieżki plików w tekście odnoszą się do katalogu głównego repozytorium. Zyski, straty i szanse to oceny modelu, nie ustalenia projektu. Fakty i liczby sprawdził osobny recenzent. Po recenzji poprawiliśmy kilka komórek i odwołań oraz dodaliśmy słowniczek; zmiany opisuje [historia prac](../historia-prac.md#bilans-propozycji-issue-38). Rekomendacje dwóch innych modeli, z ich własnym bilansem, są w [rekomendacjach modeli](rekomendacje-modeli.md).
 
 ## Jak czytać
 
 Zysk i strata oznaczają interes polityczny lub instytucjonalny danej siły, a nie ocenę moralną. Bilans jest oceną autora: uwzględnia wpływ na TK, możliwość kompromisu, ochronę mandatów i koszty dalszego sporu. Poparcie dla ogólnego resetu nie oznacza poparcia dla każdego projektu, a brak znalezionego stanowiska nie oznacza obojętności.
+
+Słowniczek:
+- **reset**: zakończenie kadencji wszystkich (lub prawie wszystkich) sędziów TK i wybór składu od nowa;
+- **stan spoczynku**: sędzia przestaje orzekać, ale zachowuje status i uposażenie;
+- **weto**: odmowa podpisu ustawy przez Prezydenta; Sejm może je odrzucić 3/5 głosów (276 przy pełnej sali);
+- **kworum**: minimalna liczba obecnych posłów, przy której głosowanie jest ważne (połowa, czyli 230);
+- **konstruktywne wotum nieufności**: odwołanie rządu przez wybór nowego premiera, 231 głosów (art. 158 Konstytucji);
+- **HFPC**: Helsińska Fundacja Praw Człowieka; **KJ**: Klub Jagielloński; **Kp 3/24**: wyrok TK z 2025.07.29 o ustawach z 2024.09.13, opisany w [warunkach rozwiązań](warunki-rozwiazan.md).
 
 ## Macierz bilansów
 
@@ -48,13 +56,13 @@ Sejm obsadza wolne miejsca, a wybrani przy odmowie Prezydenta ślubują w Sejmie
 | KO | Realizuje wybory obecnej koalicji. | Ponosi koszt dalszego sporu. | Przeważa zysk (+). |
 | PiS | Zachowuje argument o naruszeniu prawa. | Traci wpływ przez dotychczasowy skład. | Przeważa strata (-). |
 | Rozwój Plus | Może poprzeć uruchomienie TK. | Traci pilność własnego resetu. | Bilans mieszany (+/-). |
-| PSL | Uruchamia poparte wybory. | Osłabia uzasadnienie własnego resetu. | Bilans mieszany (+/-). |
+| PSL | Uruchamia wybory, które poparł (`zrodla/glosowania-tk-2015-2026.md`, G2-G4). | Osłabia uzasadnienie własnego resetu. | Bilans mieszany (+/-). |
 | Lewica | Realizuje broniony kierunek. | Współodpowiada za dalszy konflikt. | Przeważa zysk (+). |
 | Konfederacja | Ogranicza blokadę ślubowania. | Utrwala odrzucany sposób działania większości. | Bilans mieszany (+/-). |
-| Polska 2050 | Uruchamia poparte wybory. | Oddala przebudowę TK. | Bilans mieszany (+/-). |
-| Centrum | Realizuje poparte wybory. | Współponosi koszt konfliktu. | Przeważa zysk (+). |
+| Polska 2050 | Uruchamia wybory, które poparła (tamże). | Oddala przebudowę TK. | Bilans mieszany (+/-). |
+| Centrum | Realizuje wybory, które poparło (tamże). | Współponosi koszt konfliktu. | Przeważa zysk (+). |
 | Razem | Zyskuje szansę sprawniejszej kontroli prawa. | Oddala preferowany reset. | Bilans mieszany (+/-). |
-| Korona | Brak ustalonej korzyści. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Brak ustalonej korzyści. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Może mobilizować swoich zwolenników. | Traci skuteczność blokowania ślubowania. | Przeważa strata (-). |
 | TK sprzed 2026 | Zachowuje niewygaszone kadencje. | Traci przewagę organizacyjną. | Przeważa strata (-). |
 | TK z 2026 | Zyskuje możliwość pełnego orzekania. | Nadal mierzy się z kwestionowaniem statusu. | Przeważa zysk (+). |
@@ -81,7 +89,7 @@ Utrzymana zostaje praktyka, w której odmowa odebrania ślubowania blokuje obję
 | Polska 2050 | Zachowuje argument za przebudową. | Nie uzyskuje poprawy działania TK. | Przeważa strata (-). |
 | Centrum | Brak wyraźnej korzyści instytucjonalnej. | Nie realizuje popartych wyborów. | Przeważa strata (-). |
 | Razem | Zachowuje argument za resetem. | Reset nadal nie następuje. | Przeważa strata (-). |
-| Korona | Brak ustalonej korzyści. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Brak ustalonej korzyści. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zachowuje skuteczną kontrolę ślubowania. | Ponosi koszt utrzymywania kryzysu. | Przeważa zysk (+). |
 | TK sprzed 2026 | Zachowuje dotychczasowe kierownictwo. | Działa w kwestionowanej instytucji. | Przeważa zysk (+). |
 | TK z 2026 | Część zachowuje możliwość orzekania. | Grupa pozostaje podzielona blokadą. | Przeważa strata (-). |
@@ -106,9 +114,9 @@ PSL proponuje zakończenie kadencji „obecnie orzekających” z zachowaniem up
 | Lewica | Może zakończyć kryzys. | Przyjmuje odrzucany reset. | Przeważa strata (-). |
 | Konfederacja | Uzyskuje reset i próg 3/5. | Nie uzyskuje gwarancji przeciw blokadzie. | Przeważa zysk (+). |
 | Polska 2050 | Realizuje kierunek przebudowy. | Przyjmuje niepełny model reformy. | Przeważa zysk (+). |
-| Centrum | Może współtworzyć kompromis. | Brak stanowiska wobec modelu. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Uzyskuje konstytucyjny reset. | Nie uzyskuje wszystkich zabezpieczeń. | Przeważa zysk (+). |
-| Korona | Może uczestniczyć w negocjacjach. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może uczestniczyć w negocjacjach. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Może współtworzyć kompromis. | Nie określono jego przyszłych kompetencji. | Bilans nieustalony (?). |
 | TK sprzed 2026 | Zachowuje przewidziane uprawnienia. | Traci możliwość dalszego orzekania. | Bilans mieszany (+/-). |
 | TK z 2026 | Może zachować mandaty. | Może zostać objęty wygaszeniem. | Bilans nieustalony (?). |
@@ -122,7 +130,7 @@ PSL proponuje zakończenie kadencji „obecnie orzekających” z zachowaniem up
 
 Projekt przewiduje od następnej kadencji Sejmu 12 sędziów, wybór 3/5, ślubowanie przed Prezydentem i możliwość skracania kadencji Sejmu przy blokadzie wyboru (`badania/propozycje-na-stole.md`, część 2).
 
-**Akt i próg:** zmiana Konstytucji: 307 i Senat; późniejszy wybór: 276. Prezydent uzyskuje również szeroki wybór kierownictwa TK; do uchylenia ustawy potrzeba 2/3 składu orzekającego.
+**Akt i próg:** zmiana Konstytucji: 307 i Senat; późniejszy wybór: 276. Prezydent uzyskuje również szeroki wybór kierownictwa TK; do uznania ustawy za niezgodną z Konstytucją potrzeba 2/3 składu orzekającego.
 
 | Siła | Zysk | Strata | Bilans |
 |---|---|---|---|
@@ -133,9 +141,9 @@ Projekt przewiduje od następnej kadencji Sejmu 12 sędziów, wybór 3/5, ślubo
 | Lewica | Może zakończyć kryzys. | Przyjmuje reset i silniejszego Prezydenta. | Przeważa strata (-). |
 | Konfederacja | Uzyskuje reset i próg 3/5. | Nie uzyskuje własnego rozwiązania ślubowania. | Bilans mieszany (+/-). |
 | Polska 2050 | Uzyskuje przebudowę TK. | Akceptuje ryzyko wcześniejszych wyborów. | Bilans mieszany (+/-). |
-| Centrum | Może współtworzyć kompromis. | Brak stanowiska wobec projektu. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Uzyskuje konstytucyjny reset. | Akceptuje szerokie kompetencje Prezydenta. | Bilans mieszany (+/-). |
-| Korona | Może współtworzyć kompromis. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zyskuje wpływ na Sejm i kierownictwo TK. | Musi dopuścić przyszłą wymianę składu. | Przeważa zysk (+). |
 | TK sprzed 2026 | Zachowuje urząd do następnej kadencji. | Następnie przechodzi w stan spoczynku. | Bilans mieszany (+/-). |
 | TK z 2026 | Może uzyskać gwarancje statusu. | Niejasny zakres resetu zagraża mandatom. | Bilans nieustalony (?). |
@@ -160,9 +168,9 @@ Propozycja kończy wszystkie kadencje, wprowadza wybór 15 sędziów większośc
 | Lewica | Usuwa blokadę ślubowania. | Przyjmuje odrzucane wygaszenie kadencji. | Przeważa strata (-). |
 | Konfederacja | Realizuje własną propozycję. | Nie ma gwarancji wpływu na wynik losowania. | Przeważa zysk (+). |
 | Polska 2050 | Uzyskuje głęboką przebudowę. | Akceptuje niepewność losowania. | Przeważa zysk (+). |
-| Centrum | Może uzyskać działający TK. | Brak stanowiska wobec projektu. | Bilans nieustalony (?). |
+| Centrum | Może uzyskać działający TK. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Uzyskuje odejście obecnego składu. | Akceptuje losowanie zamiast uzgodnienia. | Przeważa zysk (+). |
-| Korona | Może uczestniczyć w negocjacjach. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może uczestniczyć w negocjacjach. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Może współtworzyć porozumienie. | Traci udział w ślubowaniu. | Przeważa strata (-). |
 | TK sprzed 2026 | Może zakończyć spór o instytucję. | Traci mandaty bez opisanych rekompensat. | Przeważa strata (-). |
 | TK z 2026 | Może zakończyć spór o instytucję. | Traci dopiero uzyskane mandaty. | Przeważa strata (-). |
@@ -187,9 +195,9 @@ Opracowanie Zalasińskiego przewiduje wybór 7 sędziów przez Sejm, 5 przez Sen
 | Lewica | Może współdecydować przez obecną większość. | Przyjmuje odrzucany reset. | Przeważa strata (-). |
 | Konfederacja | Uzyskuje wymianę składu. | Nie uzyskuje gwarancji wyboru 3/5. | Bilans mieszany (+/-). |
 | Polska 2050 | Uzyskuje zasadniczą przebudowę. | Rezygnuje z wyboru wyłącznie sejmowego. | Przeważa zysk (+). |
-| Centrum | Może współtworzyć kompromis. | Brak stanowiska wobec modelu. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Uzyskuje rekomendowany kierunek resetu. | Akceptuje polityczne nominacje trzech organów. | Przeważa zysk (+). |
-| Korona | Może współtworzyć kompromis. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zyskuje trzy bezpośrednie nominacje. | Musi zaakceptować wymianę obecnego składu. | Przeważa zysk (+). |
 | TK sprzed 2026 | Otrzymuje gwarancje stanu spoczynku. | Traci możliwość orzekania. | Bilans mieszany (+/-). |
 | TK z 2026 | Niedopuszczeni mogą ponownie kandydować. | Nie zachowują gwarancji obecnych mandatów. | Bilans mieszany (+/-). |
@@ -214,9 +222,9 @@ Zarząd HFPC popiera reset według kierunku Batorego: zmianę zasad wyboru, nast
 | Lewica | Może zakończyć kryzys. | Przyjmuje odrzucany reset. | Przeważa strata (-). |
 | Konfederacja | Zyskuje wspólny kierunek przebudowy. | Nie uzyskuje własnych zabezpieczeń. | Bilans mieszany (+/-). |
 | Polska 2050 | Zyskuje kierunek odbudowy TK. | Nie uzyskuje kompletnego modelu. | Przeważa zysk (+). |
-| Centrum | Może współtworzyć kompromis. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Zyskuje poparcie organizacji przywołanej przez Zandberga. | Nie uzyskuje gotowego projektu. | Przeważa zysk (+). |
-| Korona | Może współtworzyć kompromis. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Może uczestniczyć w porozumieniu. | Nie określono jego przyszłej roli. | Bilans nieustalony (?). |
 | TK sprzed 2026 | Nie określono rekompensat. | Traci kadencje. | Przeważa strata (-). |
 | TK z 2026 | HFPC broni prawa objęcia obowiązków. | Docelowy reset obejmuje wszystkich. | Przeważa strata (-). |
@@ -235,21 +243,21 @@ KJ proponuje zakończenie kadencji, stan spoczynku, wybór 3/5, procedurę ponow
 | Siła | Zysk | Strata | Bilans |
 |---|---|---|---|
 | KO | Zyskuje drogę przełamania blokady ślubowania. | Traci świeże wybory personalne. | Przeważa strata (-). |
-| PiS | Uzyskuje ponowne badanie dawnych rozstrzygnięć. | Traci dotychczasowy skład TK. | Przeważa strata (-). |
+| PiS | Brak wyraźnej korzyści. | Traci dotychczasowy skład TK; wszystkie dawne orzeczenia stają się wzruszalne, a decyzje TK od 2024.03 zostają zawieszone (karta KJ, pkt 18-19). | Przeważa strata (-). |
 | Rozwój Plus | Uzyskuje reset i próg 3/5. | Rezygnuje z silniejszej roli Prezydenta. | Bilans mieszany (+/-). |
 | PSL | Zyskuje reset i rolę negocjatora. | Może ponosić sankcje za blokadę. | Przeważa zysk (+). |
 | Lewica | Może przełamać blokadę ślubowania. | Przyjmuje odrzucany reset. | Przeważa strata (-). |
 | Konfederacja | Zyskuje zbliżone zabezpieczenia przeciw blokadzie. | Akceptuje kompromis zamiast własnego modelu. | Przeważa zysk (+). |
 | Polska 2050 | Uzyskuje zasadniczą przebudowę. | Może ponosić sankcje za blokadę. | Przeważa zysk (+). |
-| Centrum | Może współtworzyć kompromis. | Brak stanowiska wobec projektu. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Uzyskuje reset przywołany przez Zandberga. | Akceptuje wyższy próg orzekania. | Przeważa zysk (+). |
-| Korona | Może uczestniczyć w negocjacjach. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może uczestniczyć w negocjacjach. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zachowuje wybór kierownictwa. | Traci możliwość bezterminowej blokady ślubowania. | Bilans mieszany (+/-). |
 | TK sprzed 2026 | Otrzymuje konstytucyjny stan spoczynku. | Traci urząd i wyłączność dawnych rozstrzygnięć. | Bilans mieszany (+/-). |
 | TK z 2026 | Otrzymuje gwarancję stanu spoczynku. | Traci dopiero uzyskane mandaty. | Bilans mieszany (+/-). |
 | Obywatele | Zyskują procedurę naprawiania dawnych orzeczeń. | Ryzykują szeroką niepewność i trudniejsze uchylanie ustaw. | Bilans mieszany (+/-). |
 
-Prezydent wybiera kierownictwo spośród kandydatów popartych najpierw przez 10 sędziów, a po niepowodzeniu przez 5; nie ma więc trwałego progu 10 (`karta KJ`, pkt 28).
+Prezydent wybiera kierownictwo spośród kandydatów popartych najpierw przez 10 sędziów, a po niepowodzeniu przez 5; nie ma więc trwałego progu 10 (`zrodla/okres-2024-2026/kj-29-warunkow.md`, pkt 28).
 
 **Arytmetyka:** Rozwój Plus, PSL, Konfederacja i Razem mają 93, wystarczające do 92 podpisów inicjujących projekt, ale do uchwalenia brakuje 214. Z całą koalicją mają 300, brakuje 7. Tracąca KO jest konieczna; bez PiS również Lewica.
 
@@ -270,9 +278,9 @@ Historyczny projekt przewiduje 18 sędziów wybieranych większością 2/3 oraz 
 | Lewica | Może uzyskać kompromis. | Przyjmuje odrzucany reset. | Przeważa strata (-). |
 | Konfederacja | Uzyskuje reset. | Traci mechanizm losowania po blokadzie. | Bilans mieszany (+/-). |
 | Polska 2050 | Uzyskuje przebudowę TK. | Akceptuje trudniejsze uzupełnianie składu. | Bilans mieszany (+/-). |
-| Centrum | Może współtworzyć kompromis. | Brak stanowiska wobec druku. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć kompromis. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Uzyskuje wybór większością konstytucyjną. | Akceptuje ryzyko trwałych wakatów. | Przeważa zysk (+). |
-| Korona | Może uczestniczyć w negocjacjach. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Może uczestniczyć w negocjacjach. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zachowuje wybór kierownictwa. | Musi zaakceptować wymianę składu. | Bilans mieszany (+/-). |
 | TK sprzed 2026 | Nie wskazano rekompensat. | Traci kadencje. | Przeważa strata (-). |
 | TK z 2026 | Może ponownie ubiegać się o wybór. | Traci obecne mandaty. | Przeważa strata (-). |
@@ -326,7 +334,7 @@ Scenariusz obejmuje skrócenie kadencji Sejmu albo konstruktywne wotum nieufnoś
 | Polska 2050 | Może wynegocjować nowe porozumienie. | Ryzykuje obecny udział we władzy. | Bilans mieszany (+/-). |
 | Centrum | Może stać się partnerem rozstrzygającym. | Ryzykuje obecny udział we władzy. | Bilans mieszany (+/-). |
 | Razem | Może stawiać warunki nowej większości. | Ryzykuje wzmocnienie prawicy. | Bilans mieszany (+/-). |
-| Korona | Brak danych o oczekiwanym układzie. | Brak szczegółowego stanowiska. | Bilans nieustalony (?). |
+| Korona | Brak danych o oczekiwanym układzie. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zyskuje szansę zgodniejszego rządu. | Nie uzyskuje automatycznej naprawy TK. | Przeważa zysk (+). |
 | TK sprzed 2026 | Może osłabnąć nacisk obecnego rządu. | Nowa większość może przeprowadzić reset. | Bilans mieszany (+/-). |
 | TK z 2026 | Może powstać nowe porozumienie. | Nowa większość może podważać mandaty. | Bilans mieszany (+/-). |
@@ -353,7 +361,7 @@ Ustawa zmienia organizację TK, zasady wyboru i procedury, ale nie może samą s
 | Polska 2050 | Może poprawić działanie TK. | Nie uzyskuje pełnej przebudowy. | Przeważa zysk (+). |
 | Centrum | Może realizować ustawę obecną większością. | Ponosi koszt ewentualnego ponownego niepowodzenia. | Przeważa zysk (+). |
 | Razem | Może uzyskać poprawę procedur. | Nie uzyskuje preferowanego resetu. | Bilans mieszany (+/-). |
-| Korona | Może negocjować szczegóły. | Brak stanowiska wobec nowego tekstu. | Bilans nieustalony (?). |
+| Korona | Może negocjować szczegóły. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Zachowuje kontrolę przed podpisaniem ustawy. | Może utracić część swobody proceduralnej. | Bilans mieszany (+/-). |
 | TK sprzed 2026 | Zachowuje konstytucyjne kadencje. | Może utracić część kompetencji kierowniczych. | Bilans mieszany (+/-). |
 | TK z 2026 | Może uzyskać skuteczniejsze wykonywanie mandatu. | Nadal zależy od treści i wdrożenia. | Przeważa zysk (+). |
@@ -380,9 +388,9 @@ Prezydent powołał Radę Nowej Konstytucji, lecz repozytorium nie ustala jej pr
 | Lewica | Może negocjować ochronę praw. | Nie znamy projektowanych zmian. | Bilans nieustalony (?). |
 | Konfederacja | Może przedstawić własny model. | Nie znamy projektowanych zmian. | Bilans nieustalony (?). |
 | Polska 2050 | Może proponować przebudowę TK. | Nie znamy gotowego projektu. | Bilans nieustalony (?). |
-| Centrum | Może uczestniczyć w negocjacjach. | Brak projektu i stanowiska. | Bilans nieustalony (?). |
+| Centrum | Może uczestniczyć w negocjacjach. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Może negocjować ochronę praw. | Nie znamy gotowego projektu. | Bilans nieustalony (?). |
-| Korona | Może uczestniczyć w negocjacjach. | Brak projektu i stanowiska. | Bilans nieustalony (?). |
+| Korona | Może uczestniczyć w negocjacjach. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Buduje pozycję inicjatora zmian. | Nie ma gwarancji ich przyjęcia. | Przeważa zysk (+). |
 | TK sprzed 2026 | Może uzyskać wyjaśnienie statusu. | Nie znamy przepisów przejściowych. | Bilans nieustalony (?). |
 | TK z 2026 | Może uzyskać wyjaśnienie statusu. | Nie znamy przepisów przejściowych. | Bilans nieustalony (?). |
@@ -407,9 +415,9 @@ Kontrolę konstytucyjności przejmuje inny sąd, np. Sąd Najwyższy (`badania/s
 | Lewica | Może zakończyć spór organizacyjny. | Przyjmuje rozwiązanie odrzucane przez Gawkowskiego. | Przeważa strata (-). |
 | Konfederacja | Może współtworzyć nowy system. | Rezygnuje z własnego resetu TK. | Bilans mieszany (+/-). |
 | Polska 2050 | Realizuje jedną z deklarowanych dróg. | Musi uzgodnić instytucję zastępczą. | Przeważa zysk (+). |
-| Centrum | Może współtworzyć następcę TK. | Brak projektu i stanowiska. | Bilans nieustalony (?). |
+| Centrum | Może współtworzyć następcę TK. | Brak danych. | Bilans nieustalony (?). |
 | Razem | Może zakończyć obecny kryzys. | Rezygnuje z preferowanego resetu TK. | Bilans mieszany (+/-). |
-| Korona | Może negocjować nowy system. | Brak projektu i stanowiska. | Bilans nieustalony (?). |
+| Korona | Może negocjować nowy system. | Brak danych. | Bilans nieustalony (?). |
 | Prezydent | Może negocjować nowe kompetencje. | Traci obecny instrument ślubowania TK. | Bilans mieszany (+/-). |
 | TK sprzed 2026 | Nie określono rekompensat. | Traci obecny urząd. | Przeważa strata (-). |
 | TK z 2026 | Nie określono dalszej roli. | Traci obecny urząd. | Przeważa strata (-). |

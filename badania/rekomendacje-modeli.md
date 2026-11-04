@@ -77,7 +77,7 @@ Bilans to oceny modeli. Pełne uzasadnienia są w punktach 5 obu tekstów.
 | Sędziowie z 2026 roku | Pięcioro obejmuje urząd | Obejmują obowiązki; spór o Berka do rozstrzygnięcia |
 | Obywatele | Ogłoszone wyroki i droga do ponownego rozpoznania, za cenę roku niepewności | Droga naprawy i większa pewność prawa, za cenę kosztów i przewlekłości |
 
-Bilans każdej propozycji z debaty dla każdej siły to osobne zadanie w issue #38.
+Bilans każdej propozycji z debaty dla każdej siły jest w osobnej notatce: [bilans propozycji](bilans-propozycji.md).
 
 ## Arytmetyka według obu modeli
 
