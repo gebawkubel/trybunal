@@ -277,11 +277,13 @@ Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordy
 
 Film z YouTube wskazany przez czytelnika to posiedzenie sejmowej Komisji Sprawiedliwości i Praw Człowieka nr 149 z 2026.04.28 o sytuacji w TK. Koordynator (Opus) ustalił to z metadanych filmu i API Sejmu oraz pobrał oficjalny zapis przebiegu i automatyczne napisy. Badacz (Agent-Role: badacz, Agent-Model: claude-opus-5-5, Agent-Run: Claude Code) przygotował:
 - [kopię oficjalnego zapisu](zrodla/okres-2024-2026/spc-149-2026-04-28.md) z HTML z API Sejmu, z opisem normalizacji;
-- porównanie napisów z zapisem skryptem: film obejmuje całe posiedzenie od otwarcia do zamknięcia, a różnica około 17,5 minuty wobec transmisji Sejmu przypada według godzin z API głównie na czas przed otwarciem i po zamknięciu; filmu nie oglądano;
+- porównanie napisów z zapisem skryptem: film obejmuje całe posiedzenie od otwarcia do zamknięcia (krótkich cięć wewnątrz nie wykluczamy), a różnica około 17,5 minuty wobec transmisji Sejmu przypada według godzin z API głównie na czas przed otwarciem i po zamknięciu; filmu nie oglądano;
 - [notatkę o posiedzeniu](badania/komisja-2026-04-28.md): mówcy, 50 twierdzeń porównanych z bazą (zgadza się 19, częściowo 6, błędne 2, brak w bazie 17, spór o interpretację 6), braki w bazie i stanowiska stron;
 - wpis na [osi czasu](historia-sporu.md) i linki w [liście analiz](analizy.md) oraz [materiałach do sprawdzenia](badania/materialy-do-sprawdzenia.md).
 
-Najważniejsze ustalenie dla bazy: Kancelaria Prezydenta twierdzi na posiedzeniu, że Prezydent nigdy nie odmówił ślubowania czworgu, a nasza oś czasu pisze pod 2026.04.01 "Od pozostałych odmawia" bez przypisania. Notatka proponuje rozważenie tego zapisu w osobnej zmianie. Recenzja: oczekuje.
+Najważniejsze ustalenie dla bazy: Kancelaria Prezydenta twierdzi na posiedzeniu, że Prezydent nigdy nie odmówił ślubowania czworgu, a nasza oś czasu pisze pod 2026.04.01 "Od pozostałych odmawia" bez przypisania. Notatka proponuje rozważenie tego zapisu w osobnej zmianie.
+
+Pierwsza wersja notatki jest w commicie [acfc922](https://github.com/gebawkubel/trybunal/blob/acfc9226c88980cac65ff9b8975d3edf7fb4bf0f/badania/komisja-2026-04-28.md). Recenzent PR #49 (Opus, osobny kontekst) porównał skryptem całą kartę z oryginałem słowo po słowie i sprawdził cytaty, oceny i odwołania. Zatrzymał dwa zdania: na osi czasu przypisanie Żurkowi poglądu o ważności ślubowania w Sejmie, którego na posiedzeniu nie wyraził, oraz dwie nieprawdziwe liczby w opisie metody (najdłuższa przerwa w napisach ok. 18 s, nie poniżej 15 s; zamknięcie w 1:50:43). Poprawiliśmy je, a także: usunęliśmy "sędzia w stanie spoczynku" przy Zdziennickim (zapis tego nie podaje) i dodaliśmy zastrzeżenie o możliwych krótkich cięciach filmu.
 
 ```
 6172828a4390eb0cc18a48612ad6cd8c9ffa2540931eb0a0ff4c0b7dfa51569d  komisja-2026-04-28.md (pierwsza wersja)
