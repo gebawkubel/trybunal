@@ -249,3 +249,20 @@ f8ba4f617c941a93f42a77878d56fc39c86053aeb6cfb57f8c5a24a41b051bc4  kj-29-warunkow
 8bd677fef9af1851fee8b63ec74c766ba12bb139a48b815b691ab11fbd8e9db2  konfederacja-reset-2026-10-31.md
 78fba1dff5c05b03b64c92c672704073ef2d46816a42defca625f38b0b979458  psl-reset-2026-11-03.md
 ```
+
+## Bilans propozycji (issue #38)
+
+Bilans zysków i strat 14 propozycji z debaty dla 14 sił napisał GPT-6.1 Sol (wysoki wysiłek, Codex CLI w piaskownicy tylko do odczytu) na repozytorium w wersji d8b2eb1, według polecenia koordynatora (Opus). Model dobrał koordynator, bo zadanie polega głównie na porównaniu dokumentów. Dosłowne wyjście modelu jest w commicie b7b7a5d: [pierwsza wersja bilansu](https://github.com/gebawkubel/trybunal/blob/b7b7a5d952a4a54efac9a379f13dfb01458d550a/badania/rekomendacje/bilans-wersja-1.md). W repozytorium obniżyliśmy poziomy nagłówków, dodaliśmy nagłówek z opisem, sekcję "Propozycje po kolei" i końcowy znak nowej linii.
+
+Recenzent PR #43 (Opus, osobny kontekst) sprawdził skryptem wszystkie 196 komórek macierzy z tabelami propozycji i przeliczył każdą sumę: błędów w notatce nie znalazł. Zatrzymał dwa zdania tego wpisu (nieistniejąca w publicznym AGENTS.md zasada doboru modelu i niepełny opis zmian bez stałego linku). Z jego uwag poprawiliśmy w notatce:
+- zysk PiS przy propozycji Klubu Jagiellońskiego, który według karty KJ jest raczej stratą;
+- odwołanie "karta KJ" bez ścieżki;
+- brak źródła głosowań przy PSL, Polsce 2050 i Centrum;
+- "Brak stanowiska" wpisany jako strata Centrum i Korony (teraz "Brak danych");
+- niejasne "uchylenie ustawy";
+- brak słowniczka pojęć. Wynik: [bilans propozycji](badania/bilans-propozycji.md).
+
+```
+2a14146659aaf8b8269d4dce28ab62a5bc27192556af473007ffb6621fe23013  polecenie.md (rekomendacje/polecenie-bilansu.md)
+4d4cb7d5c59b8e32090be640ee223828eeb9ef3adacca42159f2ac972b8bc914  bilans.md (pierwsza wersja modelu)
+```
