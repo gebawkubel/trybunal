@@ -6,9 +6,7 @@ Debaty i wywiady pomagają znaleźć zarzuty, które warto zbadać. Sama wypowie
 
 [Obejrzyj materiał na YouTube](https://www.youtube.com/watch?v=ABPZQP0Wk0c).
 
-Zapisano: 2026.11.03. Według zgłoszenia jest to fragment debaty, w której strony sporu stawiają sobie zarzuty. Nie zweryfikowaliśmy jeszcze treści, uczestników, daty ani pełnego kontekstu. Próba otwarcia filmu przez narzędzie badawcze nie powiodła się. Nie przygotowano transkrypcji.
-
-Wrócimy do niego po ustaleniu podstawowej chronologii. Nie zmienia kolejności obecnych prac.
+Zapisano: 2026.11.03. Opracowano: 2026.11.04. To posiedzenie Komisji Sprawiedliwości i Praw Człowieka Sejmu z 2026.04.28 o sytuacji w TK, z udziałem szefa Kancelarii Prezydenta, ministra sprawiedliwości i czworga sędziów wybranych w 2026 roku. Film obejmuje całe posiedzenie od otwarcia do zamknięcia; krótkich cięć wewnątrz nie wykluczamy. Posiedzenie ma oficjalny zapis, więc nie przygotowaliśmy własnej transkrypcji: [kopia zapisu](../zrodla/okres-2024-2026/spc-149-2026-04-28.md). Zarzuty, porównanie z bazą i stanowiska stron: [notatka o posiedzeniu](komisja-2026-04-28.md).
 
 ## Jak opracujemy ten i podobne materiały
 
