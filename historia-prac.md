@@ -207,7 +207,7 @@ W drugiej rundzie zostały 2 drobne blokery: numeracja akapitów w karcie Dudka 
 
 ## Rekomendacje modeli (issue #38)
 
-Na prośbę użytkownika z 2026.11.04 pytanie o najlepsze rozwiązanie sporu zadaliśmy osobno dwóm modelom: Claude Fable 5.1 (wysoki wysiłek, agent Claude Code) i GPT-6 Astra (wysoki wysiłek, Codex CLI w piaskownicy tylko do odczytu). Oba pracowały na kopii repozytorium w wersji 92bdfc2. Zakaz korzystania z internetu był w poleceniu; u Fable także zakaz zmian, u Astry wymuszała go piaskownica. Polecenia napisał koordynator (Opus).
+Na prośbę użytkownika z 2026.11.04 pytanie o najlepsze rozwiązanie sporu zadaliśmy osobno dwóm modelom: Claude Fable 5.1 (wysoki wysiłek, agent Claude Code) i GPT-6 Astra (wysoki wysiłek, Codex CLI w piaskownicy tylko do odczytu). Oba pracowały na kopii repozytorium w wersji 92bdfc2. Zakaz korzystania z internetu był w poleceniu. Zakazu zmian w repozytorium u Fable pilnowała tylko wiadomość zlecająca agentowi ("tylko czytaj, niczego tam nie zmieniaj"), u Astry piaskownica. Polecenia napisał koordynator (Opus).
 
 Każdy model zrecenzował pierwszą wersję drugiego. Pierwszą wersję Astry recenzował nowy agent Fable, a nie autor rekomendacji Fable. Potem każdy model poprawił swoją wersję, mając roboczą notatkę o propozycjach z debaty, jeszcze przed jej recenzją. Fable dostał dodatkowo trzy sprostowania do tej notatki, Astra nie. Pierwsze uruchomienie poprawki Astry przerwał limit użycia Codex, zanim powstał tekst. Poprawkę uruchomiono od nowa w nowej sesji, z tym samym materiałem. Wynik i porównanie: [rekomendacje modeli](badania/rekomendacje-modeli.md).
 

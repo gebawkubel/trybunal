@@ -98,7 +98,7 @@ Liczby sprawdziliśmy z [notatką o siłach i głosach](sily-i-glosy.md), przy p
 ## Jak powstały
 
 1. Oba modele dostały to samo [polecenie](rekomendacje/polecenie.md) i kopię repozytorium w wersji 92bdfc2, bez wglądu w odpowiedź drugiego:
-   - **Fable High:** Claude Fable 5.1, wysoki wysiłek rozumowania, agent Claude Code; zakaz korzystania z internetu i zmian w repozytorium był w poleceniu, nie wymuszony technicznie;
+   - **Fable High:** Claude Fable 5.1, wysoki wysiłek rozumowania, agent Claude Code; zakaz korzystania z internetu był w poleceniu, a zakaz zmian w repozytorium w wiadomości zlecającej agentowi ("tylko czytaj, niczego tam nie zmieniaj"), nie wymuszony technicznie; ta sama wiadomość zabraniała zaglądania do innych katalogów;
    - **Astra High:** GPT-6 Astra, wysoki wysiłek rozumowania, Codex CLI w piaskownicy tylko do odczytu; zakaz korzystania z internetu był w poleceniu.
 2. Recenzja krzyżowa według [jednego polecenia](rekomendacje/polecenie-recenzji.md). Pierwszą wersję Fable recenzowała Astra (Codex CLI, tylko odczyt). Pierwszą wersję Astry recenzował nowy agent Fable, a nie autor rekomendacji Fable.
 3. Poprawka po recenzji według [jednego polecenia](rekomendacje/polecenie-poprawki.md), z roboczą wersją notatki o propozycjach z debaty, jeszcze przed jej recenzją w PR #40.

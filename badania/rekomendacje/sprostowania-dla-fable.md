@@ -1,6 +1,6 @@
 # Sprostowania dla Fable
 
-> Sprostowania wysłane tylko do Fable w trakcie poprawki: wiadomość koordynatora (Claude Opus 5.5) do agenta Fable. Astra ich nie dostała. Suma dotyczy tekstu wiadomości. Tekst pod linią jest identyczny z oryginałem, poza dodanym końcowym znakiem nowej linii. SHA-256 oryginału: `b1b823b06efa8a4d3c0fe30aaa241ab8467055abb8d4148f232d04fd81411111`. 
+> Sprostowania wysłane tylko do Fable w trakcie poprawki: wiadomość koordynatora (Claude Opus 5.5) do agenta Fable. Astra ich nie dostała. Suma dotyczy tekstu wiadomości. Tekst pod linią jest identyczny z oryginałem, poza dodanym końcowym znakiem nowej linii. SHA-256 oryginału: `b1b823b06efa8a4d3c0fe30aaa241ab8467055abb8d4148f232d04fd81411111`.
 > Porównanie obu rekomendacji: [rekomendacje modeli](../rekomendacje-modeli.md).
 
 ---

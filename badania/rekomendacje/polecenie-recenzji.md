@@ -1,4 +1,4 @@
-> Polecenie dla obu modeli: recenzja krzyżowa. Każdy model recenzował pierwszą wersję drugiego. Napisał koordynator (Claude Opus 5.5). Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `4c36897314ad118e4d26189247df2c052d2ab55d6aef99c9d201b92ab88ddf69`. 
+> Polecenie dla obu modeli: recenzja krzyżowa. Każdy model recenzował pierwszą wersję drugiego. Napisał koordynator (Claude Opus 5.5). Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `4c36897314ad118e4d26189247df2c052d2ab55d6aef99c9d201b92ab88ddf69`.
 > Porównanie obu rekomendacji: [rekomendacje modeli](../rekomendacje-modeli.md).
 
 ---

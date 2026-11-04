@@ -1,4 +1,4 @@
-> Polecenie dla obu modeli: rekomendacja. Ten sam tekst dostały oba modele, każdy osobno. Napisał koordynator (Claude Opus 5.5). Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `afa279713a479720f4c2d88055e7a98695a3d954d68fcc82e098f0e02c185708`. 
+> Polecenie dla obu modeli: rekomendacja. Ten sam tekst dostały oba modele, każdy osobno. Napisał koordynator (Claude Opus 5.5). Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `afa279713a479720f4c2d88055e7a98695a3d954d68fcc82e098f0e02c185708`.
 > Porównanie obu rekomendacji: [rekomendacje modeli](../rekomendacje-modeli.md).
 
 ---
