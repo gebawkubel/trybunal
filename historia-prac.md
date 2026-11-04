@@ -46,10 +46,10 @@ Każda zmiana w repozytorium przechodzi przez PR (propozycję zmiany na GitHubie
 | [#34](https://github.com/gebawkubel/trybunal/pull/34) | 2026.11.03 | [Warunki rozwiązań](badania/warunki-rozwiazan.md): Senat, art. 235, wyroki, projekty, Komisja Wenecka | 1 bloker, potem PASS |
 | [#35](https://github.com/gebawkubel/trybunal/pull/35) | 2026.11.03 | [Skutki dla obywateli](badania/skutki-dla-obywateli.md) | 2 blokery, potem PASS |
 | [#36](https://github.com/gebawkubel/trybunal/pull/36) | 2026.11.03 | [Postępowania wobec osób](badania/postepowania-wobec-osob.md) | PASS, poprawki po uwagach |
-| [#37](https://github.com/gebawkubel/trybunal/pull/37) | 2026.11.03 | Porządek po badaniach #34-#36: korekta oceny, README, plan | PASS w rundzie 2 |
-| [#39](https://github.com/gebawkubel/trybunal/pull/39) | 2026.11.04 | Porządek: [historia sporu](historia-sporu.md), linki, prostsze README | PASS |
-| [#40](https://github.com/gebawkubel/trybunal/pull/40) | 2026.11.04 | [Propozycje z debaty](badania/propozycje-na-stole.md): treść z dokumentów autorów | PASS |
-| [#41](https://github.com/gebawkubel/trybunal/pull/41) | 2026.11.04 | Scenariusze naprawy: korekty po odczytaniu propozycji | PASS w rundzie 2 |
+| [#37](https://github.com/gebawkubel/trybunal/pull/37) | 2026.11.03 | Porządek po badaniach #34-#36: korekta oceny, README, plan | 1 runda blokerów, potem PASS |
+| [#39](https://github.com/gebawkubel/trybunal/pull/39) | 2026.11.04 | Porządek: [historia sporu](historia-sporu.md), linki, prostsze README | 1 runda blokerów, potem PASS |
+| [#40](https://github.com/gebawkubel/trybunal/pull/40) | 2026.11.04 | [Propozycje naprawy TK z debaty](badania/propozycje-na-stole.md): treść z dokumentów autorów | 3 rundy blokerów, potem PASS |
+| [#41](https://github.com/gebawkubel/trybunal/pull/41) | 2026.11.04 | Scenariusze naprawy: korekty po odczytaniu propozycji | 1 runda blokerów, potem PASS |
 | [#42](https://github.com/gebawkubel/trybunal/pull/42) | 2026.11.04 | [Rekomendacje Fable High i Astra High](badania/rekomendacje-modeli.md) (issue #38) | 2 rundy blokerów, potem PASS |
 | [#43](https://github.com/gebawkubel/trybunal/pull/43) | 2026.11.04 | [Bilans propozycji](badania/bilans-propozycji.md) (issue #38) | 1 runda blokerów, potem PASS |
 | [#44](https://github.com/gebawkubel/trybunal/pull/44) | 2026.11.04 | [Odpowiedź na pytanie](badania/odpowiedz.md) (issue #38) | 1 runda blokerów, potem PASS |
