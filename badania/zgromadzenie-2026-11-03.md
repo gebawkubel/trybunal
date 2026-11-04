@@ -19,7 +19,7 @@ Ustawa o organizacji i trybie postępowania przed TK ([Dz.U. 2019 poz. 2393](htt
 - art. 11 ust. 2: "Od dnia powstania wakatu do czasu powołania Prezesa Trybunału" TK kieruje sędzia o najdłuższym łącznym stażu,
 - art. 12 ust. 4: "W przypadku niemożności upoważnienia Wiceprezesa lub innego sędziego Trybunału do wykonywania niektórych kompetencji określonych w ust. 1, Prezesa Trybunału zastępuje sędzia Trybunału, o którym mowa w art. 11 ust. 2."
 
-Ustawa o statusie sędziów TK ([Dz.U. 2018 poz. 1422](https://api.sejm.gov.pl/eli/acts/DU/2018/1422/text.html)), art. 25 ust. 2: "Sędziów Trybunału do składów orzekających wyznacza w drodze losowania Prezes Trybunału" (w sprawach dyscyplinarnych).
+Ustawa o statusie sędziów TK ([Dz.U. 2018 poz. 1422](https://api.sejm.gov.pl/eli/acts/DU/2018/1422/text.html)), art. 25 ust. 2: "Sędziów Trybunału do składów orzekających wyznacza w drodze losowania Prezes Trybunału" ([w sprawach dyscyplinarnych](postepowania-wobec-osob.md)).
 
 Prawo o ustroju sądów powszechnych ([Dz.U. 2024 poz. 334](https://api.sejm.gov.pl/eli/acts/DU/2024/334/text.html)), art. 130: przerwę w czynnościach sędziego zarządza "prezes sądu albo Minister Sprawiedliwości", najdłużej na miesiąc. Gdy sędzia "pełni funkcję prezesa sądu", przerwa "należy do Ministra Sprawiedliwości". Sąd dyscyplinarny trzeba zawiadomić w ciągu trzech dni.
 
