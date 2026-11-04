@@ -1,8 +1,8 @@
 # Symulacja negocjacji: czy politycy grani przez AI się dogadają?
 
-**To symulacja.** Wszystkie wypowiedzi napisał model AI (Claude Opus 5.5) grający prawdziwe osoby. Nie są to słowa tych osób i nie jest to przewidywanie, co zrobią. To był eksperyment: chcieliśmy sprawdzić, czy postacie w ogóle się dogadają i co wymyślą, i może wyłonić nowe pomysły na rozwiązanie sporu. Wytyczne są w [issue #46](https://github.com/gebawkubel/trybunal/issues/46).
+**To symulacja.** Wszystkie wypowiedzi napisał model AI (Claude Opus 5.5) grający prawdziwe osoby. Nie są to słowa tych osób i nie jest to przewidywanie, co zrobią. To był eksperyment: chcieliśmy sprawdzić, czy postacie w ogóle się dogadają i co wymyślą, a przy okazji wyłonić nowe pomysły na rozwiązanie sporu. Wytyczne są w [issue #46](https://github.com/gebawkubel/trybunal/issues/46).
 
-Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.11.04. Pełne rozmowy i materiały przygotowawcze są na końcu, w części "Szczegóły".
+Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.11.04. Pełne rozmowy i materiały przygotowawcze są w części "Szczegóły".
 
 ## W skrócie
 
@@ -32,8 +32,8 @@ Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.
   - 3 razy zmiana Konstytucji, w tym raz reset ze stanem spoczynku obecnych sędziów;
   - 4 razy zwykła ustawa z wyborem sędziów większością 3/5;
   - 3 razy nic poza krokami "na teraz".
-- Trzeba to czytać ostrożnie. Jednomyślność także przy "czystym interesie" może oznaczać, że model gra postacie zbyt ugodowo. Serii kontrolnej na innym modelu prowadzący nie zlecił, bo symulacja miała być tylko eksperymentem.
-- Nowe pomysły trafiły do [scenariuszy naprawy](../scenariusze-naprawy.md#scenariusze-z-symulacji-negocjacji) i do [bilansu propozycji](../bilans-propozycji.md) jako propozycja 15 (reset z zachowaniem sędziów z 2026 roku). Warianty zmiany Konstytucji bez resetu bilans opisał przy propozycji 16, a ustawę 3/5 przy propozycji 12.
+- Trzeba to czytać ostrożnie. Jednomyślność także przy "czystym interesie" może oznaczać, że model gra postacie zbyt ugodowo. Prowadzący zrezygnował z serii kontrolnej na innym modelu (K1-K3), przewidzianej w issue #46 i w planie etapu 1, bo symulacja miała być tylko eksperymentem.
+- Nowe pomysły trafiły do [scenariuszy naprawy](../scenariusze-naprawy.md#scenariusze-z-symulacji-negocjacji) i do [bilansu propozycji](../bilans-propozycji.md) jako propozycja 15 (reset z zachowaniem sędziów z 2026 roku). Warianty zmiany Konstytucji bez resetu bilans opisał przy propozycji 16, a ustawę 3/5 z krokami "na teraz" zaliczył do częściowych wariantów propozycji 12 (część "Dobór scenariuszy spoza debaty").
 
 ## Ustawienia
 
@@ -98,7 +98,7 @@ Skróty: "3/5" to większość trzech piątych głosów w Sejmie; "Kpt 1/26" to 
 
 **Przygotowanie.** Każdy etap przygotował osobny agent AI według treści issue, a osobny recenzent go sprawdził:
 1. [Etap 1](etap-1.md): kto siedzi przy stole i dlaczego, plan przebiegów.
-2. Etap 2: [pakiet wiedzy](etap-2/pakiet-wiedzy.md) wspólny dla wszystkich, [karty postaci](etap-2/karta-nawrocki.md) (po jednej na osobę), [warianty motywacji](etap-2/warianty-motywacji.md), [reguły arbitra](etap-2/arbiter.md), [luki w wiedzy](etap-2/luki.md).
+2. Etap 2: [pakiet wiedzy](etap-2/pakiet-wiedzy.md) wspólny dla wszystkich, karty postaci: [Nawrocki](etap-2/karta-nawrocki.md), [Tusk](etap-2/karta-tusk.md), [Kaczyński](etap-2/karta-kaczynski.md), [Morawiecki](etap-2/karta-morawiecki.md), [Kosiniak-Kamysz](etap-2/karta-kosiniak-kamysz.md), [Czarzasty](etap-2/karta-czarzasty.md), [Hołownia](etap-2/karta-holownia.md), [Bosak](etap-2/karta-bosak.md), [Święczkowski](etap-2/karta-swieczkowski.md), [Korwin-Piotrowska](etap-2/karta-korwin-piotrowska.md), [warianty motywacji](etap-2/warianty-motywacji.md), [reguły arbitra](etap-2/arbiter.md), [luki w wiedzy](etap-2/luki.md).
 3. Etap 3: [skrypt prowadzący rozmowę](../../narzedzia/symulacja/README.md).
 4. [Etap 4](etap-4.md): mniejszy stół, porozumienie bez zgody wszystkich, dłuższe wypowiedzi.
 
