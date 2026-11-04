@@ -398,3 +398,10 @@ a32dc38d1d22288e82b0d61e0610c0778d9d8d43397343018ebcf54cb763680c  issue-46.md (b
 0ab8b7ebde891c5ac1666599d4ff8c5c2c918900842580d862672fe35a241a00  wiadomosc-techniczna.md (badania/symulacja/etap-3/wiadomosc.md)
 72e10e1ffb0433c5691031465a098c839c42a1b4ec660a770df77d1d432334d1  wiadomosc-uzupelnienie.md (badania/symulacja/etap-3/wiadomosc-uzupelnienie.md)
 ```
+
+Recenzent (Opus, osobny kontekst) w pierwszej rundzie zatrzymał 2 blokery: zmienny schemat odpowiedzi arbitra unieważniał bufor (koszt typowego przebiegu około 23,5 USD zamiast 15) i limit kosztu nie rezerwował kwoty na ogłoszenie przerwania. Wskazał też dwie decyzje wykonawcy wymagające zgody prowadzącego; prowadzący [rozstrzygnął](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6630993172): kolejność kontekstu jak w etapie 2, głos poza kolejnością po rundzie. [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6630779132) jest w issue #46; poprawki zrobił wykonawca (commit 39a0e8a).
+
+```
+45804ee4e07e335f745afa64b4a29a9e5d54fe0c0442b87906b9aa30d14fe7cd  wiadomosc-poprawka.md (badania/symulacja/etap-3/wiadomosc-poprawka.md)
+9ce9f3a9edbdf9c118edc40fab167297551742492e62ac5da527d87b9698cfd6  wiadomosc-rozstrzygniecia.md (badania/symulacja/etap-3/wiadomosc-rozstrzygniecia.md)
+```
