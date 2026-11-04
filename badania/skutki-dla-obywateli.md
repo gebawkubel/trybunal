@@ -6,7 +6,7 @@ Kilka pojęć. **Osoby wybrane na zajęte miejsca** to Mariusz Muszyński, Lech 
 
 ## Dwa stanowiska
 
-**TK i rządy z lat 2016-2023: wyroki wiążą.** TK uznał wyrok ETPC Xero Flor w części dotyczącej TK za nieistniejący ([karta P 7/20](../zrodla/okres-2020-2023/p-7-20-wylaczenie.md)). W informacji za 2024 rok TK pisze, że jego wyroki wiążą wszystkie sądy, w tym SN i NSA, a żaden organ nie może oceniać, czy wyrok wydano we właściwym składzie; powołuje się na orzeczenia SN, m.in. II NSNc 304/23 ([karta](../zrodla/okres-2024-2026/informacja-tk-2024.md), s. 59). Według TK publikacja w dzienniku jest czynnością techniczną, a jej brak jest sprzeczny z prawem (s. 13). Rząd przed ETPC twierdził, że skład TK ukształtowano zgodnie z prawem ([A.R., § 87](../zrodla/okres-2024-2026/etpc-a-r-6030-21.md)), a w sprawie M.L., że TK działał jako "negatywny ustawodawca" (tłum.), nie sąd ([M.L., § 141](../zrodla/okres-2020-2023/etpc-m-l-40119-21.md)).
+**TK i rządy z lat 2016-2023: wyroki wiążą.** TK uznał wyrok ETPC [Xero Flor](../zrodla/xero-flor.md) w części dotyczącej TK za nieistniejący ([karta P 7/20](../zrodla/okres-2020-2023/p-7-20-wylaczenie.md)). W informacji za 2024 rok TK pisze, że jego wyroki wiążą wszystkie sądy, w tym SN i NSA, a żaden organ nie może oceniać, czy wyrok wydano we właściwym składzie; powołuje się na orzeczenia SN, m.in. II NSNc 304/23 ([karta](../zrodla/okres-2024-2026/informacja-tk-2024.md), s. 59). Według TK publikacja w dzienniku jest czynnością techniczną, a jej brak jest sprzeczny z prawem (s. 13). Rząd przed ETPC twierdził, że skład TK ukształtowano zgodnie z prawem ([A.R., § 87](../zrodla/okres-2024-2026/etpc-a-r-6030-21.md)), a w sprawie M.L., że TK działał jako "negatywny ustawodawca" (tłum.), nie sąd ([M.L., § 141](../zrodla/okres-2020-2023/etpc-m-l-40119-21.md)).
 
 **Część sądów, ETPC i od 2024 roku Sejm: wyroki z udziałem tych osób nie wiążą.** Tak orzekały składy Izby Karnej SN (niżej), część składów NSA, ETPC w M.L. i A.R. oraz Sejm w uchwałach z 2024 i 2026 roku ([uchwała 2026](../zrodla/okres-2024-2026/uchwala-sejmu-2026-299.md)).
 
@@ -39,7 +39,7 @@ Uchwały Izby Pracy lub Izby Cywilnej SN wprost przeciwnej I KZP 5/23 nie znale�
 - **M.L.:** 16 004 EUR, zapłacono 2024.05.24 według planu działań rządu; karta sprawy w bazie Rady Europy podaje inną datę, 2025.05.07 ([karta](../zrodla/okres-2024-2026/km-m-l-a-r-zaplata.md)).
 - **A.R.:** 16 495 EUR; baza Rady Europy oznacza płatność jako dokonaną 2026.09.21 (ta sama karta). Planu działań rządu nie znaleźliśmy.
 - **Youssfi:** ugoda z 2026 roku, 20 000 EUR za całość sprawy, której głównym przedmiotem było niewykonanie nakazu powrotu dziecka; zakomunikowano też zarzuty co do postępowania przed TK ([karta](../zrodla/okres-2020-2023/etpc-skargi-sklad-tk.md)).
-- **W toku:** I.Z. i 4 inne (kobiety, które po K 1/20 wyjechały na zabieg) oraz Botor (skarga konstytucyjna rozpoznana z udziałem Piskorskiego i Wyrembaka). **Odrzucone:** A.M. i inne (2023) oraz K.B. i K.C. (2024), bo skarżące nie były w ciąży i nie wykazały, że wyrok TK bezpośrednio je dotknął (ta sama karta).
+- **W toku:** I.Z. i 4 inne (kobiety, które po [K 1/20](../zrodla/okres-2020-2023/k-1-20.md) wyjechały na zabieg) oraz Botor (skarga konstytucyjna rozpoznana z udziałem Piskorskiego i Wyrembaka). **Odrzucone:** A.M. i inne (2023) oraz K.B. i K.C. (2024), bo skarżące nie były w ciąży i nie wykazały, że wyrok TK bezpośrednio je dotknął (ta sama karta).
 
 ## 5. Konkretne skutki dla ludzi
 

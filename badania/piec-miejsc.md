@@ -1,6 +1,6 @@
 # Pięć miejsc w TK: od czego zaczynamy
 
-Stan na 2026.11.03. Notatka oparta na wyrokach, ustawach, uchwałach i głosowaniach Sejmu oraz komunikatach Prezydenta. Nie jest jeszcze pełną historią sporu ani oceną odpowiedzialności konkretnych osób.
+Stan na 2026.11.03. Notatka oparta na wyrokach, ustawach, uchwałach i głosowaniach Sejmu oraz komunikatach Prezydenta. Nie jest jeszcze pełną historią sporu ani oceną odpowiedzialności konkretnych osób. Całą historię w skrócie pokazuje [oś czasu](../historia-sporu.md).
 
 ## Dlaczego mówimy o trzech i dwóch miejscach?
 
@@ -25,7 +25,7 @@ Od pięciu osób wybranych 2015.10.08 Prezydent nie odebrał ślubowania. Zgodni
 
 ## Co dokładnie orzekł TK?
 
-**K 34/15:** przepis art. 137 uznano za zgodny z art. 194 ust. 1 Konstytucji w zakresie dotyczącym kadencji kończących się w listopadzie, a za niezgodny w zakresie kadencji kończących się w grudniu. To pkt 8 rozstrzygnięcia, czyli sentencji ([strona 2](../zrodla/k-34-15.md#strona-2)).
+**K 34/15:** przepis [art. 137](skad-art-137.md) uznano za zgodny z art. 194 ust. 1 Konstytucji w zakresie dotyczącym kadencji kończących się w listopadzie, a za niezgodny w zakresie kadencji kończących się w grudniu. To pkt 8 rozstrzygnięcia, czyli sentencji ([strona 2](../zrodla/k-34-15.md#strona-2)).
 
 W pkt 5 TK zakwestionował takie rozumienie przepisu o ślubowaniu, które nie przewidywałoby obowiązku jego niezwłocznego odebrania przez Prezydenta. Chodzi o sędziego wybranego przez Sejm ([strona 2](../zrodla/k-34-15.md#strona-2)).
 
@@ -45,11 +45,11 @@ Wyrok zapadł dzień po tym, jak Sejm 2015.12.02 wybrał pięć osób. Tylko dwi
 
 ## Dopuszczenie do orzekania
 
-"Dopuszczenie do orzekania" oznacza tu przydzielenie sędziemu spraw przez prezesa TK. Z dokumentów wynika, że w 2016 r. takie włączenie następowało po ślubowaniu, ale było osobną czynnością prezesa (źródła niżej). RPO z kolei twierdzi, że ślubowanie samo upoważnia do udziału w czynnościach orzeczniczych ([RPO 2024](../zrodla/okres-2016-2019/rpo-niedopuszczeni-sedziowie-2024.md)). Tu nie rozstrzygamy, która wykładnia jest słuszna.
+"[Dopuszczenie do orzekania](kierownictwo-2016.md)" oznacza tu przydzielenie sędziemu spraw przez prezesa TK. Z dokumentów wynika, że w 2016 r. takie włączenie następowało po ślubowaniu, ale było osobną czynnością prezesa (źródła niżej). RPO z kolei twierdzi, że ślubowanie samo upoważnia do udziału w czynnościach orzeczniczych ([RPO 2024](../zrodla/okres-2016-2019/rpo-niedopuszczeni-sedziowie-2024.md)). Tu nie rozstrzygamy, która wykładnia jest słuszna.
 
 **Pszczółkowski i Przyłębska.** TK umorzył 2016.01.07 sprawę U 8/15 o uchwały Sejmu z 2015.11.25 i 2015.12.02. Według [Informacji TK za 2015 r.](../zrodla/okres-2016-2019/informacja-tk-2015.md) (s. 10 i 26) po tym postanowieniu prezes TK włączył ich do orzekania. Datę 2016.01.12 podaje ETPC w wyroku Xero Flor ([§ 42](../zrodla/xero-flor.md)). Zarządzenia prezesa nie znaleźliśmy.
 
-**Cioch, Morawski, Muszyński.** Ślubowali 2015.12.03, ale prezes Rzepliński ich nie dopuścił. [Informacja TK za 2016 r.](../zrodla/okres-2016-2019/informacja-tk-2016.md) (s. 8, pisana za prezes Przyłębskiej) uznaje to za działanie "mimo braku ku temu podstawy prawnej". Rzepliński w wystąpieniu w Sejmie 2016.07.22 mówił o wyborze przez Sejm VIII kadencji trzech sędziów "na miejsca uprzednio skutecznie obsadzone" ([wystąpienie](../zrodla/okres-2016-2019/rzeplinski-2016-07-22.md), s. 2-3). Wystąpienie nie podaje nazwisk i nie jest uzasadnieniem decyzji o niedopuszczeniu. Dopuszczeni zostali 2016.12.20 według ETPC ([§ 59](../zrodla/xero-flor.md)), czyli w dniu, gdy Przyłębska objęła obowiązki prezesa. Ustawa z 2016.12.13 nakazywała pełniącemu obowiązki prezesa przydzielać sprawy sędziom, którzy złożyli ślubowanie wobec Prezydenta ([art. 18 pkt 2](../zrodla/okres-2016-2019/przepisy-wprowadzajace.md)). Informacja TK za 2016 r. (s. 8-9) łączy z tą ustawą powierzenie obowiązków Przyłębskiej i umożliwienie wykonywania obowiązków sędziego trzem sędziom, bez daty.
+**Cioch, Morawski, Muszyński.** Ślubowali 2015.12.03, ale prezes Rzepliński ich nie dopuścił. [Informacja TK za 2016 r.](../zrodla/okres-2016-2019/informacja-tk-2016.md) (s. 8, pisana za prezes Przyłębskiej) uznaje to za działanie "mimo braku ku temu podstawy prawnej". Rzepliński w wystąpieniu w Sejmie 2016.07.22 mówił o wyborze przez Sejm VIII kadencji trzech sędziów "na miejsca uprzednio skutecznie obsadzone" ([wystąpienie](../zrodla/okres-2016-2019/rzeplinski-2016-07-22.md), s. 2-3). Wystąpienie nie podaje nazwisk i nie jest uzasadnieniem decyzji o niedopuszczeniu. Dopuszczeni zostali 2016.12.20 według ETPC ([§ 59](../zrodla/xero-flor.md)), czyli w dniu, gdy Przyłębska [objęła obowiązki prezesa](kierownictwo-2016.md). Ustawa z 2016.12.13 nakazywała pełniącemu obowiązki prezesa przydzielać sprawy sędziom, którzy złożyli ślubowanie wobec Prezydenta ([art. 18 pkt 2](../zrodla/okres-2016-2019/przepisy-wprowadzajace.md)). Informacja TK za 2016 r. (s. 8-9) łączy z tą ustawą powierzenie obowiązków Przyłębskiej i umożliwienie wykonywania obowiązków sędziego trzem sędziom, bez daty.
 
 **Hauser, Jakubecki, Ślebzak** (wybrani 2015.10.08). Prezydent nie odebrał od nich ślubowania ([Informacja TK za 2015 r.](../zrodla/okres-2016-2019/informacja-tk-2015.md), s. 23; ETPC [§ 9](../zrodla/xero-flor.md)). Nie ma dokumentu o ich dopuszczeniu; nie ma ich na liście orzekających pod koniec 2015 r. (s. 10) ani w składzie TK podanym w [Informacji za 2016 r.](../zrodla/okres-2016-2019/informacja-tk-2016.md) (s. 7). Według [RPO z 2024 r.](../zrodla/okres-2016-2019/rpo-niedopuszczeni-sedziowie-2024.md) brak ślubowania uniemożliwił im objęcie urzędu. To stanowisko RPO. Jakubecki i Ślebzak wnieśli skargi do ETPC.
 

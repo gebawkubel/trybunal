@@ -35,14 +35,14 @@ Uzasadnienia posłów to ich stanowiska, a nie ustalenia faktów. Zapis nie poka
 | Sprawozdanie podkomisji | 2015.04.09 | Brak. Przepisy przejściowe to tylko art. 134-135 | [PDF, s. 35-36](https://api.sejm.gov.pl/sejm/term7/processes/1590/attachment/spr_1590.pdf) |
 | Posiedzenie komisji | 2015.05.12 | Dodany jako art. 135a, 20 za, 4 przeciw, 1 wstrzymujący się | [Zapis, s. 32](../zrodla/zapis-komisji-2015-05-12.md#strona-32) |
 | Sprawozdanie komisji, druk 3397 | 2015.05.12 | Art. 136 | [Druk 3397, strona 43 PDF](../zrodla/projekt-ustawy/druk-3397.md#strona-43) |
-| Trzecie czytanie w Sejmie | 2015.05.27 | Art. 135 w tekście przekazanym do Senatu | [PDF, s. 32](https://api.sejm.gov.pl/sejm/term7/processes/1590/attachment/1590_u3.pdf) |
+| [Trzecie czytanie w Sejmie](../zrodla/glosowania-2015.md#ustawa-o-tk-z-2015-roku) | 2015.05.27 | Art. 135 w tekście przekazanym do Senatu | [PDF, s. 32](https://api.sejm.gov.pl/sejm/term7/processes/1590/attachment/1590_u3.pdf) |
 | Ustawa w Dzienniku Ustaw | 2015.06.25 | Art. 137 | [Dz.U. 2015 poz. 1064, s. 21](https://api.sejm.gov.pl/eli/acts/DU/2015/1064/text.pdf) |
 
 Zmiana numerów wynika najpewniej z innych poprawek: w trzecim czytaniu skreślono wcześniejszy artykuł, a Senat dodał dwa nowe ([uchwała Senatu, druk 3507, s. 7-8](https://api.sejm.gov.pl/sejm/term7/prints/3507/3507.pdf)). To wniosek z porównania tekstów. Nie znaleźliśmy dokumentu, który wprost opisuje zmianę numeracji. Treść przepisu przez cały czas dotyczyła tego samego terminu.
 
 ## Jak głosował Sejm
 
-2015.05.27, w trzecim czytaniu, Sejm głosował nad poprawką nr 52 klubu PiS, czyli wnioskiem o skreślenie tego przepisu. Poprawkę odrzucono: 145 za, 272 przeciw, 1 wstrzymujący się. Za głosował klub PiS, przeciw kluby PO, SLD i PSL. Zaraz potem Sejm uchwalił całą ustawę: 261 za, 144 przeciw, 11 wstrzymujących się. Szczegóły i głosy wszystkich klubów: [głosowania](../zrodla/glosowania-2015.md#ustawa-o-tk-z-2015-roku).
+2015.05.27, w trzecim czytaniu, Sejm głosował nad poprawką nr 52 klubu PiS, czyli wnioskiem o skreślenie tego przepisu. Poprawkę odrzucono: [145 za, 272 przeciw, 1 wstrzymujący się](https://api.sejm.gov.pl/sejm/term7/votings/93/38). Za głosował klub PiS, przeciw kluby PO, SLD i PSL. Zaraz potem Sejm uchwalił całą ustawę: [261 za, 144 przeciw, 11 wstrzymujących się](https://api.sejm.gov.pl/sejm/term7/votings/93/39). Szczegóły i głosy wszystkich klubów: [głosowania](../zrodla/glosowania-2015.md#ustawa-o-tk-z-2015-roku).
 
 ## Zachowane źródła
 

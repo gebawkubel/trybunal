@@ -1,52 +1,33 @@
 # Trybunał
 
-Chcemy zrozumieć spór o polski Trybunał Konstytucyjny: co się wydarzyło, kto za co odpowiada i jak można naprawić sytuację.
+Ten projekt wyjaśnia spór o polski Trybunał Konstytucyjny (TK): co się wydarzyło, kto za co odpowiada i jak można z niego wyjść. Każde ustalenie prowadzi do źródła, żeby każdy mógł je sprawdzić sam. Gdy czegoś nie wiemy albo prawnicy się spierają, piszemy to wprost.
 
-Zbieramy dokumenty, sprawdzamy wypowiedzi i porównujemy argumenty. Każdy wniosek ma prowadzić do źródeł, żeby czytelnik mógł sam go sprawdzić. Gdy czegoś nie wiemy albo prawnicy się spierają, piszemy to wprost.
+## Jak pracujemy
 
-## Jak to będzie działać
+Badania prowadzą modele AI, a ludzie mogą je sprawdzać i poprawiać.
 
-1. Wybieramy jedno konkretne pytanie.
-2. Zbieramy dokumenty i ustalamy kolejność wydarzeń.
-3. Sprawdzamy argumenty za i przeciw, z pomocą ekspertów i modeli AI.
-4. Publikujemy odpowiedź ze źródłami, wyjaśnieniem i informacją o tym, co pozostaje niepewne.
-5. Gdy pojawią się nowe dowody, poprawiamy odpowiedź i pokazujemy powód zmiany.
+1. **Źródła przede wszystkim.** Opieramy się na ustawach, wyrokach, uchwałach, głosowaniach w Sejmie i nagraniach. Przy każdym ustaleniu jest link do źródła, a kopie najważniejszych dokumentów trzymamy w katalogu `zrodla`.
+2. **Jeden agent AI pisze, osobny agent sprawdza.** Każdą notatkę przygotowuje jeden agent AI. Osobny agent, który nie widział jej powstawania, sprawdza źródła i wnioski. Zmiana trafia do bazy dopiero po jego akceptacji.
+3. **Trudne pytania stawiamy kilku modelom osobno.** Porównujemy odpowiedzi, ale nie liczymy ich jak głosów. Zgodność modeli nie dowodzi prawdy.
+4. **Fakty oddzielamy od ocen.** Każda ocena ma autora: sąd, stronę sporu albo nas.
+5. **Błędy poprawiamy jawnie.** Pierwsze wersje, recenzje i korekty zostają w [historii prac](historia-prac.md).
 
-Badamy cały przebieg sporu: od jego genezy, przez wydarzenia z 2015 roku i późniejszych lat, aż do aktualnego stanu. Chcemy ustalić odpowiedzialność za konkretne działania i porównać możliwe rozwiązania. Rok 2015 jest pierwszym etapem, nie granicą projektu.
+Szczegóły: [jak sprawdzamy informacje](metodologia.md).
 
-## Co jest gotowe
+## Historia sporu
 
-Stan na 2026.11.03. Mamy dokumenty i przeglądy wszystkich okresów sporu oraz pierwszą ocenę odpowiedzialności i porównanie rozwiązań. Nie wydajemy własnej rekomendacji, a listy luk pokazują, czego jeszcze nie wiemy.
+**[Cała historia krok po kroku](historia-sporu.md)**: od 1997 roku do dziś, w pełnych zdaniach, z linkiem przy każdym punkcie do szczegółów i źródła.
 
-**Od czego się zaczęło (2015)**
-- [Geneza: TK przed 2015 rokiem](badania/geneza-przed-2015.md): jak wybierano sędziów od 1997 roku i dlaczego w 2015 roku do obsadzenia było pięć miejsc.
-- [Pięć miejsc w TK](badania/piec-miejsc.md): kogo Sejm wybrał w 2015 roku, na jakie miejsca i co orzekł TK. Zawiera pełne teksty wyroków K 34/15 i K 35/15.
-- [Skąd wziął się art. 137](badania/skad-art-137.md): kto zaproponował przepis o terminie zgłaszania kandydatów na sędziów, których kadencje upływały w 2015 roku, i jak głosował Sejm.
+## Rozwiązania
 
-**Co działo się potem**
-- [Lata 2016-2019](badania/okres-2016-2019.md): ustawy, publikacja wyroków, zmiana kierownictwa.
-- [Kierownictwo TK i dopuszczenie sędziów do orzekania w 2016 roku](badania/kierownictwo-2016.md).
-- [Opóźniona publikacja wyroków w latach 2016-2018](badania/publikacja-wyrokow.md): które wyroki, na jakiej podstawie i z jakim skutkiem.
-- [Lata 2020-2023](badania/okres-2020-2023.md): ważne orzeczenia i spór europejski, z [uzupełnieniem](badania/okres-2020-2023-uzupelnienie.md) o składy, zdania odrębne i statystyki.
-- [Wyroki ETPC i TSUE o TK](badania/wyroki-europejskie.md): co orzekły, co zrobiła Polska i jakie są skutki dla obywateli.
-- [Spór o koniec kadencji prezes TK (2022-2024)](badania/kadencja-prezes-2022-2023.md).
-- [Od 2024 do dziś](badania/okres-2024-2026.md): próby naprawy, nowi sędziowie, spór o kierownictwo.
+- [Scenariusze naprawy](badania/scenariusze-naprawy.md): co jest w debacie, kto za tym stoi i kto jest przeciw.
+- [Porównanie rozwiązań i odpowiedzialność](badania/odpowiedzialnosc-i-rozwiazania.md): ocena według jawnych kryteriów.
+- [Siły i głosy w Sejmie](badania/sily-i-glosy.md): kto ile ma głosów i kto z kim ma potrzebną większość.
 
-**Spór teraz**
-- [Scenariusze naprawy TK](badania/scenariusze-naprawy.md): jakie rozwiązania są w debacie, kto je popiera i kto odrzuca.
-- [Czy Zgromadzenie Ogólne TK z 2026.11.03 było ważne](badania/zgromadzenie-2026-11-03.md): porównanie z przepisami.
+Wszystkie pozostałe notatki są w [liście analiz](analizy.md).
 
-**Ocena**
-- [Kto odpowiada za kryzys TK i które rozwiązania są lepsze](badania/odpowiedzialnosc-i-rozwiazania.md): kluczowe decyzje, co orzekły o nich sądy, i porównanie rozwiązań według jawnych kryteriów.
-- [Postępowania wobec osób](badania/postepowania-wobec-osob.md): Trybunał Stanu, śledztwa, immunitety i sprawy dyscyplinarne od 2015 roku.
-- [Skutki dla obywateli](badania/skutki-dla-obywateli.md): jak sądy traktują wyroki TK, liczby spraw, zadośćuczynienia z ETPC i konkretne przypadki.
-- [Warunki rozwiązań](badania/warunki-rozwiazan.md): większość w Senacie, rola Prezydenta przy zmianie Konstytucji, uzasadnienia kluczowych wyroków, projekty resetu i opinia Komisji Weneckiej.
+## Jak się dołączyć
 
-**Jak pracujemy**
-- [Jak sprawdzamy informacje](metodologia.md)
-- [Cały zakres i dalsze prace](plan.md)
-- [Historia prac](historia-prac.md): kto co zrobił, jakie błędy znaleźli recenzenci i co poprawiliśmy.
-- [Jak możesz pomóc](wspolpraca.md)
-- Źródła: [tekst Konstytucji](zrodla/konstytucja.md) i kopie innych dokumentów w katalogu `zrodla`, każda z adresem oryginału.
-
-Projekt prowadzi **Gęba w Kubeł (GWK)** z pomocą AI. Zgodność odpowiedzi wielu modeli nie jest dowodem prawdziwości. Dokumenty można czytać tutaj lub otworzyć folder projektu w Obsidianie, programie do połączonych ze sobą notatek.
+- **Znalazłeś błąd albo brakujący dokument?** Zgłoś to w zakładce [Issues](https://github.com/gebawkubel/trybunal/issues) i podaj źródło.
+- **Chcesz sprawdzić coś swoim modelem AI?** Wybierz pytanie z Issues i prześlij wynik. Instrukcja: [jak możesz pomóc](wspolpraca.md).
+- **Szczegóły techniczne** (układ plików, kontrole, czytanie w Obsidianie): [informacje techniczne](techniczne.md).
