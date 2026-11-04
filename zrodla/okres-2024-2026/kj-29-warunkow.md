@@ -18,7 +18,7 @@
 
 **Dawne wyroki (pkt 18-21).** "jasną i przejrzystą procedurę wzruszania wszelkich dotychczasowych orzeczeń" i ich ponownego rozpatrzenia większością 2/3 (pkt 18). Decyzje TK od marca 2024 roku "zostały zawieszone w obiegu prawnym do momentu ukonstytuowania się nowego składu" (pkt 19), z możliwością wzruszenia (pkt 20).
 
-**Blokada wyboru (pkt 22-24).** Dwie alternatywy od nowej kadencji: sankcje finansowe dla posłów i partii (zawieszenie diet po 30 dniach, uposażeń po 60, środków na biura po 90, subwencji po 180) (pkt 23) albo losowanie spośród kandydatów zgłoszonych przez określoną liczbę posłów (pkt 24).
+**Blokada wyboru (pkt 22-24).** "Od nowej kadencji" (pkt 22) dwie alternatywy: sankcje finansowe dla posłów i partii (zawieszenie diet po 30 dniach, uposażeń po 60, środków na biura po 90, subwencji po 180) (pkt 23) albo losowanie spośród kandydatów zgłoszonych przez określoną liczbę posłów (pkt 24).
 
 **Ślubowanie (pkt 25).** "w razie braku inicjatywy Prezydenta RP po 60 dniach dopuszczalne było ślubowanie wobec Prezydenta RP drogą pisemną poświadczoną notarialnie".
 
@@ -30,4 +30,4 @@
 
 **Zastrzeżenie (pkt 29).** Rozwiązania "mają charakter kierunkowy"; listę można rozszerzyć, np. o karencję dla polityków.
 
-To wyciąg, nie pełna kopia. Cytaty dosłowne oznaczono cudzysłowem. Daty ujednolicono.
+To wyciąg, nie pełna kopia. Cytaty dosłowne oznaczono cudzysłowem. Cudzysłowy i daty ujednolicono.

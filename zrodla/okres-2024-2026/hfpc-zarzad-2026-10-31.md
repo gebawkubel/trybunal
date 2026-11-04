@@ -14,4 +14,4 @@
 - Akapit 8 (propozycja): "Zdaniem HFPC, jedynym sposobem na rozwiązanie kryzysu w Trybunale Konstytucyjnym jest realizacja tzw. "resetu konstytucyjnego", zaproponowanego niedawno przez Fundację im. Stefana Batorego. Scenariusz taki powinien zakładać m.in. zmianę zasad wyboru sędziów TK, tak aby zapobiegać przejęciu i upolitycznieniu tej instytucji przez jedno ugrupowanie, a następnie wygaszenie kadencji wszystkich sędziów i dokonanie obsady wakatów na nowych zasadach."
 - Stanowisko nie mówi o ślubowaniu nowego składu, kierownictwie TK ani dawnych wyrokach. Na stronie nie znaleźliśmy odrębnego stanowiska Rady HFPC.
 
-To wyciąg, nie pełna kopia. Cytaty dosłowne oznaczono cudzysłowem. Daty ujednolicono.
+To wyciąg, nie pełna kopia. Cytaty dosłowne oznaczono cudzysłowem. Cudzysłowy i daty ujednolicono.
