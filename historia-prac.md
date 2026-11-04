@@ -447,3 +447,12 @@ aab0d984a6b63ddefeb3ba36e0acfc4a1e92531ccb4c7b451a5adecef87ef6ec  przebieg-8/zap
 44e34174fce698dcd3df5339e9669ae22e1a9dbb3dd580c81105f062efdbacf1  przebieg-9/zapis.md (oryginał; w repo 2e1b0cbe66e508e42adaa82982b7d068d9a04a48003ae9873fcd81613c656d27)
 2ca46d58e7683eaae9507232b9a36dee9e5b51e7cf55db50ddbf92ebea74b4c1  przebieg-10/zapis.md (oryginał; w repo 2ca46d58e7683eaae9507232b9a36dee9e5b51e7cf55db50ddbf92ebea74b4c1)
 ```
+
+## Bilans propozycji: scenariusze spoza debaty (issue #57)
+
+Na prośbę prowadzącego, zapisaną dosłownie w issue #57, koordynator zlecił dopisanie do bilansu scenariuszy, które rozwiązują spór, a pojawiły się poza debatą (symulacja #46, rekomendacje modeli #38, scenariusze z analiz AI). Wykonawca: GPT-6.1 Sol, ten sam model co pierwotny bilans (wysoki wysiłek, Codex CLI w piaskownicy tylko do odczytu, bez internetu), na repozytorium 0ed9a42. Polecenie: treść issue i wiadomość techniczna, [polecenie-bilansu-57.md](badania/rekomendacje/polecenie-bilansu-57.md). Model zwrócił pełną nową treść pliku; w repozytorium dodaliśmy tylko końcowy znak nowej linii. Dodał propozycje 15 (reset z zachowaniem sędziów z 2026 roku, z symulacji) i 16 (wąska zmiana Konstytucji bez resetu i kompromis z Prezydentem, z rekomendacji modeli) oraz sekcję o doborze; oceny propozycji 1-14 bez zmian, zmienione nagłówek i wnioski 1, 3 i 4.
+
+```
+7239b7b83e2fd0a6af1db472c43d509a25a4f7aaea279b717b8a176a6a5b0789  polecenie-bilansu-57.md (badania/rekomendacje/polecenie-bilansu-57.md)
+e5604e87cce9be98b9fce7f842aa55df27ee86e8a9b63d061cacf11caa7bee14  bilans.md (pierwsza wersja modelu, bez końcowego znaku nowej linii)
+```
