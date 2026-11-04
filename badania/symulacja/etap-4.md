@@ -4,6 +4,8 @@
 
 # Etap 4: mniejszy stół, porozumienie bez zgody wszystkich, dłuższy limit wypowiedzi
 
+**W skrócie:** przy stole zostaje 6 osób, bez których porozumienia nie da się uchwalić ani wykonać; postacie wiedzą, że nie wszyscy muszą się zgodzić; wypowiedzi mogą być nieco dłuższe, a głosy krótsze; jeden przebieg kosztuje około 9-15 USD, więc w budżecie mieści się 5-9 przebiegów.
+
 Prowadzący napisał po przebiegu 1: "nie wiem czy aż tylu trzeba zapraszać", "czy wszyscy muszą się zgodzić? absolutnie nie" oraz "popraw długość, ale nie przesadzaj z nią". Ten dokument odpowiada na trzy punkty z issue: kto siedzi przy stole, jak zapisać, że zgoda wszystkich nie jest potrzebna, i jak zmienić limit długości. Na końcu jest nowy plan przebiegów z kosztem.
 
 Oznaczenia jak w etapie 1: liczby głosów z `badania/sily-i-glosy.md` (stan 2026.11.04), fakt ma w nawiasie plik, "ocena wykonawcy" to mój wniosek. Numery w nawiasach z literą "z" (np. z81) to numery wypowiedzi w [zapisie przebiegu 1](przebieg-1/zapis.md).
@@ -18,7 +20,7 @@ Osoba siedzi przy stole, gdy bez niej pakiet na ścieżce, która ma szansę, ni
 
 - **C, zmiana Konstytucji, i D, porozumienie bez ustawy:** tak. To wynik przebiegu 1 (z81). Za resetem w jakiejś formie są PSL, Polska 2050, Rozwój Plus, Konfederacja, Razem i Prezydent "po wyborach 2027"; Bosak 2026.11.04 łączy kroki bez ustawy z późniejszym resetem (`badania/scenariusze-naprawy.md`, `badania/propozycje-na-stole.md`, `badania/bosak-2026-11-04.md`).
 - **A, zwykła ustawa z podpisem Prezydenta:** tak, jako część pakietu (ustawa towarzysząca w z81) albo samodzielnie, jeśli Prezydent zgodzi się podpisać.
-- **B, ustawa po wecie bez PiS:** nie. Wymaga, żeby Rozwój Plus głosował z koalicją (279 wobec 276). Według pakietu Rozwój Plus ma własny projekt zmiany Konstytucji i proponuje konstruktywne wotum nieufności wobec premiera (`zrodla/okres-2024-2026/rozwoj-plus-trybunal-2026.md`, `badania/scenariusze-naprawy.md`); pakiet nie zawiera żadnej zapowiedzi poparcia ustawy koalicji. Po odrzuceniu weta 50 posłów PiS może zaskarżyć ustawę do TK, a TK w Kp 3/24 uznał, że wygaszanie kadencji ustawą "wymagałoby zmiany Konstytucji" (`badania/warunki-rozwiazan.md`). Taka ustawa nie kończy sporu, tylko go przenosi do TK.
+- **B, ustawa po wecie bez PiS:** nie. Wymaga, żeby Rozwój Plus głosował z koalicją (279 wobec 276). Według pakietu Rozwój Plus ma własny projekt zmiany Konstytucji i proponuje konstruktywne wotum nieufności wobec premiera (`zrodla/okres-2024-2026/rozwoj-plus-trybunal-2026.md`, `badania/scenariusze-naprawy.md`); pakiet nie zawiera żadnej zapowiedzi poparcia ustawy koalicji. Po odrzuceniu weta 50 posłów PiS może zaskarżyć ustawę do TK. W Kp 3/24 TK napisał o przepisach ustawy z 2024 roku, które unieważniały wstecz orzeczenia TK i mogły usuwać sędziów w trakcie kadencji: "Ingerencja ustawodawcy zwykłego jest na tyle rozległa, że dla swojej ważności wymagałaby zmiany Konstytucji." (`zrodla/okres-2024-2026/kp-3-24.md`, cz. III pkt 8.1). Taka ustawa nie kończy sporu, tylko go przenosi do TK.
 - **E, obecna praktyka:** nie jest porozumieniem (arbiter.md, część 5).
 - **F, wotum nieufności albo skrócenie kadencji:** zmienia rząd, a nie rozwiązuje sporu o TK; arbiter nie uznaje go za porozumienie, jeśli pakiet nie mówi, co z TK (arbiter.md, część 5).
 - **G, rozjemca, i H, czekanie:** nie wymagają nikogo dodatkowego przy stole; to alternatywy, które każda karta opisuje jako "co zyskujesz bez porozumienia".
@@ -33,7 +35,7 @@ Przy pełnej sali (wyliczenia własne):
 
 Wniosek: w każdej ścieżce z szansą, która wymaga głosowania nad zmianą Konstytucji, potrzebni są Tusk i Kaczyński, a pozostałe kluby nie zmieniają wyniku. W przebiegu 1 pakiet miał 443 głosy przy progu 307 (z81), a bez Rozwoju Plus, PSL, Polski 2050, Konfederacji i Lewicy miałby 318.
 
-### Kto zostaje, kto odchodzi
+### Kto zostaje, kto odchodzi (ocena wykonawcy)
 
 | Osoba | Decyzja | Uzasadnienie |
 |---|---|---|
@@ -56,7 +58,7 @@ Ocena wykonawcy, koszt tej decyzji. W przebiegu 1 główny pakiet złożył i uz
 
 1. Kluby koalicji bez przedstawiciela przy stole, czyli PSL-Trzecia Droga (32), Polska 2050 (15) i Centrum (15), liczą się tak, jak zadeklaruje Tusk. Podstawa: we wszystkich czterech głosowaniach o TK w 2026 roku (G1-G4) wszystkie pięć klubów koalicji głosowało tak samo (`zrodla/glosowania-tk-2015-2026.md`; dla Centrum ta reguła była już w W1). To założenie, nie fakt: PSL i Polska 2050 są za resetem, a KO przeciw. Arbiter podaje w wyniku, ile głosów pochodzi z tej reguły i jaka jest suma bez niej.
 2. Lewica liczy się według Czarzastego, a w Senacie Trzecia Droga według Tuska, Lewica według Czarzastego.
-3. Kluby opozycji bez przedstawiciela (Rozwój Plus, Konfederacja, Razem, Korona, Demokracja Bezpośrednia, niezrzeszeni, razem 74) są niedostępne, jak kluby nieobecne w W1.
+3. Kluby spoza koalicji bez przedstawiciela (Rozwój Plus, Konfederacja, Razem, Korona, Demokracja Bezpośrednia, niezrzeszeni, razem 74) są niedostępne, jak kluby nieobecne w W1.
 
 Skutek przy stole:
 - najwięcej 386 głosów;
@@ -97,8 +99,8 @@ Zdanie nie mówi, czyje głosy są potrzebne. Rachunek robi arbiter (arbiter.md,
 
 Dane z przebiegu 1 (`przebieg-1/zapis.jsonl`, pole `tokeny_tekstu`, czyli tokeny samego tekstu wypowiedzi):
 - polski tekst wypowiedzi to średnio 3,6 tokena na słowo;
-- w otwarciu i dyskusji (53 wypowiedzi) było średnio 252 słowa; 52 wypowiedzi miały 770-995 tokenów, ucięta została 1 (Hołownia, 1614 tokenów, z31);
-- w głosowaniach (20 wypowiedzi) było średnio 299 słów, 948-1248 tokenów; uciętych zostało 9.
+- w otwarciu i dyskusji (53 wypowiedzi) było średnio 252 słowa w pełnym tekście modelu (pole `tekst_modelu`, gdy wypowiedź ucięto), 249 po ucięciu; 52 wypowiedzi miały 770-995 tokenów, ucięta została 1 (Hołownia, 1614 tokenów, z31);
+- w głosowaniach (20 wypowiedzi) było średnio 299 słów w pełnym tekście (285 po ucięciu), 948-1248 tokenów; uciętych zostało 9.
 
 Wniosek: limit 250 słów w dyskusji działa. Głosy są dłuższe, bo postacie powtarzają w nich treść pakietu i warunki.
 
@@ -117,7 +119,7 @@ Wpływ na koszt:
 ### Szacunek kosztu przebiegu W5
 
 Metoda:
-1. Pomiar `count_tokens` dla nowych tekstów ([tokeny.json](../../narzedzia/symulacja/tokeny.json)). System postaci z wariantem (b) ma 120 866 tokenów, system arbitra 183 237.
+1. Pomiar `count_tokens` dla nowych tekstów ([tokeny.json](../../narzedzia/symulacja/tokeny.json)). System postaci z wariantem (b) ma 120 866 tokenów, system arbitra 183 348.
 2. Atrapa skryptu z założeniami z przebiegu 1: wypowiedź 200 słów (przy przeliczniku atrapy 4,4 to około 880 tokenów, jak w przebiegu 1), rozumowanie postaci 600 tokenów, arbitra 1200.
 3. Korekta. Ta sama atrapa na skryptcie z przebiegu 1 (skład W1, głosowanie po 3. rundzie, głos poza kolejnością w każdej rundzie, czyli przebieg 1 w skrócie) daje 12,81 USD. Zmierzony koszt to 14,50 USD, więc mnożę wyniki atrapy przez 1,13.
 
@@ -129,7 +131,7 @@ Metoda:
 | jak wyżej, wypowiedzi 250 słów, rozumowanie 1500 / 3000 | 94 / 80 | 16,42 USD | około 18,5 USD |
 | wszyscy "Pas" w 1. rundzie | 15 / 12 | 3,97 USD | około 4,5 USD |
 
-Dla porównania, W1 w scenariuszu jak przebieg 1 kosztował 14,50 USD, a W5 około 9,2 USD, czyli o około 37% mniej. Koszt nie spada proporcjonalnie do liczby postaci, bo pakiet (około 121 tys. tokenów) każda postać i arbiter zapisują do bufora raz, a arbiter kosztuje podobnie jak w W1. Atrapa sprawdziła też limit kosztu: 120 przebiegów (limity 3-20 USD, scenariusze typowy i maks, z najdroższym ogłoszeniem arbitra i bez niego) nie przekroczyło limitu.
+Dla porównania, W1 w scenariuszu jak przebieg 1 kosztował 14,50 USD, a W5 około 9,2 USD, czyli o około 37% mniej. Koszt nie spada proporcjonalnie do liczby postaci, bo pakiet (około 121 tys. tokenów) każda postać i arbiter zapisują do bufora raz, a arbiter kosztuje podobnie jak w W1. Atrapa sprawdziła też limit kosztu: 120 przebiegów (limity 3-20 USD, scenariusze typowy i maks, z najdroższym ogłoszeniem arbitra i bez niego) nie przekroczyło limitu (najmniejszy zapas 0,18 USD); recenzent PR #55 w 144 przebiegach też nie znalazł przekroczenia (najmniejszy zapas 0,076 USD).
 
 ### Plan
 
@@ -170,13 +172,27 @@ Pełny plan "3 warianty po 3 przebiegi" w W5 (przebiegi 2-10) zmieści się, je�
 
 Karty postaci W5 i pakiet wiedzy są bez zmian. Karty nie opisują składu stołu ani reguł arbitra, tylko fakty o osobach, więc usunięcie czterech postaci ich nie zmienia. Karty Morawieckiego, Kosiniaka-Kamysza, Hołowni i Bosaka zostają w repozytorium jako materiał przebiegu 1; skrypt ich nie wysyła.
 
-Sumy SHA-256 tekstów pod linią: `arbiter.md` `6ab2635d59e6b514c2411c925f2ab9f809332f0ae58eb08d1dd9d50b2fb53fae` (wersja z przebiegu 1: `08445af7c3cc107dd34075acf02e233f48116115a8a8b091934531a987adc255`), `warianty-motywacji.md` `7d4f7442a257c1aec524fb0ec6817bd222a1272732d56fc127f9db29e419b70d` (wersja z przebiegu 1: `4497509268a10557c9a7363b504fb21861234b7d11b647ab9f17f7b5c8b3072b`). Sumy gotowych tekstów wysyłanych do modelu są w [sumy.json](../../narzedzia/symulacja/sumy.json).
+Sumy SHA-256 tekstów pod linią: `arbiter.md` `95a07faed03239982c6f6e14667928fe7b7c7470823de2af7afd56323a81f728` (wersja z przebiegu 1: `08445af7c3cc107dd34075acf02e233f48116115a8a8b091934531a987adc255`), `warianty-motywacji.md` `7d4f7442a257c1aec524fb0ec6817bd222a1272732d56fc127f9db29e419b70d` (wersja z przebiegu 1: `4497509268a10557c9a7363b504fb21861234b7d11b647ab9f17f7b5c8b3072b`). Sumy gotowych tekstów wysyłanych do modelu są w [sumy.json](../../narzedzia/symulacja/sumy.json).
 
 ## 6. Ograniczenia
 
 - Korekta 1,13 pochodzi z jednego przebiegu. Rozrzut między przebiegami nie jest znany.
 - Atrapa nie wie, czy mniejszy stół skróci rozmowę. Szacunek podaje więc zakres scenariuszy, a nie jedną liczbę.
 - Wybór ścieżek "z szansą" to ocena wykonawcy na podstawie pakietu, nie fakt. Jeśli recenzja uzna ścieżkę B za realną, do stołu wraca Morawiecki.
+
+## Zmiany po recenzji PR #55 (runda 1)
+
+| Punkt | Co zmieniłem |
+|---|---|
+| B1, cytat z Kp 3/24 | w części 1 (ścieżka B) dosłowny cytat z `zrodla/okres-2024-2026/kp-3-24.md`, cz. III pkt 8.1, z zakresem: przepisy ustawy z 2024 roku unieważniające wstecz orzeczenia TK i mogące usuwać sędziów w trakcie kadencji. W `badania/warunki-rozwiazan.md` jest ten sam fragment, ale w skrócie |
+| Uwaga 1, ten sam cytat w `arbiter.md` (droga A) | poprawiony tak samo; arbiter ma kartę Kp 3/24 w kartach źródeł. Nowa suma tekstu pod linią `arbiter.md` w części 5; `sumy.json` z trybu `zbuduj`, `tokeny.json` z ponownego `policz` (arbiter 8 015 tokenów). Liczby atrapy po zaokrągleniu się nie zmieniły |
+| Uwaga 2, zapas w limicie kosztu | dopisany wynik recenzenta (0,076 USD w 144 przebiegach) obok mojego (0,18 USD w 120) |
+| Uwaga 3, średnie słów | różnica wynika z metody: liczyłem pełny tekst modelu przed ucięciem, recenzent tekst po ucięciu; podaję obie liczby |
+| Uwaga 4, ocena w tabeli składu | nagłówek "Kto zostaje, kto odchodzi (ocena wykonawcy)" |
+| Uwaga 5, "kluby opozycji" | "kluby spoza koalicji" w `arbiter.md` (pkt 4.4) i w części 1 |
+| Uwaga 6, korekta z jednego przebiegu | bez zmian; ograniczenie jest już w części 6 |
+| Uwaga 7, `policz` | powtórzony po zmianie `arbiter.md` |
+| Uwaga 8, wniosek dla laika | zdanie "W skrócie" na początku |
 
 ## Zapis pracy
 

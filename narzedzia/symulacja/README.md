@@ -91,11 +91,11 @@ Pomiar 2026.11.04 endpointem `count_tokens` dla `claude-opus-5-5` ([tokeny.json]
 | pakiet minimalny | 65 311 |
 | instrukcja wariantu (a), (b), (c) | 1 914-1 943 |
 | karty postaci W5 (z nagłówkiem) | 3 963 (Czarzasty) - 8 011 (Nawrocki) |
-| instrukcja arbitra | 7 904 |
+| instrukcja arbitra | 8 015 |
 | karty źródeł dla arbitra | 56 410 |
 | stały schemat odpowiedzi arbitra | 588 |
 | system postaci, wariant (b), pakiet podstawowy | 120 866 |
-| system arbitra z kartami źródeł | 183 237 |
+| system arbitra z kartami źródeł | 183 348 |
 | pełne pierwsze zapytanie Nawrockiego | 129 039 |
 
 Atrapa (wariant b, skład W5, układ etap2) przeszła scenariusze:
@@ -104,7 +104,7 @@ Atrapa (wariant b, skład W5, układ etap2) przeszła scenariusze:
 - "maks": 8 rund, głos poza kolejnością w każdej, dodatkowa runda; 94 wywołania, 80 wypowiedzi postaci, czyli limit. Sprawdza też ucięcie zbyt długiej wypowiedzi (Czarzasty, 3. runda), odmowę modelu liczoną jako "Pas" (Kaczyński, 2. runda) i ponowienie odpowiedzi arbitra z niedozwoloną decyzją;
 - "pas": wszyscy "Pas" w 1. rundzie, arbiter może tylko zakończyć.
 
-Kolejność w każdej rundzie zgadza się z kolejnością otwarcia, także z `--przesuniecie 1`. Limit kosztu sprawdziłem w 120 przebiegach atrapy (limity 3-20 USD, scenariusze typowy i maks, wypowiedzi po 250 słów, rozumowanie 1 500 / 3 000 albo 4 000 / 8 000 tokenów, z najdroższym ogłoszeniem arbitra i bez niego): żaden nie przekroczył limitu, najmniejszy zapas to 0,18 USD.
+Kolejność w każdej rundzie zgadza się z kolejnością otwarcia, także z `--przesuniecie 1`. Limit kosztu sprawdziłem w 120 przebiegach atrapy (limity 3-20 USD, scenariusze typowy i maks, wypowiedzi po 250 słów, rozumowanie 1 500 / 3 000 albo 4 000 / 8 000 tokenów, z najdroższym ogłoszeniem arbitra i bez niego): żaden nie przekroczył limitu, najmniejszy zapas to 0,18 USD. Recenzent PR #55 w szerszej siatce (144 przebiegi) nie znalazł przekroczenia; jego najmniejszy zapas to 0,076 USD.
 
 ## Szacunek kosztu przebiegu (etap 4)
 

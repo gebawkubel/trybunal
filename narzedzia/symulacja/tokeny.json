@@ -59,9 +59,9 @@
    "sha256": "e1168077146eecf0d99b042740d70422a92b3fa6bd5c5f1ebf1984d20efb9341"
   },
   "arbiter": {
-   "tokeny": 7904,
-   "slowa": 2307,
-   "sha256": "6ab2635d59e6b514c2411c925f2ab9f809332f0ae58eb08d1dd9d50b2fb53fae"
+   "tokeny": 8015,
+   "slowa": 2335,
+   "sha256": "95a07faed03239982c6f6e14667928fe7b7c7470823de2af7afd56323a81f728"
   },
   "karty_zrodel": {
    "tokeny": 56410,
@@ -74,14 +74,14 @@
    "sha256": "e1f264a7f33df1ad53ef353969fdd7d7e3f3f0925145ab016abe336cf966563a"
   },
   "system_arbitra_podstawowy": {
-   "tokeny": 183237,
-   "slowa": 43406,
-   "sha256": "270badd7c7fec1e3010b4069d24824255404bc9564ac3b0ca0f2fa6fe520021a"
+   "tokeny": 183348,
+   "slowa": 43434,
+   "sha256": "bd601c39916093fd65b21bdca8041d8d4ad3648747b4d272ed3b63af18cd7aaa"
   },
   "system_arbitra_podstawowy_bez_zrodel": {
-   "tokeny": 126827,
-   "slowa": 29740,
-   "sha256": "c55dbbe9f8f19ee9fd737d6474fe2561f752321a197c60ff5eb06f080df38937"
+   "tokeny": 126938,
+   "slowa": 29768,
+   "sha256": "50031cdf6e05d93de612edad4b3981fbda9a45b2652aab84267f86fb8ad113b3"
   },
   "system_postaci_b_minimalny": {
    "tokeny": 67254,
@@ -89,14 +89,14 @@
    "sha256": "a813cd3031d25712c339ec108276445be0c68a87a09032b9b0666da95bd2c5de"
   },
   "system_arbitra_minimalny": {
-   "tokeny": 129625,
-   "slowa": 30220,
-   "sha256": "e8afdf4c5a422e5ec13a65cc04f598cc97b259cdab700e32931da677c8b8aee0"
+   "tokeny": 129736,
+   "slowa": 30248,
+   "sha256": "6a4970c5b97cd4193df61cc4c9af8729fef5eb847e0c7b26927db315bfaf6ec3"
   },
   "system_arbitra_minimalny_bez_zrodel": {
-   "tokeny": 73215,
-   "slowa": 16554,
-   "sha256": "30441825986e8062e6ffddc69609fce35d5763b1481e1fc2a3f52c40678d8214"
+   "tokeny": 73326,
+   "slowa": 16582,
+   "sha256": "ee18efcb0a63a39155f7ac5e6734cb78727bf421f5ea62cd2cc130aaa87ff5d6"
   },
   "schemat_arbitra": {
    "tokeny": 588,
