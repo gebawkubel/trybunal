@@ -1,4 +1,4 @@
-> Etap 2 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46), wersja 2 po jawnej recenzji. Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 70b735a (gałąź symulacja-baza-etap-2), według [treści issue](polecenie-issue.md) i [wiadomości technicznej](wiadomosc.md); poprawki według [raportu recenzji](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6629816916) i [wiadomości o poprawce](wiadomosc-poprawka.md). Wersja 1: [commit bd2643c](https://github.com/gebawkubel/trybunal/tree/bd2643ca06f88f370280b4e3bb57a4fa4dedde9e/badania/symulacja/etap-2). Zakazy (internet, zmiany, inne katalogi) były w wiadomościach, nie wymuszone technicznie. To robocze materiały symulacji: oceny i wnioski autora etapu, nie ustalenia projektu; postacie są symulowane przez AI. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `0a04afdc95984be0820f26909daef60ffa1db88305e560362bc3c457ff47588c`.
+> Etap 2 [symulacji negocjacji (issue #46)](https://github.com/gebawkubel/trybunal/issues/46), wersja 3 po dwóch rundach jawnej recenzji. Napisał Claude Fable 5.1 (wysoki wysiłek rozumowania, agent Claude Code) na repozytorium w wersji 70b735a (gałąź symulacja-baza-etap-2), według [treści issue](polecenie-issue.md) i [wiadomości technicznej](wiadomosc.md); poprawki według raportów recenzji ([runda 1](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6629816916), [runda 2](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6630020845)) i wiadomości o poprawkach ([1](wiadomosc-poprawka.md), [2](wiadomosc-poprawka-2.md)). Poprzednie wersje: [1](https://github.com/gebawkubel/trybunal/tree/bd2643ca06f88f370280b4e3bb57a4fa4dedde9e/badania/symulacja/etap-2), [2](https://github.com/gebawkubel/trybunal/tree/62f5e272ab4a9224af1e6bd540e77fcbdc01124a/badania/symulacja/etap-2). Zakazy (internet, zmiany, inne katalogi) były w wiadomościach, nie wymuszone technicznie. To robocze materiały symulacji: oceny i wnioski autora etapu, nie ustalenia projektu; postacie są symulowane przez AI. Tekst pod linią jest identyczny z oryginałem. SHA-256 oryginału: `b88a79a67ddef5d6e01807a07582d6494170e5d658145ae6c1039289fc5ef833`.
 
 ---
 
@@ -48,9 +48,9 @@ Wypowiedziane publicznie:
 
 Wniosek wykonawcy, z faktów:
 
-- Twoje dwa stanowiska o ślubowaniu różnią się: w 2026.10.31 ślubowanie wobec Marszałka "żeby uniknąć obstrukcji prezydenta", w 2026.11.04 ślubowanie przed Prezydentem, który "weryfikuje" kandydatów. Obie wersje są w repozytorium; karta nie rozstrzyga, która jest aktualna. Wyprowadzam z porównania w `badania/bosak-2026-11-04.md`.
+- Twoje dwa stanowiska o ślubowaniu różnią się: w 2026.10.31 ślubowanie wobec Marszałka "żeby uniknąć ewentualnej obstrukcji ze strony prezydenta", w 2026.11.04 ślubowanie przed Prezydentem, który "weryfikuje" kandydatów. Obie wersje są w repozytorium; karta nie rozstrzyga, która jest aktualna. Wyprowadzam z porównania w `badania/bosak-2026-11-04.md`.
 - Konfederacja ma interes w wyborach przed 2027 rokiem (zapowiedź skrócenia kadencji, wotum "za prawie każdym"), ale sama nie ma do tego ani 46 podpisów, ani 231, ani 307. Wyprowadzam z arytmetyki.
-- Karencja dla polityków (Rozwój Plus, Batory, Bogucki, Dudek) jest sprzeczna z Twoim "TK jest ciałem politycznym". Wyprowadzam z `badania/propozycje-na-stole.md` i wywiadu z 2026.11.04.
+- Karencja dla polityków (Rozwój Plus, Batory, Bogucki, Dudek) jest sprzeczna z Twoim zdaniem, że TK "jest ciałem politycznym". Wyprowadzam z `badania/propozycje-na-stole.md` i wywiadu z 2026.11.04.
 
 ## 5. Co zyskujesz, jeśli porozumienia nie będzie
 
@@ -65,4 +65,4 @@ Wniosek wykonawcy, z faktów:
 
 ## 7. Czego repozytorium o Tobie nie wie
 
-Czym jest "konkretny pomysł" z 2026.11.03; treści wpisów Mentzena na X; czy Konfederacja uznaje Prezesa Święczkowskiego bezwarunkowo (Twoje "nie wykluczamy, że złamał prawo"); jak głosowałeś przy wyborze Święczkowskiego w 2022 roku; relacji z PiS i z Prezydentem; czy projekt uchwały o skróceniu kadencji powstał; kandydata na premiera w wotum nieufności.
+Czym jest "konkretny pomysł" z 2026.11.03; treści wpisów Mentzena na X; czy Konfederacja uznaje Prezesa Święczkowskiego bezwarunkowo (Twoje "My nie wykluczamy, że (...) obecny prezes Trybunału Konstytucyjnego w jednej czy innej kwestii złamał prawo"); jak głosowałeś przy wyborze Święczkowskiego w 2022 roku; relacji z PiS i z Prezydentem; czy projekt uchwały o skróceniu kadencji powstał; kandydata na premiera w wotum nieufności.

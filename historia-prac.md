@@ -368,3 +368,23 @@ a91afbf898b554477a349f65671eea1477047fde430bb0959ea2fd061f8584a3  pakiet-wiedzy.
 4497509268a10557c9a7363b504fb21861234b7d11b647ab9f17f7b5c8b3072b  warianty-motywacji.md (oryginał v2; badania/symulacja/etap-2/warianty-motywacji.md)
 00f9977e766183a0acd087d7226bacf8d10703ee19b6d1eb5cbe6f4eec18a6bf  wiadomosc-poprawka.md (oryginał v2; badania/symulacja/etap-2/wiadomosc-poprawka.md)
 ```
+
+W drugiej rundzie recenzent potwierdził usunięcie B1-B5 i zatrzymał jedno zdanie w instrukcji arbitra (przy stole wotum nieufności daje też Lewica z Polską 2050, 240 głosów, a tekst mówił "tylko PSL albo KO"). [Raport](https://github.com/gebawkubel/trybunal/issues/46#issuecomment-6630020845) jest w issue #46; poprawki zrobił autor etapu (wersja 3, 9 zmienionych plików). Wersja 2: [commit 62f5e27](https://github.com/gebawkubel/trybunal/tree/62f5e272ab4a9224af1e6bd540e77fcbdc01124a/badania/symulacja/etap-2).
+
+```
+08445af7c3cc107dd34075acf02e233f48116115a8a8b091934531a987adc255  arbiter.md (oryginał v3; badania/symulacja/etap-2/arbiter.md)
+b88a79a67ddef5d6e01807a07582d6494170e5d658145ae6c1039289fc5ef833  karta-bosak.md (oryginał v3; badania/symulacja/etap-2/karta-bosak.md)
+0ab7cd78aa1aee04e5314f906fb2cc3a4da342271dfee4a956b6530de8bcfa93  karta-czarzasty.md (oryginał v3; badania/symulacja/etap-2/karta-czarzasty.md)
+624d0b5b7e85342f1fb210428320a8ab618083968d52958fbb185fb6fc32dd34  karta-holownia.md (oryginał v3; badania/symulacja/etap-2/karta-holownia.md)
+e3892bdeeb151d281361757f6c3fd975153a2e68dbd22b2b13e3427df509c9c1  karta-kaczynski.md (oryginał v3; badania/symulacja/etap-2/karta-kaczynski.md)
+9f767bb440c64e50e4942861476be387d2f202fc9e2d32bd70283289907543ed  karta-korwin-piotrowska.md (oryginał v3; badania/symulacja/etap-2/karta-korwin-piotrowska.md)
+2c9d89ed90cac62dba42315cddd92f5a7b878c70eb2a76ea8039f9bff5ec33b2  karta-kosiniak-kamysz.md (oryginał v3; badania/symulacja/etap-2/karta-kosiniak-kamysz.md)
+a76bbf0bb54d0d475042ae756c8b3de6727343a8dad1a0fb9876a521ff542620  karta-morawiecki.md (oryginał v3; badania/symulacja/etap-2/karta-morawiecki.md)
+9049d7dece1d7e1029b044310d8dac387d9c15f6336802cb6eb276ba391c70a0  karta-nawrocki.md (oryginał v3; badania/symulacja/etap-2/karta-nawrocki.md)
+72c42e3af8b54e1effb16fa105619990f8cbd194bd80675a2c67796b83973a0d  karta-swieczkowski.md (oryginał v3; badania/symulacja/etap-2/karta-swieczkowski.md)
+147195d1c1231f28a9f530da8dcf68bf79e324d336e6bae2685d9405a43a4963  karta-tusk.md (oryginał v3; badania/symulacja/etap-2/karta-tusk.md)
+0af52792be8bee8f1fd8c9d8721680c6803d1bca2db0f5ec1d55dfdbb79e49de  luki.md (oryginał v3; badania/symulacja/etap-2/luki.md)
+e6e97359336e53510d9a52990bc6da147027281c0fc0389d12fad7fd3cee4457  pakiet-wiedzy.md (oryginał v3; badania/symulacja/etap-2/pakiet-wiedzy.md)
+4497509268a10557c9a7363b504fb21861234b7d11b647ab9f17f7b5c8b3072b  warianty-motywacji.md (oryginał v3; badania/symulacja/etap-2/warianty-motywacji.md)
+43f459c0a01b73d1eba2e4121ac06d6cb030e2bedb2f4abd861a9ea3d3e86b2a  wiadomosc-poprawka-2.md (oryginał v3; badania/symulacja/etap-2/wiadomosc-poprawka-2.md)
+```
