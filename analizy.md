@@ -13,6 +13,7 @@ Wszystkie notatki badawcze projektu. Punktem wyjścia jest [historia sporu](hist
 - [Lata 2020-2023](badania/okres-2020-2023.md) i [uzupełnienie o składy i statystyki](badania/okres-2020-2023-uzupelnienie.md).
 - [Spór o koniec kadencji prezes TK (2022-2024)](badania/kadencja-prezes-2022-2023.md).
 - [Od 2024 roku do dziś](badania/okres-2024-2026.md).
+- [Posiedzenie komisji sejmowej o TK z 2026.04.28](badania/komisja-2026-04-28.md): co mówili szef Kancelarii Prezydenta, minister sprawiedliwości, sędziowie i posłowie, i co z tego potwierdza nasza baza.
 - [Czy Zgromadzenie Ogólne TK z 2026.11.03 było ważne](badania/zgromadzenie-2026-11-03.md).
 
 ## Skutki i odpowiedzialność
