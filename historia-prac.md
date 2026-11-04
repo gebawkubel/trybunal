@@ -436,6 +436,7 @@ Po scaleniu PR #55 i decyzji prowadzącego ("dzialaj") koordynator uruchomił 20
 ```
 29063426460ba13cd979e0de94ef54ed83dc495ec62d64fd74f20e500407647c  wyniki.md (pierwsza wersja, 901b3bf)
 ff44aa53c7ddecdbe8209fc9f25d98a912dba13e83f9cad57d093bc495e4afc9  wyniki.md (wersja 2 po recenzji)
+f88d646d8048e650b3c6e57fe7c2a04d034612abe040be6dc75bf385079a1bb6  wyniki.md (wersja 3: krótkie podsumowanie na prośbę prowadzącego i poprawki po rundzie 2 recenzji)
 c69835019c3cdf4bb8e592d6a37280c31dfa02a58db5d26298ab46c22862408f  przebieg-2/zapis.md (oryginał; w repo c69835019c3cdf4bb8e592d6a37280c31dfa02a58db5d26298ab46c22862408f)
 8b648b5d130ab609df0fbff8108cde9aaf35fd68f70e7017e66a082e81da0286  przebieg-3/zapis.md (oryginał; w repo e31558c9f917df205fd98f45777d2041713bb989032cd212cdc5f196100905d6)
 8e5ae6d521b72f477546bb976aa835b826504305b25024404d6d288249ab2e84  przebieg-4/zapis.md (oryginał; w repo 441fc7604db7792f59b852778227d9e4e918606b1bf83038012dd236d6283428)

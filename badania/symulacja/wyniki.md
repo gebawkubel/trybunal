@@ -27,7 +27,7 @@ Zestawienie napisał koordynator (Claude Opus 5.5) z zapisów przebiegów, 2026.
   - Anna Korwin-Piotrowska cofa swoje zarządzenia;
   - zaprzysiężeni zostają dopuszczeni do orzekania;
   - rząd publikuje zaległe wyroki.
-- Żaden pakiet nie usuwa sędziów wybranych w 2026 roku. Sprawa Macieja Berka zostaje otwarta albo trafia do osobnej procedury.
+- Żaden pakiet nie usuwa sędziów wybranych w 2026 roku. Sprawa Macieja Berka zwykle zostaje otwarta albo trafia do osobnej procedury.
 - Rozwiązanie na dalszy czas się różni:
   - 3 razy zmiana Konstytucji, w tym raz reset ze stanem spoczynku obecnych sędziów;
   - 4 razy zwykła ustawa z wyborem sędziów większością 3/5;
@@ -74,10 +74,10 @@ Skróty: "3/5" to większość trzech piątych głosów w Sejmie; "Kpt 1/26" to 
 3. **Między wariantami widać różnicę, ale może być przypadkowa.** Przy "czystym interesie" (c) dwa z trzech przebiegów (6, 9) skończyły się samymi krokami "na teraz", a trzeci (3) wąską ustawą bez terminu na ślubowanie i bez przepisów o dawnych wyrokach. Przy "dobru państwa" (a) dwa z trzech przebiegów (2, 8) dały zmianę Konstytucji, a trzeci (5) ustawę. W wariancie (b) na stole 6 postaci jeden przebieg (4) skończył się bez ustawy, a dwa (7, 10) z ustawą. Przy 3 przebiegach na wariant, granych przez jeden model, to może być przypadek.
 4. **Mniejszy stół jest tańszy, ale inny.** Przebiegi na 6 postaciach kosztowały 3,81-6,89 USD, a przebieg 1 na 10 postaciach 14,50 USD. W przebiegu 1 pomost dla sędziów z 2026 roku zaproponował Kosiniak-Kamysz, a stanowiska połączył Hołownia, których przy mniejszym stole nie ma. Tylko jeden przebieg na większym stole nie pozwala ocenić, czy to skład zmienia wynik.
 5. **Te same sporne sprawy wracają w każdym przebiegu, a pakiety rozstrzygają je różnie albo zostawiają otwarte:**
-   - **status Macieja Berka:** w każdym przebiegu osobna procedura (dokumenty, decyzja Prezydenta), bez przesądzenia wyniku;
+   - **status Macieja Berka:** w 2 i 8 pakiet przewiduje ślubowanie Berka po przedstawieniu dokumentów albo stanowisku Prezydenta (w 2 Berek jest też wymieniony w przepisie przejściowym zmiany Konstytucji); w pozostałych przebiegach osobna procedura (dokumenty, decyzja Prezydenta) bez przesądzenia wyniku;
    - **Kpt 1/26** (wniosek Prezydenta do TK w sporze o ślubowania z Sejmem): Prezydent deklaruje cofnięcie w 1, 2, 5, 7 (częściowe), 8, 9 i 10, w 4 tylko zawężenie stanowiska, a w 3 i 6 sprawa zostaje otwarta;
    - **dawne wyroki:** wznowienie postępowań albo ponowne badanie bez nieważności w 2, 5 i 8, wprost bez wznowień w 10, w pozostałych bez przepisu albo otwarte;
-   - **mechanizm na wypadek, gdy Sejm nie zbierze 3/5:** losowanie w 1, 2 i 8, gwarancja Marszałka do 2027.03.31 w 10, w pozostałych wynik arbitra go nie wymienia; w przebiegu 4 to ten spór zablokował ustawę.
+   - **mechanizm na wypadek, gdy Sejm nie zbierze 3/5:** losowanie w 1, 2 i 8, gwarancja Marszałka do 2027.03.31 w 10, ustawa wprost bez trybu zapasowego w 3; w 4 i 9 spór o mechanizm zostaje otwarty (w 4 zablokował ustawę); w 5, 6 i 7 wynik arbitra go nie wymienia.
 
 ## Ograniczenia
 
