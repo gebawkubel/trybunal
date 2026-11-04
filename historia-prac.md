@@ -266,3 +266,9 @@ Recenzent PR #43 (Opus, osobny kontekst) sprawdził skryptem wszystkie 196 komó
 2a14146659aaf8b8269d4dce28ab62a5bc27192556af473007ffb6621fe23013  polecenie.md (rekomendacje/polecenie-bilansu.md)
 4d4cb7d5c59b8e32090be640ee223828eeb9ef3adacca42159f2ac972b8bc914  bilans.md (pierwsza wersja modelu)
 ```
+
+Uzupełnienie po scaleniu PR #43: w kolejnym PR dodaliśmy ścieżkę karty KJ w wierszu PiS w sekcji 8 (uwaga nieblokująca recenzenta). Link z rekomendacji modeli do bilansu dodaliśmy już w PR #43, czego wpis wyżej nie wymieniał.
+
+## Odpowiedź na pytanie (issue #38)
+
+Notatkę końcową [odpowiedź na pytanie](badania/odpowiedz.md) napisał koordynator (Opus). Zbiera wnioski z [rekomendacji modeli](badania/rekomendacje-modeli.md) i [bilansu propozycji](badania/bilans-propozycji.md), bez własnej rekomendacji projektu.

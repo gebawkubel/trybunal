@@ -243,7 +243,7 @@ KJ proponuje zakończenie kadencji, stan spoczynku, wybór 3/5, procedurę ponow
 | Siła | Zysk | Strata | Bilans |
 |---|---|---|---|
 | KO | Zyskuje drogę przełamania blokady ślubowania. | Traci świeże wybory personalne. | Przeważa strata (-). |
-| PiS | Brak wyraźnej korzyści. | Traci dotychczasowy skład TK; wszystkie dawne orzeczenia stają się wzruszalne, a decyzje TK od 2024.03 zostają zawieszone (karta KJ, pkt 18-19). | Przeważa strata (-). |
+| PiS | Brak wyraźnej korzyści. | Traci dotychczasowy skład TK; wszystkie dawne orzeczenia stają się wzruszalne, a decyzje TK od 2024.03 zostają zawieszone (`zrodla/okres-2024-2026/kj-29-warunkow.md`, pkt 18-19). | Przeważa strata (-). |
 | Rozwój Plus | Uzyskuje reset i próg 3/5. | Rezygnuje z silniejszej roli Prezydenta. | Bilans mieszany (+/-). |
 | PSL | Zyskuje reset i rolę negocjatora. | Może ponosić sankcje za blokadę. | Przeważa zysk (+). |
 | Lewica | Może przełamać blokadę ślubowania. | Przyjmuje odrzucany reset. | Przeważa strata (-). |
