@@ -1,0 +1,84 @@
+{
+ "tryb": "przebieg",
+ "scenariusz_atrapy": null,
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "thinking": {
+  "type": "adaptive"
+ },
+ "max_tokens": 16000,
+ "ttl_bufora": "1h",
+ "uklad": "etap2",
+ "wariant": "a",
+ "pakiet": "podstawowy",
+ "karty_zrodel_dla_arbitra": true,
+ "kolejnosc": [
+  "tusk",
+  "kaczynski",
+  "czarzasty",
+  "swieczkowski",
+  "korwin-piotrowska",
+  "nawrocki"
+ ],
+ "przesuniecie_kolejnosci": 1,
+ "limit_usd": 18.0,
+ "limity": {
+  "rundy_dyskusji": 8,
+  "poza_kolejnoscia": 8,
+  "wypowiedzi": 80,
+  "tokeny_wypowiedzi": 1400
+ },
+ "cennik": {
+  "usd_za_mln": {
+   "wejscie": 4.0,
+   "zapis_5m": 5.0,
+   "zapis_1h": 8.0,
+   "odczyt": 0.2,
+   "wyjscie": 20.0
+  },
+  "zrodlo": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "data_w_skrypcie": "2026.11.04",
+  "sprawdzony_przez_operatora": "2026.11.04"
+ },
+ "repozytorium_head": "20270d20f2385cdb5c17bd9382c6261e4a01efe1",
+ "wersja_pakietu": "70b735a",
+ "sha256_skryptu": "7d3350b38b31dab651cf066ff23999b8c6886e501b5007257a55189892868e23",
+ "sdk_anthropic": "2.4.0",
+ "sha256_tekstow": {
+  "wariant": "d894f8a9befb0406c5b7daa4fb3f76e2df62367485fd79f3f1f486816a981b07",
+  "pakiet": "8099cba4af4dd1d781ad75878bd3b913bef2bdd4a574b2e422c6640901684f4b",
+  "arbiter": "95a07faed03239982c6f6e14667928fe7b7c7470823de2af7afd56323a81f728",
+  "system_postaci": "94a968e4404c32782cdbc9b25be80dcae3a225a1c23c366948afe8dd47175c81",
+  "system_arbitra": "bd601c39916093fd65b21bdca8041d8d4ad3648747b4d272ed3b63af18cd7aaa",
+  "karty_zrodel": "774d3d9fe9757fd73e949f7eec42f8061f87d352b4cb4cadb930316f0fd812c1",
+  "karta_nawrocki": "9049d7dece1d7e1029b044310d8dac387d9c15f6336802cb6eb276ba391c70a0",
+  "karta_tusk": "147195d1c1231f28a9f530da8dcf68bf79e324d336e6bae2685d9405a43a4963",
+  "karta_kaczynski": "e3892bdeeb151d281361757f6c3fd975153a2e68dbd22b2b13e3427df509c9c1",
+  "karta_czarzasty": "0ab7cd78aa1aee04e5314f906fb2cc3a4da342271dfee4a956b6530de8bcfa93",
+  "karta_swieczkowski": "72c42e3af8b54e1effb16fa105619990f8cbd194bd80675a2c67796b83973a0d",
+  "karta_korwin-piotrowska": "9f767bb440c64e50e4942861476be387d2f202fc9e2d32bd70283289907543ed"
+ },
+ "sha256_tekstow_technicznych": {
+  "PAKIET_WSTEP": "a76944eab0ecdb036f0b858e7aee768df4454cb22c186dcf8dd40a71fabb06d3",
+  "ZRODLA_WSTEP": "0fdae3c9c53c3a0a9864a0cc184cfcbf0deb4945e135f0f290da1d9dbea3e714",
+  "WATEK_NAGLOWEK": "4e141cd00b4ea5ab91b82ddc9df9cd7df2dfde1f1858cef30145776c08ce37df",
+  "KARTA_NAGLOWEK": "00f7028fd775ea4b52ad523c5b18a0ada0115c77cdf6b96055f491f170a87d00",
+  "TURA.otwarcie": "2ffc634fb4e926cfa8ac10dfd4ea722810ab2d220bd02654af4056e72ca5bdac",
+  "TURA.dyskusja": "9e3195f615bf6a00d246a028a4511ce8cfeefce648be1d97b8b6d1cb9136908d",
+  "TURA.poza_kolejnoscia": "e67fb9319aa947dee180ca4d8079a8da47df7109ba25563bf104ed9941d1e370",
+  "TURA.dodatkowa": "aa7a9b16eb4a30f4ba7e9c306d7022f2b580d5e603960a77ec780745872b47b3",
+  "TURA.glosowanie": "8a5415624757e9a9f1b5014c939b12dcc42c115dd403c2c6fc24281f1d461668",
+  "ARBITER_FORMAT": "34596c424ad17e012d902212ca283b73098ad4beefb42c66e4c7c8578728637c",
+  "ARBITER_TURA.otwarcie": "2c840cfa074000fc06a5f52539df37444f02f086b212b9e5a2d79e250a67b16b",
+  "ARBITER_TURA.po_rundzie": "af1213ba7974e7d88c1b8c2b4d40fe34468c35d0888b415107ddb838058582e7",
+  "ARBITER_TURA.po_glosowaniu": "e8431c8b9701ea2fc158c2cf7f5780bde749d3a108538be6704f5bf23a21b5a2",
+  "ARBITER_TURA.przerwanie": "f9971155bfce1287b7475ebc5f749870723f67c40b6704cee80ce485f1e1ef29",
+  "ARBITER_POPRAWKA": "c3c34594b562ac4796cb183775723fc58ef5ccaa4bb24bb0cb2f0b054b5b2c4c",
+  "SCHEMAT_ARBITRA": "b127643b7b4e0807257aacf48321913d2afabb2e62dd1fd886d2aa23f0285008",
+  "ODMOWA_PAS": "7468559328372edc6a4e0e994ed5e74b44c1e1ebfc71574b2db0ecf704f86215",
+  "UCIECIE": "abd8ca321c4323eaf023f407a097304399fdaecc0d2a7ad948f73074a6239681",
+  "NAGLOWEK_ZAPISU": "49b20722fe81c5ced23e11d36ce11c824ddebe92be9826be4bdc931bd18759e3"
+ },
+ "fallbacks": "wyłączone (issue #46: bez przełączania na inny model)",
+ "start": "2026-11-04T17:57:59"
+}

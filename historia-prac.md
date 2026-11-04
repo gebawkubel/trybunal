@@ -428,3 +428,19 @@ Po przebiegu 1 prowadzący napisał w #46, że przy stole nie trzeba tylu osób,
 e6ebcdfeb08d2c524ab77bb96f42678b063222af941934f81b3a96ee7696d10d  wiadomosc-poprawka.md (badania/symulacja/etap-4/wiadomosc-poprawka.md)
 dc10c9603e45222cd5e573bc82601d5b503a1f21739d2010bc3ba36b3915a436  etap-4.md (wersja 2 po recenzji, 47f6183)
 ```
+
+## Symulacja negocjacji: przebiegi 2-10 (issue #46)
+
+Po scaleniu PR #55 i decyzji prowadzącego ("dzialaj") koordynator uruchomił 2026.11.04, 17:18-19:10, przebiegi 2-10 według planu z etapu 4: skład W5, warianty a, c, b, przesunięcie 0, 1, 2, limit 18 USD na przebieg, repozytorium 20270d2. Pierwsza próba uruchomienia 5-7 nie wystartowała (błąd argumentów w pętli powłoki, skrypt zakończył się przed wywołaniem API, bez kosztu). Wszystkie przebiegi skończyły się porozumieniem. Koszt z `usage` przebiegów 1-10 łącznie: 56,35 USD. Zestawienie koordynatora: [wyniki](badania/symulacja/wyniki.md); w scenariuszach naprawy dopisano wiersz o krokach "na teraz" uzgodnionych we wszystkich przebiegach. W `zapis.md` półpauzy z wypowiedzi modelu zamieniono na łączniki; `zapis.jsonl` bez zmian.
+
+```
+c69835019c3cdf4bb8e592d6a37280c31dfa02a58db5d26298ab46c22862408f  przebieg-2/zapis.md (oryginał; w repo c69835019c3cdf4bb8e592d6a37280c31dfa02a58db5d26298ab46c22862408f)
+8b648b5d130ab609df0fbff8108cde9aaf35fd68f70e7017e66a082e81da0286  przebieg-3/zapis.md (oryginał; w repo e31558c9f917df205fd98f45777d2041713bb989032cd212cdc5f196100905d6)
+8e5ae6d521b72f477546bb976aa835b826504305b25024404d6d288249ab2e84  przebieg-4/zapis.md (oryginał; w repo 441fc7604db7792f59b852778227d9e4e918606b1bf83038012dd236d6283428)
+9d5e7e10efe63abe56d741ebb3d5a9a888885b52b3bdb20cce3d5c3966a68135  przebieg-5/zapis.md (oryginał; w repo 9d5e7e10efe63abe56d741ebb3d5a9a888885b52b3bdb20cce3d5c3966a68135)
+db435919538bf5e37684f649b100a849a325fffbbec0ac4165ec0197db03af02  przebieg-6/zapis.md (oryginał; w repo 2b784962296a2801f5a942e0d344803930ece7dcb8ba70648848842fc551da4c)
+9b3479e86f6697d84667c339d7d59a875e45b1806f6ffeb0c1a5746334624c53  przebieg-7/zapis.md (oryginał; w repo 2eb6cdf79b970d8938d9e8eb43954af8c26fcc7f7610bee435903098fb4fc5e8)
+aab0d984a6b63ddefeb3ba36e0acfc4a1e92531ccb4c7b451a5adecef87ef6ec  przebieg-8/zapis.md (oryginał; w repo aab0d984a6b63ddefeb3ba36e0acfc4a1e92531ccb4c7b451a5adecef87ef6ec)
+44e34174fce698dcd3df5339e9669ae22e1a9dbb3dd580c81105f062efdbacf1  przebieg-9/zapis.md (oryginał; w repo 2e1b0cbe66e508e42adaa82982b7d068d9a04a48003ae9873fcd81613c656d27)
+2ca46d58e7683eaae9507232b9a36dee9e5b51e7cf55db50ddbf92ebea74b4c1  przebieg-10/zapis.md (oryginał; w repo 2ca46d58e7683eaae9507232b9a36dee9e5b51e7cf55db50ddbf92ebea74b4c1)
+```
